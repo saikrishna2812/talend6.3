@@ -1,0 +1,17 @@
+3;Bill;Providence
+28;Woodrow;Denver
+12;Abraham;Raleigh
+17;Theodore;Baton Rouge
+86;Benjamin;Augusta
+38;Ronald;Springfield
+87;Rutherford;Saint Paul
+57;Herbert;Springfield
+67;Herbert;Olympia
+62;Richard;Indianapolis
+57;William;Charleston
+38;John;Hartford
+46;Dwight;Lansing
+32;Dwight;Pierre
+75;Millard;Olympia
+55;Herbert;Olympia
+39;James;Harrisburg
