@@ -1,0 +1,100 @@
+3;Bill;Providence
+28;Woodrow;Denver
+12;Abraham;Raleigh
+17;Theodore;Baton Rouge
+86;Benjamin;Augusta
+38;Ronald;Springfield
+87;Rutherford;Saint Paul
+57;Herbert;Springfield
+67;Herbert;Olympia
+62;Richard;Indianapolis
+57;William;Charleston
+38;John;Hartford
+46;Dwight;Lansing
+32;Dwight;Pierre
+75;Millard;Olympia
+55;Herbert;Olympia
+39;James;Harrisburg
+88;Herbert;Harrisburg
+10;Lyndon;Boston
+18;Jimmy;Santa Fe
+36;Martin;Atlanta
+77;Calvin;Jackson
+14;Gerald;Austin
+61;Grover;Pierre
+85;Martin;Annapolis
+10;Grover;Jefferson City
+63;Abraham;Montgomery
+91;Abraham;Montpelier
+60;Millard;Oklahoma City
+78;Andrew;Harrisburg
+29;Benjamin;Sacramento
+93;Chester;Baton Rouge
+4;William;Salem
+5;Ronald;Jackson
+20;Millard;Tallahassee
+3;Chester;Santa Fe
+34;Abraham;Austin
+66;Woodrow;Salt Lake City
+87;Woodrow;Indianapolis
+27;Abraham;Albany
+23;John;Frankfort
+89;Grover;Dover
+13;James;Trenton
+67;Grover;Springfield
+89;Gerald;Richmond
+94;Benjamin;Madison
+87;Millard;Jefferson City
+31;James;Sacramento
+76;Rutherford;Nashville
+69;Bill;Albany
+86;William;Salt Lake City
+13;Millard;Denver
+12;George;Little Rock
+85;Andrew;Phoenix
+59;Abraham;Jackson
+65;Woodrow;Baton Rouge
+96;Zachary;Lincoln
+42;Herbert;Albany
+70;Andrew;Juneau
+94;Bill;Providence
+2;Theodore;Honolulu
+99;Benjamin;Salt Lake City
+40;Jimmy;Jackson
+44;Warren;Phoenix
+58;George;Juneau
+36;Franklin;Boise
+68;Grover;Dover
+25;Abraham;Boise
+42;Richard;Atlanta
+57;Herbert;Augusta
+26;Lyndon;Carson City
+43;Harry;Denver
+44;Jimmy;Richmond
+15;Bill;Concord
+96;Harry;Salt Lake City
+49;Millard;Salt Lake City
+25;William;Montpelier
+13;Andrew;Atlanta
+96;Theodore;Nashville
+48;Herbert;Phoenix
+26;Franklin;Helena
+95;William;Phoenix
+47;Andrew;Montgomery
+78;John;Raleigh
+96;Rutherford;Baton Rouge
+87;Rutherford;Oklahoma City
+52;Franklin;Topeka
+19;Thomas;Trenton
+72;Warren;Albany
+45;Ulysses;Bismarck
+6;Gerald;Salt Lake City
+25;Dwight;Baton Rouge
+71;Gerald;Lincoln
+76;Woodrow;Madison
+48;Lyndon;Jackson
+6;Dwight;Concord
+38;Ronald;Oklahoma City
+68;Theodore;Phoenix
+6;Bill;Pierre
+57;Bill;Columbia
