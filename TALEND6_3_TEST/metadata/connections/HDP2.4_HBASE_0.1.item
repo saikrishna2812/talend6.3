@@ -13,8 +13,8 @@
     <parameters xmi:id="_AoLwiu72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="ec2-35-167-121-31.us-west-2.compute.amazonaws.com:8050"/>
     <parameters xmi:id="_AoLwi-72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="ec2-35-167-121-31.us-west-2.compute.amazonaws.com:10020"/>
     <parameters xmi:id="_AoLwjO72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_4"/>
-    <parameters xmi:id="_AoLwje72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
-    <parameters xmi:id="_AoLwju72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_DB_SERVER" value="ip-172-31-15-202.us-west-2.compute.internal,ip-172-31-3-78.us-west-2.compute.internal"/>
+    <parameters xmi:id="_AoLwje72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="false"/>
+    <parameters xmi:id="_AoLwju72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_DB_SERVER" value="ec2-35-164-34-88.us-west-2.compute.amazonaws.com"/>
     <parameters xmi:id="_AoLwj-72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
     <parameters xmi:id="_AoLwkO72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
     <parameters xmi:id="_AoLwke72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
@@ -28,6 +28,7 @@
     <parameters xmi:id="_AoLwme72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_DB_PRODUCT" value="HBASE"/>
     <parameters xmi:id="_AoLwmu72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
     <parameters xmi:id="_AoLwm-72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_sAEG4O7-EeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_AoLwnO72EeaA_qjaDWuGpA" name="HBase" dataManager="_AoLwgO72EeaA_qjaDWuGpA"/>
 </xmi:XMI>

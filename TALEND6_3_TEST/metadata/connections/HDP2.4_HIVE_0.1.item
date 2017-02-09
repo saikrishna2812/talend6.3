@@ -11,7 +11,7 @@
   <parameters xmi:id="_An_jSe72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="ec2-35-167-121-31.us-west-2.compute.amazonaws.com:8050"/>
   <parameters xmi:id="_An_jSu72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="ec2-35-167-121-31.us-west-2.compute.amazonaws.com:10020"/>
   <parameters xmi:id="_An_jS-72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_4"/>
-  <parameters xmi:id="_An_jTO72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+  <parameters xmi:id="_An_jTO72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="false"/>
   <parameters xmi:id="_An_jTe72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_DB_SERVER" value="ec2-35-164-34-88.us-west-2.compute.amazonaws.com"/>
   <parameters xmi:id="_An_jTu72EeaA_qjaDWuGpA" key="HIVE_AUTHENTICATION_USERNAME" value="hive"/>
   <parameters xmi:id="_An_jT-72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
@@ -31,4 +31,5 @@
   <parameters xmi:id="_An_jXe72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
   <parameters xmi:id="_AoAKUO72EeaA_qjaDWuGpA" key="HIVE_SERVER_VERSION" value="HIVE2"/>
   <parameters xmi:id="_AoAKUe72EeaA_qjaDWuGpA" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+  <parameters xmi:id="_sASwYO7-EeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
 </TalendMetadata:DatabaseConnection>
