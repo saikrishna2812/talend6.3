@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_-vlZoO_FEeaLlZ-FFS5MmQ" dataPackage="_-vlZvO_FEeaLlZ-FFS5MmQ" DatabaseType="HBase" Port="2181" Username="hdfs" ServerName="ip-172-31-47-247.us-west-2.compute.internal,ip-172-31-39-78.us-west-2.compute.internal,ip-172-31-47-214.us-west-2.compute.internal" SID="HBase" DbmsId="mysql_id" ProductId="HBASE">
+    <parameters xmi:id="_-vlZoe_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_DB_PORT" value="2181"/>
+    <parameters xmi:id="_-vlZou_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+    <parameters xmi:id="_-vlZo-_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="ec2-52-38-156-127.us-west-2.compute.amazonaws.com:8030"/>
+    <parameters xmi:id="_-vlZpO_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+    <parameters xmi:id="_-vlZpe_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://ec2-52-10-102-146.us-west-2.compute.amazonaws.com:8020"/>
+    <parameters xmi:id="_-vlZpu_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_USERNAME" value="hdfs"/>
+    <parameters xmi:id="_-vlZp-_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_r0dMYO_FEeaLlZ-FFS5MmQ"/>
+    <parameters xmi:id="_-vlZqO_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_-vlZqe_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_5"/>
+    <parameters xmi:id="_-vlZqu_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="ec2-52-38-156-127.us-west-2.compute.amazonaws.com:8050"/>
+    <parameters xmi:id="_-vlZq-_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="ec2-52-38-156-127.us-west-2.compute.amazonaws.com:10020"/>
+    <parameters xmi:id="_-vlZrO_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_5"/>
+    <parameters xmi:id="_-vlZre_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+    <parameters xmi:id="_-vlZru_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_DB_SERVER" value="ip-172-31-47-247.us-west-2.compute.internal,ip-172-31-39-78.us-west-2.compute.internal,ip-172-31-47-214.us-west-2.compute.internal"/>
+    <parameters xmi:id="_-vlZr-_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
+    <parameters xmi:id="_-vlZsO_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_-vlZse_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_-vlZsu_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="HORTONWORKS"/>
+    <parameters xmi:id="_-vlZs-_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_MAPRDB_VERSION" value="HDP_2_5"/>
+    <parameters xmi:id="_-vlZtO_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="HORTONWORKS"/>
+    <parameters xmi:id="_-vlZte_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+    <parameters xmi:id="_-vlZtu_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="HORTONWORKS"/>
+    <parameters xmi:id="_-vlZt-_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+    <parameters xmi:id="_-vlZuO_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="nn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_-vlZue_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_DB_PRODUCT" value="HBASE"/>
+    <parameters xmi:id="_-vlZuu_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_-vlZu-_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_-vlZvO_FEeaLlZ-FFS5MmQ" name="HBase" dataManager="_-vlZoO_FEeaLlZ-FFS5MmQ"/>
+</xmi:XMI>

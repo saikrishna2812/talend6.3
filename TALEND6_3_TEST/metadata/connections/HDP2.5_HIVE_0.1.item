@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_-vjkcO_FEeaLlZ-FFS5MmQ" DatabaseType="Hive" URL="jdbc:hive2://ec2-52-10-102-146.us-west-2.compute.amazonaws.com:10000/default" Port="10000" Username="hdfs" ServerName="ec2-52-10-102-146.us-west-2.compute.amazonaws.com" SID="default" DbmsId="hive_id" ProductId="HIVE">
+  <parameters xmi:id="_-vjkce_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+  <parameters xmi:id="_-vjkcu_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="ec2-52-38-156-127.us-west-2.compute.amazonaws.com:8030"/>
+  <parameters xmi:id="_-vjkc-_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+  <parameters xmi:id="_-vjkdO_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://ec2-52-10-102-146.us-west-2.compute.amazonaws.com:8020"/>
+  <parameters xmi:id="_-vjkde_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_USERNAME" value="hdfs"/>
+  <parameters xmi:id="_-vjkdu_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_r0dMYO_FEeaLlZ-FFS5MmQ"/>
+  <parameters xmi:id="_-vjkd-_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+  <parameters xmi:id="_-vjkeO_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_5"/>
+  <parameters xmi:id="_-vjkee_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="ec2-52-38-156-127.us-west-2.compute.amazonaws.com:8050"/>
+  <parameters xmi:id="_-vjkeu_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="ec2-52-38-156-127.us-west-2.compute.amazonaws.com:10020"/>
+  <parameters xmi:id="_-vjke-_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_5"/>
+  <parameters xmi:id="_-vjkfO_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+  <parameters xmi:id="_-vjkfe_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_DB_SERVER" value="ec2-52-10-102-146.us-west-2.compute.amazonaws.com"/>
+  <parameters xmi:id="_-vjkfu_FEeaLlZ-FFS5MmQ" key="HIVE_AUTHENTICATION_USERNAME" value="hive"/>
+  <parameters xmi:id="_-vjkf-_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
+  <parameters xmi:id="_-vjkgO_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_-vjkge_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+  <parameters xmi:id="_-vjkgu_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="HORTONWORKS"/>
+  <parameters xmi:id="_-vjkg-_FEeaLlZ-FFS5MmQ" key="HIVE_AUTHENTICATION_PASSWORD" value="SECRET:hive-site:1:javax.jdo.option.ConnectionPassword"/>
+  <parameters xmi:id="_-vjkhO_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_MAPRDB_VERSION" value="HDP_2_5"/>
+  <parameters xmi:id="_-vjkhe_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="HORTONWORKS"/>
+  <parameters xmi:id="_-vjkhu_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+  <parameters xmi:id="_-vjkh-_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="HORTONWORKS"/>
+  <parameters xmi:id="_-vjkiO_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+  <parameters xmi:id="_-vjkie_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="nn/_HOST@EXAMPLE.COM"/>
+  <parameters xmi:id="_-vjkiu_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_DB_PRODUCT" value="HIVE"/>
+  <parameters xmi:id="_-vjki-_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_-vjkjO_FEeaLlZ-FFS5MmQ" key="HIVE_AUTHENTICATION_METASTOREURL" value="thrift://ip-172-31-47-214.us-west-2.compute.internal:9083"/>
+  <parameters xmi:id="_-vjkje_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_-vjkju_FEeaLlZ-FFS5MmQ" key="HIVE_SERVER_VERSION" value="HIVE2"/>
+  <parameters xmi:id="_-vjkj-_FEeaLlZ-FFS5MmQ" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+</TalendMetadata:DatabaseConnection>
