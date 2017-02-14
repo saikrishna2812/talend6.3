@@ -106,6 +106,7 @@
   </parameters>
   <node componentName="tHL7Input" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHL7Input_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="LABEL" name="NOTE" value="this component only support HL7 version 2.x"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;/home/artha/Downloads/examples-200307/example1.xml&quot;" show="false"/>
     <elementParameter field="TEXT" name="START_MSG" value="'\u000b'" show="false"/>
@@ -144,6 +145,7 @@
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
@@ -171,6 +173,7 @@
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
@@ -214,16 +217,80 @@
       <column comment="" key="false" length="226" name="PID_GENDER" nullable="true" originalDbColumnName="PID-8(1)-1-1[IS]" pattern="" precision="0" sourceType="id_String" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tHL7Input" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHL7Input_2" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="this component only support HL7 version 2.x"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/home/artha/Downloads/examples-200307/SAMPLE.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="START_MSG" value="'\u000b'" show="false"/>
+    <elementParameter field="TEXT" name="END_MSG" value="'\u001c'" show="false"/>
+    <elementParameter field="TABLE" name="MESSAGE" show="false">
+      <elementValue elementRef="MSGITEM" value="4d53487c5e7e5c267c5e43434849544c6162735e4c2d434c7c5e43434849545e4c2d434c7c5e5e7c5e5e7c32303130303430373132313030307c7c4f52555e5230315e4f52555f5230317c32303130303430373132313030307c507c322e352e317c303030317c7c414c7c7c7c7c4d542d4f52552d325f5231200a5049447c317c31327c30303030303333335e5e5e5e414e7c7c47726179736f6e5e4a696d5e5e5e5e5e4c7c7c31393433303330397c4d7c7c7c383334204f6365616e205669737461204176656e75655e4170742e203230325e53616e7461204d6f6e6963615e43415e39303430317c7c33313035353532323333200a4f52437c52457c7c7c335e4548522d53797374656d200a4f42527c317c335e4548522d53797374656d7c4c41423030335e5e43434849545e4c2d434c7c3038372d303731345e4c697069642050616e656c2c20536572756d5e39394c61625e38303036315e4c697069642050616e656c2c20536572756d5e43347c7c7c32303130303430373135313030307c7c7c7c4c7c7c7c7c7c50524f31303030235e4275746c65725e496e7465726e6973745e455e5e44725e4d445e5e5e5e5e5e45497c7c7c7c524f7c7c32303130303430373132313030307c7c7c46200a4f42587c317c4e4d7c31333435372d375e4c444c2043686f6c65737465726f6c5e4c4e7c7c39307c6d672f644c7c3c2039397c7c7c7c467c7c7c7c7c5e444f455e4a4f484e7c7c7c7c7c7c7c416363754c6162735e5e5e5e5e434c49415e5e5e5e3130443938373433327c3433322041646d696e697374726174696f6e204176652e5e5e53742e204c6f7569735e4d4f5e36333134367c5e536d6974685e4a6f686e5e5e5e44722e5e4d440a4e54457c307c4c7c0a4f42587c327c4e4d7c31343634362d345e48444c2043686f6c65737465726f6c5e4c4e7c7c36307c6d672f644c7c34302d35397c487c7c7c467c7c7c7c7c5e444f455e4a4f484e7c7c7c7c7c7c7c416363754c6162735e5e5e5e5e434c49415e5e5e5e3130443938373433327c3433322041646d696e697374726174696f6e204176652e5e5e53742e204c6f7569735e4d4f5e36333134367c5e536d6974685e4a6f686e5e5e5e44722e5e4d440a4e54457c307c4c7c0a4f42587c337c4e4d7c31343634372d325e546f74616c2043686f6c65737465726f6c5e4c4e7c7c3132307c6d672f644c7c3c203139397c7c7c7c467c7c7c7c7c5e444f455e4a4f484e7c7c7c7c7c7c7c416363754c6162735e5e5e5e5e434c49415e5e5e5e3130443938373433327c3433322041646d696e697374726174696f6e204176652e5e5e53742e204c6f7569735e4d4f5e36333134367c5e536d6974685e4a6f686e5e5e5e44722e5e4d440a4e54457c307c4c7c0a4f42587c347c4e4d7c31343932372d385e547269676c79636572696465735e4c4e7c7c3130307c6d672f644c7c3c203134397c7c7c7c467c7c7c7c7c5e444f455e4a4f484e7c7c7c7c7c7c7c416363754c6162735e5e5e5e5e434c49415e5e5e5e3130443938373433327c3433322041646d696e697374726174696f6e204176652e5e5e53742e204c6f7569735e4d4f5e36333134367c5e536d6974685e4a6f686e5e5e5e44722e5e4d440a4e54457c307c4c7c0a0a" hexValue="true"/>
+    </elementParameter>
+    <elementParameter field="EXTERNAL" name="MULTI" value=""/>
+    <elementParameter field="TABLE" name="SCHEMAS">
+      <elementValue elementRef="SCHEMA" value="MSH"/>
+      <elementValue elementRef="MAPPING" value="&quot;MSH-1(1)-1-1&quot;,&quot;MSH-2(1)-1-1&quot;"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NOVALIDATE" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata comment="" connector="FLOW" label="MSH" name="row_MSH_2">
+      <column comment="" key="false" length="226" name="newColumn" nullable="true" originalDbColumnName="MSH-1(1)-1-1[ST]" pattern="" precision="0" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="226" name="newColumn1" nullable="true" originalDbColumnName="MSH-2(1)-1-1[ST]" pattern="" precision="0" sourceType="id_String" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_3" show="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn1"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="MSH" name="tLogRow_3">
+      <column comment="" key="false" length="226" name="newColumn" nullable="true" originalDbColumnName="MSH-1(1)-1-1[ST]" pattern="" precision="0" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="226" name="newColumn1" nullable="true" originalDbColumnName="MSH-2(1)-1-1[ST]" pattern="" precision="0" sourceType="id_String" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
   <connection connectorName="FLOW" label="row_MSH_1" lineStyle="0" metaname="row_MSH_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tHL7Input_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row_MSH_1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row_PID_1" lineStyle="0" metaname="row_PID_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tHL7Input_1" target="tLogRow_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row_PID_1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row_MSH_2" lineStyle="0" metaname="row_MSH_2" offsetLabelX="0" offsetLabelY="0" source="tHL7Input_2" target="tLogRow_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row_MSH_2" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHL7Input_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHL7Input_2" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
