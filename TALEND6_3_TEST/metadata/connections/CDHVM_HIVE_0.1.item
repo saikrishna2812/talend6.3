@@ -11,7 +11,7 @@
   <parameters xmi:id="_REQvCfL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="quickstart-cloudera:8032"/>
   <parameters xmi:id="_REQvCvL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="quickstart-cloudera:10020"/>
   <parameters xmi:id="_REQvC_L0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_8"/>
-  <parameters xmi:id="_REQvDPL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+  <parameters xmi:id="_REQvDPL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="false"/>
   <parameters xmi:id="_REQvDfL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_DB_SERVER" value="quickstart-cloudera"/>
   <parameters xmi:id="_REQvDvL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
   <parameters xmi:id="_REQvD_L0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
@@ -29,4 +29,5 @@
   <parameters xmi:id="_REQvG_L0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
   <parameters xmi:id="_REQvHPL0Eeat2oSvi7xAsQ" key="HIVE_SERVER_VERSION" value="HIVE2"/>
   <parameters xmi:id="_REQvHfL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+  <parameters xmi:id="_nsWZYPL4Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
 </TalendMetadata:DatabaseConnection>

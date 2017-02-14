@@ -13,8 +13,8 @@
     <parameters xmi:id="_RP5-WvL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="quickstart-cloudera:8032"/>
     <parameters xmi:id="_RP5-W_L0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="quickstart-cloudera:10020"/>
     <parameters xmi:id="_RP5-XPL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_8"/>
-    <parameters xmi:id="_RP5-XfL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
-    <parameters xmi:id="_RP5-XvL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_DB_SERVER" value="quickstart.cloudera"/>
+    <parameters xmi:id="_RP5-XfL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="false"/>
+    <parameters xmi:id="_RP5-XvL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_DB_SERVER" value="quickstart-cloudera"/>
     <parameters xmi:id="_RP5-X_L0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
     <parameters xmi:id="_RP5-YPL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
     <parameters xmi:id="_RP5-YfL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
@@ -28,6 +28,7 @@
     <parameters xmi:id="_RP5-afL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_DB_PRODUCT" value="HBASE"/>
     <parameters xmi:id="_RP5-avL0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
     <parameters xmi:id="_RP5-a_L0Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_nruHQPL4Eeat2oSvi7xAsQ" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_RP5-bPL0Eeat2oSvi7xAsQ" name="HBase" dataManager="_RP5-UPL0Eeat2oSvi7xAsQ"/>
 </xmi:XMI>
