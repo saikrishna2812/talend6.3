@@ -5,7 +5,7 @@
   <parameters xmi:id="_Ekvxw_LdEea83KAmKGz5SA" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
   <parameters xmi:id="_EkvxxPLdEea83KAmKGz5SA" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://quickstart.cloudera:8020"/>
   <parameters xmi:id="_EkvxxfLdEea83KAmKGz5SA" key="CONN_PARA_KEY_USERNAME" value="hdfs"/>
-  <parameters xmi:id="_EkvxxvLdEea83KAmKGz5SA" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_ajCDcPLcEea83KAmKGz5SA"/>
+  <parameters xmi:id="_EkvxxvLdEea83KAmKGz5SA" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID"/>
   <parameters xmi:id="_Ekvxx_LdEea83KAmKGz5SA" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
   <parameters xmi:id="_EkvxyPLdEea83KAmKGz5SA" key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDH5_8"/>
   <parameters xmi:id="_EkvxyfLdEea83KAmKGz5SA" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="quickstart.cloudera:8032"/>
