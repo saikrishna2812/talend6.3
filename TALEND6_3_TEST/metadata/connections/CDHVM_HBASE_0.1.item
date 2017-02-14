@@ -13,7 +13,7 @@
     <parameters xmi:id="_5wEnGvMEEeaFK7uYkjlGgQ" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="quickstart-cloudera:8032"/>
     <parameters xmi:id="_5wEnG_MEEeaFK7uYkjlGgQ" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="quickstart-cloudera:10020"/>
     <parameters xmi:id="_5wEnHPMEEeaFK7uYkjlGgQ" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_8"/>
-    <parameters xmi:id="_5wEnHfMEEeaFK7uYkjlGgQ" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+    <parameters xmi:id="_5wEnHfMEEeaFK7uYkjlGgQ" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="false"/>
     <parameters xmi:id="_5wEnHvMEEeaFK7uYkjlGgQ" key="CONN_PARA_KEY_DB_SERVER" value="quickstart-cloudera"/>
     <parameters xmi:id="_5wEnH_MEEeaFK7uYkjlGgQ" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
     <parameters xmi:id="_5wEnIPMEEeaFK7uYkjlGgQ" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
