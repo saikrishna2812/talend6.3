@@ -107,6 +107,7 @@
   </parameters>
   <node componentName="tHDFSConnection" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSConnection_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="__FzgMPMFEeaFK7uYkjlGgQ" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
@@ -139,6 +140,7 @@
   </node>
   <node componentName="tHDFSPut" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSPut_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tHDFSConnection_1"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="EMR_5_0_0" show="false"/>
@@ -175,7 +177,73 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tHDFSPut_1"/>
   </node>
+  <node componentName="tBigQueryInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tBigQueryInput_1" show="false"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" value="0RMsyjmybrE="/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select id, name from employee&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" value="&quot;/home/artha/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBigQueryInput_1"/>
+  </node>
+  <node componentName="tGoogleAnalyticsInput" componentVersion="8.3" offsetLabelX="0" offsetLabelY="0" posX="544" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tGoogleAnalyticsInput_1" show="false"/>
+    <elementParameter field="TEXT" name="APPLICATION_NAME" value="&quot;Fetch Analytics&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_METHOD" value="SERVICE_ACCOUNT"/>
+    <elementParameter field="TEXT" name="SERVICE_ACCOUNT_EMAIL" value="&quot;[service-account-id]developer.gserviceaccount.com&quot;"/>
+    <elementParameter field="FILE" name="KEY_FILE" value="&quot;/tmp/76548c6bc96518473d7e425e1415a14e495d34eb-privatekey.p12&quot;"/>
+    <elementParameter field="TEXT" name="USER_ACCOUNT_EMAIL" value="&quot;yourmail@gmail.com&quot;" show="false"/>
+    <elementParameter field="FILE" name="CLIENT_SECRET_FILE" value="&quot;/tmp/client_secret.json&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROFILE_ID" value="&quot;59815695&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="API_VERSION" value="v3"/>
+    <elementParameter field="TEXT" name="START_DATE" value="&quot;2016-12-01&quot;"/>
+    <elementParameter field="TEXT" name="END_DATE" value="&quot;2017-02-15&quot;"/>
+    <elementParameter field="CHECK" name="USE_JSON_TEMPLATE" value="false" show="false"/>
+    <elementParameter field="LABEL" name="USE_JSON_TEMPLATE_NOTE" value="The dateRanges and viewId will be replaced by the values from the settings. You can omit dataRanges and viewId in your template." show="false"/>
+    <elementParameter field="CLOSED_LIST" name="SETUP_JSON_REPORT_DESCRIPTION" value="READ_FROM_INPUT_JAVA" show="false"/>
+    <elementParameter field="CHECK" name="SIMPLIFIED_LINE_BREAKS" value="true" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="JSON_REPORT_TEMPLATE_JAVA" value="&quot;{}&quot;" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="JSON_REPORT_TEMPLATE_PLAIN_TEXT" value=" {  &quot;reportRequests&quot;:   [    {      &quot;dateRanges&quot;:       [        {          &quot;startDate&quot;: &quot;xxxx-xx-xx&quot;,          &quot;endDate&quot;: &quot;xxxx-xx-xx&quot;        }      ],      &quot;viewId&quot;: &quot;xxxxxx&quot;,      &quot;dimensions&quot;:       [        {          &quot;name&quot;: &quot;ga:source&quot;        },        {          &quot;name&quot;: &quot;ga:keyword&quot;        }      ],      &quot;metrics&quot;:       [        {          &quot;expression&quot;: &quot;ga:visits&quot;        },        {          &quot;expression&quot;: &quot;ga:exits&quot;        },        {          &quot;expression&quot;: &quot;ga:goal1Starts&quot;        },        {          &quot;expression&quot;: &quot;ga:goal1Completions&quot;        }      ]    }  ]}&#x9;    &#x9;&#x9; " show="false"/>
+    <elementParameter field="TEXT" name="DIMENSIONS" value="&quot;ga:source,ga:keyword&quot;"/>
+    <elementParameter field="TEXT" name="METRICS" value="&quot;ga:visits,ga:exits,ga:goal1Starts,ga:goal1Completions&quot;"/>
+    <elementParameter field="TEXT" name="FILTERS" value="&quot;ga:medium==organic&quot;"/>
+    <elementParameter field="TEXT" name="SEGMENT" value=""/>
+    <elementParameter field="TEXT" name="SORTS" value="&quot;-ga:visits,ga:source&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="SAMPLING_LEVEL" value="DEFAULT"/>
+    <elementParameter field="CHECK" name="DELIVER_TOTALS_DATASET" value="false"/>
+    <elementParameter field="CHECK" name="NORMALIZED_OUTPUT" value="false"/>
+    <elementParameter field="CHECK" name="DENORMALIZE_DATE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TEXT" name="MAX_ATTEMPTS" value="5"/>
+    <elementParameter field="TEXT" name="TIMEOUT_IN_SEC" value="240"/>
+    <elementParameter field="TEXT" name="TIME_OFFSET" value="10000"/>
+    <elementParameter field="TEXT" name="FETCH_SIZE" value="10000"/>
+    <elementParameter field="TEXT" name="NUMBERFORMAT_LOCALE" value="&quot;en&quot;"/>
+    <elementParameter field="CHECK" name="KEEP_CLIENT" value="true"/>
+    <elementParameter field="TEXT" name="KEEP_CLIENT_KEY" value=""/>
+    <elementParameter field="LABEL" name="RELEASE_LABEL_20170127" value="Release: 8.3 build at: 20170127"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tGoogleAnalyticsInput_1"/>
+    <metadata connector="DIMENSION_VALUES" name="DIMENSION_VALUES">
+      <column comment="Row number within the report result" defaultValue="" key="true" length="22" name="ROW_NUM" nullable="false" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="Name of the dimension" defaultValue="" key="false" length="64" name="DIMENSION_NAME" nullable="false" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="Value of the dimension" defaultValue="" key="false" length="128" name="DIMENSION_VALUE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="METRIC_VALUES" name="METRIC_VALUES">
+      <column comment="Row number within the report result" defaultValue="" key="true" length="22" name="ROW_NUM" nullable="false" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="Name of the metric" defaultValue="" key="false" length="64" name="METRIC_NAME" nullable="false" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="Value of the metric" defaultValue="" key="false" length="22" name="METRIC_VALUE" nullable="true" precision="4" sourceType="" type="id_Double" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHDFSConnection_1" offsetLabelX="0" offsetLabelY="0" source="tHDFSConnection_1" target="tHDFSPut_1">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
   </connection>
   <subjob>
@@ -185,6 +253,16 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSPut_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tBigQueryInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tGoogleAnalyticsInput_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
