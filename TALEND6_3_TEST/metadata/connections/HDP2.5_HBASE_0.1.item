@@ -13,7 +13,7 @@
     <parameters xmi:id="_pwYJavhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="ip-172-31-47-247.us-west-2.compute.internal:8050"/>
     <parameters xmi:id="_pwYJa_hYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="ip-172-31-47-247.us-west-2.compute.internal:10020"/>
     <parameters xmi:id="_pwYJbPhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_5"/>
-    <parameters xmi:id="_pwYJbfhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="false"/>
+    <parameters xmi:id="_pwYJbfhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
     <parameters xmi:id="_pwYJbvhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_DB_SERVER" value="ip-172-31-47-214.us-west-2.compute.internal"/>
     <parameters xmi:id="_pwYJb_hYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
     <parameters xmi:id="_pwYJcPhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
