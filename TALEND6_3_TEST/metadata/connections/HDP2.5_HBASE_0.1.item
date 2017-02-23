@@ -7,7 +7,7 @@
     <parameters xmi:id="_pwYJZPhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
     <parameters xmi:id="_pwYJZfhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://ip-172-31-47-214.us-west-2.compute.internal:8020"/>
     <parameters xmi:id="_pwYJZvhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_USERNAME" value="hdfs"/>
-    <parameters xmi:id="_pwYJZ_hYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_WwTAIPhXEeaBwNnHRm6gMg"/>
+    <parameters xmi:id="_pwYJZ_hYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID"/>
     <parameters xmi:id="_pwYJaPhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
     <parameters xmi:id="_pwYJafhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_5"/>
     <parameters xmi:id="_pwYJavhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="ip-172-31-47-247.us-west-2.compute.internal:8050"/>
