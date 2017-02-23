@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_pwYJYPhYEeaBwNnHRm6gMg" dataPackage="_pwYJfPhYEeaBwNnHRm6gMg" DatabaseType="HBase" Port="2181" Username="hdfs" ServerName="ip-172-31-47-247.us-west-2.compute.internal,ip-172-31-39-78.us-west-2.compute.internal,ip-172-31-47-214.us-west-2.compute.internal" SID="HBase" DbmsId="mysql_id" ProductId="HBASE">
-    <parameters xmi:id="_pwYJYfhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_DB_PORT" value="2181"/>
-    <parameters xmi:id="_pwYJYvhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_USE_YARN" value="true"/>
-    <parameters xmi:id="_pwYJY_hYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="ip-172-31-47-247.us-west-2.compute.internal:8030"/>
-    <parameters xmi:id="_pwYJZPhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
-    <parameters xmi:id="_pwYJZfhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://ip-172-31-47-214.us-west-2.compute.internal:8020"/>
-    <parameters xmi:id="_pwYJZvhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_USERNAME" value="hdfs"/>
-    <parameters xmi:id="_pwYJZ_hYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID"/>
-    <parameters xmi:id="_pwYJaPhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
-    <parameters xmi:id="_pwYJafhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_5"/>
-    <parameters xmi:id="_pwYJavhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="ip-172-31-47-247.us-west-2.compute.internal:8050"/>
-    <parameters xmi:id="_pwYJa_hYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="ip-172-31-47-247.us-west-2.compute.internal:10020"/>
-    <parameters xmi:id="_pwYJbPhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_5"/>
-    <parameters xmi:id="_pwYJbfhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
-    <parameters xmi:id="_pwYJbvhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_DB_SERVER" value="ip-172-31-47-214.us-west-2.compute.internal"/>
-    <parameters xmi:id="_pwYJb_hYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
-    <parameters xmi:id="_pwYJcPhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
-    <parameters xmi:id="_pwYJcfhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
-    <parameters xmi:id="_pwYJcvhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="HORTONWORKS"/>
-    <parameters xmi:id="_pwYJc_hYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_MAPRDB_VERSION" value="HDP_2_5"/>
-    <parameters xmi:id="_pwYJdPhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="HORTONWORKS"/>
-    <parameters xmi:id="_pwYJdfhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_USE_KRB" value="false"/>
-    <parameters xmi:id="_pwYJdvhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="HORTONWORKS"/>
-    <parameters xmi:id="_pwYJd_hYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
-    <parameters xmi:id="_pwYJePhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="nn/_HOST@EXAMPLE.COM"/>
-    <parameters xmi:id="_pwYJefhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_DB_PRODUCT" value="HBASE"/>
-    <parameters xmi:id="_pwYJevhYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
-    <parameters xmi:id="_pwYJe_hYEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
-    <parameters xmi:id="_-fvZwPhrEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
+  <TalendMetadata:DatabaseConnection xmi:id="_S_2BoPnpEeaBwNnHRm6gMg" dataPackage="_S_2BvPnpEeaBwNnHRm6gMg" DatabaseType="HBase" Port="2181" Username="hdfs" ServerName="ip-172-31-37-151.us-west-2.compute.internal,ip-172-31-47-128.us-west-2.compute.internal,ip-172-31-43-8.us-west-2.compute.internal" SID="HBase" DbmsId="mysql_id" ProductId="HBASE">
+    <parameters xmi:id="_S_2BofnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_DB_PORT" value="2181"/>
+    <parameters xmi:id="_S_2BovnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+    <parameters xmi:id="_S_2Bo_npEeaBwNnHRm6gMg" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="ip-172-31-43-8.us-west-2.compute.internal:8030"/>
+    <parameters xmi:id="_S_2BpPnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+    <parameters xmi:id="_S_2BpfnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://ip-172-31-37-151.us-west-2.compute.internal:8020"/>
+    <parameters xmi:id="_S_2BpvnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_USERNAME" value="hdfs"/>
+    <parameters xmi:id="_S_2Bp_npEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_JYMK4PnpEeaBwNnHRm6gMg"/>
+    <parameters xmi:id="_S_2BqPnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_S_2BqfnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_5"/>
+    <parameters xmi:id="_S_2BqvnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="ip-172-31-43-8.us-west-2.compute.internal:8050"/>
+    <parameters xmi:id="_S_2Bq_npEeaBwNnHRm6gMg" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="ip-172-31-43-8.us-west-2.compute.internal:10020"/>
+    <parameters xmi:id="_S_2BrPnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_5"/>
+    <parameters xmi:id="_S_2BrfnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+    <parameters xmi:id="_S_2BrvnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_DB_SERVER" value="ip-172-31-37-151.us-west-2.compute.internal,ip-172-31-47-128.us-west-2.compute.internal,ip-172-31-43-8.us-west-2.compute.internal"/>
+    <parameters xmi:id="_S_2Br_npEeaBwNnHRm6gMg" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
+    <parameters xmi:id="_S_2BsPnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_S_2BsfnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_S_2BsvnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="HORTONWORKS"/>
+    <parameters xmi:id="_S_2Bs_npEeaBwNnHRm6gMg" key="CONN_PARA_KEY_MAPRDB_VERSION" value="HDP_2_5"/>
+    <parameters xmi:id="_S_2BtPnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="HORTONWORKS"/>
+    <parameters xmi:id="_S_2BtfnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+    <parameters xmi:id="_S_2BtvnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="HORTONWORKS"/>
+    <parameters xmi:id="_S_2Bt_npEeaBwNnHRm6gMg" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+    <parameters xmi:id="_S_2BuPnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="nn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_S_2BufnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_DB_PRODUCT" value="HBASE"/>
+    <parameters xmi:id="_S_2BuvnpEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_S_2Bu_npEeaBwNnHRm6gMg" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_pwYJfPhYEeaBwNnHRm6gMg" name="HBase" dataManager="_pwYJYPhYEeaBwNnHRm6gMg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_S_2BvPnpEeaBwNnHRm6gMg" name="HBase" dataManager="_S_2BoPnpEeaBwNnHRm6gMg"/>
 </xmi:XMI>
