@@ -73,7 +73,6 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_a5TmUPnrEeaBwNnHRm6gMg">
       <baseItem xmi:id="_a5TmUfnrEeaBwNnHRm6gMg" id="_5MH6APnqEeaBwNnHRm6gMg" version="0.1" type="job"/>
-      <relatedItems xmi:id="_a5TmUvnrEeaBwNnHRm6gMg" id="_SgSX0fnpEeaBwNnHRm6gMg" version="Latest" type="property"/>
       <relatedItems xmi:id="_a5TmU_nrEeaBwNnHRm6gMg" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_a5TmVPnrEeaBwNnHRm6gMg" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_a5TmVfnrEeaBwNnHRm6gMg" id="Relational" version="Latest" type="routine"/>
