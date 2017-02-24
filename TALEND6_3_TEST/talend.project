@@ -94,6 +94,7 @@
       <relatedItems xmi:id="_ytKaGvoMEear-M_gLj-wBA" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_ytKaG_oMEear-M_gLj-wBA" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_nMWM0PoNEear-M_gLj-wBA" id="_gN_6oPoNEear-M_gLj-wBA" version="Latest" type="property"/>
+      <relatedItems xmi:id="_QajTIPrVEear-M_gLj-wBA" id="__FzgMPMFEeaFK7uYkjlGgQ" version="Latest" type="property"/>
     </ItemsRelations>
     <migrationTask xmi:id="_AMa7oOchEeaEwc3Jt4LDRw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AMa7oechEeaEwc3Jt4LDRw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
