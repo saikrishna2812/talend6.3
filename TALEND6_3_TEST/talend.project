@@ -109,6 +109,35 @@
       <relatedItems xmi:id="_dzlw2vrVEear-M_gLj-wBA" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_dzlw2_rVEear-M_gLj-wBA" id="Mathematical" version="Latest" type="routine"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_3SH6UP0-Eear-M_gLj-wBA">
+      <baseItem xmi:id="_3SH6Uf0-Eear-M_gLj-wBA" id="_tuf_EP0qEeafPvE5A0RXqQ" version="0.1" type="job"/>
+      <relatedItems xmi:id="_3SH6Uv0-Eear-M_gLj-wBA" id="_A3EGAP0YEeafPvE5A0RXqQ" version="Latest" type="property"/>
+      <relatedItems xmi:id="_3SH6U_0-Eear-M_gLj-wBA" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6VP0-Eear-M_gLj-wBA" id="SfObmObject" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6Vf0-Eear-M_gLj-wBA" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6Vv0-Eear-M_gLj-wBA" id="tic_word_titleCase" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6V_0-Eear-M_gLj-wBA" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6WP0-Eear-M_gLj-wBA" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6Wf0-Eear-M_gLj-wBA" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6Wv0-Eear-M_gLj-wBA" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6W_0-Eear-M_gLj-wBA" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6XP0-Eear-M_gLj-wBA" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6Xf0-Eear-M_gLj-wBA" id="IpaasFileUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6Xv0-Eear-M_gLj-wBA" id="FileListHtmlGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6X_0-Eear-M_gLj-wBA" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6YP0-Eear-M_gLj-wBA" id="Transformation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6Yf0-Eear-M_gLj-wBA" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6Yv0-Eear-M_gLj-wBA" id="DQ_METHODS" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6Y_0-Eear-M_gLj-wBA" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6ZP0-Eear-M_gLj-wBA" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6Zf0-Eear-M_gLj-wBA" id="SfObmHelper" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6Zv0-Eear-M_gLj-wBA" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6Z_0-Eear-M_gLj-wBA" id="SfObmNotification" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6aP0-Eear-M_gLj-wBA" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6af0-Eear-M_gLj-wBA" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6av0-Eear-M_gLj-wBA" id="SfObmObjectAttribute" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3SH6a_0-Eear-M_gLj-wBA" id="DataTypeUtil" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_AMa7oOchEeaEwc3Jt4LDRw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AMa7oechEeaEwc3Jt4LDRw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AMa7ouchEeaEwc3Jt4LDRw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
