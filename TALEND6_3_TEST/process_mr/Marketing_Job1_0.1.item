@@ -1,195 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_srmLEP0_Eear-M_gLj-wBA" defaultContext="Default" jobType="Big_Data_Batch" framework="Spark">
-  <context xmi:id="_srmLEf0_Eear-M_gLj-wBA" confirmationNeeded="false" name="Default"/>
-  <parameters xmi:id="_srmLEv0_Eear-M_gLj-wBA">
-    <elementParameter xmi:id="_srmLE_0_Eear-M_gLj-wBA" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
-    <elementParameter xmi:id="_srmLFP0_Eear-M_gLj-wBA" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
-    <elementParameter xmi:id="_srmLFf0_Eear-M_gLj-wBA" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
-    <elementParameter xmi:id="_srmLFv0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
-    <elementParameter xmi:id="_srmLF_0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
-    <elementParameter xmi:id="_srmLGP0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
-    <elementParameter xmi:id="_srmLGf0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
-    <elementParameter xmi:id="_srmLGv0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
-    <elementParameter xmi:id="_srmLG_0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
-    <elementParameter xmi:id="_srmLHP0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
-    <elementParameter xmi:id="_srmLHf0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
-    <elementParameter xmi:id="_srmLHv0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
-    <elementParameter xmi:id="_srmLH_0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
-    <elementParameter xmi:id="_srmLIP0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
-    <elementParameter xmi:id="_srmLIf0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
-    <elementParameter xmi:id="_srmLIv0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
-    <elementParameter xmi:id="_srmLI_0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
-    <elementParameter xmi:id="_srmLJP0_Eear-M_gLj-wBA" field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
-    <elementParameter xmi:id="_srmLJf0_Eear-M_gLj-wBA" field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
-    <elementParameter xmi:id="_srmLJv0_Eear-M_gLj-wBA" field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
-    <elementParameter xmi:id="_srmLJ_0_Eear-M_gLj-wBA" field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
-    <elementParameter xmi:id="_srmLKP0_Eear-M_gLj-wBA" field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
-    <elementParameter xmi:id="_srmLKf0_Eear-M_gLj-wBA" field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLKv0_Eear-M_gLj-wBA" field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLK_0_Eear-M_gLj-wBA" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLLP0_Eear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLLf0_Eear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
-    <elementParameter xmi:id="_srmLLv0_Eear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
-    <elementParameter xmi:id="_srmLL_0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
-    <elementParameter xmi:id="_srmLMP0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
-    <elementParameter xmi:id="_srmLMf0_Eear-M_gLj-wBA" field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLMv0_Eear-M_gLj-wBA" field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
-    <elementParameter xmi:id="_srmLM_0_Eear-M_gLj-wBA" field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLNP0_Eear-M_gLj-wBA" field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLNf0_Eear-M_gLj-wBA" field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLNv0_Eear-M_gLj-wBA" field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLN_0_Eear-M_gLj-wBA" field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLOP0_Eear-M_gLj-wBA" field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLOf0_Eear-M_gLj-wBA" field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLOv0_Eear-M_gLj-wBA" field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLO_0_Eear-M_gLj-wBA" field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_srmLPP0_Eear-M_gLj-wBA" field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLPf0_Eear-M_gLj-wBA" field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLPv0_Eear-M_gLj-wBA" field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLP_0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
-    <elementParameter xmi:id="_srmLQP0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
-    <elementParameter xmi:id="_srmLQf0_Eear-M_gLj-wBA" field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLQv0_Eear-M_gLj-wBA" field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLQ_0_Eear-M_gLj-wBA" field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLRP0_Eear-M_gLj-wBA" field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLRf0_Eear-M_gLj-wBA" field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
-    <elementParameter xmi:id="_srmLRv0_Eear-M_gLj-wBA" field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
-    <elementParameter xmi:id="_srmLR_0_Eear-M_gLj-wBA" field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
-    <elementParameter xmi:id="_srmLSP0_Eear-M_gLj-wBA" field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLSf0_Eear-M_gLj-wBA" field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLSv0_Eear-M_gLj-wBA" field="DIRECTORY" name="FILE_PATH" value="&quot;/home/artha/workspace/.metadata&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLS_0_Eear-M_gLj-wBA" field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLTP0_Eear-M_gLj-wBA" field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLTf0_Eear-M_gLj-wBA" field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLTv0_Eear-M_gLj-wBA" field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
-    <elementParameter xmi:id="_srmLT_0_Eear-M_gLj-wBA" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
-    <elementParameter xmi:id="_srmLUP0_Eear-M_gLj-wBA" field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLUf0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
-    <elementParameter xmi:id="_srmLUv0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
-    <elementParameter xmi:id="_srmLU_0_Eear-M_gLj-wBA" field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLVP0_Eear-M_gLj-wBA" field="TABLE" name="DRIVER_JAR" show="false"/>
-    <elementParameter xmi:id="_srmLVf0_Eear-M_gLj-wBA" field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLVv0_Eear-M_gLj-wBA" field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLV_0_Eear-M_gLj-wBA" field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLWP0_Eear-M_gLj-wBA" field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLWf0_Eear-M_gLj-wBA" field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLWv0_Eear-M_gLj-wBA" field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLW_0_Eear-M_gLj-wBA" field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLXP0_Eear-M_gLj-wBA" field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLXf0_Eear-M_gLj-wBA" field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLXv0_Eear-M_gLj-wBA" field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_srmLX_0_Eear-M_gLj-wBA" field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLYP0_Eear-M_gLj-wBA" field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLYf0_Eear-M_gLj-wBA" field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLYv0_Eear-M_gLj-wBA" field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLY_0_Eear-M_gLj-wBA" field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
-    <elementParameter xmi:id="_srmLZP0_Eear-M_gLj-wBA" field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
-    <elementParameter xmi:id="_srmLZf0_Eear-M_gLj-wBA" field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
-    <elementParameter xmi:id="_srmLZv0_Eear-M_gLj-wBA" field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLZ_0_Eear-M_gLj-wBA" field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
-    <elementParameter xmi:id="_srmLaP0_Eear-M_gLj-wBA" field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLaf0_Eear-M_gLj-wBA" field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
-    <elementParameter xmi:id="_srmLav0_Eear-M_gLj-wBA" field="TEXT" name="HEADER_CODE" value="" show="false"/>
-    <elementParameter xmi:id="_srmLa_0_Eear-M_gLj-wBA" field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
-    <elementParameter xmi:id="_srmLbP0_Eear-M_gLj-wBA" field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
-    <elementParameter xmi:id="_srmLbf0_Eear-M_gLj-wBA" field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLbv0_Eear-M_gLj-wBA" field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
-    <elementParameter xmi:id="_srmLb_0_Eear-M_gLj-wBA" field="TEXT" name="FOOTER_CODE" value="" show="false"/>
-    <elementParameter xmi:id="_srmLcP0_Eear-M_gLj-wBA" field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
-    <elementParameter xmi:id="_srmLcf0_Eear-M_gLj-wBA" field="CHECK" name="SPARK_LOCAL_MODE" value="false"/>
-    <elementParameter xmi:id="_srmLcv0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_LOCAL_VERSION" value="SPARK_2_0_0" show="false"/>
-    <elementParameter xmi:id="_srmLc_0_Eear-M_gLj-wBA" field="TECHNICAL" name="MR_PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter xmi:id="_srmLdP0_Eear-M_gLj-wBA" field="TECHNICAL" name="MR_PROPERTY:REPOSITORY_PROPERTY_TYPE" value="__FzgMPMFEeaFK7uYkjlGgQ" show="false"/>
-    <elementParameter xmi:id="_srmLdf0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
-    <elementParameter xmi:id="_srmLdv0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_VERSION" value="Cloudera_CDH5_8"/>
-    <elementParameter xmi:id="_srmLd_0_Eear-M_gLj-wBA" field="HADOOP_DISTRIBUTION" name="SPARKBATCH" value=""/>
-    <elementParameter xmi:id="_srmLeP0_Eear-M_gLj-wBA" field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value="" show="false"/>
-    <elementParameter xmi:id="_srmLef0_Eear-M_gLj-wBA" field="LABEL" name="NOTE" value="** The version of Spark must be 1.3.0 or later." show="false"/>
-    <elementParameter xmi:id="_srmLev0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_API_VERSION" value="SPARK_200" show="false"/>
-    <elementParameter xmi:id="_srmLe_0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_MODE" value="YARN_CLIENT"/>
-    <elementParameter xmi:id="_srmLfP0_Eear-M_gLj-wBA" field="TEXT" name="RESOURCE_MANAGER" value="&quot;quickstart.cloudera:8032&quot;"/>
-    <elementParameter xmi:id="_srmLff0_Eear-M_gLj-wBA" field="CHECK" name="SET_SCHEDULER_ADDRESS" value="true"/>
-    <elementParameter xmi:id="_srmLfv0_Eear-M_gLj-wBA" field="TEXT" name="RESOURCEMANAGER_SCHEDULER_ADDRESS" value="&quot;quickstart.cloudera:8030&quot;"/>
-    <elementParameter xmi:id="_srmLf_0_Eear-M_gLj-wBA" field="CHECK" name="SET_JOBHISTORY_ADDRESS" value="true"/>
-    <elementParameter xmi:id="_srmLgP0_Eear-M_gLj-wBA" field="TEXT" name="JOBHISTORY_ADDRESS" value="&quot;quickstart.cloudera:10020&quot;"/>
-    <elementParameter xmi:id="_srmLgf0_Eear-M_gLj-wBA" field="CHECK" name="SET_STAGING_DIRECTORY" value="true"/>
-    <elementParameter xmi:id="_srmLgv0_Eear-M_gLj-wBA" field="TEXT" name="STAGING_DIRECTORY" value="&quot;/user&quot;"/>
-    <elementParameter xmi:id="_srmLg_0_Eear-M_gLj-wBA" field="TEXT" name="HDINSIGHT_ENDPOINT" value="&quot;https://xxxx.azurehdinsight.net&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLhP0_Eear-M_gLj-wBA" field="TEXT" name="HDINSIGHT_USERNAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLhf0_Eear-M_gLj-wBA" field="PASSWORD" name="HDINSIGHT_PASSWORD" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_srmLhv0_Eear-M_gLj-wBA" field="TEXT" name="LIVY_HOST" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLh_0_Eear-M_gLj-wBA" field="TEXT" name="LIVY_PORT" value="&quot;443&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLiP0_Eear-M_gLj-wBA" field="TEXT" name="LIVY_USERNAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLif0_Eear-M_gLj-wBA" field="TEXT" name="HDINSIGHT_USERNAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLiv0_Eear-M_gLj-wBA" field="PASSWORD" name="HDINSIGHT_PASSWORD" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_srmLi_0_Eear-M_gLj-wBA" field="TEXT" name="WASB_HOST" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLjP0_Eear-M_gLj-wBA" field="TEXT" name="WASB_CONTAINER" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLjf0_Eear-M_gLj-wBA" field="TEXT" name="WASB_USERNAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLjv0_Eear-M_gLj-wBA" field="PASSWORD" name="WASB_PASSWORD" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_srmLj_0_Eear-M_gLj-wBA" field="TEXT" name="REMOTE_FOLDER" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLkP0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_HOST" value="&quot;spark://localhost:7077&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLkf0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_HOME" value="&quot;/usr/lib/spark&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLkv0_Eear-M_gLj-wBA" field="CHECK" name="DEFINE_HADOOP_HOME_DIR" value="false"/>
-    <elementParameter xmi:id="_srmLk_0_Eear-M_gLj-wBA" field="TEXT" name="HADOOP_HOME_DIR" value="&quot;C:/Talend/winutils&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLlP0_Eear-M_gLj-wBA" field="CHECK" name="DEFINE_SPARK_DRIVER_HOST" value="false"/>
-    <elementParameter xmi:id="_srmLlf0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_DRIVER_HOST" value="&quot;127.0.0.1&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLlv0_Eear-M_gLj-wBA" field="CHECK" name="USE_KRB" value="false"/>
-    <elementParameter xmi:id="_srmLl_0_Eear-M_gLj-wBA" field="TEXT" name="RESOURCEMANAGER_PRINCIPAL" value="&quot;yarn/_HOST@EXAMPLE.COM&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLmP0_Eear-M_gLj-wBA" field="TEXT" name="JOBHISTORY_PRINCIPAL" value="&quot;mapred/_HOST@EXAMPLE.COM&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLmf0_Eear-M_gLj-wBA" field="CHECK" name="USE_KEYTAB" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLmv0_Eear-M_gLj-wBA" field="TEXT" name="PRINCIPAL" value="&quot;hdfs&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLm_0_Eear-M_gLj-wBA" field="FILE" name="KEYTAB_PATH" value="&quot;/tmp/hdfs.headless.keytab&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLnP0_Eear-M_gLj-wBA" field="TEXT" name="USERNAME" value="&quot;anonymous&quot;"/>
-    <elementParameter xmi:id="_srmLnf0_Eear-M_gLj-wBA" field="CHECK" name="USE_MAPRTICKET" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLnv0_Eear-M_gLj-wBA" field="PASSWORD" name="MAPRTICKET_PASSWORD" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_srmLn_0_Eear-M_gLj-wBA" field="TEXT" name="MAPRTICKET_CLUSTER" value="&quot;demo.mapr.com&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLoP0_Eear-M_gLj-wBA" field="TEXT" name="MAPRTICKET_DURATION" value="86400L" show="false"/>
-    <elementParameter xmi:id="_srmLof0_Eear-M_gLj-wBA" field="CHECK" name="SET_MAPR_HOME_DIR" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLov0_Eear-M_gLj-wBA" field="TEXT" name="MAPR_HOME_DIR" value="&quot;/opt/mapr&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLo_0_Eear-M_gLj-wBA" field="CHECK" name="SET_HADOOP_LOGIN" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLpP0_Eear-M_gLj-wBA" field="TEXT" name="HADOOP_LOGIN" value="&quot;kerberos&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLpf0_Eear-M_gLj-wBA" field="CHECK" name="ADVANCED_SETTINGS_CHECK" value="false"/>
-    <elementParameter xmi:id="_srmLpv0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_DRIVER_MEM" value="&quot;512m&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLp_0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_DRIVER_CORES" value="&quot;1&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLqP0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_MEM" value="&quot;512m&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLqf0_Eear-M_gLj-wBA" field="CHECK" name="SET_SPARK_EXECUTOR_MEM_OVERHEAD" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLqv0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_MEM_OVERHEAD" value="&quot;384&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLq_0_Eear-M_gLj-wBA" field="CHECK" name="SPARK_EXECUTOR_CORES_CHECK" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLrP0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_CORES" value="&quot;1&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLrf0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_YARN_ALLOC_TYPE" value="AUTO" show="false"/>
-    <elementParameter xmi:id="_srmLrv0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_INSTANCES" value="&quot;2&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLr_0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_YARN_DYN_INIT" value="&quot;1&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLsP0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_YARN_DYN_MIN" value="&quot;0&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLsf0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_YARN_DYN_MAX" value="&quot;MAX&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLsv0_Eear-M_gLj-wBA" field="CHECK" name="WEB_UI_PORT_CHECK" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLs_0_Eear-M_gLj-wBA" field="TEXT" name="WEB_UI_PORT" value="&quot;4040&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLtP0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_BROADCAST_FACTORY" value="AUTO" show="false"/>
-    <elementParameter xmi:id="_srmLtf0_Eear-M_gLj-wBA" field="CHECK" name="CUSTOMIZE_SPARK_SERIALIZER" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLtv0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_SERIALIZER" value="&quot;org.apache.spark.serializer.KryoSerializer&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLt_0_Eear-M_gLj-wBA" field="CHECK" name="ENABLE_SPARK_EVENT_LOGGING" value="false"/>
-    <elementParameter xmi:id="_srmLuP0_Eear-M_gLj-wBA" field="CHECK" name="COMPRESS_SPARK_EVENT_LOGS" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLuf0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_EVENT_LOG_DIR" value="&quot;hdfs://namenode:8020/user/spark/applicationHistory&quot;&#xA;&#x9;&#x9;&#x9;" show="false"/>
-    <elementParameter xmi:id="_srmLuv0_Eear-M_gLj-wBA" field="TEXT" name="SPARKHISTORY_ADDRESS" value="&quot;sparkHistoryServer:18080&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLu_0_Eear-M_gLj-wBA" field="CHECK" name="USE_CLOUDERA_NAVIGATOR" value="false"/>
-    <elementParameter xmi:id="_srmLvP0_Eear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_USERNAME" value="&quot;username&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLvf0_Eear-M_gLj-wBA" field="PASSWORD" name="CLOUDERA_NAVIGATOR_PASSWORD" value="PoLvNyVG2XWndNDdLn696A==" show="false"/>
-    <elementParameter xmi:id="_srmLvv0_Eear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_URL" value="&quot;http://localhost:7187/api/v8/&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLv_0_Eear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_METADATA_URL" value="&quot;http://localhost:7187/api/v8/metadata/plugin&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLwP0_Eear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_CLIENT_URL" value="&quot;http://localhost&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLwf0_Eear-M_gLj-wBA" field="CHECK" name="CLOUDERA_NAVIGATOR_AUTOCOMMIT" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLwv0_Eear-M_gLj-wBA" field="CHECK" name="CLOUDERA_NAVIGATOR_DISABLE_SSL_VALIDATION" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLw_0_Eear-M_gLj-wBA" field="CHECK" name="CLOUDERA_NAVIGATOR_DIE_ON_ERROR" value="true" show="false"/>
-    <elementParameter xmi:id="_srmLxP0_Eear-M_gLj-wBA" field="CHECK" name="USE_ATLAS" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLxf0_Eear-M_gLj-wBA" field="TEXT" name="ATLAS_URL" value="&quot;http://localhost:21000&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLxv0_Eear-M_gLj-wBA" field="TEXT" name="ATLAS_USERNAME" value="&quot;admin&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLx_0_Eear-M_gLj-wBA" field="PASSWORD" name="ATLAS_PASSWORD" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_srmLyP0_Eear-M_gLj-wBA" field="CHECK" name="SET_ATLAS_APPLICATION_PROPERTIES" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLyf0_Eear-M_gLj-wBA" field="TEXT" name="ATLAS_APPLICATION_PROPERTIES" value="&quot;/user/atlas/atlas-application.properties&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLyv0_Eear-M_gLj-wBA" field="CHECK" name="ATLAS_DIE_ON_ERROR" value="false" show="false"/>
-    <elementParameter xmi:id="_srmLy_0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_SCRATCH_DIR" value="&quot;/tmp&quot;"/>
-    <elementParameter xmi:id="_srmLzP0_Eear-M_gLj-wBA" field="CHECK" name="USE_CHECKPOINT" value="false"/>
-    <elementParameter xmi:id="_srmLzf0_Eear-M_gLj-wBA" field="TEXT" name="CHECKPOINT_DIR" value="&quot;file:///tmp/mycheckpoint&quot;" show="false"/>
-    <elementParameter xmi:id="_srmLzv0_Eear-M_gLj-wBA" field="TABLE" name="SPARK_ADVANCED_PROPERTIES"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_zSveMP0_Eear-M_gLj-wBA" defaultContext="Default" jobType="Big_Data_Batch" framework="Spark">
+  <context xmi:id="_zSveMf0_Eear-M_gLj-wBA" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_zSveMv0_Eear-M_gLj-wBA">
+    <elementParameter xmi:id="_zSveM_0_Eear-M_gLj-wBA" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_zSveNP0_Eear-M_gLj-wBA" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_zSveNf0_Eear-M_gLj-wBA" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_zSveNv0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_zSveN_0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_zSveOP0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_zSveOf0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_zSveOv0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_zSveO_0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_zSvePP0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_zSvePf0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_zSvePv0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_zSveP_0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_zSveQP0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_zSveQf0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_zSveQv0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_zSveQ_0_Eear-M_gLj-wBA" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_zSveRP0_Eear-M_gLj-wBA" field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter xmi:id="_zSveRf0_Eear-M_gLj-wBA" field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter xmi:id="_zSveRv0_Eear-M_gLj-wBA" field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter xmi:id="_zSveR_0_Eear-M_gLj-wBA" field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter xmi:id="_zSveSP0_Eear-M_gLj-wBA" field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter xmi:id="_zSveSf0_Eear-M_gLj-wBA" field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter xmi:id="_zSveSv0_Eear-M_gLj-wBA" field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter xmi:id="_zSveS_0_Eear-M_gLj-wBA" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSveTP0_Eear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSveTf0_Eear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter xmi:id="_zSveTv0_Eear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter xmi:id="_zSveT_0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter xmi:id="_zSveUP0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter xmi:id="_zSveUf0_Eear-M_gLj-wBA" field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSveUv0_Eear-M_gLj-wBA" field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter xmi:id="_zSveU_0_Eear-M_gLj-wBA" field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSveVP0_Eear-M_gLj-wBA" field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSveVf0_Eear-M_gLj-wBA" field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSveVv0_Eear-M_gLj-wBA" field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSveV_0_Eear-M_gLj-wBA" field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSveWP0_Eear-M_gLj-wBA" field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSveWf0_Eear-M_gLj-wBA" field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSveWv0_Eear-M_gLj-wBA" field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFQP0_Eear-M_gLj-wBA" field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_zSwFQf0_Eear-M_gLj-wBA" field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFQv0_Eear-M_gLj-wBA" field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFQ_0_Eear-M_gLj-wBA" field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFRP0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter xmi:id="_zSwFRf0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter xmi:id="_zSwFRv0_Eear-M_gLj-wBA" field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFR_0_Eear-M_gLj-wBA" field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFSP0_Eear-M_gLj-wBA" field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFSf0_Eear-M_gLj-wBA" field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFSv0_Eear-M_gLj-wBA" field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_zSwFS_0_Eear-M_gLj-wBA" field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_zSwFTP0_Eear-M_gLj-wBA" field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_zSwFTf0_Eear-M_gLj-wBA" field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFTv0_Eear-M_gLj-wBA" field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFT_0_Eear-M_gLj-wBA" field="DIRECTORY" name="FILE_PATH" value="&quot;/home/artha/workspace/.metadata&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFUP0_Eear-M_gLj-wBA" field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFUf0_Eear-M_gLj-wBA" field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFUv0_Eear-M_gLj-wBA" field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFU_0_Eear-M_gLj-wBA" field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter xmi:id="_zSwFVP0_Eear-M_gLj-wBA" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter xmi:id="_zSwFVf0_Eear-M_gLj-wBA" field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFVv0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter xmi:id="_zSwFV_0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter xmi:id="_zSwFWP0_Eear-M_gLj-wBA" field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFWf0_Eear-M_gLj-wBA" field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter xmi:id="_zSwFWv0_Eear-M_gLj-wBA" field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFW_0_Eear-M_gLj-wBA" field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFXP0_Eear-M_gLj-wBA" field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFXf0_Eear-M_gLj-wBA" field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFXv0_Eear-M_gLj-wBA" field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFX_0_Eear-M_gLj-wBA" field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFYP0_Eear-M_gLj-wBA" field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFYf0_Eear-M_gLj-wBA" field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFYv0_Eear-M_gLj-wBA" field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFY_0_Eear-M_gLj-wBA" field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_zSwFZP0_Eear-M_gLj-wBA" field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFZf0_Eear-M_gLj-wBA" field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFZv0_Eear-M_gLj-wBA" field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFZ_0_Eear-M_gLj-wBA" field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFaP0_Eear-M_gLj-wBA" field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter xmi:id="_zSwFaf0_Eear-M_gLj-wBA" field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter xmi:id="_zSwFav0_Eear-M_gLj-wBA" field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter xmi:id="_zSwFa_0_Eear-M_gLj-wBA" field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFbP0_Eear-M_gLj-wBA" field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter xmi:id="_zSwFbf0_Eear-M_gLj-wBA" field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFbv0_Eear-M_gLj-wBA" field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_zSwFb_0_Eear-M_gLj-wBA" field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter xmi:id="_zSwFcP0_Eear-M_gLj-wBA" field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter xmi:id="_zSwFcf0_Eear-M_gLj-wBA" field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter xmi:id="_zSwFcv0_Eear-M_gLj-wBA" field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFc_0_Eear-M_gLj-wBA" field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_zSwFdP0_Eear-M_gLj-wBA" field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter xmi:id="_zSwFdf0_Eear-M_gLj-wBA" field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <elementParameter xmi:id="_zSwFdv0_Eear-M_gLj-wBA" field="CHECK" name="SPARK_LOCAL_MODE" value="false"/>
+    <elementParameter xmi:id="_zSwFd_0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_LOCAL_VERSION" value="SPARK_2_0_0" show="false"/>
+    <elementParameter xmi:id="_zSwFeP0_Eear-M_gLj-wBA" field="TECHNICAL" name="MR_PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter xmi:id="_zSwFef0_Eear-M_gLj-wBA" field="TECHNICAL" name="MR_PROPERTY:REPOSITORY_PROPERTY_TYPE" value="__FzgMPMFEeaFK7uYkjlGgQ" show="false"/>
+    <elementParameter xmi:id="_zSwFev0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
+    <elementParameter xmi:id="_zSwFe_0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_VERSION" value="Cloudera_CDH5_8"/>
+    <elementParameter xmi:id="_zSwFfP0_Eear-M_gLj-wBA" field="HADOOP_DISTRIBUTION" name="SPARKBATCH" value=""/>
+    <elementParameter xmi:id="_zSwFff0_Eear-M_gLj-wBA" field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value="" show="false"/>
+    <elementParameter xmi:id="_zSwFfv0_Eear-M_gLj-wBA" field="LABEL" name="NOTE" value="** The version of Spark must be 1.3.0 or later." show="false"/>
+    <elementParameter xmi:id="_zSwFf_0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_API_VERSION" value="SPARK_200" show="false"/>
+    <elementParameter xmi:id="_zSwFgP0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_MODE" value="YARN_CLIENT"/>
+    <elementParameter xmi:id="_zSwFgf0_Eear-M_gLj-wBA" field="TEXT" name="RESOURCE_MANAGER" value="&quot;quickstart.cloudera:8032&quot;"/>
+    <elementParameter xmi:id="_zSwFgv0_Eear-M_gLj-wBA" field="CHECK" name="SET_SCHEDULER_ADDRESS" value="true"/>
+    <elementParameter xmi:id="_zSwFg_0_Eear-M_gLj-wBA" field="TEXT" name="RESOURCEMANAGER_SCHEDULER_ADDRESS" value="&quot;quickstart.cloudera:8030&quot;"/>
+    <elementParameter xmi:id="_zSwFhP0_Eear-M_gLj-wBA" field="CHECK" name="SET_JOBHISTORY_ADDRESS" value="true"/>
+    <elementParameter xmi:id="_zSwFhf0_Eear-M_gLj-wBA" field="TEXT" name="JOBHISTORY_ADDRESS" value="&quot;quickstart.cloudera:10020&quot;"/>
+    <elementParameter xmi:id="_zSwFhv0_Eear-M_gLj-wBA" field="CHECK" name="SET_STAGING_DIRECTORY" value="true"/>
+    <elementParameter xmi:id="_zSwFh_0_Eear-M_gLj-wBA" field="TEXT" name="STAGING_DIRECTORY" value="&quot;/user&quot;"/>
+    <elementParameter xmi:id="_zSwFiP0_Eear-M_gLj-wBA" field="TEXT" name="HDINSIGHT_ENDPOINT" value="&quot;https://xxxx.azurehdinsight.net&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFif0_Eear-M_gLj-wBA" field="TEXT" name="HDINSIGHT_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFiv0_Eear-M_gLj-wBA" field="PASSWORD" name="HDINSIGHT_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_zSwFi_0_Eear-M_gLj-wBA" field="TEXT" name="LIVY_HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFjP0_Eear-M_gLj-wBA" field="TEXT" name="LIVY_PORT" value="&quot;443&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFjf0_Eear-M_gLj-wBA" field="TEXT" name="LIVY_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFjv0_Eear-M_gLj-wBA" field="TEXT" name="HDINSIGHT_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFj_0_Eear-M_gLj-wBA" field="PASSWORD" name="HDINSIGHT_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_zSwFkP0_Eear-M_gLj-wBA" field="TEXT" name="WASB_HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFkf0_Eear-M_gLj-wBA" field="TEXT" name="WASB_CONTAINER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFkv0_Eear-M_gLj-wBA" field="TEXT" name="WASB_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFk_0_Eear-M_gLj-wBA" field="PASSWORD" name="WASB_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_zSwFlP0_Eear-M_gLj-wBA" field="TEXT" name="REMOTE_FOLDER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFlf0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_HOST" value="&quot;spark://localhost:7077&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFlv0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_HOME" value="&quot;/usr/lib/spark&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFl_0_Eear-M_gLj-wBA" field="CHECK" name="DEFINE_HADOOP_HOME_DIR" value="false"/>
+    <elementParameter xmi:id="_zSwFmP0_Eear-M_gLj-wBA" field="TEXT" name="HADOOP_HOME_DIR" value="&quot;C:/Talend/winutils&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFmf0_Eear-M_gLj-wBA" field="CHECK" name="DEFINE_SPARK_DRIVER_HOST" value="false"/>
+    <elementParameter xmi:id="_zSwFmv0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_DRIVER_HOST" value="&quot;127.0.0.1&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFm_0_Eear-M_gLj-wBA" field="CHECK" name="USE_KRB" value="false"/>
+    <elementParameter xmi:id="_zSwFnP0_Eear-M_gLj-wBA" field="TEXT" name="RESOURCEMANAGER_PRINCIPAL" value="&quot;yarn/_HOST@EXAMPLE.COM&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFnf0_Eear-M_gLj-wBA" field="TEXT" name="JOBHISTORY_PRINCIPAL" value="&quot;mapred/_HOST@EXAMPLE.COM&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFnv0_Eear-M_gLj-wBA" field="CHECK" name="USE_KEYTAB" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFn_0_Eear-M_gLj-wBA" field="TEXT" name="PRINCIPAL" value="&quot;hdfs&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFoP0_Eear-M_gLj-wBA" field="FILE" name="KEYTAB_PATH" value="&quot;/tmp/hdfs.headless.keytab&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFof0_Eear-M_gLj-wBA" field="TEXT" name="USERNAME" value="&quot;anonymous&quot;"/>
+    <elementParameter xmi:id="_zSwFov0_Eear-M_gLj-wBA" field="CHECK" name="USE_MAPRTICKET" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFo_0_Eear-M_gLj-wBA" field="PASSWORD" name="MAPRTICKET_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_zSwFpP0_Eear-M_gLj-wBA" field="TEXT" name="MAPRTICKET_CLUSTER" value="&quot;demo.mapr.com&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFpf0_Eear-M_gLj-wBA" field="TEXT" name="MAPRTICKET_DURATION" value="86400L" show="false"/>
+    <elementParameter xmi:id="_zSwFpv0_Eear-M_gLj-wBA" field="CHECK" name="SET_MAPR_HOME_DIR" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFp_0_Eear-M_gLj-wBA" field="TEXT" name="MAPR_HOME_DIR" value="&quot;/opt/mapr&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFqP0_Eear-M_gLj-wBA" field="CHECK" name="SET_HADOOP_LOGIN" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFqf0_Eear-M_gLj-wBA" field="TEXT" name="HADOOP_LOGIN" value="&quot;kerberos&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFqv0_Eear-M_gLj-wBA" field="CHECK" name="ADVANCED_SETTINGS_CHECK" value="false"/>
+    <elementParameter xmi:id="_zSwFq_0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_DRIVER_MEM" value="&quot;512m&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFrP0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_DRIVER_CORES" value="&quot;1&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFrf0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_MEM" value="&quot;512m&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFrv0_Eear-M_gLj-wBA" field="CHECK" name="SET_SPARK_EXECUTOR_MEM_OVERHEAD" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFr_0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_MEM_OVERHEAD" value="&quot;384&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFsP0_Eear-M_gLj-wBA" field="CHECK" name="SPARK_EXECUTOR_CORES_CHECK" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFsf0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_CORES" value="&quot;1&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFsv0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_YARN_ALLOC_TYPE" value="AUTO" show="false"/>
+    <elementParameter xmi:id="_zSwFs_0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_INSTANCES" value="&quot;2&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFtP0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_YARN_DYN_INIT" value="&quot;1&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFtf0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_YARN_DYN_MIN" value="&quot;0&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFtv0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_YARN_DYN_MAX" value="&quot;MAX&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFt_0_Eear-M_gLj-wBA" field="CHECK" name="WEB_UI_PORT_CHECK" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFuP0_Eear-M_gLj-wBA" field="TEXT" name="WEB_UI_PORT" value="&quot;4040&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFuf0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_BROADCAST_FACTORY" value="AUTO" show="false"/>
+    <elementParameter xmi:id="_zSwFuv0_Eear-M_gLj-wBA" field="CHECK" name="CUSTOMIZE_SPARK_SERIALIZER" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFu_0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_SERIALIZER" value="&quot;org.apache.spark.serializer.KryoSerializer&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFvP0_Eear-M_gLj-wBA" field="CHECK" name="ENABLE_SPARK_EVENT_LOGGING" value="false"/>
+    <elementParameter xmi:id="_zSwFvf0_Eear-M_gLj-wBA" field="CHECK" name="COMPRESS_SPARK_EVENT_LOGS" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFvv0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_EVENT_LOG_DIR" value="&quot;hdfs://namenode:8020/user/spark/applicationHistory&quot;&#xA;&#x9;&#x9;&#x9;" show="false"/>
+    <elementParameter xmi:id="_zSwFv_0_Eear-M_gLj-wBA" field="TEXT" name="SPARKHISTORY_ADDRESS" value="&quot;sparkHistoryServer:18080&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFwP0_Eear-M_gLj-wBA" field="CHECK" name="USE_CLOUDERA_NAVIGATOR" value="false"/>
+    <elementParameter xmi:id="_zSwFwf0_Eear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_USERNAME" value="&quot;username&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFwv0_Eear-M_gLj-wBA" field="PASSWORD" name="CLOUDERA_NAVIGATOR_PASSWORD" value="PoLvNyVG2XWndNDdLn696A==" show="false"/>
+    <elementParameter xmi:id="_zSwFw_0_Eear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_URL" value="&quot;http://localhost:7187/api/v8/&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFxP0_Eear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_METADATA_URL" value="&quot;http://localhost:7187/api/v8/metadata/plugin&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFxf0_Eear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_CLIENT_URL" value="&quot;http://localhost&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFxv0_Eear-M_gLj-wBA" field="CHECK" name="CLOUDERA_NAVIGATOR_AUTOCOMMIT" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFx_0_Eear-M_gLj-wBA" field="CHECK" name="CLOUDERA_NAVIGATOR_DISABLE_SSL_VALIDATION" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFyP0_Eear-M_gLj-wBA" field="CHECK" name="CLOUDERA_NAVIGATOR_DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter xmi:id="_zSwFyf0_Eear-M_gLj-wBA" field="CHECK" name="USE_ATLAS" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFyv0_Eear-M_gLj-wBA" field="TEXT" name="ATLAS_URL" value="&quot;http://localhost:21000&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFy_0_Eear-M_gLj-wBA" field="TEXT" name="ATLAS_USERNAME" value="&quot;admin&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFzP0_Eear-M_gLj-wBA" field="PASSWORD" name="ATLAS_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_zSwFzf0_Eear-M_gLj-wBA" field="CHECK" name="SET_ATLAS_APPLICATION_PROPERTIES" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwFzv0_Eear-M_gLj-wBA" field="TEXT" name="ATLAS_APPLICATION_PROPERTIES" value="&quot;/user/atlas/atlas-application.properties&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwFz_0_Eear-M_gLj-wBA" field="CHECK" name="ATLAS_DIE_ON_ERROR" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwF0P0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_SCRATCH_DIR" value="&quot;/tmp&quot;"/>
+    <elementParameter xmi:id="_zSwF0f0_Eear-M_gLj-wBA" field="CHECK" name="USE_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_zSwF0v0_Eear-M_gLj-wBA" field="TEXT" name="CHECKPOINT_DIR" value="&quot;file:///tmp/mycheckpoint&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwF0_0_Eear-M_gLj-wBA" field="TABLE" name="SPARK_ADVANCED_PROPERTIES"/>
     <routinesParameter xmi:id="_3RlIf_0-Eear-M_gLj-wBA" id="_mbM2U_ilEeafwJZkgJeQbQ" name="DQTechnical"/>
     <routinesParameter xmi:id="_3RlIgP0-Eear-M_gLj-wBA" id="_mZSx0PilEeafwJZkgJeQbQ" name="DataMasking"/>
     <routinesParameter xmi:id="_3RlIgf0-Eear-M_gLj-wBA" id="_l8_QUPilEeafwJZkgJeQbQ" name="DataOperation"/>
@@ -216,157 +216,157 @@
     <routinesParameter xmi:id="_3RlIlv0-Eear-M_gLj-wBA" id="_JsAZQHlHEeS5M-4wmV8XNg" name="Transformation"/>
     <routinesParameter xmi:id="_3RlIl_0-Eear-M_gLj-wBA" id="_1cAIgMywEeSadJSYhJEDKA" name="tic_word_titleCase"/>
   </parameters>
-  <node xmi:id="_srmLz_0_Eear-M_gLj-wBA" componentName="tHiveInput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="320">
-    <elementParameter xmi:id="_srmL0P0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveInput_1" show="false"/>
-    <elementParameter xmi:id="_srmL0f0_Eear-M_gLj-wBA" field="COMPONENT_LIST" name="HIVE_STORAGE_CONFIGURATION" value="tHiveConfiguration_1"/>
-    <elementParameter xmi:id="_srmL0v0_Eear-M_gLj-wBA" field="COMPONENT_LIST" name="HDFS_STORAGE_CONFIGURATION" value="tHDFSConfiguration_1"/>
-    <elementParameter xmi:id="_srmL0_0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="INPUT_SOURCE" value="HIVE_TABLE"/>
-    <elementParameter xmi:id="_srmL1P0_Eear-M_gLj-wBA" field="TEXT" name="HIVE_DATABASE_NAME" value="&quot;default&quot;"/>
-    <elementParameter xmi:id="_srmL1f0_Eear-M_gLj-wBA" field="DBTABLE" name="HIVE_TABLE_NAME" value="&quot;bank&quot;"/>
-    <elementParameter xmi:id="_srmL1v0_Eear-M_gLj-wBA" field="MEMO" name="SQL_QUERY" value="&quot;select id, name from table&quot;" show="false"/>
-    <elementParameter xmi:id="_srmL1_0_Eear-M_gLj-wBA" field="TEXT" name="FILENAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_srmL2P0_Eear-M_gLj-wBA" field="TEXT" name="TYPE" value="HIVE" show="false"/>
-    <elementParameter xmi:id="_srmL2f0_Eear-M_gLj-wBA" field="TABLE" name="REGISTER_JARS"/>
-    <elementParameter xmi:id="_srmL2v0_Eear-M_gLj-wBA" field="TABLE" name="TEMP_UDF_FUNCTIONS"/>
-    <elementParameter xmi:id="_srmL2_0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_CONFIGURATION" value="tSparkConfiguration_1" show="false"/>
-    <elementParameter xmi:id="_srmL3P0_Eear-M_gLj-wBA" field="TEXT" name="LABEL" value="CDH_HIVE"/>
-    <elementParameter xmi:id="_srmL3f0_Eear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_srmL3v0_Eear-M_gLj-wBA" connector="FLOW" name="tHiveInput_1">
-      <column xmi:id="_srmL3_0_Eear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL4P0_Eear-M_gLj-wBA" comment="" key="false" length="15" name="job" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL4f0_Eear-M_gLj-wBA" comment="" key="false" length="10" name="marital" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL4v0_Eear-M_gLj-wBA" comment="" key="false" length="11" name="education" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL4_0_Eear-M_gLj-wBA" comment="" key="false" length="5" name="default1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL5P0_Eear-M_gLj-wBA" comment="" key="false" length="5" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL5f0_Eear-M_gLj-wBA" comment="" key="false" length="5" name="housing" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL5v0_Eear-M_gLj-wBA" comment="" key="false" length="5" name="loan" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL5_0_Eear-M_gLj-wBA" comment="" key="false" length="9" name="contact" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL6P0_Eear-M_gLj-wBA" comment="" key="false" length="1" name="day" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL6f0_Eear-M_gLj-wBA" comment="" key="false" length="5" name="month" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL6v0_Eear-M_gLj-wBA" comment="" key="false" length="4" name="duration" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL6_0_Eear-M_gLj-wBA" comment="" key="false" length="1" name="campaign" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL7P0_Eear-M_gLj-wBA" comment="" key="false" length="2" name="pdays" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL7f0_Eear-M_gLj-wBA" comment="" key="false" length="1" name="previous" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL7v0_Eear-M_gLj-wBA" comment="" key="false" length="9" name="poutcome" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmL7_0_Eear-M_gLj-wBA" comment="" key="false" length="4" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+  <node xmi:id="_zSwF1P0_Eear-M_gLj-wBA" componentName="tHiveInput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="320">
+    <elementParameter xmi:id="_zSwF1f0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveInput_1" show="false"/>
+    <elementParameter xmi:id="_zSwF1v0_Eear-M_gLj-wBA" field="COMPONENT_LIST" name="HIVE_STORAGE_CONFIGURATION" value="tHiveConfiguration_1"/>
+    <elementParameter xmi:id="_zSwF1_0_Eear-M_gLj-wBA" field="COMPONENT_LIST" name="HDFS_STORAGE_CONFIGURATION" value="tHDFSConfiguration_1"/>
+    <elementParameter xmi:id="_zSwF2P0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="INPUT_SOURCE" value="HIVE_TABLE"/>
+    <elementParameter xmi:id="_zSwF2f0_Eear-M_gLj-wBA" field="TEXT" name="HIVE_DATABASE_NAME" value="&quot;default&quot;"/>
+    <elementParameter xmi:id="_zSwF2v0_Eear-M_gLj-wBA" field="DBTABLE" name="HIVE_TABLE_NAME" value="&quot;bank&quot;"/>
+    <elementParameter xmi:id="_zSwF2_0_Eear-M_gLj-wBA" field="MEMO" name="SQL_QUERY" value="&quot;select id, name from table&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwF3P0_Eear-M_gLj-wBA" field="TEXT" name="FILENAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwF3f0_Eear-M_gLj-wBA" field="TEXT" name="TYPE" value="HIVE" show="false"/>
+    <elementParameter xmi:id="_zSwF3v0_Eear-M_gLj-wBA" field="TABLE" name="REGISTER_JARS"/>
+    <elementParameter xmi:id="_zSwF3_0_Eear-M_gLj-wBA" field="TABLE" name="TEMP_UDF_FUNCTIONS"/>
+    <elementParameter xmi:id="_zSwF4P0_Eear-M_gLj-wBA" field="TEXT" name="SPARK_CONFIGURATION" value="tSparkConfiguration_1" show="false"/>
+    <elementParameter xmi:id="_zSwF4f0_Eear-M_gLj-wBA" field="TEXT" name="LABEL" value="CDH_HIVE"/>
+    <elementParameter xmi:id="_zSwF4v0_Eear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_zSwF4_0_Eear-M_gLj-wBA" connector="FLOW" name="tHiveInput_1">
+      <column xmi:id="_zSwF5P0_Eear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF5f0_Eear-M_gLj-wBA" comment="" key="false" length="15" name="job" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF5v0_Eear-M_gLj-wBA" comment="" key="false" length="10" name="marital" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF5_0_Eear-M_gLj-wBA" comment="" key="false" length="11" name="education" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF6P0_Eear-M_gLj-wBA" comment="" key="false" length="5" name="default1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF6f0_Eear-M_gLj-wBA" comment="" key="false" length="5" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF6v0_Eear-M_gLj-wBA" comment="" key="false" length="5" name="housing" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF6_0_Eear-M_gLj-wBA" comment="" key="false" length="5" name="loan" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF7P0_Eear-M_gLj-wBA" comment="" key="false" length="9" name="contact" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF7f0_Eear-M_gLj-wBA" comment="" key="false" length="1" name="day" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF7v0_Eear-M_gLj-wBA" comment="" key="false" length="5" name="month" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF7_0_Eear-M_gLj-wBA" comment="" key="false" length="4" name="duration" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF8P0_Eear-M_gLj-wBA" comment="" key="false" length="1" name="campaign" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF8f0_Eear-M_gLj-wBA" comment="" key="false" length="2" name="pdays" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF8v0_Eear-M_gLj-wBA" comment="" key="false" length="1" name="previous" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF8_0_Eear-M_gLj-wBA" comment="" key="false" length="9" name="poutcome" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwF9P0_Eear-M_gLj-wBA" comment="" key="false" length="4" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_srmL8P0_Eear-M_gLj-wBA" componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="320">
-    <elementParameter xmi:id="_srmL8f0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_1" show="false"/>
-    <elementParameter xmi:id="_srmL8v0_Eear-M_gLj-wBA" field="TABLE" name="GROUPBYS"/>
-    <elementParameter xmi:id="_srmL8_0_Eear-M_gLj-wBA" field="TABLE" name="OPERATIONS">
-      <elementValue xmi:id="_srmL9P0_Eear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="max"/>
-      <elementValue xmi:id="_srmL9f0_Eear-M_gLj-wBA" elementRef="FUNCTION" value="max"/>
-      <elementValue xmi:id="_srmL9v0_Eear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="age"/>
-      <elementValue xmi:id="_srmL9_0_Eear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
-      <elementValue xmi:id="_srmL-P0_Eear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="min"/>
-      <elementValue xmi:id="_srmL-f0_Eear-M_gLj-wBA" elementRef="FUNCTION" value="min"/>
-      <elementValue xmi:id="_srmL-v0_Eear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="age"/>
-      <elementValue xmi:id="_srmL-_0_Eear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
-      <elementValue xmi:id="_srmL_P0_Eear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="mean"/>
-      <elementValue xmi:id="_srmL_f0_Eear-M_gLj-wBA" elementRef="FUNCTION" value="avg"/>
-      <elementValue xmi:id="_srmL_v0_Eear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="age"/>
-      <elementValue xmi:id="_srmL__0_Eear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
+  <node xmi:id="_zSwF9f0_Eear-M_gLj-wBA" componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="320">
+    <elementParameter xmi:id="_zSwF9v0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_1" show="false"/>
+    <elementParameter xmi:id="_zSwF9_0_Eear-M_gLj-wBA" field="TABLE" name="GROUPBYS"/>
+    <elementParameter xmi:id="_zSwF-P0_Eear-M_gLj-wBA" field="TABLE" name="OPERATIONS">
+      <elementValue xmi:id="_zSwF-f0_Eear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="max"/>
+      <elementValue xmi:id="_zSwF-v0_Eear-M_gLj-wBA" elementRef="FUNCTION" value="max"/>
+      <elementValue xmi:id="_zSwF-_0_Eear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="age"/>
+      <elementValue xmi:id="_zSwF_P0_Eear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
+      <elementValue xmi:id="_zSwF_f0_Eear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="min"/>
+      <elementValue xmi:id="_zSwF_v0_Eear-M_gLj-wBA" elementRef="FUNCTION" value="min"/>
+      <elementValue xmi:id="_zSwF__0_Eear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="age"/>
+      <elementValue xmi:id="_zSwGAP0_Eear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
+      <elementValue xmi:id="_zSwGAf0_Eear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="mean"/>
+      <elementValue xmi:id="_zSwGAv0_Eear-M_gLj-wBA" elementRef="FUNCTION" value="avg"/>
+      <elementValue xmi:id="_zSwGA_0_Eear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="age"/>
+      <elementValue xmi:id="_zSwGBP0_Eear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
     </elementParameter>
-    <elementParameter xmi:id="_srmMAP0_Eear-M_gLj-wBA" field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;" show="false"/>
-    <elementParameter xmi:id="_srmMAf0_Eear-M_gLj-wBA" field="CHECK" name="USE_FINANCIAL_PRECISION" value="false"/>
-    <elementParameter xmi:id="_srmMAv0_Eear-M_gLj-wBA" field="CHECK" name="CHECK_TYPE_OVERFLOW" value="false"/>
-    <elementParameter xmi:id="_srmMA_0_Eear-M_gLj-wBA" field="CHECK" name="CHECK_ULP" value="false"/>
-    <elementParameter xmi:id="_srmMBP0_Eear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_srmMBf0_Eear-M_gLj-wBA" connector="FLOW" name="tAggregateRow_1">
-      <column xmi:id="_srmMBv0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="max" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmMB_0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="min" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmMCP0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="mean" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmMCf0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="median" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    <elementParameter xmi:id="_zSwGBf0_Eear-M_gLj-wBA" field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwGBv0_Eear-M_gLj-wBA" field="CHECK" name="USE_FINANCIAL_PRECISION" value="false"/>
+    <elementParameter xmi:id="_zSwGB_0_Eear-M_gLj-wBA" field="CHECK" name="CHECK_TYPE_OVERFLOW" value="false"/>
+    <elementParameter xmi:id="_zSwGCP0_Eear-M_gLj-wBA" field="CHECK" name="CHECK_ULP" value="false"/>
+    <elementParameter xmi:id="_zSwGCf0_Eear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_zSwGCv0_Eear-M_gLj-wBA" connector="FLOW" name="tAggregateRow_1">
+      <column xmi:id="_zSwGC_0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="max" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwGDP0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="min" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwGDf0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="mean" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwGDv0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="median" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_srmMCv0_Eear-M_gLj-wBA" componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="320">
-    <elementParameter xmi:id="_srmMC_0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
-    <elementParameter xmi:id="_srmMDP0_Eear-M_gLj-wBA" field="RADIO" name="BASIC_MODE" value="false"/>
-    <elementParameter xmi:id="_srmMDf0_Eear-M_gLj-wBA" field="RADIO" name="TABLE_PRINT" value="true"/>
-    <elementParameter xmi:id="_srmMDv0_Eear-M_gLj-wBA" field="RADIO" name="VERTICAL" value="false"/>
-    <elementParameter xmi:id="_srmMD_0_Eear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
-    <elementParameter xmi:id="_srmMEP0_Eear-M_gLj-wBA" field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
-    <elementParameter xmi:id="_srmMEf0_Eear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
-    <elementParameter xmi:id="_srmMEv0_Eear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
-    <elementParameter xmi:id="_srmME_0_Eear-M_gLj-wBA" field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
-    <elementParameter xmi:id="_srmMFP0_Eear-M_gLj-wBA" field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
-    <elementParameter xmi:id="_srmMFf0_Eear-M_gLj-wBA" field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
-    <elementParameter xmi:id="_srmMFv0_Eear-M_gLj-wBA" field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
-    <elementParameter xmi:id="_srmMF_0_Eear-M_gLj-wBA" field="TABLE" name="LENGTHS" show="false">
-      <elementValue xmi:id="_srmMGP0_Eear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="max"/>
-      <elementValue xmi:id="_srmMGf0_Eear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
-      <elementValue xmi:id="_srmMGv0_Eear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="min"/>
-      <elementValue xmi:id="_srmMG_0_Eear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
-      <elementValue xmi:id="_srmMHP0_Eear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="mean"/>
-      <elementValue xmi:id="_srmMHf0_Eear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
-      <elementValue xmi:id="_srmMHv0_Eear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="median"/>
-      <elementValue xmi:id="_srmMH_0_Eear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
+  <node xmi:id="_zSwGD_0_Eear-M_gLj-wBA" componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="320">
+    <elementParameter xmi:id="_zSwGEP0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
+    <elementParameter xmi:id="_zSwGEf0_Eear-M_gLj-wBA" field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter xmi:id="_zSwGEv0_Eear-M_gLj-wBA" field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter xmi:id="_zSwGE_0_Eear-M_gLj-wBA" field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter xmi:id="_zSwGFP0_Eear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter xmi:id="_zSwGFf0_Eear-M_gLj-wBA" field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwGFv0_Eear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwGF_0_Eear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwGGP0_Eear-M_gLj-wBA" field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwGGf0_Eear-M_gLj-wBA" field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwGGv0_Eear-M_gLj-wBA" field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwGG_0_Eear-M_gLj-wBA" field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwGHP0_Eear-M_gLj-wBA" field="TABLE" name="LENGTHS" show="false">
+      <elementValue xmi:id="_zSwGHf0_Eear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="max"/>
+      <elementValue xmi:id="_zSwGHv0_Eear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
+      <elementValue xmi:id="_zSwGH_0_Eear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="min"/>
+      <elementValue xmi:id="_zSwGIP0_Eear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
+      <elementValue xmi:id="_zSwGIf0_Eear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="mean"/>
+      <elementValue xmi:id="_zSwGIv0_Eear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
+      <elementValue xmi:id="_zSwGI_0_Eear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="median"/>
+      <elementValue xmi:id="_zSwGJP0_Eear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
     </elementParameter>
-    <elementParameter xmi:id="_srmMIP0_Eear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_srmMIf0_Eear-M_gLj-wBA" connector="FLOW" name="tLogRow_1">
-      <column xmi:id="_srmMIv0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="max" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmMI_0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="min" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmMJP0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="mean" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_srmMJf0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="median" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    <elementParameter xmi:id="_zSwGJf0_Eear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_zSwGJv0_Eear-M_gLj-wBA" connector="FLOW" name="tLogRow_1">
+      <column xmi:id="_zSwGJ_0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="max" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwGKP0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="min" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwGKf0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="mean" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_zSwGKv0_Eear-M_gLj-wBA" comment="" key="false" length="-1" name="median" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_srmMJv0_Eear-M_gLj-wBA" componentName="tHiveConfiguration" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
-    <elementParameter xmi:id="_srmMJ_0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveConfiguration_1" show="false"/>
-    <elementParameter xmi:id="_srmMKP0_Eear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter xmi:id="_srmMKf0_Eear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="__FzgMfMFEeaFK7uYkjlGgQ" show="false"/>
-    <elementParameter xmi:id="_srmMKv0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
-    <elementParameter xmi:id="_srmMK_0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION" value="Cloudera_CDH5_8"/>
-    <elementParameter xmi:id="_srmMLP0_Eear-M_gLj-wBA" field="HADOOP_DISTRIBUTION" name="HIVEONSPARK" value=""/>
-    <elementParameter xmi:id="_srmMLf0_Eear-M_gLj-wBA" field="TEXT" name="HOST" value="&quot;quickstart-cloudera&quot;"/>
-    <elementParameter xmi:id="_srmMLv0_Eear-M_gLj-wBA" field="TEXT" name="PORT" value="&quot;9083&quot;"/>
-    <elementParameter xmi:id="_srmML_0_Eear-M_gLj-wBA" field="CHECK" name="USE_KRB" value="false"/>
-    <elementParameter xmi:id="_srmMMP0_Eear-M_gLj-wBA" field="TEXT" name="HIVE_PRINCIPAL" value="&quot;hive/_HOST@EXAMPLE.COM&quot;" show="false"/>
-    <elementParameter xmi:id="_srmMMf0_Eear-M_gLj-wBA" field="CHECK" name="USE_MAPRTICKET" value="false" show="false"/>
-    <elementParameter xmi:id="_srmMMv0_Eear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  <node xmi:id="_zSwGK_0_Eear-M_gLj-wBA" componentName="tHiveConfiguration" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
+    <elementParameter xmi:id="_zSwGLP0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveConfiguration_1" show="false"/>
+    <elementParameter xmi:id="_zSwGLf0_Eear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter xmi:id="_zSwGLv0_Eear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="__FzgMfMFEeaFK7uYkjlGgQ" show="false"/>
+    <elementParameter xmi:id="_zSwGL_0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
+    <elementParameter xmi:id="_zSwGMP0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION" value="Cloudera_CDH5_8"/>
+    <elementParameter xmi:id="_zSwGMf0_Eear-M_gLj-wBA" field="HADOOP_DISTRIBUTION" name="HIVEONSPARK" value=""/>
+    <elementParameter xmi:id="_zSwGMv0_Eear-M_gLj-wBA" field="TEXT" name="HOST" value="&quot;quickstart-cloudera&quot;"/>
+    <elementParameter xmi:id="_zSwGM_0_Eear-M_gLj-wBA" field="TEXT" name="PORT" value="&quot;9083&quot;"/>
+    <elementParameter xmi:id="_zSwGNP0_Eear-M_gLj-wBA" field="CHECK" name="USE_KRB" value="false"/>
+    <elementParameter xmi:id="_zSwGNf0_Eear-M_gLj-wBA" field="TEXT" name="HIVE_PRINCIPAL" value="&quot;hive/_HOST@EXAMPLE.COM&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwGNv0_Eear-M_gLj-wBA" field="CHECK" name="USE_MAPRTICKET" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwGN_0_Eear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node xmi:id="_srmMM_0_Eear-M_gLj-wBA" componentName="tHDFSConfiguration" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="32">
-    <elementParameter xmi:id="_srmMNP0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHDFSConfiguration_1" show="false"/>
-    <elementParameter xmi:id="_srmMNf0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
-    <elementParameter xmi:id="_srmMNv0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION" value="Cloudera_CDH5_8"/>
-    <elementParameter xmi:id="_srmMN_0_Eear-M_gLj-wBA" field="HADOOP_DISTRIBUTION" name="HDFS" value=""/>
-    <elementParameter xmi:id="_srmMOP0_Eear-M_gLj-wBA" field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value="" show="false"/>
-    <elementParameter xmi:id="_srmMOf0_Eear-M_gLj-wBA" field="TEXT" name="FS_DEFAULT_NAME" value="&quot;hdfs://quickstart.cloudera:8020&quot;"/>
-    <elementParameter xmi:id="_srmMOv0_Eear-M_gLj-wBA" field="CHECK" name="USE_KRB" value="false"/>
-    <elementParameter xmi:id="_srmMO_0_Eear-M_gLj-wBA" field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;nn/_HOST@EXAMPLE.COM&quot;" show="false"/>
-    <elementParameter xmi:id="_srmMPP0_Eear-M_gLj-wBA" field="CHECK" name="USE_KEYTAB" value="false" show="false"/>
-    <elementParameter xmi:id="_srmMPf0_Eear-M_gLj-wBA" field="TEXT" name="PRINCIPAL" value="&quot;hdfs&quot;" show="false"/>
-    <elementParameter xmi:id="_srmMPv0_Eear-M_gLj-wBA" field="FILE" name="KEYTAB_PATH" value="&quot;/tmp/hdfs.headless.keytab&quot;" show="false"/>
-    <elementParameter xmi:id="_srmMP_0_Eear-M_gLj-wBA" field="TEXT" name="USERNAME" value="&quot;hdfs&quot;"/>
-    <elementParameter xmi:id="_srmMQP0_Eear-M_gLj-wBA" field="TEXT" name="GROUP" value="&quot;supergroup&quot;" show="false"/>
-    <elementParameter xmi:id="_srmMQf0_Eear-M_gLj-wBA" field="CHECK" name="USE_DATANODE_HOSTNAME" value="true"/>
-    <elementParameter xmi:id="_srmMQv0_Eear-M_gLj-wBA" field="TEXT" name="TEMP_FOLDER" value="&quot;/tmp&quot;"/>
-    <elementParameter xmi:id="_srmMQ_0_Eear-M_gLj-wBA" field="CHECK" name="USE_HDFS_ENCRYPTION" value="false"/>
-    <elementParameter xmi:id="_srmMRP0_Eear-M_gLj-wBA" field="TEXT" name="HDFS_ENCRYPTION_KEY_PROVIDER" value="&quot;kms://http@localhost:16000/kms&quot;" show="false"/>
-    <elementParameter xmi:id="_srmMRf0_Eear-M_gLj-wBA" field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
-    <elementParameter xmi:id="_srmMRv0_Eear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  <node xmi:id="_zSwGOP0_Eear-M_gLj-wBA" componentName="tHDFSConfiguration" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="32">
+    <elementParameter xmi:id="_zSwGOf0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHDFSConfiguration_1" show="false"/>
+    <elementParameter xmi:id="_zSwGOv0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
+    <elementParameter xmi:id="_zSwGO_0_Eear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION" value="Cloudera_CDH5_8"/>
+    <elementParameter xmi:id="_zSwGPP0_Eear-M_gLj-wBA" field="HADOOP_DISTRIBUTION" name="HDFS" value=""/>
+    <elementParameter xmi:id="_zSwGPf0_Eear-M_gLj-wBA" field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value="" show="false"/>
+    <elementParameter xmi:id="_zSwGPv0_Eear-M_gLj-wBA" field="TEXT" name="FS_DEFAULT_NAME" value="&quot;hdfs://quickstart.cloudera:8020&quot;"/>
+    <elementParameter xmi:id="_zSwGP_0_Eear-M_gLj-wBA" field="CHECK" name="USE_KRB" value="false"/>
+    <elementParameter xmi:id="_zSwGQP0_Eear-M_gLj-wBA" field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;nn/_HOST@EXAMPLE.COM&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwGQf0_Eear-M_gLj-wBA" field="CHECK" name="USE_KEYTAB" value="false" show="false"/>
+    <elementParameter xmi:id="_zSwGQv0_Eear-M_gLj-wBA" field="TEXT" name="PRINCIPAL" value="&quot;hdfs&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwGQ_0_Eear-M_gLj-wBA" field="FILE" name="KEYTAB_PATH" value="&quot;/tmp/hdfs.headless.keytab&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwGRP0_Eear-M_gLj-wBA" field="TEXT" name="USERNAME" value="&quot;anonymous&quot;"/>
+    <elementParameter xmi:id="_zSwGRf0_Eear-M_gLj-wBA" field="TEXT" name="GROUP" value="&quot;supergroup&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwGRv0_Eear-M_gLj-wBA" field="CHECK" name="USE_DATANODE_HOSTNAME" value="true"/>
+    <elementParameter xmi:id="_zSwGR_0_Eear-M_gLj-wBA" field="TEXT" name="TEMP_FOLDER" value="&quot;/tmp&quot;"/>
+    <elementParameter xmi:id="_zSwGSP0_Eear-M_gLj-wBA" field="CHECK" name="USE_HDFS_ENCRYPTION" value="false"/>
+    <elementParameter xmi:id="_zSwGSf0_Eear-M_gLj-wBA" field="TEXT" name="HDFS_ENCRYPTION_KEY_PROVIDER" value="&quot;kms://http@localhost:16000/kms&quot;" show="false"/>
+    <elementParameter xmi:id="_zSwGSv0_Eear-M_gLj-wBA" field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
+    <elementParameter xmi:id="_zSwGS_0_Eear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <connection xmi:id="_srmMR_0_Eear-M_gLj-wBA" connectorName="FLOW" label="row1" lineStyle="0" metaname="tHiveInput_1" offsetLabelX="0" offsetLabelY="0" source="tHiveInput_1" target="tAggregateRow_1">
-    <elementParameter xmi:id="_srmMSP0_Eear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_srmMSf0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  <connection xmi:id="_zSwGTP0_Eear-M_gLj-wBA" connectorName="FLOW" label="row1" lineStyle="0" metaname="tHiveInput_1" offsetLabelX="0" offsetLabelY="0" source="tHiveInput_1" target="tAggregateRow_1">
+    <elementParameter xmi:id="_zSwGTf0_Eear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_zSwGTv0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
-  <connection xmi:id="_srmMSv0_Eear-M_gLj-wBA" connectorName="FLOW" label="row2" lineStyle="0" metaname="tAggregateRow_1" offsetLabelX="0" offsetLabelY="0" source="tAggregateRow_1" target="tLogRow_1">
-    <elementParameter xmi:id="_srmMS_0_Eear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_srmMTP0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  <connection xmi:id="_zSwGT_0_Eear-M_gLj-wBA" connectorName="FLOW" label="row2" lineStyle="0" metaname="tAggregateRow_1" offsetLabelX="0" offsetLabelY="0" source="tAggregateRow_1" target="tLogRow_1">
+    <elementParameter xmi:id="_zSwGUP0_Eear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_zSwGUf0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
-  <subjob xmi:id="_srmMTf0_Eear-M_gLj-wBA">
-    <elementParameter xmi:id="_srmMTv0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveInput_1" show="false"/>
-    <elementParameter xmi:id="_srmMT_0_Eear-M_gLj-wBA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter xmi:id="_srmMUP0_Eear-M_gLj-wBA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  <subjob xmi:id="_zSwGUv0_Eear-M_gLj-wBA">
+    <elementParameter xmi:id="_zSwGU_0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveInput_1" show="false"/>
+    <elementParameter xmi:id="_zSwGVP0_Eear-M_gLj-wBA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_zSwGVf0_Eear-M_gLj-wBA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-  <subjob xmi:id="_srmMUf0_Eear-M_gLj-wBA">
-    <elementParameter xmi:id="_srmMUv0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveConfiguration_1" show="false"/>
-    <elementParameter xmi:id="_srmMU_0_Eear-M_gLj-wBA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter xmi:id="_srmMVP0_Eear-M_gLj-wBA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  <subjob xmi:id="_zSwGVv0_Eear-M_gLj-wBA">
+    <elementParameter xmi:id="_zSwGV_0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveConfiguration_1" show="false"/>
+    <elementParameter xmi:id="_zSwGWP0_Eear-M_gLj-wBA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_zSwGWf0_Eear-M_gLj-wBA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-  <subjob xmi:id="_srmMVf0_Eear-M_gLj-wBA">
-    <elementParameter xmi:id="_srmMVv0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHDFSConfiguration_1" show="false"/>
-    <elementParameter xmi:id="_srmMV_0_Eear-M_gLj-wBA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter xmi:id="_srmMWP0_Eear-M_gLj-wBA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  <subjob xmi:id="_zSwGWv0_Eear-M_gLj-wBA">
+    <elementParameter xmi:id="_zSwGW_0_Eear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHDFSConfiguration_1" show="false"/>
+    <elementParameter xmi:id="_zSwGXP0_Eear-M_gLj-wBA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_zSwGXf0_Eear-M_gLj-wBA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
 </talendfile:ProcessType>
