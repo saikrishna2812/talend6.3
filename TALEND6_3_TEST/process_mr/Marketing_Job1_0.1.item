@@ -1,195 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_kDyb8P3oEear-M_gLj-wBA" defaultContext="Default" jobType="Big_Data_Batch" framework="Spark">
-  <context xmi:id="_kDyb8f3oEear-M_gLj-wBA" confirmationNeeded="false" name="Default">
-    <contextParameter xmi:id="_kDyb8v3oEear-M_gLj-wBA" comment="" name="count_age" prompt="count_age?" promptNeeded="false" type="id_Integer" value=""/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_ronfUP3oEear-M_gLj-wBA" defaultContext="Default" jobType="Big_Data_Batch" framework="Spark">
+  <context xmi:id="_ronfUf3oEear-M_gLj-wBA" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_ronfUv3oEear-M_gLj-wBA" comment="" name="count_age" prompt="count_age?" promptNeeded="false" type="id_Integer" value=""/>
   </context>
-  <parameters xmi:id="_kDyb8_3oEear-M_gLj-wBA">
-    <elementParameter xmi:id="_kDyb9P3oEear-M_gLj-wBA" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
-    <elementParameter xmi:id="_kDyb9f3oEear-M_gLj-wBA" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
-    <elementParameter xmi:id="_kDyb9v3oEear-M_gLj-wBA" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
-    <elementParameter xmi:id="_kDyb9_3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
-    <elementParameter xmi:id="_kDyb-P3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
-    <elementParameter xmi:id="_kDyb-f3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
-    <elementParameter xmi:id="_kDyb-v3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
-    <elementParameter xmi:id="_kDyb-_3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
-    <elementParameter xmi:id="_kDyb_P3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
-    <elementParameter xmi:id="_kDyb_f3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
-    <elementParameter xmi:id="_kDyb_v3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
-    <elementParameter xmi:id="_kDyb__3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
-    <elementParameter xmi:id="_kDycAP3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
-    <elementParameter xmi:id="_kDycAf3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
-    <elementParameter xmi:id="_kDycAv3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
-    <elementParameter xmi:id="_kDycA_3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
-    <elementParameter xmi:id="_kDycBP3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
-    <elementParameter xmi:id="_kDycBf3oEear-M_gLj-wBA" field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
-    <elementParameter xmi:id="_kDycBv3oEear-M_gLj-wBA" field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
-    <elementParameter xmi:id="_kDycB_3oEear-M_gLj-wBA" field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
-    <elementParameter xmi:id="_kDycCP3oEear-M_gLj-wBA" field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
-    <elementParameter xmi:id="_kDycCf3oEear-M_gLj-wBA" field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
-    <elementParameter xmi:id="_kDycCv3oEear-M_gLj-wBA" field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycC_3oEear-M_gLj-wBA" field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycDP3oEear-M_gLj-wBA" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycDf3oEear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycDv3oEear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
-    <elementParameter xmi:id="_kDycD_3oEear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
-    <elementParameter xmi:id="_kDycEP3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
-    <elementParameter xmi:id="_kDycEf3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
-    <elementParameter xmi:id="_kDycEv3oEear-M_gLj-wBA" field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycE_3oEear-M_gLj-wBA" field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
-    <elementParameter xmi:id="_kDycFP3oEear-M_gLj-wBA" field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycFf3oEear-M_gLj-wBA" field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycFv3oEear-M_gLj-wBA" field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycF_3oEear-M_gLj-wBA" field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycGP3oEear-M_gLj-wBA" field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycGf3oEear-M_gLj-wBA" field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycGv3oEear-M_gLj-wBA" field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycG_3oEear-M_gLj-wBA" field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycHP3oEear-M_gLj-wBA" field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_kDycHf3oEear-M_gLj-wBA" field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycHv3oEear-M_gLj-wBA" field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycH_3oEear-M_gLj-wBA" field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycIP3oEear-M_gLj-wBA" field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
-    <elementParameter xmi:id="_kDycIf3oEear-M_gLj-wBA" field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
-    <elementParameter xmi:id="_kDycIv3oEear-M_gLj-wBA" field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycI_3oEear-M_gLj-wBA" field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycJP3oEear-M_gLj-wBA" field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycJf3oEear-M_gLj-wBA" field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycJv3oEear-M_gLj-wBA" field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
-    <elementParameter xmi:id="_kDycJ_3oEear-M_gLj-wBA" field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
-    <elementParameter xmi:id="_kDycKP3oEear-M_gLj-wBA" field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
-    <elementParameter xmi:id="_kDycKf3oEear-M_gLj-wBA" field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycKv3oEear-M_gLj-wBA" field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycK_3oEear-M_gLj-wBA" field="DIRECTORY" name="FILE_PATH" value="&quot;/home/artha/workspace/.metadata&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycLP3oEear-M_gLj-wBA" field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycLf3oEear-M_gLj-wBA" field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycLv3oEear-M_gLj-wBA" field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycL_3oEear-M_gLj-wBA" field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
-    <elementParameter xmi:id="_kDycMP3oEear-M_gLj-wBA" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
-    <elementParameter xmi:id="_kDycMf3oEear-M_gLj-wBA" field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycMv3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
-    <elementParameter xmi:id="_kDycM_3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
-    <elementParameter xmi:id="_kDycNP3oEear-M_gLj-wBA" field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycNf3oEear-M_gLj-wBA" field="TABLE" name="DRIVER_JAR" show="false"/>
-    <elementParameter xmi:id="_kDycNv3oEear-M_gLj-wBA" field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycN_3oEear-M_gLj-wBA" field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycOP3oEear-M_gLj-wBA" field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycOf3oEear-M_gLj-wBA" field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycOv3oEear-M_gLj-wBA" field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycO_3oEear-M_gLj-wBA" field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycPP3oEear-M_gLj-wBA" field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycPf3oEear-M_gLj-wBA" field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycPv3oEear-M_gLj-wBA" field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycP_3oEear-M_gLj-wBA" field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_kDycQP3oEear-M_gLj-wBA" field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycQf3oEear-M_gLj-wBA" field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycQv3oEear-M_gLj-wBA" field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycQ_3oEear-M_gLj-wBA" field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycRP3oEear-M_gLj-wBA" field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
-    <elementParameter xmi:id="_kDycRf3oEear-M_gLj-wBA" field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
-    <elementParameter xmi:id="_kDycRv3oEear-M_gLj-wBA" field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
-    <elementParameter xmi:id="_kDycR_3oEear-M_gLj-wBA" field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycSP3oEear-M_gLj-wBA" field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
-    <elementParameter xmi:id="_kDycSf3oEear-M_gLj-wBA" field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycSv3oEear-M_gLj-wBA" field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
-    <elementParameter xmi:id="_kDycS_3oEear-M_gLj-wBA" field="TEXT" name="HEADER_CODE" value="" show="false"/>
-    <elementParameter xmi:id="_kDycTP3oEear-M_gLj-wBA" field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
-    <elementParameter xmi:id="_kDycTf3oEear-M_gLj-wBA" field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
-    <elementParameter xmi:id="_kDycTv3oEear-M_gLj-wBA" field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycT_3oEear-M_gLj-wBA" field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
-    <elementParameter xmi:id="_kDycUP3oEear-M_gLj-wBA" field="TEXT" name="FOOTER_CODE" value="" show="false"/>
-    <elementParameter xmi:id="_kDycUf3oEear-M_gLj-wBA" field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
-    <elementParameter xmi:id="_kDycUv3oEear-M_gLj-wBA" field="CHECK" name="SPARK_LOCAL_MODE" value="false"/>
-    <elementParameter xmi:id="_kDycU_3oEear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_LOCAL_VERSION" value="SPARK_2_0_0" show="false"/>
-    <elementParameter xmi:id="_kDycVP3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
-    <elementParameter xmi:id="_kDycVf3oEear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_VERSION" value="Cloudera_CDH5_8"/>
-    <elementParameter xmi:id="_kDycVv3oEear-M_gLj-wBA" field="HADOOP_DISTRIBUTION" name="SPARKBATCH" value=""/>
-    <elementParameter xmi:id="_kDycV_3oEear-M_gLj-wBA" field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value="" show="false"/>
-    <elementParameter xmi:id="_kDycWP3oEear-M_gLj-wBA" field="LABEL" name="NOTE" value="** The version of Spark must be 1.3.0 or later." show="false"/>
-    <elementParameter xmi:id="_kDycWf3oEear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_API_VERSION" value="SPARK_200" show="false"/>
-    <elementParameter xmi:id="_kDycWv3oEear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_MODE" value="YARN_CLIENT"/>
-    <elementParameter xmi:id="_kDycW_3oEear-M_gLj-wBA" field="TEXT" name="RESOURCE_MANAGER" value="&quot;quickstart.cloudera:8032&quot;"/>
-    <elementParameter xmi:id="_kDycXP3oEear-M_gLj-wBA" field="CHECK" name="SET_SCHEDULER_ADDRESS" value="true"/>
-    <elementParameter xmi:id="_kDycXf3oEear-M_gLj-wBA" field="TEXT" name="RESOURCEMANAGER_SCHEDULER_ADDRESS" value="&quot;quickstart.cloudera:8030&quot;"/>
-    <elementParameter xmi:id="_kDycXv3oEear-M_gLj-wBA" field="CHECK" name="SET_JOBHISTORY_ADDRESS" value="true"/>
-    <elementParameter xmi:id="_kDycX_3oEear-M_gLj-wBA" field="TEXT" name="JOBHISTORY_ADDRESS" value="&quot;quickstart.cloudera:10020&quot;"/>
-    <elementParameter xmi:id="_kDycYP3oEear-M_gLj-wBA" field="CHECK" name="SET_STAGING_DIRECTORY" value="true"/>
-    <elementParameter xmi:id="_kDycYf3oEear-M_gLj-wBA" field="TEXT" name="STAGING_DIRECTORY" value="&quot;/user&quot;"/>
-    <elementParameter xmi:id="_kDycYv3oEear-M_gLj-wBA" field="TEXT" name="HDINSIGHT_ENDPOINT" value="&quot;https://xxxx.azurehdinsight.net&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycY_3oEear-M_gLj-wBA" field="TEXT" name="HDINSIGHT_USERNAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycZP3oEear-M_gLj-wBA" field="PASSWORD" name="HDINSIGHT_PASSWORD" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_kDycZf3oEear-M_gLj-wBA" field="TEXT" name="LIVY_HOST" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycZv3oEear-M_gLj-wBA" field="TEXT" name="LIVY_PORT" value="&quot;443&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycZ_3oEear-M_gLj-wBA" field="TEXT" name="LIVY_USERNAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycaP3oEear-M_gLj-wBA" field="TEXT" name="HDINSIGHT_USERNAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycaf3oEear-M_gLj-wBA" field="PASSWORD" name="HDINSIGHT_PASSWORD" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_kDycav3oEear-M_gLj-wBA" field="TEXT" name="WASB_HOST" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyca_3oEear-M_gLj-wBA" field="TEXT" name="WASB_CONTAINER" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycbP3oEear-M_gLj-wBA" field="TEXT" name="WASB_USERNAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycbf3oEear-M_gLj-wBA" field="PASSWORD" name="WASB_PASSWORD" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_kDycbv3oEear-M_gLj-wBA" field="TEXT" name="REMOTE_FOLDER" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycb_3oEear-M_gLj-wBA" field="TEXT" name="SPARK_HOST" value="&quot;spark://localhost:7077&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyccP3oEear-M_gLj-wBA" field="TEXT" name="SPARK_HOME" value="&quot;/usr/lib/spark&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyccf3oEear-M_gLj-wBA" field="CHECK" name="DEFINE_HADOOP_HOME_DIR" value="false"/>
-    <elementParameter xmi:id="_kDyccv3oEear-M_gLj-wBA" field="TEXT" name="HADOOP_HOME_DIR" value="&quot;C:/Talend/winutils&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycc_3oEear-M_gLj-wBA" field="CHECK" name="DEFINE_SPARK_DRIVER_HOST" value="false"/>
-    <elementParameter xmi:id="_kDycdP3oEear-M_gLj-wBA" field="TEXT" name="SPARK_DRIVER_HOST" value="&quot;127.0.0.1&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycdf3oEear-M_gLj-wBA" field="CHECK" name="USE_KRB" value="false"/>
-    <elementParameter xmi:id="_kDycdv3oEear-M_gLj-wBA" field="TEXT" name="RESOURCEMANAGER_PRINCIPAL" value="&quot;yarn/_HOST@EXAMPLE.COM&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycd_3oEear-M_gLj-wBA" field="TEXT" name="JOBHISTORY_PRINCIPAL" value="&quot;mapred/_HOST@EXAMPLE.COM&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyceP3oEear-M_gLj-wBA" field="CHECK" name="USE_KEYTAB" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycef3oEear-M_gLj-wBA" field="TEXT" name="PRINCIPAL" value="&quot;hdfs&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycev3oEear-M_gLj-wBA" field="FILE" name="KEYTAB_PATH" value="&quot;/tmp/hdfs.headless.keytab&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyce_3oEear-M_gLj-wBA" field="TEXT" name="USERNAME" value="&quot;anonymous&quot;"/>
-    <elementParameter xmi:id="_kDycfP3oEear-M_gLj-wBA" field="CHECK" name="USE_MAPRTICKET" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycff3oEear-M_gLj-wBA" field="PASSWORD" name="MAPRTICKET_PASSWORD" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_kDycfv3oEear-M_gLj-wBA" field="TEXT" name="MAPRTICKET_CLUSTER" value="&quot;demo.mapr.com&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycf_3oEear-M_gLj-wBA" field="TEXT" name="MAPRTICKET_DURATION" value="86400L" show="false"/>
-    <elementParameter xmi:id="_kDycgP3oEear-M_gLj-wBA" field="CHECK" name="SET_MAPR_HOME_DIR" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycgf3oEear-M_gLj-wBA" field="TEXT" name="MAPR_HOME_DIR" value="&quot;/opt/mapr&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycgv3oEear-M_gLj-wBA" field="CHECK" name="SET_HADOOP_LOGIN" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycg_3oEear-M_gLj-wBA" field="TEXT" name="HADOOP_LOGIN" value="&quot;kerberos&quot;" show="false"/>
-    <elementParameter xmi:id="_kDychP3oEear-M_gLj-wBA" field="CHECK" name="ADVANCED_SETTINGS_CHECK" value="false"/>
-    <elementParameter xmi:id="_kDychf3oEear-M_gLj-wBA" field="TEXT" name="SPARK_DRIVER_MEM" value="&quot;512m&quot;" show="false"/>
-    <elementParameter xmi:id="_kDychv3oEear-M_gLj-wBA" field="TEXT" name="SPARK_DRIVER_CORES" value="&quot;1&quot;" show="false"/>
-    <elementParameter xmi:id="_kDych_3oEear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_MEM" value="&quot;512m&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyciP3oEear-M_gLj-wBA" field="CHECK" name="SET_SPARK_EXECUTOR_MEM_OVERHEAD" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycif3oEear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_MEM_OVERHEAD" value="&quot;384&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyciv3oEear-M_gLj-wBA" field="CHECK" name="SPARK_EXECUTOR_CORES_CHECK" value="false" show="false"/>
-    <elementParameter xmi:id="_kDyci_3oEear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_CORES" value="&quot;1&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycjP3oEear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_YARN_ALLOC_TYPE" value="AUTO" show="false"/>
-    <elementParameter xmi:id="_kDycjf3oEear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_INSTANCES" value="&quot;2&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycjv3oEear-M_gLj-wBA" field="TEXT" name="SPARK_YARN_DYN_INIT" value="&quot;1&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycj_3oEear-M_gLj-wBA" field="TEXT" name="SPARK_YARN_DYN_MIN" value="&quot;0&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyckP3oEear-M_gLj-wBA" field="TEXT" name="SPARK_YARN_DYN_MAX" value="&quot;MAX&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyckf3oEear-M_gLj-wBA" field="CHECK" name="WEB_UI_PORT_CHECK" value="false" show="false"/>
-    <elementParameter xmi:id="_kDyckv3oEear-M_gLj-wBA" field="TEXT" name="WEB_UI_PORT" value="&quot;4040&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyck_3oEear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_BROADCAST_FACTORY" value="AUTO" show="false"/>
-    <elementParameter xmi:id="_kDyclP3oEear-M_gLj-wBA" field="CHECK" name="CUSTOMIZE_SPARK_SERIALIZER" value="false" show="false"/>
-    <elementParameter xmi:id="_kDyclf3oEear-M_gLj-wBA" field="TEXT" name="SPARK_SERIALIZER" value="&quot;org.apache.spark.serializer.KryoSerializer&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyclv3oEear-M_gLj-wBA" field="CHECK" name="ENABLE_SPARK_EVENT_LOGGING" value="false"/>
-    <elementParameter xmi:id="_kDycl_3oEear-M_gLj-wBA" field="CHECK" name="COMPRESS_SPARK_EVENT_LOGS" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycmP3oEear-M_gLj-wBA" field="TEXT" name="SPARK_EVENT_LOG_DIR" value="&quot;hdfs://namenode:8020/user/spark/applicationHistory&quot;&#xA;&#x9;&#x9;&#x9;" show="false"/>
-    <elementParameter xmi:id="_kDycmf3oEear-M_gLj-wBA" field="TEXT" name="SPARKHISTORY_ADDRESS" value="&quot;sparkHistoryServer:18080&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycmv3oEear-M_gLj-wBA" field="CHECK" name="USE_CLOUDERA_NAVIGATOR" value="false"/>
-    <elementParameter xmi:id="_kDycm_3oEear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_USERNAME" value="&quot;username&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycnP3oEear-M_gLj-wBA" field="PASSWORD" name="CLOUDERA_NAVIGATOR_PASSWORD" value="PoLvNyVG2XWndNDdLn696A==" show="false"/>
-    <elementParameter xmi:id="_kDycnf3oEear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_URL" value="&quot;http://localhost:7187/api/v8/&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycnv3oEear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_METADATA_URL" value="&quot;http://localhost:7187/api/v8/metadata/plugin&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycn_3oEear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_CLIENT_URL" value="&quot;http://localhost&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycoP3oEear-M_gLj-wBA" field="CHECK" name="CLOUDERA_NAVIGATOR_AUTOCOMMIT" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycof3oEear-M_gLj-wBA" field="CHECK" name="CLOUDERA_NAVIGATOR_DISABLE_SSL_VALIDATION" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycov3oEear-M_gLj-wBA" field="CHECK" name="CLOUDERA_NAVIGATOR_DIE_ON_ERROR" value="true" show="false"/>
-    <elementParameter xmi:id="_kDyco_3oEear-M_gLj-wBA" field="CHECK" name="USE_ATLAS" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycpP3oEear-M_gLj-wBA" field="TEXT" name="ATLAS_URL" value="&quot;http://localhost:21000&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycpf3oEear-M_gLj-wBA" field="TEXT" name="ATLAS_USERNAME" value="&quot;admin&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycpv3oEear-M_gLj-wBA" field="PASSWORD" name="ATLAS_PASSWORD" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_kDycp_3oEear-M_gLj-wBA" field="CHECK" name="SET_ATLAS_APPLICATION_PROPERTIES" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycqP3oEear-M_gLj-wBA" field="TEXT" name="ATLAS_APPLICATION_PROPERTIES" value="&quot;/user/atlas/atlas-application.properties&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycqf3oEear-M_gLj-wBA" field="CHECK" name="ATLAS_DIE_ON_ERROR" value="false" show="false"/>
-    <elementParameter xmi:id="_kDycqv3oEear-M_gLj-wBA" field="TEXT" name="SPARK_SCRATCH_DIR" value="&quot;/tmp&quot;"/>
-    <elementParameter xmi:id="_kDycq_3oEear-M_gLj-wBA" field="CHECK" name="USE_CHECKPOINT" value="false"/>
-    <elementParameter xmi:id="_kDycrP3oEear-M_gLj-wBA" field="TEXT" name="CHECKPOINT_DIR" value="&quot;file:///tmp/mycheckpoint&quot;" show="false"/>
-    <elementParameter xmi:id="_kDycrf3oEear-M_gLj-wBA" field="TABLE" name="SPARK_ADVANCED_PROPERTIES"/>
+  <parameters xmi:id="_ronfU_3oEear-M_gLj-wBA">
+    <elementParameter xmi:id="_ronfVP3oEear-M_gLj-wBA" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_ronfVf3oEear-M_gLj-wBA" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_ronfVv3oEear-M_gLj-wBA" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_ronfV_3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_ronfWP3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_ronfWf3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_ronfWv3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_ronfW_3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_ronfXP3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_ronfXf3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_ronfXv3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_ronfX_3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_ronfYP3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_ronfYf3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_ronfYv3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_ronfY_3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_ronfZP3oEear-M_gLj-wBA" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_ronfZf3oEear-M_gLj-wBA" field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter xmi:id="_ronfZv3oEear-M_gLj-wBA" field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter xmi:id="_ronfZ_3oEear-M_gLj-wBA" field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter xmi:id="_ronfaP3oEear-M_gLj-wBA" field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter xmi:id="_ronfaf3oEear-M_gLj-wBA" field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter xmi:id="_ronfav3oEear-M_gLj-wBA" field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter xmi:id="_ronfa_3oEear-M_gLj-wBA" field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter xmi:id="_ronfbP3oEear-M_gLj-wBA" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfbf3oEear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfbv3oEear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter xmi:id="_ronfb_3oEear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter xmi:id="_ronfcP3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter xmi:id="_ronfcf3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter xmi:id="_ronfcv3oEear-M_gLj-wBA" field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfc_3oEear-M_gLj-wBA" field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter xmi:id="_ronfdP3oEear-M_gLj-wBA" field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfdf3oEear-M_gLj-wBA" field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfdv3oEear-M_gLj-wBA" field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfd_3oEear-M_gLj-wBA" field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfeP3oEear-M_gLj-wBA" field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfef3oEear-M_gLj-wBA" field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfev3oEear-M_gLj-wBA" field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfe_3oEear-M_gLj-wBA" field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronffP3oEear-M_gLj-wBA" field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_ronfff3oEear-M_gLj-wBA" field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronffv3oEear-M_gLj-wBA" field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronff_3oEear-M_gLj-wBA" field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfgP3oEear-M_gLj-wBA" field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter xmi:id="_ronfgf3oEear-M_gLj-wBA" field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter xmi:id="_ronfgv3oEear-M_gLj-wBA" field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter xmi:id="_ronfg_3oEear-M_gLj-wBA" field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter xmi:id="_ronfhP3oEear-M_gLj-wBA" field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter xmi:id="_ronfhf3oEear-M_gLj-wBA" field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter xmi:id="_ronfhv3oEear-M_gLj-wBA" field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_ronfh_3oEear-M_gLj-wBA" field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_ronfiP3oEear-M_gLj-wBA" field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_ronfif3oEear-M_gLj-wBA" field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_ronfiv3oEear-M_gLj-wBA" field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_ronfi_3oEear-M_gLj-wBA" field="DIRECTORY" name="FILE_PATH" value="&quot;/home/artha/workspace/.metadata&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfjP3oEear-M_gLj-wBA" field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfjf3oEear-M_gLj-wBA" field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfjv3oEear-M_gLj-wBA" field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfj_3oEear-M_gLj-wBA" field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter xmi:id="_ronfkP3oEear-M_gLj-wBA" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter xmi:id="_ronfkf3oEear-M_gLj-wBA" field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_ronfkv3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter xmi:id="_ronfk_3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter xmi:id="_ronflP3oEear-M_gLj-wBA" field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronflf3oEear-M_gLj-wBA" field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter xmi:id="_ronflv3oEear-M_gLj-wBA" field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfl_3oEear-M_gLj-wBA" field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfmP3oEear-M_gLj-wBA" field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfmf3oEear-M_gLj-wBA" field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfmv3oEear-M_gLj-wBA" field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfm_3oEear-M_gLj-wBA" field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfnP3oEear-M_gLj-wBA" field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfnf3oEear-M_gLj-wBA" field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfnv3oEear-M_gLj-wBA" field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfn_3oEear-M_gLj-wBA" field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_ronfoP3oEear-M_gLj-wBA" field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfof3oEear-M_gLj-wBA" field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfov3oEear-M_gLj-wBA" field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfo_3oEear-M_gLj-wBA" field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfpP3oEear-M_gLj-wBA" field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter xmi:id="_ronfpf3oEear-M_gLj-wBA" field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter xmi:id="_ronfpv3oEear-M_gLj-wBA" field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter xmi:id="_ronfp_3oEear-M_gLj-wBA" field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter xmi:id="_ronfqP3oEear-M_gLj-wBA" field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter xmi:id="_ronfqf3oEear-M_gLj-wBA" field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter xmi:id="_ronfqv3oEear-M_gLj-wBA" field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_ronfq_3oEear-M_gLj-wBA" field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter xmi:id="_ronfrP3oEear-M_gLj-wBA" field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter xmi:id="_ronfrf3oEear-M_gLj-wBA" field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter xmi:id="_ronfrv3oEear-M_gLj-wBA" field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter xmi:id="_ronfr_3oEear-M_gLj-wBA" field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_ronfsP3oEear-M_gLj-wBA" field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter xmi:id="_ronfsf3oEear-M_gLj-wBA" field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <elementParameter xmi:id="_ronfsv3oEear-M_gLj-wBA" field="CHECK" name="SPARK_LOCAL_MODE" value="false"/>
+    <elementParameter xmi:id="_ronfs_3oEear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_LOCAL_VERSION" value="SPARK_2_0_0" show="false"/>
+    <elementParameter xmi:id="_ronftP3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
+    <elementParameter xmi:id="_ronftf3oEear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_VERSION" value="Cloudera_CDH5_8"/>
+    <elementParameter xmi:id="_ronftv3oEear-M_gLj-wBA" field="HADOOP_DISTRIBUTION" name="SPARKBATCH" value=""/>
+    <elementParameter xmi:id="_ronft_3oEear-M_gLj-wBA" field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value="" show="false"/>
+    <elementParameter xmi:id="_ronfuP3oEear-M_gLj-wBA" field="LABEL" name="NOTE" value="** The version of Spark must be 1.3.0 or later." show="false"/>
+    <elementParameter xmi:id="_ronfuf3oEear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_API_VERSION" value="SPARK_200" show="false"/>
+    <elementParameter xmi:id="_ronfuv3oEear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_MODE" value="YARN_CLIENT"/>
+    <elementParameter xmi:id="_ronfu_3oEear-M_gLj-wBA" field="TEXT" name="RESOURCE_MANAGER" value="&quot;quickstart.cloudera:8032&quot;"/>
+    <elementParameter xmi:id="_ronfvP3oEear-M_gLj-wBA" field="CHECK" name="SET_SCHEDULER_ADDRESS" value="true"/>
+    <elementParameter xmi:id="_ronfvf3oEear-M_gLj-wBA" field="TEXT" name="RESOURCEMANAGER_SCHEDULER_ADDRESS" value="&quot;quickstart.cloudera:8030&quot;"/>
+    <elementParameter xmi:id="_ronfvv3oEear-M_gLj-wBA" field="CHECK" name="SET_JOBHISTORY_ADDRESS" value="true"/>
+    <elementParameter xmi:id="_ronfv_3oEear-M_gLj-wBA" field="TEXT" name="JOBHISTORY_ADDRESS" value="&quot;quickstart.cloudera:10020&quot;"/>
+    <elementParameter xmi:id="_ronfwP3oEear-M_gLj-wBA" field="CHECK" name="SET_STAGING_DIRECTORY" value="true"/>
+    <elementParameter xmi:id="_ronfwf3oEear-M_gLj-wBA" field="TEXT" name="STAGING_DIRECTORY" value="&quot;/user&quot;"/>
+    <elementParameter xmi:id="_ronfwv3oEear-M_gLj-wBA" field="TEXT" name="HDINSIGHT_ENDPOINT" value="&quot;https://xxxx.azurehdinsight.net&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfw_3oEear-M_gLj-wBA" field="TEXT" name="HDINSIGHT_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfxP3oEear-M_gLj-wBA" field="PASSWORD" name="HDINSIGHT_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_ronfxf3oEear-M_gLj-wBA" field="TEXT" name="LIVY_HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfxv3oEear-M_gLj-wBA" field="TEXT" name="LIVY_PORT" value="&quot;443&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfx_3oEear-M_gLj-wBA" field="TEXT" name="LIVY_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfyP3oEear-M_gLj-wBA" field="TEXT" name="HDINSIGHT_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfyf3oEear-M_gLj-wBA" field="PASSWORD" name="HDINSIGHT_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_ronfyv3oEear-M_gLj-wBA" field="TEXT" name="WASB_HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfy_3oEear-M_gLj-wBA" field="TEXT" name="WASB_CONTAINER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfzP3oEear-M_gLj-wBA" field="TEXT" name="WASB_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfzf3oEear-M_gLj-wBA" field="PASSWORD" name="WASB_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_ronfzv3oEear-M_gLj-wBA" field="TEXT" name="REMOTE_FOLDER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_ronfz_3oEear-M_gLj-wBA" field="TEXT" name="SPARK_HOST" value="&quot;spark://localhost:7077&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf0P3oEear-M_gLj-wBA" field="TEXT" name="SPARK_HOME" value="&quot;/usr/lib/spark&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf0f3oEear-M_gLj-wBA" field="CHECK" name="DEFINE_HADOOP_HOME_DIR" value="false"/>
+    <elementParameter xmi:id="_ronf0v3oEear-M_gLj-wBA" field="TEXT" name="HADOOP_HOME_DIR" value="&quot;C:/Talend/winutils&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf0_3oEear-M_gLj-wBA" field="CHECK" name="DEFINE_SPARK_DRIVER_HOST" value="false"/>
+    <elementParameter xmi:id="_ronf1P3oEear-M_gLj-wBA" field="TEXT" name="SPARK_DRIVER_HOST" value="&quot;127.0.0.1&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf1f3oEear-M_gLj-wBA" field="CHECK" name="USE_KRB" value="false"/>
+    <elementParameter xmi:id="_ronf1v3oEear-M_gLj-wBA" field="TEXT" name="RESOURCEMANAGER_PRINCIPAL" value="&quot;yarn/_HOST@EXAMPLE.COM&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf1_3oEear-M_gLj-wBA" field="TEXT" name="JOBHISTORY_PRINCIPAL" value="&quot;mapred/_HOST@EXAMPLE.COM&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf2P3oEear-M_gLj-wBA" field="CHECK" name="USE_KEYTAB" value="false" show="false"/>
+    <elementParameter xmi:id="_ronf2f3oEear-M_gLj-wBA" field="TEXT" name="PRINCIPAL" value="&quot;hdfs&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf2v3oEear-M_gLj-wBA" field="FILE" name="KEYTAB_PATH" value="&quot;/tmp/hdfs.headless.keytab&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf2_3oEear-M_gLj-wBA" field="TEXT" name="USERNAME" value="&quot;anonymous&quot;"/>
+    <elementParameter xmi:id="_ronf3P3oEear-M_gLj-wBA" field="CHECK" name="USE_MAPRTICKET" value="false" show="false"/>
+    <elementParameter xmi:id="_ronf3f3oEear-M_gLj-wBA" field="PASSWORD" name="MAPRTICKET_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_ronf3v3oEear-M_gLj-wBA" field="TEXT" name="MAPRTICKET_CLUSTER" value="&quot;demo.mapr.com&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf3_3oEear-M_gLj-wBA" field="TEXT" name="MAPRTICKET_DURATION" value="86400L" show="false"/>
+    <elementParameter xmi:id="_ronf4P3oEear-M_gLj-wBA" field="CHECK" name="SET_MAPR_HOME_DIR" value="false" show="false"/>
+    <elementParameter xmi:id="_ronf4f3oEear-M_gLj-wBA" field="TEXT" name="MAPR_HOME_DIR" value="&quot;/opt/mapr&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf4v3oEear-M_gLj-wBA" field="CHECK" name="SET_HADOOP_LOGIN" value="false" show="false"/>
+    <elementParameter xmi:id="_ronf4_3oEear-M_gLj-wBA" field="TEXT" name="HADOOP_LOGIN" value="&quot;kerberos&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf5P3oEear-M_gLj-wBA" field="CHECK" name="ADVANCED_SETTINGS_CHECK" value="false"/>
+    <elementParameter xmi:id="_ronf5f3oEear-M_gLj-wBA" field="TEXT" name="SPARK_DRIVER_MEM" value="&quot;512m&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf5v3oEear-M_gLj-wBA" field="TEXT" name="SPARK_DRIVER_CORES" value="&quot;1&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf5_3oEear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_MEM" value="&quot;512m&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf6P3oEear-M_gLj-wBA" field="CHECK" name="SET_SPARK_EXECUTOR_MEM_OVERHEAD" value="false" show="false"/>
+    <elementParameter xmi:id="_ronf6f3oEear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_MEM_OVERHEAD" value="&quot;384&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf6v3oEear-M_gLj-wBA" field="CHECK" name="SPARK_EXECUTOR_CORES_CHECK" value="false" show="false"/>
+    <elementParameter xmi:id="_ronf6_3oEear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_CORES" value="&quot;1&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf7P3oEear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_YARN_ALLOC_TYPE" value="AUTO" show="false"/>
+    <elementParameter xmi:id="_ronf7f3oEear-M_gLj-wBA" field="TEXT" name="SPARK_EXECUTOR_INSTANCES" value="&quot;2&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf7v3oEear-M_gLj-wBA" field="TEXT" name="SPARK_YARN_DYN_INIT" value="&quot;1&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf7_3oEear-M_gLj-wBA" field="TEXT" name="SPARK_YARN_DYN_MIN" value="&quot;0&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf8P3oEear-M_gLj-wBA" field="TEXT" name="SPARK_YARN_DYN_MAX" value="&quot;MAX&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf8f3oEear-M_gLj-wBA" field="CHECK" name="WEB_UI_PORT_CHECK" value="false" show="false"/>
+    <elementParameter xmi:id="_ronf8v3oEear-M_gLj-wBA" field="TEXT" name="WEB_UI_PORT" value="&quot;4040&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf8_3oEear-M_gLj-wBA" field="CLOSED_LIST" name="SPARK_BROADCAST_FACTORY" value="AUTO" show="false"/>
+    <elementParameter xmi:id="_ronf9P3oEear-M_gLj-wBA" field="CHECK" name="CUSTOMIZE_SPARK_SERIALIZER" value="false" show="false"/>
+    <elementParameter xmi:id="_ronf9f3oEear-M_gLj-wBA" field="TEXT" name="SPARK_SERIALIZER" value="&quot;org.apache.spark.serializer.KryoSerializer&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf9v3oEear-M_gLj-wBA" field="CHECK" name="ENABLE_SPARK_EVENT_LOGGING" value="false"/>
+    <elementParameter xmi:id="_ronf9_3oEear-M_gLj-wBA" field="CHECK" name="COMPRESS_SPARK_EVENT_LOGS" value="false" show="false"/>
+    <elementParameter xmi:id="_ronf-P3oEear-M_gLj-wBA" field="TEXT" name="SPARK_EVENT_LOG_DIR" value="&quot;hdfs://namenode:8020/user/spark/applicationHistory&quot;&#xA;&#x9;&#x9;&#x9;" show="false"/>
+    <elementParameter xmi:id="_ronf-f3oEear-M_gLj-wBA" field="TEXT" name="SPARKHISTORY_ADDRESS" value="&quot;sparkHistoryServer:18080&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf-v3oEear-M_gLj-wBA" field="CHECK" name="USE_CLOUDERA_NAVIGATOR" value="false"/>
+    <elementParameter xmi:id="_ronf-_3oEear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_USERNAME" value="&quot;username&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf_P3oEear-M_gLj-wBA" field="PASSWORD" name="CLOUDERA_NAVIGATOR_PASSWORD" value="PoLvNyVG2XWndNDdLn696A==" show="false"/>
+    <elementParameter xmi:id="_ronf_f3oEear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_URL" value="&quot;http://localhost:7187/api/v8/&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf_v3oEear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_METADATA_URL" value="&quot;http://localhost:7187/api/v8/metadata/plugin&quot;" show="false"/>
+    <elementParameter xmi:id="_ronf__3oEear-M_gLj-wBA" field="TEXT" name="CLOUDERA_NAVIGATOR_CLIENT_URL" value="&quot;http://localhost&quot;" show="false"/>
+    <elementParameter xmi:id="_rongAP3oEear-M_gLj-wBA" field="CHECK" name="CLOUDERA_NAVIGATOR_AUTOCOMMIT" value="false" show="false"/>
+    <elementParameter xmi:id="_rongAf3oEear-M_gLj-wBA" field="CHECK" name="CLOUDERA_NAVIGATOR_DISABLE_SSL_VALIDATION" value="false" show="false"/>
+    <elementParameter xmi:id="_rongAv3oEear-M_gLj-wBA" field="CHECK" name="CLOUDERA_NAVIGATOR_DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter xmi:id="_rongA_3oEear-M_gLj-wBA" field="CHECK" name="USE_ATLAS" value="false" show="false"/>
+    <elementParameter xmi:id="_rongBP3oEear-M_gLj-wBA" field="TEXT" name="ATLAS_URL" value="&quot;http://localhost:21000&quot;" show="false"/>
+    <elementParameter xmi:id="_rongBf3oEear-M_gLj-wBA" field="TEXT" name="ATLAS_USERNAME" value="&quot;admin&quot;" show="false"/>
+    <elementParameter xmi:id="_rongBv3oEear-M_gLj-wBA" field="PASSWORD" name="ATLAS_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_rongB_3oEear-M_gLj-wBA" field="CHECK" name="SET_ATLAS_APPLICATION_PROPERTIES" value="false" show="false"/>
+    <elementParameter xmi:id="_rongCP3oEear-M_gLj-wBA" field="TEXT" name="ATLAS_APPLICATION_PROPERTIES" value="&quot;/user/atlas/atlas-application.properties&quot;" show="false"/>
+    <elementParameter xmi:id="_rongCf3oEear-M_gLj-wBA" field="CHECK" name="ATLAS_DIE_ON_ERROR" value="false" show="false"/>
+    <elementParameter xmi:id="_rongCv3oEear-M_gLj-wBA" field="TEXT" name="SPARK_SCRATCH_DIR" value="&quot;/tmp&quot;"/>
+    <elementParameter xmi:id="_rongC_3oEear-M_gLj-wBA" field="CHECK" name="USE_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_rongDP3oEear-M_gLj-wBA" field="TEXT" name="CHECKPOINT_DIR" value="&quot;file:///tmp/mycheckpoint&quot;" show="false"/>
+    <elementParameter xmi:id="_rongDf3oEear-M_gLj-wBA" field="TABLE" name="SPARK_ADVANCED_PROPERTIES"/>
     <routinesParameter xmi:id="_3RlIf_0-Eear-M_gLj-wBA" id="_mbM2U_ilEeafwJZkgJeQbQ" name="DQTechnical"/>
     <routinesParameter xmi:id="_3RlIgP0-Eear-M_gLj-wBA" id="_mZSx0PilEeafwJZkgJeQbQ" name="DataMasking"/>
     <routinesParameter xmi:id="_3RlIgf0-Eear-M_gLj-wBA" id="_l8_QUPilEeafwJZkgJeQbQ" name="DataOperation"/>
@@ -216,569 +216,569 @@
     <routinesParameter xmi:id="_3RlIlv0-Eear-M_gLj-wBA" id="_JsAZQHlHEeS5M-4wmV8XNg" name="Transformation"/>
     <routinesParameter xmi:id="_3RlIl_0-Eear-M_gLj-wBA" id="_1cAIgMywEeSadJSYhJEDKA" name="tic_word_titleCase"/>
   </parameters>
-  <node xmi:id="_kDycrv3oEear-M_gLj-wBA" componentName="tHiveInput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="384">
-    <elementParameter xmi:id="_kDycr_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveInput_1" show="false"/>
-    <elementParameter xmi:id="_kDycsP3oEear-M_gLj-wBA" field="COMPONENT_LIST" name="HIVE_STORAGE_CONFIGURATION" value="tHiveConfiguration_1"/>
-    <elementParameter xmi:id="_kDycsf3oEear-M_gLj-wBA" field="COMPONENT_LIST" name="HDFS_STORAGE_CONFIGURATION" value="tHDFSConfiguration_1"/>
-    <elementParameter xmi:id="_kDycsv3oEear-M_gLj-wBA" field="CLOSED_LIST" name="INPUT_SOURCE" value="HIVE_HQL"/>
-    <elementParameter xmi:id="_kDycs_3oEear-M_gLj-wBA" field="TEXT" name="HIVE_DATABASE_NAME" value="&quot;default&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyctP3oEear-M_gLj-wBA" field="DBTABLE" name="HIVE_TABLE_NAME" value="&quot;bank&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyctf3oEear-M_gLj-wBA" field="MEMO" name="SQL_QUERY" value="&quot;select * from bank&quot;"/>
-    <elementParameter xmi:id="_kDyctv3oEear-M_gLj-wBA" field="TEXT" name="FILENAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyct_3oEear-M_gLj-wBA" field="TEXT" name="TYPE" value="HIVE" show="false"/>
-    <elementParameter xmi:id="_kDycuP3oEear-M_gLj-wBA" field="TABLE" name="REGISTER_JARS"/>
-    <elementParameter xmi:id="_kDycuf3oEear-M_gLj-wBA" field="TABLE" name="TEMP_UDF_FUNCTIONS"/>
-    <elementParameter xmi:id="_kDycuv3oEear-M_gLj-wBA" field="TEXT" name="SPARK_CONFIGURATION" value="tSparkConfiguration_1" show="false"/>
-    <elementParameter xmi:id="_kDycu_3oEear-M_gLj-wBA" field="TEXT" name="LABEL" value="CDH_HIVE"/>
-    <elementParameter xmi:id="_kDycvP3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDycvf3oEear-M_gLj-wBA" connector="FLOW" name="tHiveInput_1">
-      <column xmi:id="_kDycvv3oEear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDycv_3oEear-M_gLj-wBA" comment="" key="false" length="15" name="job" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDycwP3oEear-M_gLj-wBA" comment="" key="false" length="10" name="marital" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDycwf3oEear-M_gLj-wBA" comment="" key="false" length="11" name="education" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDycwv3oEear-M_gLj-wBA" comment="" key="false" length="5" name="default1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDycw_3oEear-M_gLj-wBA" comment="" key="false" length="5" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDycxP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="housing" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDycxf3oEear-M_gLj-wBA" comment="" key="false" length="5" name="loan" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDycxv3oEear-M_gLj-wBA" comment="" key="false" length="9" name="contact" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDycx_3oEear-M_gLj-wBA" comment="" key="false" length="1" name="day" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDycyP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="month" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDycyf3oEear-M_gLj-wBA" comment="" key="false" length="4" name="duration" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDycyv3oEear-M_gLj-wBA" comment="" key="false" length="1" name="campaign" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDycy_3oEear-M_gLj-wBA" comment="" key="false" length="2" name="pdays" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDyczP3oEear-M_gLj-wBA" comment="" key="false" length="1" name="previous" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDyczf3oEear-M_gLj-wBA" comment="" key="false" length="9" name="poutcome" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDyczv3oEear-M_gLj-wBA" comment="" key="false" length="4" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+  <node xmi:id="_rongDv3oEear-M_gLj-wBA" componentName="tHiveInput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="384">
+    <elementParameter xmi:id="_rongD_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveInput_1" show="false"/>
+    <elementParameter xmi:id="_rongEP3oEear-M_gLj-wBA" field="COMPONENT_LIST" name="HIVE_STORAGE_CONFIGURATION" value="tHiveConfiguration_1"/>
+    <elementParameter xmi:id="_rongEf3oEear-M_gLj-wBA" field="COMPONENT_LIST" name="HDFS_STORAGE_CONFIGURATION" value="tHDFSConfiguration_1"/>
+    <elementParameter xmi:id="_rongEv3oEear-M_gLj-wBA" field="CLOSED_LIST" name="INPUT_SOURCE" value="HIVE_HQL"/>
+    <elementParameter xmi:id="_rongE_3oEear-M_gLj-wBA" field="TEXT" name="HIVE_DATABASE_NAME" value="&quot;default&quot;" show="false"/>
+    <elementParameter xmi:id="_rongFP3oEear-M_gLj-wBA" field="DBTABLE" name="HIVE_TABLE_NAME" value="&quot;bank&quot;" show="false"/>
+    <elementParameter xmi:id="_rongFf3oEear-M_gLj-wBA" field="MEMO" name="SQL_QUERY" value="&quot;select * from bank&quot;"/>
+    <elementParameter xmi:id="_rongFv3oEear-M_gLj-wBA" field="TEXT" name="FILENAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_rongF_3oEear-M_gLj-wBA" field="TEXT" name="TYPE" value="HIVE" show="false"/>
+    <elementParameter xmi:id="_rongGP3oEear-M_gLj-wBA" field="TABLE" name="REGISTER_JARS"/>
+    <elementParameter xmi:id="_rongGf3oEear-M_gLj-wBA" field="TABLE" name="TEMP_UDF_FUNCTIONS"/>
+    <elementParameter xmi:id="_rongGv3oEear-M_gLj-wBA" field="TEXT" name="SPARK_CONFIGURATION" value="tSparkConfiguration_1" show="false"/>
+    <elementParameter xmi:id="_rongG_3oEear-M_gLj-wBA" field="TEXT" name="LABEL" value="CDH_HIVE"/>
+    <elementParameter xmi:id="_rongHP3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_rongHf3oEear-M_gLj-wBA" connector="FLOW" name="tHiveInput_1">
+      <column xmi:id="_rongHv3oEear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongH_3oEear-M_gLj-wBA" comment="" key="false" length="15" name="job" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongIP3oEear-M_gLj-wBA" comment="" key="false" length="10" name="marital" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongIf3oEear-M_gLj-wBA" comment="" key="false" length="11" name="education" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongIv3oEear-M_gLj-wBA" comment="" key="false" length="5" name="default1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongI_3oEear-M_gLj-wBA" comment="" key="false" length="5" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongJP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="housing" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongJf3oEear-M_gLj-wBA" comment="" key="false" length="5" name="loan" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongJv3oEear-M_gLj-wBA" comment="" key="false" length="9" name="contact" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongJ_3oEear-M_gLj-wBA" comment="" key="false" length="1" name="day" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongKP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="month" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongKf3oEear-M_gLj-wBA" comment="" key="false" length="4" name="duration" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongKv3oEear-M_gLj-wBA" comment="" key="false" length="1" name="campaign" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongK_3oEear-M_gLj-wBA" comment="" key="false" length="2" name="pdays" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongLP3oEear-M_gLj-wBA" comment="" key="false" length="1" name="previous" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongLf3oEear-M_gLj-wBA" comment="" key="false" length="9" name="poutcome" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongLv3oEear-M_gLj-wBA" comment="" key="false" length="4" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_kDycz_3oEear-M_gLj-wBA" componentName="tReplicate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="384">
-    <elementParameter xmi:id="_kDyc0P3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tReplicate_1" show="false"/>
-    <elementParameter xmi:id="_kDyc0f3oEear-M_gLj-wBA" field="CHECK" name="CACHEOUTPUT" value="true"/>
-    <elementParameter xmi:id="_kDyc0v3oEear-M_gLj-wBA" field="CLOSED_LIST" name="STORAGELEVEL" value="MEMORY_ONLY"/>
-    <elementParameter xmi:id="_kDyc0_3oEear-M_gLj-wBA" field="CHECK" name="COMPRESSRDD" value="false" show="false"/>
-    <elementParameter xmi:id="_kDyc1P3oEear-M_gLj-wBA" field="CLOSED_LIST" name="COMPRESSCODEC" value="org.apache.spark.io.SnappyCompressionCodec" show="false"/>
-    <elementParameter xmi:id="_kDyc1f3oEear-M_gLj-wBA" field="TEXT" name="TACHYON_STORE_URL" value="&quot;tachyon://localhost:19998&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyc1v3oEear-M_gLj-wBA" field="TEXT" name="TACHYON_STORE_BASEDIR" value="&quot;/tmp/&quot;" show="false"/>
-    <elementParameter xmi:id="_kDyc1_3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDyc2P3oEear-M_gLj-wBA" connector="FLOW" name="tReplicate_1">
-      <column xmi:id="_kDyc2f3oEear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDAP3oEear-M_gLj-wBA" comment="" key="false" length="15" name="job" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDAf3oEear-M_gLj-wBA" comment="" key="false" length="10" name="marital" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDAv3oEear-M_gLj-wBA" comment="" key="false" length="11" name="education" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDA_3oEear-M_gLj-wBA" comment="" key="false" length="5" name="default1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDBP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDBf3oEear-M_gLj-wBA" comment="" key="false" length="5" name="housing" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDBv3oEear-M_gLj-wBA" comment="" key="false" length="5" name="loan" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDB_3oEear-M_gLj-wBA" comment="" key="false" length="9" name="contact" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDCP3oEear-M_gLj-wBA" comment="" key="false" length="1" name="day" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDCf3oEear-M_gLj-wBA" comment="" key="false" length="5" name="month" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDCv3oEear-M_gLj-wBA" comment="" key="false" length="4" name="duration" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDC_3oEear-M_gLj-wBA" comment="" key="false" length="1" name="campaign" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDDP3oEear-M_gLj-wBA" comment="" key="false" length="2" name="pdays" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDDf3oEear-M_gLj-wBA" comment="" key="false" length="1" name="previous" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDDv3oEear-M_gLj-wBA" comment="" key="false" length="9" name="poutcome" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDD_3oEear-M_gLj-wBA" comment="" key="false" length="4" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+  <node xmi:id="_rongL_3oEear-M_gLj-wBA" componentName="tReplicate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="384">
+    <elementParameter xmi:id="_rongMP3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tReplicate_1" show="false"/>
+    <elementParameter xmi:id="_rongMf3oEear-M_gLj-wBA" field="CHECK" name="CACHEOUTPUT" value="true"/>
+    <elementParameter xmi:id="_rongMv3oEear-M_gLj-wBA" field="CLOSED_LIST" name="STORAGELEVEL" value="MEMORY_ONLY"/>
+    <elementParameter xmi:id="_rongM_3oEear-M_gLj-wBA" field="CHECK" name="COMPRESSRDD" value="false" show="false"/>
+    <elementParameter xmi:id="_rongNP3oEear-M_gLj-wBA" field="CLOSED_LIST" name="COMPRESSCODEC" value="org.apache.spark.io.SnappyCompressionCodec" show="false"/>
+    <elementParameter xmi:id="_rongNf3oEear-M_gLj-wBA" field="TEXT" name="TACHYON_STORE_URL" value="&quot;tachyon://localhost:19998&quot;" show="false"/>
+    <elementParameter xmi:id="_rongNv3oEear-M_gLj-wBA" field="TEXT" name="TACHYON_STORE_BASEDIR" value="&quot;/tmp/&quot;" show="false"/>
+    <elementParameter xmi:id="_rongN_3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_rongOP3oEear-M_gLj-wBA" connector="FLOW" name="tReplicate_1">
+      <column xmi:id="_rongOf3oEear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongOv3oEear-M_gLj-wBA" comment="" key="false" length="15" name="job" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongO_3oEear-M_gLj-wBA" comment="" key="false" length="10" name="marital" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongPP3oEear-M_gLj-wBA" comment="" key="false" length="11" name="education" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongPf3oEear-M_gLj-wBA" comment="" key="false" length="5" name="default1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongPv3oEear-M_gLj-wBA" comment="" key="false" length="5" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongP_3oEear-M_gLj-wBA" comment="" key="false" length="5" name="housing" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongQP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="loan" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongQf3oEear-M_gLj-wBA" comment="" key="false" length="9" name="contact" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongQv3oEear-M_gLj-wBA" comment="" key="false" length="1" name="day" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongQ_3oEear-M_gLj-wBA" comment="" key="false" length="5" name="month" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongRP3oEear-M_gLj-wBA" comment="" key="false" length="4" name="duration" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongRf3oEear-M_gLj-wBA" comment="" key="false" length="1" name="campaign" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongRv3oEear-M_gLj-wBA" comment="" key="false" length="2" name="pdays" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongR_3oEear-M_gLj-wBA" comment="" key="false" length="1" name="previous" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongSP3oEear-M_gLj-wBA" comment="" key="false" length="9" name="poutcome" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongSf3oEear-M_gLj-wBA" comment="" key="false" length="4" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
-    <metadata xmi:id="_kDzDEP3oEear-M_gLj-wBA" connector="SPARKCOMBINE" name="SPARKCOMBINE"/>
+    <metadata xmi:id="_rongSv3oEear-M_gLj-wBA" connector="SPARKCOMBINE" name="SPARKCOMBINE"/>
   </node>
-  <node xmi:id="_kDzDEf3oEear-M_gLj-wBA" componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="384">
-    <elementParameter xmi:id="_kDzDEv3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_1" show="false"/>
-    <elementParameter xmi:id="_kDzDE_3oEear-M_gLj-wBA" field="TABLE" name="GROUPBYS"/>
-    <elementParameter xmi:id="_kDzDFP3oEear-M_gLj-wBA" field="TABLE" name="OPERATIONS">
-      <elementValue xmi:id="_kDzDFf3oEear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="max"/>
-      <elementValue xmi:id="_kDzDFv3oEear-M_gLj-wBA" elementRef="FUNCTION" value="max"/>
-      <elementValue xmi:id="_kDzDF_3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="age"/>
-      <elementValue xmi:id="_kDzDGP3oEear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
-      <elementValue xmi:id="_kDzDGf3oEear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="min"/>
-      <elementValue xmi:id="_kDzDGv3oEear-M_gLj-wBA" elementRef="FUNCTION" value="min"/>
-      <elementValue xmi:id="_kDzDG_3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="age"/>
-      <elementValue xmi:id="_kDzDHP3oEear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
-      <elementValue xmi:id="_kDzDHf3oEear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="mean"/>
-      <elementValue xmi:id="_kDzDHv3oEear-M_gLj-wBA" elementRef="FUNCTION" value="avg"/>
-      <elementValue xmi:id="_kDzDH_3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="age"/>
-      <elementValue xmi:id="_kDzDIP3oEear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
-      <elementValue xmi:id="_kDzDIf3oEear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="count"/>
-      <elementValue xmi:id="_kDzDIv3oEear-M_gLj-wBA" elementRef="FUNCTION" value="count"/>
-      <elementValue xmi:id="_kDzDI_3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="age"/>
-      <elementValue xmi:id="_kDzDJP3oEear-M_gLj-wBA" elementRef="IGNORE_NULL" value="false"/>
+  <node xmi:id="_rongS_3oEear-M_gLj-wBA" componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="384">
+    <elementParameter xmi:id="_rongTP3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_1" show="false"/>
+    <elementParameter xmi:id="_rongTf3oEear-M_gLj-wBA" field="TABLE" name="GROUPBYS"/>
+    <elementParameter xmi:id="_rongTv3oEear-M_gLj-wBA" field="TABLE" name="OPERATIONS">
+      <elementValue xmi:id="_rongT_3oEear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="max"/>
+      <elementValue xmi:id="_rongUP3oEear-M_gLj-wBA" elementRef="FUNCTION" value="max"/>
+      <elementValue xmi:id="_rongUf3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="age"/>
+      <elementValue xmi:id="_rongUv3oEear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
+      <elementValue xmi:id="_rongU_3oEear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="min"/>
+      <elementValue xmi:id="_rongVP3oEear-M_gLj-wBA" elementRef="FUNCTION" value="min"/>
+      <elementValue xmi:id="_rongVf3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="age"/>
+      <elementValue xmi:id="_rongVv3oEear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
+      <elementValue xmi:id="_rongV_3oEear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="mean"/>
+      <elementValue xmi:id="_rongWP3oEear-M_gLj-wBA" elementRef="FUNCTION" value="avg"/>
+      <elementValue xmi:id="_rongWf3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="age"/>
+      <elementValue xmi:id="_rongWv3oEear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
+      <elementValue xmi:id="_rongW_3oEear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="count"/>
+      <elementValue xmi:id="_rongXP3oEear-M_gLj-wBA" elementRef="FUNCTION" value="count"/>
+      <elementValue xmi:id="_rongXf3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="age"/>
+      <elementValue xmi:id="_rongXv3oEear-M_gLj-wBA" elementRef="IGNORE_NULL" value="false"/>
     </elementParameter>
-    <elementParameter xmi:id="_kDzDJf3oEear-M_gLj-wBA" field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;" show="false"/>
-    <elementParameter xmi:id="_kDzDJv3oEear-M_gLj-wBA" field="CHECK" name="USE_FINANCIAL_PRECISION" value="false"/>
-    <elementParameter xmi:id="_kDzDJ_3oEear-M_gLj-wBA" field="CHECK" name="CHECK_TYPE_OVERFLOW" value="false"/>
-    <elementParameter xmi:id="_kDzDKP3oEear-M_gLj-wBA" field="CHECK" name="CHECK_ULP" value="false"/>
-    <elementParameter xmi:id="_kDzDKf3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDzDKv3oEear-M_gLj-wBA" connector="FLOW" name="tAggregateRow_1">
-      <column xmi:id="_kDzDK_3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="max" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDLP3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="min" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDLf3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="mean" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDLv3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="count" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    <elementParameter xmi:id="_rongX_3oEear-M_gLj-wBA" field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;" show="false"/>
+    <elementParameter xmi:id="_rongYP3oEear-M_gLj-wBA" field="CHECK" name="USE_FINANCIAL_PRECISION" value="false"/>
+    <elementParameter xmi:id="_rongYf3oEear-M_gLj-wBA" field="CHECK" name="CHECK_TYPE_OVERFLOW" value="false"/>
+    <elementParameter xmi:id="_rongYv3oEear-M_gLj-wBA" field="CHECK" name="CHECK_ULP" value="false"/>
+    <elementParameter xmi:id="_rongY_3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_rongZP3oEear-M_gLj-wBA" connector="FLOW" name="tAggregateRow_1">
+      <column xmi:id="_rongZf3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="max" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongZv3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="min" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongZ_3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="mean" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongaP3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="count" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_kDzDL_3oEear-M_gLj-wBA" componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="224">
-    <elementParameter xmi:id="_kDzDMP3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_2" show="false"/>
-    <elementParameter xmi:id="_kDzDMf3oEear-M_gLj-wBA" field="TABLE" name="GROUPBYS"/>
-    <elementParameter xmi:id="_kDzDMv3oEear-M_gLj-wBA" field="TABLE" name="OPERATIONS">
-      <elementValue xmi:id="_kDzDM_3oEear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="Total_Count"/>
-      <elementValue xmi:id="_kDzDNP3oEear-M_gLj-wBA" elementRef="FUNCTION" value="count"/>
-      <elementValue xmi:id="_kDzDNf3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="poutcome"/>
-      <elementValue xmi:id="_kDzDNv3oEear-M_gLj-wBA" elementRef="IGNORE_NULL" value="false"/>
+  <node xmi:id="_rongaf3oEear-M_gLj-wBA" componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="224">
+    <elementParameter xmi:id="_rongav3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_2" show="false"/>
+    <elementParameter xmi:id="_ronga_3oEear-M_gLj-wBA" field="TABLE" name="GROUPBYS"/>
+    <elementParameter xmi:id="_rongbP3oEear-M_gLj-wBA" field="TABLE" name="OPERATIONS">
+      <elementValue xmi:id="_rongbf3oEear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="Total_Count"/>
+      <elementValue xmi:id="_rongbv3oEear-M_gLj-wBA" elementRef="FUNCTION" value="count"/>
+      <elementValue xmi:id="_rongb_3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="poutcome"/>
+      <elementValue xmi:id="_rongcP3oEear-M_gLj-wBA" elementRef="IGNORE_NULL" value="false"/>
     </elementParameter>
-    <elementParameter xmi:id="_kDzDN_3oEear-M_gLj-wBA" field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;" show="false"/>
-    <elementParameter xmi:id="_kDzDOP3oEear-M_gLj-wBA" field="CHECK" name="USE_FINANCIAL_PRECISION" value="false"/>
-    <elementParameter xmi:id="_kDzDOf3oEear-M_gLj-wBA" field="CHECK" name="CHECK_TYPE_OVERFLOW" value="false"/>
-    <elementParameter xmi:id="_kDzDOv3oEear-M_gLj-wBA" field="CHECK" name="CHECK_ULP" value="false"/>
-    <elementParameter xmi:id="_kDzDO_3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDzDPP3oEear-M_gLj-wBA" connector="FLOW" name="tAggregateRow_2">
-      <column xmi:id="_kDzDPf3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="Total_Count" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    <elementParameter xmi:id="_rongcf3oEear-M_gLj-wBA" field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;" show="false"/>
+    <elementParameter xmi:id="_rongcv3oEear-M_gLj-wBA" field="CHECK" name="USE_FINANCIAL_PRECISION" value="false"/>
+    <elementParameter xmi:id="_rongc_3oEear-M_gLj-wBA" field="CHECK" name="CHECK_TYPE_OVERFLOW" value="false"/>
+    <elementParameter xmi:id="_rongdP3oEear-M_gLj-wBA" field="CHECK" name="CHECK_ULP" value="false"/>
+    <elementParameter xmi:id="_rongdf3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_rongdv3oEear-M_gLj-wBA" connector="FLOW" name="tAggregateRow_2">
+      <column xmi:id="_rongd_3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="Total_Count" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_kDzDPv3oEear-M_gLj-wBA" componentName="tFilterRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="96">
-    <elementParameter xmi:id="_kDzDP_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tFilterRow_4" show="false"/>
-    <elementParameter xmi:id="_kDzDQP3oEear-M_gLj-wBA" field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
-    <elementParameter xmi:id="_kDzDQf3oEear-M_gLj-wBA" field="TABLE" name="CONDITIONS">
-      <elementValue xmi:id="_kDzDQv3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="poutcome"/>
-      <elementValue xmi:id="_kDzDQ_3oEear-M_gLj-wBA" elementRef="FUNCTION" value=""/>
-      <elementValue xmi:id="_kDzDRP3oEear-M_gLj-wBA" elementRef="OPERATOR" value="=="/>
-      <elementValue xmi:id="_kDzDRf3oEear-M_gLj-wBA" elementRef="RVALUE" value="&quot;success&quot;"/>
+  <node xmi:id="_rongeP3oEear-M_gLj-wBA" componentName="tFilterRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="96">
+    <elementParameter xmi:id="_rongef3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tFilterRow_4" show="false"/>
+    <elementParameter xmi:id="_rongev3oEear-M_gLj-wBA" field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter xmi:id="_ronge_3oEear-M_gLj-wBA" field="TABLE" name="CONDITIONS">
+      <elementValue xmi:id="_rongfP3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="poutcome"/>
+      <elementValue xmi:id="_rongff3oEear-M_gLj-wBA" elementRef="FUNCTION" value=""/>
+      <elementValue xmi:id="_rongfv3oEear-M_gLj-wBA" elementRef="OPERATOR" value="=="/>
+      <elementValue xmi:id="_rongf_3oEear-M_gLj-wBA" elementRef="RVALUE" value="&quot;success&quot;"/>
     </elementParameter>
-    <elementParameter xmi:id="_kDzDRv3oEear-M_gLj-wBA" field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter xmi:id="_kDzDR_3oEear-M_gLj-wBA" field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;&#x9;&#x9;&#x9;&#x9;//&#xA;&#x9;&#x9;&#x9;&#x9;input_row.columnName1.equals(&quot;foo&quot;)||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;&#x9;&#x9;&#x9;&#x9;// replace the following expression by your own filter condition&#xA;&#x9;&#x9;&#x9;&#x9;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;" show="false"/>
-    <elementParameter xmi:id="_kDzDSP3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDzDSf3oEear-M_gLj-wBA" connector="FLOW" name="tFilterRow_4">
-      <column xmi:id="_kDzDSv3oEear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDS_3oEear-M_gLj-wBA" comment="" key="false" length="15" name="job" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDTP3oEear-M_gLj-wBA" comment="" key="false" length="10" name="marital" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDTf3oEear-M_gLj-wBA" comment="" key="false" length="11" name="education" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDTv3oEear-M_gLj-wBA" comment="" key="false" length="5" name="default1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDT_3oEear-M_gLj-wBA" comment="" key="false" length="5" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDUP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="housing" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDUf3oEear-M_gLj-wBA" comment="" key="false" length="5" name="loan" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDUv3oEear-M_gLj-wBA" comment="" key="false" length="9" name="contact" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDU_3oEear-M_gLj-wBA" comment="" key="false" length="1" name="day" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDVP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="month" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDVf3oEear-M_gLj-wBA" comment="" key="false" length="4" name="duration" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDVv3oEear-M_gLj-wBA" comment="" key="false" length="1" name="campaign" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDV_3oEear-M_gLj-wBA" comment="" key="false" length="2" name="pdays" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDWP3oEear-M_gLj-wBA" comment="" key="false" length="1" name="previous" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDWf3oEear-M_gLj-wBA" comment="" key="false" length="9" name="poutcome" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDWv3oEear-M_gLj-wBA" comment="" key="false" length="4" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+    <elementParameter xmi:id="_ronggP3oEear-M_gLj-wBA" field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter xmi:id="_ronggf3oEear-M_gLj-wBA" field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;&#x9;&#x9;&#x9;&#x9;//&#xA;&#x9;&#x9;&#x9;&#x9;input_row.columnName1.equals(&quot;foo&quot;)||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;&#x9;&#x9;&#x9;&#x9;// replace the following expression by your own filter condition&#xA;&#x9;&#x9;&#x9;&#x9;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;" show="false"/>
+    <elementParameter xmi:id="_ronggv3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_rongg_3oEear-M_gLj-wBA" connector="FLOW" name="tFilterRow_4">
+      <column xmi:id="_ronghP3oEear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronghf3oEear-M_gLj-wBA" comment="" key="false" length="15" name="job" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronghv3oEear-M_gLj-wBA" comment="" key="false" length="10" name="marital" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongh_3oEear-M_gLj-wBA" comment="" key="false" length="11" name="education" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongiP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="default1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongif3oEear-M_gLj-wBA" comment="" key="false" length="5" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongiv3oEear-M_gLj-wBA" comment="" key="false" length="5" name="housing" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongi_3oEear-M_gLj-wBA" comment="" key="false" length="5" name="loan" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongjP3oEear-M_gLj-wBA" comment="" key="false" length="9" name="contact" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongjf3oEear-M_gLj-wBA" comment="" key="false" length="1" name="day" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongjv3oEear-M_gLj-wBA" comment="" key="false" length="5" name="month" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongj_3oEear-M_gLj-wBA" comment="" key="false" length="4" name="duration" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongkP3oEear-M_gLj-wBA" comment="" key="false" length="1" name="campaign" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongkf3oEear-M_gLj-wBA" comment="" key="false" length="2" name="pdays" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongkv3oEear-M_gLj-wBA" comment="" key="false" length="1" name="previous" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongk_3oEear-M_gLj-wBA" comment="" key="false" length="9" name="poutcome" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronglP3oEear-M_gLj-wBA" comment="" key="false" length="4" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
-    <metadata xmi:id="_kDzDW_3oEear-M_gLj-wBA" connector="FILTER" name="FILTER">
-      <column xmi:id="_kDzDXP3oEear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDXf3oEear-M_gLj-wBA" comment="" key="false" length="15" name="job" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDXv3oEear-M_gLj-wBA" comment="" key="false" length="10" name="marital" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDX_3oEear-M_gLj-wBA" comment="" key="false" length="11" name="education" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDYP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="default1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDYf3oEear-M_gLj-wBA" comment="" key="false" length="5" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDYv3oEear-M_gLj-wBA" comment="" key="false" length="5" name="housing" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDY_3oEear-M_gLj-wBA" comment="" key="false" length="5" name="loan" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDZP3oEear-M_gLj-wBA" comment="" key="false" length="9" name="contact" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDZf3oEear-M_gLj-wBA" comment="" key="false" length="1" name="day" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDZv3oEear-M_gLj-wBA" comment="" key="false" length="5" name="month" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDZ_3oEear-M_gLj-wBA" comment="" key="false" length="4" name="duration" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDaP3oEear-M_gLj-wBA" comment="" key="false" length="1" name="campaign" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDaf3oEear-M_gLj-wBA" comment="" key="false" length="2" name="pdays" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDav3oEear-M_gLj-wBA" comment="" key="false" length="1" name="previous" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDa_3oEear-M_gLj-wBA" comment="" key="false" length="9" name="poutcome" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDbP3oEear-M_gLj-wBA" comment="" key="false" length="4" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+    <metadata xmi:id="_ronglf3oEear-M_gLj-wBA" connector="FILTER" name="FILTER">
+      <column xmi:id="_ronglv3oEear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongl_3oEear-M_gLj-wBA" comment="" key="false" length="15" name="job" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongmP3oEear-M_gLj-wBA" comment="" key="false" length="10" name="marital" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongmf3oEear-M_gLj-wBA" comment="" key="false" length="11" name="education" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongmv3oEear-M_gLj-wBA" comment="" key="false" length="5" name="default1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongm_3oEear-M_gLj-wBA" comment="" key="false" length="5" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongnP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="housing" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongnf3oEear-M_gLj-wBA" comment="" key="false" length="5" name="loan" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongnv3oEear-M_gLj-wBA" comment="" key="false" length="9" name="contact" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongn_3oEear-M_gLj-wBA" comment="" key="false" length="1" name="day" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongoP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="month" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongof3oEear-M_gLj-wBA" comment="" key="false" length="4" name="duration" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongov3oEear-M_gLj-wBA" comment="" key="false" length="1" name="campaign" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongo_3oEear-M_gLj-wBA" comment="" key="false" length="2" name="pdays" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongpP3oEear-M_gLj-wBA" comment="" key="false" length="1" name="previous" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongpf3oEear-M_gLj-wBA" comment="" key="false" length="9" name="poutcome" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongpv3oEear-M_gLj-wBA" comment="" key="false" length="4" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
-    <metadata xmi:id="_kDzDbf3oEear-M_gLj-wBA" connector="REJECT" name="REJECT">
-      <column xmi:id="_kDzDbv3oEear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDb_3oEear-M_gLj-wBA" comment="" key="false" length="15" name="job" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDcP3oEear-M_gLj-wBA" comment="" key="false" length="10" name="marital" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDcf3oEear-M_gLj-wBA" comment="" key="false" length="11" name="education" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDcv3oEear-M_gLj-wBA" comment="" key="false" length="5" name="default1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDc_3oEear-M_gLj-wBA" comment="" key="false" length="5" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDdP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="housing" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDdf3oEear-M_gLj-wBA" comment="" key="false" length="5" name="loan" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDdv3oEear-M_gLj-wBA" comment="" key="false" length="9" name="contact" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDd_3oEear-M_gLj-wBA" comment="" key="false" length="1" name="day" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDeP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="month" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDef3oEear-M_gLj-wBA" comment="" key="false" length="4" name="duration" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDev3oEear-M_gLj-wBA" comment="" key="false" length="1" name="campaign" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDe_3oEear-M_gLj-wBA" comment="" key="false" length="2" name="pdays" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDfP3oEear-M_gLj-wBA" comment="" key="false" length="1" name="previous" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDff3oEear-M_gLj-wBA" comment="" key="false" length="9" name="poutcome" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDfv3oEear-M_gLj-wBA" comment="" key="false" length="4" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzDf_3oEear-M_gLj-wBA" defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    <metadata xmi:id="_rongp_3oEear-M_gLj-wBA" connector="REJECT" name="REJECT">
+      <column xmi:id="_rongqP3oEear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongqf3oEear-M_gLj-wBA" comment="" key="false" length="15" name="job" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongqv3oEear-M_gLj-wBA" comment="" key="false" length="10" name="marital" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongq_3oEear-M_gLj-wBA" comment="" key="false" length="11" name="education" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongrP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="default1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongrf3oEear-M_gLj-wBA" comment="" key="false" length="5" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongrv3oEear-M_gLj-wBA" comment="" key="false" length="5" name="housing" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongr_3oEear-M_gLj-wBA" comment="" key="false" length="5" name="loan" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongsP3oEear-M_gLj-wBA" comment="" key="false" length="9" name="contact" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongsf3oEear-M_gLj-wBA" comment="" key="false" length="1" name="day" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongsv3oEear-M_gLj-wBA" comment="" key="false" length="5" name="month" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongs_3oEear-M_gLj-wBA" comment="" key="false" length="4" name="duration" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongtP3oEear-M_gLj-wBA" comment="" key="false" length="1" name="campaign" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongtf3oEear-M_gLj-wBA" comment="" key="false" length="2" name="pdays" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongtv3oEear-M_gLj-wBA" comment="" key="false" length="1" name="previous" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_rongt_3oEear-M_gLj-wBA" comment="" key="false" length="9" name="poutcome" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronguP3oEear-M_gLj-wBA" comment="" key="false" length="4" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronguf3oEear-M_gLj-wBA" defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_kDzDgP3oEear-M_gLj-wBA" componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="96">
-    <elementParameter xmi:id="_kDzDgf3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_3" show="false"/>
-    <elementParameter xmi:id="_kDzDgv3oEear-M_gLj-wBA" field="TABLE" name="GROUPBYS"/>
-    <elementParameter xmi:id="_kDzDg_3oEear-M_gLj-wBA" field="TABLE" name="OPERATIONS">
-      <elementValue xmi:id="_kDzDhP3oEear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="Count_Subscribed"/>
-      <elementValue xmi:id="_kDzDhf3oEear-M_gLj-wBA" elementRef="FUNCTION" value="count"/>
-      <elementValue xmi:id="_kDzDhv3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="poutcome"/>
-      <elementValue xmi:id="_kDzDh_3oEear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
+  <node xmi:id="_ronguv3oEear-M_gLj-wBA" componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="96">
+    <elementParameter xmi:id="_rongu_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_3" show="false"/>
+    <elementParameter xmi:id="_rongvP3oEear-M_gLj-wBA" field="TABLE" name="GROUPBYS"/>
+    <elementParameter xmi:id="_rongvf3oEear-M_gLj-wBA" field="TABLE" name="OPERATIONS">
+      <elementValue xmi:id="_rongvv3oEear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="Count_Subscribed"/>
+      <elementValue xmi:id="_rongv_3oEear-M_gLj-wBA" elementRef="FUNCTION" value="count"/>
+      <elementValue xmi:id="_rongwP3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="poutcome"/>
+      <elementValue xmi:id="_rongwf3oEear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
     </elementParameter>
-    <elementParameter xmi:id="_kDzDiP3oEear-M_gLj-wBA" field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;" show="false"/>
-    <elementParameter xmi:id="_kDzDif3oEear-M_gLj-wBA" field="CHECK" name="USE_FINANCIAL_PRECISION" value="false"/>
-    <elementParameter xmi:id="_kDzDiv3oEear-M_gLj-wBA" field="CHECK" name="CHECK_TYPE_OVERFLOW" value="false"/>
-    <elementParameter xmi:id="_kDzDi_3oEear-M_gLj-wBA" field="CHECK" name="CHECK_ULP" value="false"/>
-    <elementParameter xmi:id="_kDzDjP3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDzDjf3oEear-M_gLj-wBA" connector="FLOW" name="tAggregateRow_3">
-      <column xmi:id="_kDzDjv3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="Count_Subscribed" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    <elementParameter xmi:id="_rongwv3oEear-M_gLj-wBA" field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;" show="false"/>
+    <elementParameter xmi:id="_rongw_3oEear-M_gLj-wBA" field="CHECK" name="USE_FINANCIAL_PRECISION" value="false"/>
+    <elementParameter xmi:id="_rongxP3oEear-M_gLj-wBA" field="CHECK" name="CHECK_TYPE_OVERFLOW" value="false"/>
+    <elementParameter xmi:id="_rongxf3oEear-M_gLj-wBA" field="CHECK" name="CHECK_ULP" value="false"/>
+    <elementParameter xmi:id="_rongxv3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_rongx_3oEear-M_gLj-wBA" connector="FLOW" name="tAggregateRow_3">
+      <column xmi:id="_rongyP3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="Count_Subscribed" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_kDzDj_3oEear-M_gLj-wBA" componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="96">
-    <elementParameter xmi:id="_kDzDkP3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tLogRow_3" show="false"/>
-    <elementParameter xmi:id="_kDzDkf3oEear-M_gLj-wBA" field="RADIO" name="BASIC_MODE" value="false"/>
-    <elementParameter xmi:id="_kDzDkv3oEear-M_gLj-wBA" field="RADIO" name="TABLE_PRINT" value="true"/>
-    <elementParameter xmi:id="_kDzDk_3oEear-M_gLj-wBA" field="RADIO" name="VERTICAL" value="false"/>
-    <elementParameter xmi:id="_kDzDlP3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
-    <elementParameter xmi:id="_kDzDlf3oEear-M_gLj-wBA" field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDlv3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDl_3oEear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
-    <elementParameter xmi:id="_kDzDmP3oEear-M_gLj-wBA" field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDmf3oEear-M_gLj-wBA" field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDmv3oEear-M_gLj-wBA" field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDm_3oEear-M_gLj-wBA" field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDnP3oEear-M_gLj-wBA" field="TABLE" name="LENGTHS" show="false">
-      <elementValue xmi:id="_kDzDnf3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="Count_Subscribed"/>
-      <elementValue xmi:id="_kDzDnv3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
+  <node xmi:id="_rongyf3oEear-M_gLj-wBA" componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="96">
+    <elementParameter xmi:id="_rongyv3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tLogRow_3" show="false"/>
+    <elementParameter xmi:id="_rongy_3oEear-M_gLj-wBA" field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter xmi:id="_rongzP3oEear-M_gLj-wBA" field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter xmi:id="_rongzf3oEear-M_gLj-wBA" field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter xmi:id="_rongzv3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter xmi:id="_rongz_3oEear-M_gLj-wBA" field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter xmi:id="_rong0P3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter xmi:id="_rong0f3oEear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter xmi:id="_rong0v3oEear-M_gLj-wBA" field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+    <elementParameter xmi:id="_rong0_3oEear-M_gLj-wBA" field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_rong1P3oEear-M_gLj-wBA" field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+    <elementParameter xmi:id="_rong1f3oEear-M_gLj-wBA" field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+    <elementParameter xmi:id="_rong1v3oEear-M_gLj-wBA" field="TABLE" name="LENGTHS" show="false">
+      <elementValue xmi:id="_rong1_3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="Count_Subscribed"/>
+      <elementValue xmi:id="_rong2P3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
     </elementParameter>
-    <elementParameter xmi:id="_kDzDn_3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDzDoP3oEear-M_gLj-wBA" connector="FLOW" name="tLogRow_3">
-      <column xmi:id="_kDzDof3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="Count_Subscribed" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    <elementParameter xmi:id="_rong2f3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_rong2v3oEear-M_gLj-wBA" connector="FLOW" name="tLogRow_3">
+      <column xmi:id="_rong2_3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="Count_Subscribed" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_kDzDov3oEear-M_gLj-wBA" componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="224">
-    <elementParameter xmi:id="_kDzDo_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
-    <elementParameter xmi:id="_kDzDpP3oEear-M_gLj-wBA" field="RADIO" name="BASIC_MODE" value="false"/>
-    <elementParameter xmi:id="_kDzDpf3oEear-M_gLj-wBA" field="RADIO" name="TABLE_PRINT" value="true"/>
-    <elementParameter xmi:id="_kDzDpv3oEear-M_gLj-wBA" field="RADIO" name="VERTICAL" value="false"/>
-    <elementParameter xmi:id="_kDzDp_3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
-    <elementParameter xmi:id="_kDzDqP3oEear-M_gLj-wBA" field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDqf3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDqv3oEear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
-    <elementParameter xmi:id="_kDzDq_3oEear-M_gLj-wBA" field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDrP3oEear-M_gLj-wBA" field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDrf3oEear-M_gLj-wBA" field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDrv3oEear-M_gLj-wBA" field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDr_3oEear-M_gLj-wBA" field="TABLE" name="LENGTHS" show="false">
-      <elementValue xmi:id="_kDzDsP3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="Total_Count"/>
-      <elementValue xmi:id="_kDzDsf3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
+  <node xmi:id="_rong3P3oEear-M_gLj-wBA" componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="224">
+    <elementParameter xmi:id="_rong3f3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
+    <elementParameter xmi:id="_rong3v3oEear-M_gLj-wBA" field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter xmi:id="_rong3_3oEear-M_gLj-wBA" field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter xmi:id="_rong4P3oEear-M_gLj-wBA" field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter xmi:id="_rong4f3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter xmi:id="_rong4v3oEear-M_gLj-wBA" field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter xmi:id="_rong4_3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter xmi:id="_rong5P3oEear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter xmi:id="_rong5f3oEear-M_gLj-wBA" field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+    <elementParameter xmi:id="_rong5v3oEear-M_gLj-wBA" field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_rong5_3oEear-M_gLj-wBA" field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+    <elementParameter xmi:id="_rong6P3oEear-M_gLj-wBA" field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+    <elementParameter xmi:id="_rong6f3oEear-M_gLj-wBA" field="TABLE" name="LENGTHS" show="false">
+      <elementValue xmi:id="_rong6v3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="Total_Count"/>
+      <elementValue xmi:id="_rong6_3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
     </elementParameter>
-    <elementParameter xmi:id="_kDzDsv3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDzDs_3oEear-M_gLj-wBA" connector="FLOW" name="tLogRow_2">
-      <column xmi:id="_kDzDtP3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="Total_Count" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    <elementParameter xmi:id="_rong7P3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_rong7f3oEear-M_gLj-wBA" connector="FLOW" name="tLogRow_2">
+      <column xmi:id="_rong7v3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="Total_Count" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_kDzDtf3oEear-M_gLj-wBA" componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="512">
-    <elementParameter xmi:id="_kDzDtv3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_4" show="false"/>
-    <elementParameter xmi:id="_kDzDt_3oEear-M_gLj-wBA" field="TABLE" name="GROUPBYS"/>
-    <elementParameter xmi:id="_kDzDuP3oEear-M_gLj-wBA" field="TABLE" name="OPERATIONS">
-      <elementValue xmi:id="_kDzDuf3oEear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="Average_balance"/>
-      <elementValue xmi:id="_kDzDuv3oEear-M_gLj-wBA" elementRef="FUNCTION" value="avg"/>
-      <elementValue xmi:id="_kDzDu_3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="balance"/>
-      <elementValue xmi:id="_kDzDvP3oEear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
+  <node xmi:id="_rong7_3oEear-M_gLj-wBA" componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="512">
+    <elementParameter xmi:id="_rong8P3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_4" show="false"/>
+    <elementParameter xmi:id="_rong8f3oEear-M_gLj-wBA" field="TABLE" name="GROUPBYS"/>
+    <elementParameter xmi:id="_rong8v3oEear-M_gLj-wBA" field="TABLE" name="OPERATIONS">
+      <elementValue xmi:id="_rong8_3oEear-M_gLj-wBA" elementRef="OUTPUT_COLUMN" value="Average_balance"/>
+      <elementValue xmi:id="_rong9P3oEear-M_gLj-wBA" elementRef="FUNCTION" value="avg"/>
+      <elementValue xmi:id="_rong9f3oEear-M_gLj-wBA" elementRef="INPUT_COLUMN" value="balance"/>
+      <elementValue xmi:id="_rong9v3oEear-M_gLj-wBA" elementRef="IGNORE_NULL" value="true"/>
     </elementParameter>
-    <elementParameter xmi:id="_kDzDvf3oEear-M_gLj-wBA" field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;" show="false"/>
-    <elementParameter xmi:id="_kDzDvv3oEear-M_gLj-wBA" field="CHECK" name="USE_FINANCIAL_PRECISION" value="false"/>
-    <elementParameter xmi:id="_kDzDv_3oEear-M_gLj-wBA" field="CHECK" name="CHECK_TYPE_OVERFLOW" value="false"/>
-    <elementParameter xmi:id="_kDzDwP3oEear-M_gLj-wBA" field="CHECK" name="CHECK_ULP" value="false"/>
-    <elementParameter xmi:id="_kDzDwf3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDzDwv3oEear-M_gLj-wBA" connector="FLOW" name="tAggregateRow_4">
-      <column xmi:id="_kDzDw_3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="Average_balance" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    <elementParameter xmi:id="_rong9_3oEear-M_gLj-wBA" field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;" show="false"/>
+    <elementParameter xmi:id="_rong-P3oEear-M_gLj-wBA" field="CHECK" name="USE_FINANCIAL_PRECISION" value="false"/>
+    <elementParameter xmi:id="_rong-f3oEear-M_gLj-wBA" field="CHECK" name="CHECK_TYPE_OVERFLOW" value="false"/>
+    <elementParameter xmi:id="_rong-v3oEear-M_gLj-wBA" field="CHECK" name="CHECK_ULP" value="false"/>
+    <elementParameter xmi:id="_rong-_3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_rong_P3oEear-M_gLj-wBA" connector="FLOW" name="tAggregateRow_4">
+      <column xmi:id="_rong_f3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="Average_balance" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_kDzDxP3oEear-M_gLj-wBA" componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="512">
-    <elementParameter xmi:id="_kDzDxf3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tLogRow_4" show="false"/>
-    <elementParameter xmi:id="_kDzDxv3oEear-M_gLj-wBA" field="RADIO" name="BASIC_MODE" value="false"/>
-    <elementParameter xmi:id="_kDzDx_3oEear-M_gLj-wBA" field="RADIO" name="TABLE_PRINT" value="true"/>
-    <elementParameter xmi:id="_kDzDyP3oEear-M_gLj-wBA" field="RADIO" name="VERTICAL" value="false"/>
-    <elementParameter xmi:id="_kDzDyf3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
-    <elementParameter xmi:id="_kDzDyv3oEear-M_gLj-wBA" field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDy_3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDzP3oEear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
-    <elementParameter xmi:id="_kDzDzf3oEear-M_gLj-wBA" field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDzv3oEear-M_gLj-wBA" field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzDz_3oEear-M_gLj-wBA" field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzD0P3oEear-M_gLj-wBA" field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzD0f3oEear-M_gLj-wBA" field="TABLE" name="LENGTHS" show="false">
-      <elementValue xmi:id="_kDzD0v3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="Average_balance"/>
-      <elementValue xmi:id="_kDzD0_3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
+  <node xmi:id="_rong_v3oEear-M_gLj-wBA" componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="512">
+    <elementParameter xmi:id="_rong__3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tLogRow_4" show="false"/>
+    <elementParameter xmi:id="_ronhAP3oEear-M_gLj-wBA" field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter xmi:id="_ronhAf3oEear-M_gLj-wBA" field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter xmi:id="_ronhAv3oEear-M_gLj-wBA" field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter xmi:id="_ronhA_3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter xmi:id="_ronhBP3oEear-M_gLj-wBA" field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhBf3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhBv3oEear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter xmi:id="_ronhB_3oEear-M_gLj-wBA" field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhCP3oEear-M_gLj-wBA" field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhCf3oEear-M_gLj-wBA" field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhCv3oEear-M_gLj-wBA" field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhC_3oEear-M_gLj-wBA" field="TABLE" name="LENGTHS" show="false">
+      <elementValue xmi:id="_ronhDP3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="Average_balance"/>
+      <elementValue xmi:id="_ronhDf3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
     </elementParameter>
-    <elementParameter xmi:id="_kDzD1P3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDzD1f3oEear-M_gLj-wBA" connector="FLOW" name="tLogRow_4">
-      <column xmi:id="_kDzD1v3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="Average_balance" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    <elementParameter xmi:id="_ronhDv3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_ronhD_3oEear-M_gLj-wBA" connector="FLOW" name="tLogRow_4">
+      <column xmi:id="_ronhEP3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="Average_balance" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_kDzD1_3oEear-M_gLj-wBA" componentName="tSortRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="640">
-    <elementParameter xmi:id="_kDzD2P3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tSortRow_1" show="false"/>
-    <elementParameter xmi:id="_kDzD2f3oEear-M_gLj-wBA" field="TABLE" name="CRITERIA">
-      <elementValue xmi:id="_kDzD2v3oEear-M_gLj-wBA" elementRef="COLNAME" value="age"/>
-      <elementValue xmi:id="_kDzD2_3oEear-M_gLj-wBA" elementRef="SORT" value="num"/>
-      <elementValue xmi:id="_kDzD3P3oEear-M_gLj-wBA" elementRef="ORDER" value="asc"/>
+  <node xmi:id="_ronhEf3oEear-M_gLj-wBA" componentName="tSortRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="640">
+    <elementParameter xmi:id="_ronhEv3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tSortRow_1" show="false"/>
+    <elementParameter xmi:id="_ronhE_3oEear-M_gLj-wBA" field="TABLE" name="CRITERIA">
+      <elementValue xmi:id="_ronhFP3oEear-M_gLj-wBA" elementRef="COLNAME" value="age"/>
+      <elementValue xmi:id="_ronhFf3oEear-M_gLj-wBA" elementRef="SORT" value="num"/>
+      <elementValue xmi:id="_ronhFv3oEear-M_gLj-wBA" elementRef="ORDER" value="asc"/>
     </elementParameter>
-    <elementParameter xmi:id="_kDzD3f3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDzD3v3oEear-M_gLj-wBA" connector="FLOW" name="tSortRow_1">
-      <column xmi:id="_kDzD3_3oEear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD4P3oEear-M_gLj-wBA" comment="" key="false" length="15" name="job" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD4f3oEear-M_gLj-wBA" comment="" key="false" length="10" name="marital" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD4v3oEear-M_gLj-wBA" comment="" key="false" length="11" name="education" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD4_3oEear-M_gLj-wBA" comment="" key="false" length="5" name="default1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD5P3oEear-M_gLj-wBA" comment="" key="false" length="5" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD5f3oEear-M_gLj-wBA" comment="" key="false" length="5" name="housing" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD5v3oEear-M_gLj-wBA" comment="" key="false" length="5" name="loan" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD5_3oEear-M_gLj-wBA" comment="" key="false" length="9" name="contact" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD6P3oEear-M_gLj-wBA" comment="" key="false" length="1" name="day" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD6f3oEear-M_gLj-wBA" comment="" key="false" length="5" name="month" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD6v3oEear-M_gLj-wBA" comment="" key="false" length="4" name="duration" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD6_3oEear-M_gLj-wBA" comment="" key="false" length="1" name="campaign" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD7P3oEear-M_gLj-wBA" comment="" key="false" length="2" name="pdays" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD7f3oEear-M_gLj-wBA" comment="" key="false" length="1" name="previous" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD7v3oEear-M_gLj-wBA" comment="" key="false" length="9" name="poutcome" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD7_3oEear-M_gLj-wBA" comment="" key="false" length="4" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+    <elementParameter xmi:id="_ronhF_3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_ronhGP3oEear-M_gLj-wBA" connector="FLOW" name="tSortRow_1">
+      <column xmi:id="_ronhGf3oEear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhGv3oEear-M_gLj-wBA" comment="" key="false" length="15" name="job" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhG_3oEear-M_gLj-wBA" comment="" key="false" length="10" name="marital" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhHP3oEear-M_gLj-wBA" comment="" key="false" length="11" name="education" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhHf3oEear-M_gLj-wBA" comment="" key="false" length="5" name="default1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhHv3oEear-M_gLj-wBA" comment="" key="false" length="5" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhH_3oEear-M_gLj-wBA" comment="" key="false" length="5" name="housing" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhIP3oEear-M_gLj-wBA" comment="" key="false" length="5" name="loan" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhIf3oEear-M_gLj-wBA" comment="" key="false" length="9" name="contact" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhIv3oEear-M_gLj-wBA" comment="" key="false" length="1" name="day" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhI_3oEear-M_gLj-wBA" comment="" key="false" length="5" name="month" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhJP3oEear-M_gLj-wBA" comment="" key="false" length="4" name="duration" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhJf3oEear-M_gLj-wBA" comment="" key="false" length="1" name="campaign" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhJv3oEear-M_gLj-wBA" comment="" key="false" length="2" name="pdays" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhJ_3oEear-M_gLj-wBA" comment="" key="false" length="1" name="previous" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhKP3oEear-M_gLj-wBA" comment="" key="false" length="9" name="poutcome" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhKf3oEear-M_gLj-wBA" comment="" key="false" length="4" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_kDzD8P3oEear-M_gLj-wBA" componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="640">
-    <elementParameter xmi:id="_kDzD8f3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
-    <elementParameter xmi:id="_kDzD8v3oEear-M_gLj-wBA" field="EXTERNAL" name="MAP" value=""/>
-    <elementParameter xmi:id="_kDzD8_3oEear-M_gLj-wBA" field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
-    <elementParameter xmi:id="_kDzD9P3oEear-M_gLj-wBA" field="CHECK" name="REPLICATED_JOIN" value="false"/>
-    <elementParameter xmi:id="_kDzD9f3oEear-M_gLj-wBA" field="IMAGE" name="PREVIEW" value="_tuf_EP0qEeafPvE5A0RXqQ-tMap_1-PREVIEW.bmp"/>
-    <elementParameter xmi:id="_kDzD9v3oEear-M_gLj-wBA" field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzD9_3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDzD-P3oEear-M_gLj-wBA" connector="FLOW" name="out1">
-      <column xmi:id="_kDzD-f3oEear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzD-v3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="sequence_no" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+  <node xmi:id="_ronhKv3oEear-M_gLj-wBA" componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="640">
+    <elementParameter xmi:id="_ronhK_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter xmi:id="_ronhLP3oEear-M_gLj-wBA" field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter xmi:id="_ronhLf3oEear-M_gLj-wBA" field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter xmi:id="_ronhLv3oEear-M_gLj-wBA" field="CHECK" name="REPLICATED_JOIN" value="false"/>
+    <elementParameter xmi:id="_ronhL_3oEear-M_gLj-wBA" field="IMAGE" name="PREVIEW" value="_tuf_EP0qEeafPvE5A0RXqQ-tMap_1-PREVIEW.bmp"/>
+    <elementParameter xmi:id="_ronhMP3oEear-M_gLj-wBA" field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhMf3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_ronhMv3oEear-M_gLj-wBA" connector="FLOW" name="out1">
+      <column xmi:id="_ronhM_3oEear-M_gLj-wBA" comment="" key="false" length="2" name="age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhNP3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="sequence_no" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
-    <nodeData xsi:type="MapperData" xmi:id="_kDzD-_3oEear-M_gLj-wBA">
-      <uiProperties xmi:id="_kDzD_P3oEear-M_gLj-wBA" shellMaximized="true"/>
-      <varTables xmi:id="_kDzD_f3oEear-M_gLj-wBA" sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables xmi:id="_kDzD_v3oEear-M_gLj-wBA" sizeState="INTERMEDIATE" name="out1">
-        <mapperTableEntries xmi:id="_kDzD__3oEear-M_gLj-wBA" name="age" expression="row12.age " type="id_Integer" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzEAP3oEear-M_gLj-wBA" name="sequence_no" expression="Numeric.sequence(&quot;s1&quot;,1,1)" type="id_String" nullable="true"/>
+    <nodeData xsi:type="MapperData" xmi:id="_ronhNf3oEear-M_gLj-wBA">
+      <uiProperties xmi:id="_ronhNv3oEear-M_gLj-wBA" shellMaximized="true"/>
+      <varTables xmi:id="_ronhN_3oEear-M_gLj-wBA" sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables xmi:id="_ronhOP3oEear-M_gLj-wBA" sizeState="INTERMEDIATE" name="out1">
+        <mapperTableEntries xmi:id="_ronhOf3oEear-M_gLj-wBA" name="age" expression="row12.age " type="id_Integer" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhOv3oEear-M_gLj-wBA" name="sequence_no" expression="Numeric.sequence(&quot;s1&quot;,1,1)" type="id_String" nullable="true"/>
       </outputTables>
-      <inputTables xmi:id="_kDzEAf3oEear-M_gLj-wBA" sizeState="INTERMEDIATE" name="row12" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries xmi:id="_kDzEAv3oEear-M_gLj-wBA" name="age" type="id_Integer" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzEA_3oEear-M_gLj-wBA" name="job" type="id_String" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzEBP3oEear-M_gLj-wBA" name="marital" type="id_String" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzEBf3oEear-M_gLj-wBA" name="education" type="id_String" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzEBv3oEear-M_gLj-wBA" name="default1" type="id_String" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzEB_3oEear-M_gLj-wBA" name="balance" type="id_Integer" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzECP3oEear-M_gLj-wBA" name="housing" type="id_String" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzECf3oEear-M_gLj-wBA" name="loan" type="id_String" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzECv3oEear-M_gLj-wBA" name="contact" type="id_String" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzEC_3oEear-M_gLj-wBA" name="day" type="id_Integer" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzEDP3oEear-M_gLj-wBA" name="month" type="id_String" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzEDf3oEear-M_gLj-wBA" name="duration" type="id_Integer" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzEDv3oEear-M_gLj-wBA" name="campaign" type="id_Integer" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzED_3oEear-M_gLj-wBA" name="pdays" type="id_Integer" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzEEP3oEear-M_gLj-wBA" name="previous" type="id_Integer" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzEEf3oEear-M_gLj-wBA" name="poutcome" type="id_String" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzEEv3oEear-M_gLj-wBA" name="Column16" type="id_String" nullable="true"/>
+      <inputTables xmi:id="_ronhO_3oEear-M_gLj-wBA" sizeState="INTERMEDIATE" name="row12" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries xmi:id="_ronhPP3oEear-M_gLj-wBA" name="age" type="id_Integer" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhPf3oEear-M_gLj-wBA" name="job" type="id_String" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhPv3oEear-M_gLj-wBA" name="marital" type="id_String" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhP_3oEear-M_gLj-wBA" name="education" type="id_String" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhQP3oEear-M_gLj-wBA" name="default1" type="id_String" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhQf3oEear-M_gLj-wBA" name="balance" type="id_Integer" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhQv3oEear-M_gLj-wBA" name="housing" type="id_String" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhQ_3oEear-M_gLj-wBA" name="loan" type="id_String" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhRP3oEear-M_gLj-wBA" name="contact" type="id_String" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhRf3oEear-M_gLj-wBA" name="day" type="id_Integer" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhRv3oEear-M_gLj-wBA" name="month" type="id_String" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhR_3oEear-M_gLj-wBA" name="duration" type="id_Integer" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhSP3oEear-M_gLj-wBA" name="campaign" type="id_Integer" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhSf3oEear-M_gLj-wBA" name="pdays" type="id_Integer" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhSv3oEear-M_gLj-wBA" name="previous" type="id_Integer" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhS_3oEear-M_gLj-wBA" name="poutcome" type="id_String" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhTP3oEear-M_gLj-wBA" name="Column16" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>
-  <node xmi:id="_kDzEE_3oEear-M_gLj-wBA" componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="384">
-    <elementParameter xmi:id="_kDzEFP3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
-    <elementParameter xmi:id="_kDzEFf3oEear-M_gLj-wBA" field="CLOSED_LIST" name="MAPTYPE" value="MAP"/>
-    <elementParameter xmi:id="_kDzEFv3oEear-M_gLj-wBA" field="LABEL" name="MAP_METHOD_START1" value=""/>
-    <elementParameter xmi:id="_kDzEF_3oEear-M_gLj-wBA" field="LABEL" name="MAP_METHOD_START2" value="" show="false"/>
-    <elementParameter xmi:id="_kDzEGP3oEear-M_gLj-wBA" field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xA;context.count_age = input.count;&#xA;"/>
-    <elementParameter xmi:id="_kDzEGf3oEear-M_gLj-wBA" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
-    <elementParameter xmi:id="_kDzEGv3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDzEG_3oEear-M_gLj-wBA" connector="FLOW" name="tJavaRow_1">
-      <column xmi:id="_kDzEHP3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="max" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzEHf3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="min" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzEHv3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="mean" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzEH_3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="count" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+  <node xmi:id="_ronhTf3oEear-M_gLj-wBA" componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="384">
+    <elementParameter xmi:id="_ronhTv3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
+    <elementParameter xmi:id="_ronhT_3oEear-M_gLj-wBA" field="CLOSED_LIST" name="MAPTYPE" value="MAP"/>
+    <elementParameter xmi:id="_ronhUP3oEear-M_gLj-wBA" field="LABEL" name="MAP_METHOD_START1" value=""/>
+    <elementParameter xmi:id="_ronhUf3oEear-M_gLj-wBA" field="LABEL" name="MAP_METHOD_START2" value="" show="false"/>
+    <elementParameter xmi:id="_ronhUv3oEear-M_gLj-wBA" field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xA;context.count_age = input.count;&#xA;"/>
+    <elementParameter xmi:id="_ronhU_3oEear-M_gLj-wBA" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_ronhVP3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_ronhVf3oEear-M_gLj-wBA" connector="FLOW" name="tJavaRow_1">
+      <column xmi:id="_ronhVv3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="max" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhV_3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="min" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhWP3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="mean" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhWf3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="count" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_kDzEIP3oEear-M_gLj-wBA" componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="384">
-    <elementParameter xmi:id="_kDzEIf3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
-    <elementParameter xmi:id="_kDzEIv3oEear-M_gLj-wBA" field="RADIO" name="BASIC_MODE" value="false"/>
-    <elementParameter xmi:id="_kDzEI_3oEear-M_gLj-wBA" field="RADIO" name="TABLE_PRINT" value="true"/>
-    <elementParameter xmi:id="_kDzEJP3oEear-M_gLj-wBA" field="RADIO" name="VERTICAL" value="false"/>
-    <elementParameter xmi:id="_kDzEJf3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
-    <elementParameter xmi:id="_kDzEJv3oEear-M_gLj-wBA" field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzEJ_3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzEKP3oEear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
-    <elementParameter xmi:id="_kDzEKf3oEear-M_gLj-wBA" field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzEKv3oEear-M_gLj-wBA" field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzEK_3oEear-M_gLj-wBA" field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzELP3oEear-M_gLj-wBA" field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzELf3oEear-M_gLj-wBA" field="TABLE" name="LENGTHS" show="false">
-      <elementValue xmi:id="_kDzELv3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="max"/>
-      <elementValue xmi:id="_kDzEL_3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
-      <elementValue xmi:id="_kDzEMP3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="min"/>
-      <elementValue xmi:id="_kDzEMf3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
-      <elementValue xmi:id="_kDzEMv3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="mean"/>
-      <elementValue xmi:id="_kDzEM_3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
-      <elementValue xmi:id="_kDzENP3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="count"/>
-      <elementValue xmi:id="_kDzENf3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
+  <node xmi:id="_ronhWv3oEear-M_gLj-wBA" componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="384">
+    <elementParameter xmi:id="_ronhW_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
+    <elementParameter xmi:id="_ronhXP3oEear-M_gLj-wBA" field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter xmi:id="_ronhXf3oEear-M_gLj-wBA" field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter xmi:id="_ronhXv3oEear-M_gLj-wBA" field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter xmi:id="_ronhX_3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter xmi:id="_ronhYP3oEear-M_gLj-wBA" field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhYf3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhYv3oEear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter xmi:id="_ronhY_3oEear-M_gLj-wBA" field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhZP3oEear-M_gLj-wBA" field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhZf3oEear-M_gLj-wBA" field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhZv3oEear-M_gLj-wBA" field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhZ_3oEear-M_gLj-wBA" field="TABLE" name="LENGTHS" show="false">
+      <elementValue xmi:id="_ronhaP3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="max"/>
+      <elementValue xmi:id="_ronhaf3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
+      <elementValue xmi:id="_ronhav3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="min"/>
+      <elementValue xmi:id="_ronha_3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
+      <elementValue xmi:id="_ronhbP3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="mean"/>
+      <elementValue xmi:id="_ronhbf3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
+      <elementValue xmi:id="_ronhbv3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="count"/>
+      <elementValue xmi:id="_ronhb_3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
     </elementParameter>
-    <elementParameter xmi:id="_kDzENv3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDzEN_3oEear-M_gLj-wBA" connector="FLOW" name="tLogRow_1">
-      <column xmi:id="_kDzEOP3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="max" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzEOf3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="min" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzEOv3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="mean" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column xmi:id="_kDzEO_3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="count" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    <elementParameter xmi:id="_ronhcP3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_ronhcf3oEear-M_gLj-wBA" connector="FLOW" name="tLogRow_1">
+      <column xmi:id="_ronhcv3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="max" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhc_3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="min" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhdP3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="mean" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_ronhdf3oEear-M_gLj-wBA" comment="" key="false" length="-1" name="count" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_kDzEPP3oEear-M_gLj-wBA" componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="800" posY="640">
-    <elementParameter xmi:id="_kDzEPf3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tMap_2" show="false"/>
-    <elementParameter xmi:id="_kDzEPv3oEear-M_gLj-wBA" field="EXTERNAL" name="MAP" value=""/>
-    <elementParameter xmi:id="_kDzEP_3oEear-M_gLj-wBA" field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
-    <elementParameter xmi:id="_kDzEQP3oEear-M_gLj-wBA" field="CHECK" name="REPLICATED_JOIN" value="false"/>
-    <elementParameter xmi:id="_kDzEQf3oEear-M_gLj-wBA" field="IMAGE" name="PREVIEW" value="_tuf_EP0qEeafPvE5A0RXqQ-tMap_2-PREVIEW.bmp"/>
-    <elementParameter xmi:id="_kDzEQv3oEear-M_gLj-wBA" field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzEQ_3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDzERP3oEear-M_gLj-wBA" connector="FLOW" name="out2">
-      <column xmi:id="_kDzERf3oEear-M_gLj-wBA" comment="" key="false" length="2" name="median_age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+  <node xmi:id="_ronhdv3oEear-M_gLj-wBA" componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="800" posY="640">
+    <elementParameter xmi:id="_ronhd_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tMap_2" show="false"/>
+    <elementParameter xmi:id="_ronheP3oEear-M_gLj-wBA" field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter xmi:id="_ronhef3oEear-M_gLj-wBA" field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter xmi:id="_ronhev3oEear-M_gLj-wBA" field="CHECK" name="REPLICATED_JOIN" value="false"/>
+    <elementParameter xmi:id="_ronhe_3oEear-M_gLj-wBA" field="IMAGE" name="PREVIEW" value="_tuf_EP0qEeafPvE5A0RXqQ-tMap_2-PREVIEW.bmp"/>
+    <elementParameter xmi:id="_ronhfP3oEear-M_gLj-wBA" field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhff3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_ronhfv3oEear-M_gLj-wBA" connector="FLOW" name="out2">
+      <column xmi:id="_ronhf_3oEear-M_gLj-wBA" comment="" key="false" length="2" name="median_age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
-    <nodeData xsi:type="MapperData" xmi:id="_kDzERv3oEear-M_gLj-wBA">
-      <uiProperties xmi:id="_kDzER_3oEear-M_gLj-wBA" shellMaximized="true"/>
-      <varTables xmi:id="_kDzESP3oEear-M_gLj-wBA" sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables xmi:id="_kDzESf3oEear-M_gLj-wBA" sizeState="INTERMEDIATE" name="out2" expressionFilter="out1.sequence_no = context.count_age" activateExpressionFilter="true">
-        <mapperTableEntries xmi:id="_kDzESv3oEear-M_gLj-wBA" name="median_age" expression="out1.age " type="id_Integer" nullable="true"/>
+    <nodeData xsi:type="MapperData" xmi:id="_ronhgP3oEear-M_gLj-wBA">
+      <uiProperties xmi:id="_ronhgf3oEear-M_gLj-wBA" shellMaximized="true"/>
+      <varTables xmi:id="_ronhgv3oEear-M_gLj-wBA" sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables xmi:id="_ronhg_3oEear-M_gLj-wBA" sizeState="INTERMEDIATE" name="out2" expressionFilter="if(out1.sequence_no = context.count_age)" activateExpressionFilter="true">
+        <mapperTableEntries xmi:id="_ronhhP3oEear-M_gLj-wBA" name="median_age" expression="out1.age " type="id_Integer" nullable="true"/>
       </outputTables>
-      <inputTables xmi:id="_kDzES_3oEear-M_gLj-wBA" sizeState="INTERMEDIATE" name="out1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries xmi:id="_kDzETP3oEear-M_gLj-wBA" name="age" type="id_Integer" nullable="true"/>
-        <mapperTableEntries xmi:id="_kDzETf3oEear-M_gLj-wBA" name="sequence_no" type="id_String" nullable="true"/>
+      <inputTables xmi:id="_ronhhf3oEear-M_gLj-wBA" sizeState="INTERMEDIATE" name="out1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries xmi:id="_ronhhv3oEear-M_gLj-wBA" name="age" type="id_Integer" nullable="true"/>
+        <mapperTableEntries xmi:id="_ronhh_3oEear-M_gLj-wBA" name="sequence_no" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>
-  <node xmi:id="_kDzETv3oEear-M_gLj-wBA" componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="640">
-    <elementParameter xmi:id="_kDzET_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tLogRow_5" show="false"/>
-    <elementParameter xmi:id="_kDzEUP3oEear-M_gLj-wBA" field="RADIO" name="BASIC_MODE" value="false"/>
-    <elementParameter xmi:id="_kDzEUf3oEear-M_gLj-wBA" field="RADIO" name="TABLE_PRINT" value="true"/>
-    <elementParameter xmi:id="_kDzEUv3oEear-M_gLj-wBA" field="RADIO" name="VERTICAL" value="false"/>
-    <elementParameter xmi:id="_kDzEU_3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
-    <elementParameter xmi:id="_kDzEVP3oEear-M_gLj-wBA" field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzEVf3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzEVv3oEear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
-    <elementParameter xmi:id="_kDzEV_3oEear-M_gLj-wBA" field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzEWP3oEear-M_gLj-wBA" field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzEWf3oEear-M_gLj-wBA" field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzEWv3oEear-M_gLj-wBA" field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzEW_3oEear-M_gLj-wBA" field="TABLE" name="LENGTHS" show="false">
-      <elementValue xmi:id="_kDzEXP3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="median_age"/>
-      <elementValue xmi:id="_kDzEXf3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
+  <node xmi:id="_ronhiP3oEear-M_gLj-wBA" componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="640">
+    <elementParameter xmi:id="_ronhif3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tLogRow_5" show="false"/>
+    <elementParameter xmi:id="_ronhiv3oEear-M_gLj-wBA" field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter xmi:id="_ronhi_3oEear-M_gLj-wBA" field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter xmi:id="_ronhjP3oEear-M_gLj-wBA" field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter xmi:id="_ronhjf3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter xmi:id="_ronhjv3oEear-M_gLj-wBA" field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhj_3oEear-M_gLj-wBA" field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhkP3oEear-M_gLj-wBA" field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter xmi:id="_ronhkf3oEear-M_gLj-wBA" field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhkv3oEear-M_gLj-wBA" field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhk_3oEear-M_gLj-wBA" field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhlP3oEear-M_gLj-wBA" field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhlf3oEear-M_gLj-wBA" field="TABLE" name="LENGTHS" show="false">
+      <elementValue xmi:id="_ronhlv3oEear-M_gLj-wBA" elementRef="SCHEMA_COLUMN" value="median_age"/>
+      <elementValue xmi:id="_ronhl_3oEear-M_gLj-wBA" elementRef="LENGTH" value="10"/>
     </elementParameter>
-    <elementParameter xmi:id="_kDzEXv3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata xmi:id="_kDzEX_3oEear-M_gLj-wBA" connector="FLOW" name="tLogRow_5">
-      <column xmi:id="_kDzEYP3oEear-M_gLj-wBA" comment="" key="false" length="2" name="median_age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    <elementParameter xmi:id="_ronhmP3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_ronhmf3oEear-M_gLj-wBA" connector="FLOW" name="tLogRow_5">
+      <column xmi:id="_ronhmv3oEear-M_gLj-wBA" comment="" key="false" length="2" name="median_age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node xmi:id="_kDzEYf3oEear-M_gLj-wBA" componentName="tHiveConfiguration" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
-    <elementParameter xmi:id="_kDzEYv3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveConfiguration_1" show="false"/>
-    <elementParameter xmi:id="_kDzEY_3oEear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter xmi:id="_kDzEZP3oEear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="__FzgMfMFEeaFK7uYkjlGgQ" show="false"/>
-    <elementParameter xmi:id="_kDzEZf3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
-    <elementParameter xmi:id="_kDzEZv3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION" value="Cloudera_CDH5_8"/>
-    <elementParameter xmi:id="_kDzEZ_3oEear-M_gLj-wBA" field="HADOOP_DISTRIBUTION" name="HIVEONSPARK" value=""/>
-    <elementParameter xmi:id="_kDzEaP3oEear-M_gLj-wBA" field="TEXT" name="HOST" value="&quot;quickstart.cloudera&quot;"/>
-    <elementParameter xmi:id="_kDzEaf3oEear-M_gLj-wBA" field="TEXT" name="PORT" value="&quot;9083&quot;"/>
-    <elementParameter xmi:id="_kDzEav3oEear-M_gLj-wBA" field="CHECK" name="USE_KRB" value="false"/>
-    <elementParameter xmi:id="_kDzEa_3oEear-M_gLj-wBA" field="TEXT" name="HIVE_PRINCIPAL" value="&quot;hive/_HOST@EXAMPLE.COM&quot;" show="false"/>
-    <elementParameter xmi:id="_kDzEbP3oEear-M_gLj-wBA" field="CHECK" name="USE_MAPRTICKET" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzEbf3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  <node xmi:id="_ronhm_3oEear-M_gLj-wBA" componentName="tHiveConfiguration" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
+    <elementParameter xmi:id="_ronhnP3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveConfiguration_1" show="false"/>
+    <elementParameter xmi:id="_ronhnf3oEear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter xmi:id="_ronhnv3oEear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="__FzgMfMFEeaFK7uYkjlGgQ" show="false"/>
+    <elementParameter xmi:id="_ronhn_3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
+    <elementParameter xmi:id="_ronhoP3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION" value="Cloudera_CDH5_8"/>
+    <elementParameter xmi:id="_ronhof3oEear-M_gLj-wBA" field="HADOOP_DISTRIBUTION" name="HIVEONSPARK" value=""/>
+    <elementParameter xmi:id="_ronhov3oEear-M_gLj-wBA" field="TEXT" name="HOST" value="&quot;quickstart.cloudera&quot;"/>
+    <elementParameter xmi:id="_ronho_3oEear-M_gLj-wBA" field="TEXT" name="PORT" value="&quot;9083&quot;"/>
+    <elementParameter xmi:id="_ronhpP3oEear-M_gLj-wBA" field="CHECK" name="USE_KRB" value="false"/>
+    <elementParameter xmi:id="_ronhpf3oEear-M_gLj-wBA" field="TEXT" name="HIVE_PRINCIPAL" value="&quot;hive/_HOST@EXAMPLE.COM&quot;" show="false"/>
+    <elementParameter xmi:id="_ronhpv3oEear-M_gLj-wBA" field="CHECK" name="USE_MAPRTICKET" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhp_3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node xmi:id="_kDzEbv3oEear-M_gLj-wBA" componentName="tHDFSConfiguration" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="32">
-    <elementParameter xmi:id="_kDzEb_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHDFSConfiguration_1" show="false"/>
-    <elementParameter xmi:id="_kDzEcP3oEear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter xmi:id="_kDzEcf3oEear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="__FzgMPMFEeaFK7uYkjlGgQ" show="false"/>
-    <elementParameter xmi:id="_kDzEcv3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
-    <elementParameter xmi:id="_kDzEc_3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION" value="Cloudera_CDH5_8"/>
-    <elementParameter xmi:id="_kDzEdP3oEear-M_gLj-wBA" field="HADOOP_DISTRIBUTION" name="HDFS" value=""/>
-    <elementParameter xmi:id="_kDzEdf3oEear-M_gLj-wBA" field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value="" show="false"/>
-    <elementParameter xmi:id="_kDzEdv3oEear-M_gLj-wBA" field="TEXT" name="FS_DEFAULT_NAME" value="&quot;hdfs://quickstart.cloudera:8020&quot;"/>
-    <elementParameter xmi:id="_kDzEd_3oEear-M_gLj-wBA" field="CHECK" name="USE_KRB" value="false"/>
-    <elementParameter xmi:id="_kDzEeP3oEear-M_gLj-wBA" field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;nn/_HOST@EXAMPLE.COM&quot;" show="false"/>
-    <elementParameter xmi:id="_kDzEef3oEear-M_gLj-wBA" field="CHECK" name="USE_KEYTAB" value="false" show="false"/>
-    <elementParameter xmi:id="_kDzEev3oEear-M_gLj-wBA" field="TEXT" name="PRINCIPAL" value="&quot;hdfs&quot;" show="false"/>
-    <elementParameter xmi:id="_kDzEe_3oEear-M_gLj-wBA" field="FILE" name="KEYTAB_PATH" value="&quot;/tmp/hdfs.headless.keytab&quot;" show="false"/>
-    <elementParameter xmi:id="_kDzEfP3oEear-M_gLj-wBA" field="TEXT" name="USERNAME" value="&quot;anonymous&quot;"/>
-    <elementParameter xmi:id="_kDzEff3oEear-M_gLj-wBA" field="TEXT" name="GROUP" value="&quot;supergroup&quot;" show="false"/>
-    <elementParameter xmi:id="_kDzEfv3oEear-M_gLj-wBA" field="CHECK" name="USE_DATANODE_HOSTNAME" value="true"/>
-    <elementParameter xmi:id="_kDzEf_3oEear-M_gLj-wBA" field="TEXT" name="TEMP_FOLDER" value="&quot;/tmp&quot;"/>
-    <elementParameter xmi:id="_kDzEgP3oEear-M_gLj-wBA" field="CHECK" name="USE_HDFS_ENCRYPTION" value="false"/>
-    <elementParameter xmi:id="_kDzEgf3oEear-M_gLj-wBA" field="TEXT" name="HDFS_ENCRYPTION_KEY_PROVIDER" value="&quot;kms://http@localhost:16000/kms&quot;" show="false"/>
-    <elementParameter xmi:id="_kDzEgv3oEear-M_gLj-wBA" field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
-    <elementParameter xmi:id="_kDzEg_3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  <node xmi:id="_ronhqP3oEear-M_gLj-wBA" componentName="tHDFSConfiguration" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="32">
+    <elementParameter xmi:id="_ronhqf3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHDFSConfiguration_1" show="false"/>
+    <elementParameter xmi:id="_ronhqv3oEear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter xmi:id="_ronhq_3oEear-M_gLj-wBA" field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="__FzgMPMFEeaFK7uYkjlGgQ" show="false"/>
+    <elementParameter xmi:id="_ronhrP3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
+    <elementParameter xmi:id="_ronhrf3oEear-M_gLj-wBA" field="CLOSED_LIST" name="DB_VERSION" value="Cloudera_CDH5_8"/>
+    <elementParameter xmi:id="_ronhrv3oEear-M_gLj-wBA" field="HADOOP_DISTRIBUTION" name="HDFS" value=""/>
+    <elementParameter xmi:id="_ronhr_3oEear-M_gLj-wBA" field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value="" show="false"/>
+    <elementParameter xmi:id="_ronhsP3oEear-M_gLj-wBA" field="TEXT" name="FS_DEFAULT_NAME" value="&quot;hdfs://quickstart.cloudera:8020&quot;"/>
+    <elementParameter xmi:id="_ronhsf3oEear-M_gLj-wBA" field="CHECK" name="USE_KRB" value="false"/>
+    <elementParameter xmi:id="_ronhsv3oEear-M_gLj-wBA" field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;nn/_HOST@EXAMPLE.COM&quot;" show="false"/>
+    <elementParameter xmi:id="_ronhs_3oEear-M_gLj-wBA" field="CHECK" name="USE_KEYTAB" value="false" show="false"/>
+    <elementParameter xmi:id="_ronhtP3oEear-M_gLj-wBA" field="TEXT" name="PRINCIPAL" value="&quot;hdfs&quot;" show="false"/>
+    <elementParameter xmi:id="_ronhtf3oEear-M_gLj-wBA" field="FILE" name="KEYTAB_PATH" value="&quot;/tmp/hdfs.headless.keytab&quot;" show="false"/>
+    <elementParameter xmi:id="_ronhtv3oEear-M_gLj-wBA" field="TEXT" name="USERNAME" value="&quot;anonymous&quot;"/>
+    <elementParameter xmi:id="_ronht_3oEear-M_gLj-wBA" field="TEXT" name="GROUP" value="&quot;supergroup&quot;" show="false"/>
+    <elementParameter xmi:id="_ronhuP3oEear-M_gLj-wBA" field="CHECK" name="USE_DATANODE_HOSTNAME" value="true"/>
+    <elementParameter xmi:id="_ronhuf3oEear-M_gLj-wBA" field="TEXT" name="TEMP_FOLDER" value="&quot;/tmp&quot;"/>
+    <elementParameter xmi:id="_ronhuv3oEear-M_gLj-wBA" field="CHECK" name="USE_HDFS_ENCRYPTION" value="false"/>
+    <elementParameter xmi:id="_ronhu_3oEear-M_gLj-wBA" field="TEXT" name="HDFS_ENCRYPTION_KEY_PROVIDER" value="&quot;kms://http@localhost:16000/kms&quot;" show="false"/>
+    <elementParameter xmi:id="_ronhvP3oEear-M_gLj-wBA" field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
+    <elementParameter xmi:id="_ronhvf3oEear-M_gLj-wBA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <connection xmi:id="_kDzEhP3oEear-M_gLj-wBA" connectorName="FLOW" label="row1" lineStyle="0" metaname="tHiveInput_1" offsetLabelX="0" offsetLabelY="0" source="tHiveInput_1" target="tReplicate_1">
-    <elementParameter xmi:id="_kDzEhf3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_kDzEhv3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  <connection xmi:id="_ronhvv3oEear-M_gLj-wBA" connectorName="FLOW" label="row1" lineStyle="0" metaname="tHiveInput_1" offsetLabelX="0" offsetLabelY="0" source="tHiveInput_1" target="tReplicate_1">
+    <elementParameter xmi:id="_ronhv_3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_ronhwP3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
-  <connection xmi:id="_kDzEh_3oEear-M_gLj-wBA" connectorName="FLOW" label="row3" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tReplicate_1" target="tAggregateRow_1">
-    <elementParameter xmi:id="_kDzEiP3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_kDzEif3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+  <connection xmi:id="_ronhwf3oEear-M_gLj-wBA" connectorName="FLOW" label="row3" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tReplicate_1" target="tAggregateRow_1">
+    <elementParameter xmi:id="_ronhwv3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_ronhw_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
   </connection>
-  <connection xmi:id="_kDzEiv3oEear-M_gLj-wBA" connectorName="FLOW" label="row4" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tReplicate_1" target="tAggregateRow_2">
-    <elementParameter xmi:id="_kDzEi_3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_kDzEjP3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
+  <connection xmi:id="_ronhxP3oEear-M_gLj-wBA" connectorName="FLOW" label="row4" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tReplicate_1" target="tAggregateRow_2">
+    <elementParameter xmi:id="_ronhxf3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_ronhxv3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
   </connection>
-  <connection xmi:id="_kDzEjf3oEear-M_gLj-wBA" connectorName="FLOW" label="row5" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tReplicate_1" target="tFilterRow_4">
-    <elementParameter xmi:id="_kDzEjv3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_kDzEj_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
+  <connection xmi:id="_ronhx_3oEear-M_gLj-wBA" connectorName="FLOW" label="row5" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tReplicate_1" target="tFilterRow_4">
+    <elementParameter xmi:id="_ronhyP3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_ronhyf3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
   </connection>
-  <connection xmi:id="_kDzEkP3oEear-M_gLj-wBA" connectorName="FLOW" label="row9" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="4" source="tReplicate_1" target="tAggregateRow_4">
-    <elementParameter xmi:id="_kDzEkf3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_kDzEkv3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row9" show="false"/>
+  <connection xmi:id="_ronhyv3oEear-M_gLj-wBA" connectorName="FLOW" label="row9" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="4" source="tReplicate_1" target="tAggregateRow_4">
+    <elementParameter xmi:id="_ronhy_3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_ronhzP3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row9" show="false"/>
   </connection>
-  <connection xmi:id="_kDzEk_3oEear-M_gLj-wBA" connectorName="FLOW" label="row11" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="5" source="tReplicate_1" target="tSortRow_1">
-    <elementParameter xmi:id="_kDzElP3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_kDzElf3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row11" show="false"/>
+  <connection xmi:id="_ronhzf3oEear-M_gLj-wBA" connectorName="FLOW" label="row11" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="5" source="tReplicate_1" target="tSortRow_1">
+    <elementParameter xmi:id="_ronhzv3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_ronhz_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row11" show="false"/>
   </connection>
-  <connection xmi:id="_kDzElv3oEear-M_gLj-wBA" connectorName="FLOW" label="row2" lineStyle="0" metaname="tAggregateRow_1" offsetLabelX="0" offsetLabelY="0" source="tAggregateRow_1" target="tJavaRow_1">
-    <elementParameter xmi:id="_kDzEl_3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_kDzEmP3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  <connection xmi:id="_ronh0P3oEear-M_gLj-wBA" connectorName="FLOW" label="row2" lineStyle="0" metaname="tAggregateRow_1" offsetLabelX="0" offsetLabelY="0" source="tAggregateRow_1" target="tJavaRow_1">
+    <elementParameter xmi:id="_ronh0f3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_ronh0v3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
-  <connection xmi:id="_kDzEmf3oEear-M_gLj-wBA" connectorName="FLOW" label="row7" lineStyle="0" metaname="tAggregateRow_2" offsetLabelX="0" offsetLabelY="0" source="tAggregateRow_2" target="tLogRow_2">
-    <elementParameter xmi:id="_kDzEmv3oEear-M_gLj-wBA" field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue xmi:id="_kDzEm_3oEear-M_gLj-wBA" elementRef="TRACE_COLUMN" value="Total_Count"/>
-      <elementValue xmi:id="_kDzEnP3oEear-M_gLj-wBA" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue xmi:id="_kDzEnf3oEear-M_gLj-wBA" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+  <connection xmi:id="_ronh0_3oEear-M_gLj-wBA" connectorName="FLOW" label="row7" lineStyle="0" metaname="tAggregateRow_2" offsetLabelX="0" offsetLabelY="0" source="tAggregateRow_2" target="tLogRow_2">
+    <elementParameter xmi:id="_ronh1P3oEear-M_gLj-wBA" field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue xmi:id="_ronh1f3oEear-M_gLj-wBA" elementRef="TRACE_COLUMN" value="Total_Count"/>
+      <elementValue xmi:id="_ronh1v3oEear-M_gLj-wBA" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_ronh1_3oEear-M_gLj-wBA" elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
-    <elementParameter xmi:id="_kDzEnv3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_kDzEn_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row7" show="false"/>
+    <elementParameter xmi:id="_ronh2P3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_ronh2f3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row7" show="false"/>
   </connection>
-  <connection xmi:id="_kDzEoP3oEear-M_gLj-wBA" connectorName="FILTER" label="row6" lineStyle="0" metaname="FILTER" offsetLabelX="0" offsetLabelY="0" source="tFilterRow_4" target="tAggregateRow_3">
-    <elementParameter xmi:id="_kDzEof3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_kDzEov3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
+  <connection xmi:id="_ronh2v3oEear-M_gLj-wBA" connectorName="FILTER" label="row6" lineStyle="0" metaname="FILTER" offsetLabelX="0" offsetLabelY="0" source="tFilterRow_4" target="tAggregateRow_3">
+    <elementParameter xmi:id="_ronh2_3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_ronh3P3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
   </connection>
-  <connection xmi:id="_kDzEo_3oEear-M_gLj-wBA" connectorName="FLOW" label="row8" lineStyle="0" metaname="tAggregateRow_3" offsetLabelX="0" offsetLabelY="0" source="tAggregateRow_3" target="tLogRow_3">
-    <elementParameter xmi:id="_kDzEpP3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_kDzEpf3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row8" show="false"/>
+  <connection xmi:id="_ronh3f3oEear-M_gLj-wBA" connectorName="FLOW" label="row8" lineStyle="0" metaname="tAggregateRow_3" offsetLabelX="0" offsetLabelY="0" source="tAggregateRow_3" target="tLogRow_3">
+    <elementParameter xmi:id="_ronh3v3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_ronh3_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row8" show="false"/>
   </connection>
-  <connection xmi:id="_kDzEpv3oEear-M_gLj-wBA" connectorName="FLOW" label="row10" lineStyle="0" metaname="tAggregateRow_4" offsetLabelX="0" offsetLabelY="0" source="tAggregateRow_4" target="tLogRow_4">
-    <elementParameter xmi:id="_kDzEp_3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_kDzEqP3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row10" show="false"/>
+  <connection xmi:id="_ronh4P3oEear-M_gLj-wBA" connectorName="FLOW" label="row10" lineStyle="0" metaname="tAggregateRow_4" offsetLabelX="0" offsetLabelY="0" source="tAggregateRow_4" target="tLogRow_4">
+    <elementParameter xmi:id="_ronh4f3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_ronh4v3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row10" show="false"/>
   </connection>
-  <connection xmi:id="_kDzEqf3oEear-M_gLj-wBA" connectorName="FLOW" label="row12" lineStyle="0" metaname="tSortRow_1" offsetLabelX="0" offsetLabelY="0" source="tSortRow_1" target="tMap_1">
-    <elementParameter xmi:id="_kDzEqv3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_kDzEq_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row12" show="false"/>
+  <connection xmi:id="_ronh4_3oEear-M_gLj-wBA" connectorName="FLOW" label="row12" lineStyle="0" metaname="tSortRow_1" offsetLabelX="0" offsetLabelY="0" source="tSortRow_1" target="tMap_1">
+    <elementParameter xmi:id="_ronh5P3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_ronh5f3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row12" show="false"/>
   </connection>
-  <connection xmi:id="_kDzErP3oEear-M_gLj-wBA" connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tMap_2">
-    <elementParameter xmi:id="_kDzErf3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_kDzErv3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
+  <connection xmi:id="_ronh5v3oEear-M_gLj-wBA" connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tMap_2">
+    <elementParameter xmi:id="_ronh5_3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_ronh6P3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
   </connection>
-  <connection xmi:id="_kDzEr_3oEear-M_gLj-wBA" connectorName="FLOW" label="row13" lineStyle="0" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_1" target="tLogRow_1">
-    <elementParameter xmi:id="_kDzEsP3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_kDzEsf3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row13" show="false"/>
+  <connection xmi:id="_ronh6f3oEear-M_gLj-wBA" connectorName="FLOW" label="row13" lineStyle="0" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_1" target="tLogRow_1">
+    <elementParameter xmi:id="_ronh6v3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_ronh6_3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="row13" show="false"/>
   </connection>
-  <connection xmi:id="_kDzEsv3oEear-M_gLj-wBA" connectorName="FLOW" label="out2" lineStyle="0" metaname="out2" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tLogRow_5">
-    <elementParameter xmi:id="_kDzEs_3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter xmi:id="_kDzEtP3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="out2" show="false"/>
+  <connection xmi:id="_ronh7P3oEear-M_gLj-wBA" connectorName="FLOW" label="out2" lineStyle="0" metaname="out2" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tLogRow_5">
+    <elementParameter xmi:id="_ronh7f3oEear-M_gLj-wBA" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_ronh7v3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="out2" show="false"/>
   </connection>
-  <subjob xmi:id="_kDzEtf3oEear-M_gLj-wBA">
-    <elementParameter xmi:id="_kDzEtv3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveInput_1" show="false"/>
-    <elementParameter xmi:id="_kDzEt_3oEear-M_gLj-wBA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter xmi:id="_kDzEuP3oEear-M_gLj-wBA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  <subjob xmi:id="_ronh7_3oEear-M_gLj-wBA">
+    <elementParameter xmi:id="_ronh8P3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveInput_1" show="false"/>
+    <elementParameter xmi:id="_ronh8f3oEear-M_gLj-wBA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_ronh8v3oEear-M_gLj-wBA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-  <subjob xmi:id="_kDzEuf3oEear-M_gLj-wBA">
-    <elementParameter xmi:id="_kDzEuv3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveConfiguration_1" show="false"/>
-    <elementParameter xmi:id="_kDzEu_3oEear-M_gLj-wBA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter xmi:id="_kDzEvP3oEear-M_gLj-wBA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  <subjob xmi:id="_ronh8_3oEear-M_gLj-wBA">
+    <elementParameter xmi:id="_ronh9P3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHiveConfiguration_1" show="false"/>
+    <elementParameter xmi:id="_ronh9f3oEear-M_gLj-wBA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_ronh9v3oEear-M_gLj-wBA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-  <subjob xmi:id="_kDzEvf3oEear-M_gLj-wBA">
-    <elementParameter xmi:id="_kDzEvv3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHDFSConfiguration_1" show="false"/>
-    <elementParameter xmi:id="_kDzEv_3oEear-M_gLj-wBA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter xmi:id="_kDzEwP3oEear-M_gLj-wBA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  <subjob xmi:id="_ronh9_3oEear-M_gLj-wBA">
+    <elementParameter xmi:id="_ronh-P3oEear-M_gLj-wBA" field="TEXT" name="UNIQUE_NAME" value="tHDFSConfiguration_1" show="false"/>
+    <elementParameter xmi:id="_ronh-f3oEear-M_gLj-wBA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_ronh-v3oEear-M_gLj-wBA" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
 </talendfile:ProcessType>
