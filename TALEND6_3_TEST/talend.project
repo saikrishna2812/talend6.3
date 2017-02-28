@@ -179,6 +179,7 @@
       <relatedItems xmi:id="_3SH6av0-Eear-M_gLj-wBA" id="SfObmObjectAttribute" version="Latest" type="routine"/>
       <relatedItems xmi:id="_3SH6a_0-Eear-M_gLj-wBA" id="DataTypeUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_-eh2oP0-Eear-M_gLj-wBA" id="__FzgMfMFEeaFK7uYkjlGgQ" version="Latest" type="property"/>
+      <relatedItems xmi:id="_8t2UMP3jEear-M_gLj-wBA" id="__FzgMPMFEeaFK7uYkjlGgQ" version="Latest" type="property"/>
     </ItemsRelations>
     <migrationTask xmi:id="_AMa7oOchEeaEwc3Jt4LDRw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AMa7oechEeaEwc3Jt4LDRw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
