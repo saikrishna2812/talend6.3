@@ -7,6 +7,44 @@
     <documentationStatus xmi:id="_AM3nkOchEeaEwc3Jt4LDRw" label="unchecked" code="UCK"/>
     <documentationStatus xmi:id="_AM3nkechEeaEwc3Jt4LDRw" label="checked" code="CHK"/>
     <documentationStatus xmi:id="_AM3nkuchEeaEwc3Jt4LDRw" label="validated" code="VAL"/>
+    <componentsSettings xmi:id="_soPwYP-VEeaYRrjBUYZOag" name="DI|tSalesforceGetUpdated" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_soPwYf-VEeaYRrjBUYZOag" name="DI|tSalesforceOutputBulkExec" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_soPwYv-VEeaYRrjBUYZOag" name="DI|tSalesforceConnection" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_soPwY_-VEeaYRrjBUYZOag" name="DI|tDatasetOutput" family="Talend Data Preparation"/>
+    <componentsSettings xmi:id="_soPwZP-VEeaYRrjBUYZOag" name="DI|tHashInput" family="Technical"/>
+    <componentsSettings xmi:id="_soPwZf-VEeaYRrjBUYZOag" name="DI|tSalesforceGetDeleted" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_soQXcP-VEeaYRrjBUYZOag" name="DI|tDBInput" family="Databases/DB_Generic"/>
+    <componentsSettings xmi:id="_soQXcf-VEeaYRrjBUYZOag" name="DI|tSalesforceGetDeleted" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_soQXcv-VEeaYRrjBUYZOag" name="DI|tAccessOutputBulkExec" family="Databases/Access"/>
+    <componentsSettings xmi:id="_soQXc_-VEeaYRrjBUYZOag" name="DI|tJIRAOutput" family="Business/JIRA"/>
+    <componentsSettings xmi:id="_soQXdP-VEeaYRrjBUYZOag" name="DI|tSalesforceOutput" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_soQXdf-VEeaYRrjBUYZOag" name="DI|tSalesforceOutput" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_soQXdv-VEeaYRrjBUYZOag" name="DI|tSalesforceConnection" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_soQXd_-VEeaYRrjBUYZOag" name="DI|tDBSQLRow" family="Databases/DB_Generic"/>
+    <componentsSettings xmi:id="_soQXeP-VEeaYRrjBUYZOag" name="DI|tDataStewardshipTaskOutput" family="Talend Data Stewardship"/>
+    <componentsSettings xmi:id="_soQ-gP-VEeaYRrjBUYZOag" name="DI|tArrayIn" family="Technical"/>
+    <componentsSettings xmi:id="_soQ-gf-VEeaYRrjBUYZOag" name="DI|tSalesforceOutputBulk" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_soQ-gv-VEeaYRrjBUYZOag" name="DI|tSalesforceBulkExec" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_soQ-g_-VEeaYRrjBUYZOag" name="DI|tDBOutput" family="Databases/DB_Generic"/>
+    <componentsSettings xmi:id="_soQ-hP-VEeaYRrjBUYZOag" name="DI|tSalesforceInput" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_soQ-hf-VEeaYRrjBUYZOag" name="DI|tSalesforceBulkExec" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_soQ-hv-VEeaYRrjBUYZOag" name="SPARK|tAvroMap" family="Processing"/>
+    <componentsSettings xmi:id="_soRlkP-VEeaYRrjBUYZOag" name="DI|tSalesforceGetServerTimestamp" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_soRlkf-VEeaYRrjBUYZOag" name="DI|tSAPIDocInput" family="Business/SAP"/>
+    <componentsSettings xmi:id="_soRlkv-VEeaYRrjBUYZOag" name="DI|tDataStewardshipTaskInput" family="Talend Data Stewardship"/>
+    <componentsSettings xmi:id="_soRlk_-VEeaYRrjBUYZOag" name="DI|tSalesforceGetUpdated" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_soSMoP-VEeaYRrjBUYZOag" name="DI|tArray" family="Technical"/>
+    <componentsSettings xmi:id="_soSMof-VEeaYRrjBUYZOag" name="DI|tJIRAInput" family="Business/JIRA"/>
+    <componentsSettings xmi:id="_soSMov-VEeaYRrjBUYZOag" name="DI|tAccessBulkExec" family="Databases/Access"/>
+    <componentsSettings xmi:id="_soSMo_-VEeaYRrjBUYZOag" name="DI|tSplunkEventCollector" family="Business Intelligence/Splunk"/>
+    <componentsSettings xmi:id="_soSMpP-VEeaYRrjBUYZOag" name="DI|tDatasetInput" family="Talend Data Preparation"/>
+    <componentsSettings xmi:id="_soSMpf-VEeaYRrjBUYZOag" name="DI|tSalesforceOutputBulk" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_soSMpv-VEeaYRrjBUYZOag" name="SPARKSTREAMING|tAvroMap" family="Processing"/>
+    <componentsSettings xmi:id="_soSMp_-VEeaYRrjBUYZOag" name="DI|tSalesforceGetServerTimestamp" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_soSMqP-VEeaYRrjBUYZOag" name="DI|tSalesforceInput" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_soSMqf-VEeaYRrjBUYZOag" name="DI|tHashOutput" family="Technical"/>
+    <componentsSettings xmi:id="_soSMqv-VEeaYRrjBUYZOag" name="DI|tDataStewardshipTaskDelete" family="Talend Data Stewardship"/>
+    <componentsSettings xmi:id="_soSMq_-VEeaYRrjBUYZOag" name="DI|tSalesforceOutputBulkExec" family="Cloud/Salesforce"/>
     <statAndLogsSettings xmi:id="_32EU4P0-Eear-M_gLj-wBA">
       <parameters xmi:id="_32EU4f0-Eear-M_gLj-wBA">
         <elementParameter xmi:id="_32P7EP0-Eear-M_gLj-wBA" field="CHECK" name="UPDATE_COMPONENTS" value="false" contextMode="false"/>
