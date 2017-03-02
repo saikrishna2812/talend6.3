@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_eVTRMP9_Eear-M_gLj-wBA" name="HeartDisease" dataPackage="_eVTRMf9_Eear-M_gLj-wBA" Server="Localhost 127.0.0.1" FilePath="/home/artha/Downloads/processed.switzerland.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_eVTRMf9_Eear-M_gLj-wBA" name="default" dataManager="_eVTRMP9_Eear-M_gLj-wBA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_eVTRMv9_Eear-M_gLj-wBA" id="_DotSwP9_Eear-M_gLj-wBA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVTRM_9_Eear-M_gLj-wBA" label="age" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVTRNP9_Eear-M_gLj-wBA" label="sex" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVTRNf9_Eear-M_gLj-wBA" label="cp" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVTRNv9_Eear-M_gLj-wBA" label="trestbps" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVTRN_9_Eear-M_gLj-wBA" label="chol" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVTROP9_Eear-M_gLj-wBA" label="fbs" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVTROf9_Eear-M_gLj-wBA" label="restecg" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVTROv9_Eear-M_gLj-wBA" label="thalach" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVTRO_9_Eear-M_gLj-wBA" label="exang" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVTRPP9_Eear-M_gLj-wBA" label="oldpeak" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVTRPf9_Eear-M_gLj-wBA" label="slope" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVTRPv9_Eear-M_gLj-wBA" label="ca" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVTRP_9_Eear-M_gLj-wBA" label="thal" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVTRQP9_Eear-M_gLj-wBA" label="num" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
