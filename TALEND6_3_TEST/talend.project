@@ -7,48 +7,6 @@
     <documentationStatus xmi:id="_AM3nkOchEeaEwc3Jt4LDRw" label="unchecked" code="UCK"/>
     <documentationStatus xmi:id="_AM3nkechEeaEwc3Jt4LDRw" label="checked" code="CHK"/>
     <documentationStatus xmi:id="_AM3nkuchEeaEwc3Jt4LDRw" label="validated" code="VAL"/>
-    <componentsSettings xmi:id="_JmpEMP3nEear-M_gLj-wBA" name="DI|tArray" family="Technical"/>
-    <componentsSettings xmi:id="_JmpEMf3nEear-M_gLj-wBA" name="DI|tHashInput" family="Technical"/>
-    <componentsSettings xmi:id="_JmpEMv3nEear-M_gLj-wBA" name="DI|tArrayIn" family="Technical"/>
-    <componentsSettings xmi:id="_JmpEM_3nEear-M_gLj-wBA" name="DI|tHashOutput" family="Technical"/>
-    <componentsSettings xmi:id="_yfvxQP9_Eear-M_gLj-wBA" name="DI|tDBSQLRow" family="Databases/DB_Generic"/>
-    <componentsSettings xmi:id="_yfvxQf9_Eear-M_gLj-wBA" name="DI|tSalesforceGetServerTimestamp" family="Business/Salesforce"/>
-    <componentsSettings xmi:id="_yfvxQv9_Eear-M_gLj-wBA" name="DI|tSalesforceOutput" family="Cloud/Salesforce"/>
-    <componentsSettings xmi:id="_yfvxQ_9_Eear-M_gLj-wBA" name="SPARK|tAvroMap" family="Processing"/>
-    <componentsSettings xmi:id="_yfwYUP9_Eear-M_gLj-wBA" name="DI|tJIRAInput" family="Business/JIRA"/>
-    <componentsSettings xmi:id="_yfwYUf9_Eear-M_gLj-wBA" name="DI|tArrayIn" family="Technical"/>
-    <componentsSettings xmi:id="_yfwYUv9_Eear-M_gLj-wBA" name="DI|tSalesforceConnection" family="Business/Salesforce"/>
-    <componentsSettings xmi:id="_yfwYU_9_Eear-M_gLj-wBA" name="DI|tSalesforceInput" family="Business/Salesforce"/>
-    <componentsSettings xmi:id="_yfwYVP9_Eear-M_gLj-wBA" name="DI|tSalesforceGetUpdated" family="Business/Salesforce"/>
-    <componentsSettings xmi:id="_yfw_YP9_Eear-M_gLj-wBA" name="DI|tSalesforceBulkExec" family="Business/Salesforce"/>
-    <componentsSettings xmi:id="_yfw_Yf9_Eear-M_gLj-wBA" name="DI|tSAPIDocInput" family="Business/SAP"/>
-    <componentsSettings xmi:id="_yfw_Yv9_Eear-M_gLj-wBA" name="DI|tHashInput" family="Technical"/>
-    <componentsSettings xmi:id="_yfw_Y_9_Eear-M_gLj-wBA" name="DI|tAccessBulkExec" family="Databases/Access"/>
-    <componentsSettings xmi:id="_yfw_ZP9_Eear-M_gLj-wBA" name="DI|tSalesforceOutputBulkExec" family="Cloud/Salesforce"/>
-    <componentsSettings xmi:id="_yfw_Zf9_Eear-M_gLj-wBA" name="DI|tSalesforceOutputBulk" family="Business/Salesforce"/>
-    <componentsSettings xmi:id="_yfw_Zv9_Eear-M_gLj-wBA" name="DI|tHashOutput" family="Technical"/>
-    <componentsSettings xmi:id="_yfw_Z_9_Eear-M_gLj-wBA" name="DI|tSalesforceOutputBulk" family="Cloud/Salesforce"/>
-    <componentsSettings xmi:id="_yfxmcP9_Eear-M_gLj-wBA" name="SPARKSTREAMING|tAvroMap" family="Processing"/>
-    <componentsSettings xmi:id="_yfxmcf9_Eear-M_gLj-wBA" name="DI|tDataStewardshipTaskDelete" family="Talend Data Stewardship"/>
-    <componentsSettings xmi:id="_yfxmcv9_Eear-M_gLj-wBA" name="DI|tJIRAOutput" family="Business/JIRA"/>
-    <componentsSettings xmi:id="_yfxmc_9_Eear-M_gLj-wBA" name="DI|tDataStewardshipTaskInput" family="Talend Data Stewardship"/>
-    <componentsSettings xmi:id="_yfxmdP9_Eear-M_gLj-wBA" name="DI|tSalesforceBulkExec" family="Cloud/Salesforce"/>
-    <componentsSettings xmi:id="_yfyNgP9_Eear-M_gLj-wBA" name="DI|tSalesforceGetUpdated" family="Cloud/Salesforce"/>
-    <componentsSettings xmi:id="_yfyNgf9_Eear-M_gLj-wBA" name="DI|tSalesforceGetDeleted" family="Cloud/Salesforce"/>
-    <componentsSettings xmi:id="_yfy0kP9_Eear-M_gLj-wBA" name="DI|tDataStewardshipTaskOutput" family="Talend Data Stewardship"/>
-    <componentsSettings xmi:id="_yfy0kf9_Eear-M_gLj-wBA" name="DI|tDBOutput" family="Databases/DB_Generic"/>
-    <componentsSettings xmi:id="_yfy0kv9_Eear-M_gLj-wBA" name="DI|tSalesforceOutputBulkExec" family="Business/Salesforce"/>
-    <componentsSettings xmi:id="_yfy0k_9_Eear-M_gLj-wBA" name="DI|tDBInput" family="Databases/DB_Generic"/>
-    <componentsSettings xmi:id="_yfzboP9_Eear-M_gLj-wBA" name="DI|tSplunkEventCollector" family="Business Intelligence/Splunk"/>
-    <componentsSettings xmi:id="_yfzbof9_Eear-M_gLj-wBA" name="DI|tArray" family="Technical"/>
-    <componentsSettings xmi:id="_yfzbov9_Eear-M_gLj-wBA" name="DI|tDatasetInput" family="Talend Data Preparation"/>
-    <componentsSettings xmi:id="_yfzbo_9_Eear-M_gLj-wBA" name="DI|tSalesforceOutput" family="Business/Salesforce"/>
-    <componentsSettings xmi:id="_yfzbpP9_Eear-M_gLj-wBA" name="DI|tAccessOutputBulkExec" family="Databases/Access"/>
-    <componentsSettings xmi:id="_yfzbpf9_Eear-M_gLj-wBA" name="DI|tDatasetOutput" family="Talend Data Preparation"/>
-    <componentsSettings xmi:id="_yfzbpv9_Eear-M_gLj-wBA" name="DI|tSalesforceGetServerTimestamp" family="Cloud/Salesforce"/>
-    <componentsSettings xmi:id="_yfzbp_9_Eear-M_gLj-wBA" name="DI|tSalesforceGetDeleted" family="Business/Salesforce"/>
-    <componentsSettings xmi:id="_yfzbqP9_Eear-M_gLj-wBA" name="DI|tSalesforceConnection" family="Cloud/Salesforce"/>
-    <componentsSettings xmi:id="_yfzbqf9_Eear-M_gLj-wBA" name="DI|tSalesforceInput" family="Cloud/Salesforce"/>
     <statAndLogsSettings xmi:id="_32EU4P0-Eear-M_gLj-wBA">
       <parameters xmi:id="_32EU4f0-Eear-M_gLj-wBA">
         <elementParameter xmi:id="_32P7EP0-Eear-M_gLj-wBA" field="CHECK" name="UPDATE_COMPONENTS" value="false" contextMode="false"/>
