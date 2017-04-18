@@ -1,6 +1,8 @@
 /,com.oaklandsw.base,version,1
 Databases,com.oaklandsw.base,order,5
 Maps,com.oaklandsw.base,order,1
+Maps/AS/PartnerService/validatePartnerDetails/arthaResponseToValidatePartnerDetailsResponse.xml,com.oaklandsw.base,references.0,Structures/AS/validatePartnerDetails/validatePartnerDetailsArthaResponse.xml
+Maps/AS/PartnerService/validatePartnerDetails/arthaResponseToValidatePartnerDetailsResponse.xml,com.oaklandsw.base,references.1,Structures/AS/validatePartnerDetails/ValidatePartnerDetailsResponse.xml
 Maps/AS/PartnerService/validatePartnerDetails/ensuraResponseToValidatePartnerDetailsResponse.xml,com.oaklandsw.base,needsVal.0,Structures/AS/validatePartnerDetails/validatePartnerDetailsArthaResponse.xml
 Maps/AS/PartnerService/validatePartnerDetails/ensuraResponseToValidatePartnerDetailsResponse.xml,com.oaklandsw.base,references.0,Structures/AS/validatePartnerDetails/ValidatePartnerDetailsResponse.xml
 Maps/AS/PartnerService/validatePartnerDetails/ensuraResponseToValidatePartnerDetailsResponse.xml,com.oaklandsw.base,references.1,Structures/AS/validatePartnerDetails/validatePartnerDetailsArthaResponse.xml
