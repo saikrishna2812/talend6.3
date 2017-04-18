@@ -1,3 +1,0 @@
-<con:searchForUsersRequest xmlns:con="http://www.homeserve.com/NA/US/ConfigurationServicev1.0/">
-         <User>?</User>
-      </con:searchForUsersRequest>

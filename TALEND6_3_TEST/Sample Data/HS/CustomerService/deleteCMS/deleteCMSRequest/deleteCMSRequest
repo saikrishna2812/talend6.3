@@ -1,5 +1,0 @@
- <cus:deleteCMSRequest xmlns:cus="http://www.homeserve.com/NA/US/CustomerServicev1.0/">
-         <UserId>?</UserId>
-         <CustomerRef>?</CustomerRef>
-         <Item>?</Item>
-      </cus:deleteCMSRequest>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<ServiceRequest >
-  <service>svcWebFetchProspect.p</service>
-  <shortcode></shortcode>
-  <zipcode></zipcode>
-  <hash></hash>
-</ServiceRequest> 

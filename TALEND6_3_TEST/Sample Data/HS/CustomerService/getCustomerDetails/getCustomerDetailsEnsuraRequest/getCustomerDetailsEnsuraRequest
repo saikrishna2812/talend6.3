@@ -1,6 +1,0 @@
-<ServiceRequest>
-  <service>svcWebFetchCustomer.p</service>
-  <CustomerRef>01769119</CustomerRef>
-  <Type>Premises</Type>
-  <hash>066B9B006CCC94C6A57FB29772B447533D9764B6</hash>
-</ServiceRequest>

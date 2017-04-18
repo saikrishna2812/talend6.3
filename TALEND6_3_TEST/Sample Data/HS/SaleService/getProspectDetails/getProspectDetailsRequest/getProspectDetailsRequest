@@ -1,4 +1,0 @@
-<sal:getProspectDetailsRequest xmlns:sal="http://www.homeserve.com/NA/US/SaleServicev1.0/">
-         <ShortCode>99988801</ShortCode>
-         <ZipCode>50314</ZipCode>
-</sal:getProspectDetailsRequest>

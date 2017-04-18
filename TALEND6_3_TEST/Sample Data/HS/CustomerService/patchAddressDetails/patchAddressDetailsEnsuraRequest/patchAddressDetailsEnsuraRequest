@@ -1,8 +1,0 @@
-<ServiceRequest>
-  <service>svcWebProcessCustomerAddressPatch.p</service>
-  <UserId>gudimv</UserId>
-  <CustomerRef>237108</CustomerRef>
-  <Title>Mrs.</Title>
-  <Email>m.smith@email.bb.info</Email>
-  <hash>9F97F3B02A10B42FB14FAD7172178F7987B060F9</hash>
-</ServiceRequest>

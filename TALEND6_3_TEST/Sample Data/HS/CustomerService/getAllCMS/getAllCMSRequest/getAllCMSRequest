@@ -1,6 +1,0 @@
-<cus:getAllCMSRequest xmlns:cus="http://www.homeserve.com/NA/US/CustomerServicev1.0/">
-         <!--Optional:-->
-         <CustomerRef>?</CustomerRef>
-         <!--Optional:-->
-         <ContractRef>?</ContractRef>
-      </cus:getAllCMSRequest>

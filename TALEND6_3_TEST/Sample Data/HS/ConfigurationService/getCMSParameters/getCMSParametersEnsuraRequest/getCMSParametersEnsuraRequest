@@ -1,7 +1,0 @@
-<ServiceRequest>
-  <service>svcWebFetchCMSParameters.p</service>
-  <ParameterType>Nature</ParameterType>
-  <Method>$1</Method>
-  <Type>1</Type>
-  <hash>A75864272E241977BB2BA640092A3A74915B7225</hash>
-</ServiceRequest>
