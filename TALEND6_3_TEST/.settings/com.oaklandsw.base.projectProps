@@ -1,6 +1,7 @@
 /,com.oaklandsw.base,version,1
 Databases,com.oaklandsw.base,order,5
 Maps,com.oaklandsw.base,order,1
+Maps/AS/PartnerService/validatePartnerDetails/ensuraResponseToValidatePartnerDetailsResponse.xml,com.oaklandsw.base,needsVal.0,Structures/AS/validatePartnerDetails/ValidatePartnerDetailsResponse.xml
 Maps/AS/PartnerService/validatePartnerDetails/ensuraResponseToValidatePartnerDetailsResponse.xml,com.oaklandsw.base,references.0,Structures/AS/validatePartnerDetails/validatePartnerDetailsEnsuraResponse.xml
 Maps/AS/PartnerService/validatePartnerDetails/ensuraResponseToValidatePartnerDetailsResponse.xml,com.oaklandsw.base,references.1,Structures/AS/validatePartnerDetails/ValidatePartnerDetailsResponse.xml
 Maps/AS/PartnerService/validatePartnerDetails/validatePartnerDetailsRequestToEnsuraRequest.xml,com.oaklandsw.base,needsVal.0,Structures/AS/validatePartnerDetails/validatePartnerDetailsRequest.xml
@@ -19,4 +20,6 @@ Structures/AS/PartnerService/getPartnerDetails/getPartnerDetailsArthaResponse.xm
 Structures/AS/PartnerService/getPartnerDetails/getPartnerDetailsRequest.xml,com.oaklandsw.base,references.0,Namespace Containers/AS_PartnerService_getPartnerDetails.xml
 Structures/AS/PartnerService/getPartnerDetails/getPatnerDetailsResponse.xml,com.oaklandsw.base,references.0,/OPTIMIZE_ESBLAYER/Sample Data/HS/PartnerService/getPartnerDetails/getPatnerDetailsResponse/getPatnerDetailsResponse
 Structures/AS/PartnerService/getPartnerDetails/getPatnerDetailsResponse.xml,com.oaklandsw.base,references.1,Namespace Containers/AS_PartnerService_getPartnerDetails.xml
+Structures/AS/validatePartnerDetails/ValidatePartnerDetailsResponse.xml,com.oaklandsw.base,references.0,/OPTIMIZE_ESBLAYER/Sample Data/HS/PartnerService/validatePartnerDetails/ValidatePartnerDetailsResponse/ValidatePartnerDetailsResponse
+Structures/AS/validatePartnerDetails/ValidatePartnerDetailsResponse.xml,com.oaklandsw.base,references.1,Namespace Containers/HS_PartnerService_validatePartnerDetails.xml
 Structures/AS/validatePartnerDetails/validatePartnerDetailsRequest.xml,com.oaklandsw.base,references.0,Namespace Containers/HS_PartnerService_validatePartnerDetails.xml
