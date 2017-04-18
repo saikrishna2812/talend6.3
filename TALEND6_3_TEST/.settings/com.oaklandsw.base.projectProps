@@ -14,7 +14,6 @@ Namespace Containers,com.oaklandsw.base,order,4
 Reports,com.oaklandsw.base,order,7
 Sample Data,com.oaklandsw.base,order,6
 Structures,com.oaklandsw.base,order,0
-Structures/AS/PartnerService/getPartnerDetails/getPartnerDetailsArthaRequest.xml,com.oaklandsw.base,needsVal.0,Namespace Containers/AS_PartnerService_getPartnerDetails.xml
 Structures/AS/PartnerService/getPartnerDetails/getPartnerDetailsArthaRequest.xml,com.oaklandsw.base,references.0,Namespace Containers/AS_PartnerService_getPartnerDetails.xml
 Structures/AS/PartnerService/getPartnerDetails/getPartnerDetailsArthaRequest.xml,com.oaklandsw.base,references.1,Sample Data/HS/PartnerService/getPartnerDetails/getPartnerDetailsEnsuraRequest/getPartnerDetailsEnsuraRequest
 Structures/AS/PartnerService/getPartnerDetails/getPartnerDetailsArthaResponse.xml,com.oaklandsw.base,needsVal.0,Namespace Containers/AS_PartnerService_getPartnerDetails.xml
