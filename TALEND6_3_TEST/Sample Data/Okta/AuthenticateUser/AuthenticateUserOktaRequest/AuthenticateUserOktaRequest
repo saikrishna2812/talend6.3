@@ -1,9 +1,0 @@
-{
-  "username": "gpalamadai@homeserveusa.com",
-  "password": "Okta12345",
-  "relayState": "string",
-  "options": {
-    "multiOptionalFactorEnroll": false,
-    "warnBeforePasswordExpired": true
-  }  
-}

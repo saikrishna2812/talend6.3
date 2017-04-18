@@ -1,8 +1,0 @@
-<okta:VerifyRecoveryTokenRequest xmlns:okta="http://www.homeserve.com/OkTA/">
-	<okta:SourceHeader>
-		<okta:sourceSystemName>string</okta:sourceSystemName>
-		<okta:sourceSystemVersion>string</okta:sourceSystemVersion>
-		<okta:sourceSystemRefId>string</okta:sourceSystemRefId>
-	</okta:SourceHeader>
-	<okta:recoveryToken>string</okta:recoveryToken>
-</okta:VerifyRecoveryTokenRequest>

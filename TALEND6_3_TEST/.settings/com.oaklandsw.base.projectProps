@@ -143,12 +143,13 @@ Maps/HS/SaleService/validateSale/validateSaleRequestToEnsuraRequest.xml,com.oakl
 Maps/HS/SaleService/validateSale/validateSaleRequestToEnsuraRequest.xml,com.oaklandsw.base,references.1,Structures/HS/SaleService/validateSale/validateSaleRequest.xml
 Maps/Okta/AddUser/AddUserRequestMap.xml,com.oaklandsw.base,references.0,Structures/Okta/AddUser/AddUserESBRequest.xml
 Maps/Okta/AddUser/AddUserRequestMap.xml,com.oaklandsw.base,references.1,Structures/Okta/AddUser/AddUserOktaRequest.xml
-Maps/Okta/AddUser/AddUserResponseMap.xml,com.oaklandsw.base,references.0,Structures/Okta/AddUser/AddUserOktaResponse.xml
-Maps/Okta/AddUser/AddUserResponseMap.xml,com.oaklandsw.base,references.1,Structures/OktaXSD/Elements/AddUserResponse.xml
+Maps/Okta/AddUser/AddUserResponseMap.xml,com.oaklandsw.base,references.0,Structures/OktaXSD/Elements/AddUserResponse.xml
+Maps/Okta/AddUser/AddUserResponseMap.xml,com.oaklandsw.base,references.1,Structures/Okta/AddUser/AddUserOktaResponse.xml
 Maps/Okta/AuthenticateUser/AuthenticateUserRequestMap.xml,com.oaklandsw.base,references.0,Structures/Okta/AuthenticateUser/AuthenticateUserOktaRequest.xml
 Maps/Okta/AuthenticateUser/AuthenticateUserRequestMap.xml,com.oaklandsw.base,references.1,Structures/Okta/AuthenticateUser/AuthenticateUserESBRequest.xml
-Maps/Okta/AuthenticateUser/AuthenticateUserResponseMap.xml,com.oaklandsw.base,references.0,Structures/OktaXSD/Elements/AuthenticateUserResponse.xml
-Maps/Okta/AuthenticateUser/AuthenticateUserResponseMap.xml,com.oaklandsw.base,references.1,Structures/Okta/AuthenticateUser/AuthenticateUserOktaResponse.xml
+Maps/Okta/AuthenticateUser/AuthenticateUserResponseMap.xml,com.oaklandsw.base,needsVal.0,Structures/Okta/AuthenticateUser/AuthenticateUserOktaResponse.xml
+Maps/Okta/AuthenticateUser/AuthenticateUserResponseMap.xml,com.oaklandsw.base,references.0,Structures/Okta/AuthenticateUser/AuthenticateUserOktaResponse.xml
+Maps/Okta/AuthenticateUser/AuthenticateUserResponseMap.xml,com.oaklandsw.base,references.1,Structures/OktaXSD/Elements/AuthenticateUserResponse.xml
 Maps/Okta/ChangeCredentials/ChangeCredentialsRequestMap.xml,com.oaklandsw.base,references.0,Structures/Okta/ChangeCredentials/ChangeCredentialsESBRequest.xml
 Maps/Okta/ChangeCredentials/ChangeCredentialsRequestMap.xml,com.oaklandsw.base,references.1,Structures/Okta/ChangeCredentials/ChangeCredentialsOktaRequest.xml
 Maps/Okta/ChangeCredentials/ChangeCredentialsResponseMap.xml,com.oaklandsw.base,references.0,Structures/OktaXSD/Elements/ChangeCredentialsResponse.xml
@@ -165,24 +166,27 @@ Maps/Okta/GetRecoveryToken/GetRecoveryTokenRequestMap.xml,com.oaklandsw.base,ref
 Maps/Okta/GetRecoveryToken/GetRecoveryTokenRequestMap.xml,com.oaklandsw.base,references.1,Structures/Okta/GetRecoveryToken/GetRecoveryESBRequest.xml
 Maps/Okta/GetRecoveryToken/GetRecoveryTokenResponseMap.xml,com.oaklandsw.base,references.0,Structures/OktaXSD/Elements/GetRecoveryTokenResponse.xml
 Maps/Okta/GetRecoveryToken/GetRecoveryTokenResponseMap.xml,com.oaklandsw.base,references.1,Structures/Okta/GetRecoveryToken/GetRecoveryOktaResponse.xml
+Maps/Okta/GetUser/GetUserResponseMap.xml,com.oaklandsw.base,needsVal.0,Structures/Okta/GetUser/GetUserOktaResponse.xml
 Maps/Okta/GetUser/GetUserResponseMap.xml,com.oaklandsw.base,references.0,Structures/OktaXSD/Elements/GetUserResponse.xml
 Maps/Okta/GetUser/GetUserResponseMap.xml,com.oaklandsw.base,references.1,Structures/Okta/GetUser/GetUserOktaResponse.xml
 Maps/Okta/ResetPassword/ResetPasswordRequestMap.xml,com.oaklandsw.base,references.0,Structures/Okta/ResetPassword/ResetPasswordOktaRequest.xml
 Maps/Okta/ResetPassword/ResetPasswordRequestMap.xml,com.oaklandsw.base,references.1,Structures/Okta/ResetPassword/ResetPasswordESBRequest.xml
 Maps/Okta/ResetPassword/ResetPasswordResponseMap.xml,com.oaklandsw.base,references.0,Structures/OktaXSD/Elements/ResetPasswordResponse.xml
 Maps/Okta/ResetPassword/ResetPasswordResponseMap.xml,com.oaklandsw.base,references.1,Structures/Okta/ResetPassword/ResetPasswordOktaResponse.xml
-Maps/Okta/SearchForGroups/SearchForGroupsResponseMap.xml,com.oaklandsw.base,references.0,Structures/Okta/SearchForGroups/SearchForGroupsOktaResponse.xml
-Maps/Okta/SearchForGroups/SearchForGroupsResponseMap.xml,com.oaklandsw.base,references.1,Structures/OktaXSD/Elements/SearchForGroupsResponse.xml
+Maps/Okta/SearchForGroups/SearchForGroupsResponseMap.xml,com.oaklandsw.base,references.0,Structures/OktaXSD/Elements/SearchForGroupsResponse.xml
+Maps/Okta/SearchForGroups/SearchForGroupsResponseMap.xml,com.oaklandsw.base,references.1,Structures/Okta/SearchForGroups/SearchForGroupsOktaResponse.xml
 Maps/Okta/UnlockUser/UnlockUserResponseMap.xml,com.oaklandsw.base,references.0,Structures/OktaXSD/Elements/UnlockAccountResponse.xml
 Maps/Okta/UnlockUser/UnlockUserResponseMap.xml,com.oaklandsw.base,references.1,Structures/Okta/UnlockAccount/UnlockAccountOktaResponse.xml
 Maps/Okta/VerifyRecoveryToken/VerifyRecoveryTokenRequestMap.xml,com.oaklandsw.base,references.0,Structures/Okta/VerifyRecoveryToken/VerifyRecoveryTokenOktaRequest.xml
 Maps/Okta/VerifyRecoveryToken/VerifyRecoveryTokenRequestMap.xml,com.oaklandsw.base,references.1,Structures/Okta/VerifyRecoveryToken/VerifyRecoveryTokenESBRequest.xml
 Maps/Okta/VerifyRecoveryToken/VerifyRecoveryTokenResponseMap.xml,com.oaklandsw.base,references.0,Structures/OktaXSD/Elements/VerifyRecoveryTokenResponse.xml
 Maps/Okta/VerifyRecoveryToken/VerifyRecoveryTokenResponseMap.xml,com.oaklandsw.base,references.1,Structures/Okta/VerifyRecoveryToken/VerifyRecoveryTokenOktaResponse.xml
-Maps/Reevo/CustomerExperienceReviewResponseMap.xml,com.oaklandsw.base,references.0,Structures/ReevoService/CustomerReview/ReevoResponse.xml
-Maps/Reevo/CustomerExperienceReviewResponseMap.xml,com.oaklandsw.base,references.1,Structures/ReevoService/CustomerReview/ESBResponse.xml
-Maps/Reevo/OrganisationsResponseMap.xml,com.oaklandsw.base,references.0,Structures/ReevoService/Organisations/ReevoOrganisationResponse.xml
-Maps/Reevo/OrganisationsResponseMap.xml,com.oaklandsw.base,references.1,Structures/ReevoService/Organisations/OrganisationResponse.xml
+Maps/Reevo/CustomerExperienceReviewResponseMap.xml,com.oaklandsw.base,needsVal.0,Structures/ReevoService/CustomerReview/ESBResponse.xml
+Maps/Reevo/CustomerExperienceReviewResponseMap.xml,com.oaklandsw.base,references.0,Structures/ReevoService/CustomerReview/ESBResponse.xml
+Maps/Reevo/CustomerExperienceReviewResponseMap.xml,com.oaklandsw.base,references.1,Structures/ReevoService/CustomerReview/ReevoResponse.xml
+Maps/Reevo/OrganisationsResponseMap.xml,com.oaklandsw.base,needsVal.0,Structures/ReevoService/Organisations/OrganisationResponse.xml
+Maps/Reevo/OrganisationsResponseMap.xml,com.oaklandsw.base,references.0,Structures/ReevoService/Organisations/OrganisationResponse.xml
+Maps/Reevo/OrganisationsResponseMap.xml,com.oaklandsw.base,references.1,Structures/ReevoService/Organisations/ReevoOrganisationResponse.xml
 Maps/Reevo/ReadReviewResponseMap.xml,com.oaklandsw.base,references.0,Structures/ReevoService/ReadReview/ServiceResponse.xml
 Maps/Reevo/ReadReviewResponseMap.xml,com.oaklandsw.base,references.1,Structures/ReevoService/ReadReview/ESBResponse.xml
 Maps/ServiceBench/ServiceJobSchedule/ScheduleRequestToCRMServiceRequest.xml,com.oaklandsw.base,references.0,Structures/ServiceBench/ServiceJobSchedule/CRMServiceRequest.xml
@@ -463,23 +467,23 @@ Structures/HS/SaleService/validateSale/validateSaleResponse.xml,com.oaklandsw.ba
 Structures/HS/SaleService/validateSale/validateSaleResponse.xml,com.oaklandsw.base,references.1,Sample Data/HS/SaleService/validateSale/validateSaleResponse/validateSaleResponse
 Structures/Okta/AddUser/AddUserESBRequest.xml,com.oaklandsw.base,references.0,Namespace Containers/Okta_AddUser.xml
 Structures/Okta/AddUser/AddUserESBResponse.xml,com.oaklandsw.base,references.0,Namespace Containers/Okta_AddUser.xml
-Structures/Okta/AddUser/AddUserOktaResponse.xml,com.oaklandsw.base,references.0,Sample Data/Okta/AddUser/AddUserOktaResponse/AddUserOktaResponse
-Structures/Okta/AuthenticateUser/AuthenticateUserOktaResponse.xml,com.oaklandsw.base,references.0,Sample Data/Okta/AuthenticateUser/AuthenticateUserOktaResponse/AuthenticateUserOktaResponse
+Structures/Okta/AddUser/AddUserOktaResponse.xml,com.oaklandsw.base,references.0,/OPTIMIZE_ESBLAYER/Sample Data/Okta/AddUser/AddUserOktaResponse/AddUserOktaResponse
+Structures/Okta/AuthenticateUser/AuthenticateUserOktaResponse.xml,com.oaklandsw.base,references.0,/OPTIMIZE_ESBLAYER/Sample Data/Okta/AuthenticateUser/AuthenticateUserOktaResponse/AuthenticateUserOktaResponse
 Structures/Okta/ChangeCredentials/ChangeCredentialsESBRequest.xml,com.oaklandsw.base,references.0,Namespace Containers/Okta_ChangeCredentials.xml
-Structures/Okta/ChangeCredentials/ChangeCredentialsOktaResponse.xml,com.oaklandsw.base,references.0,Sample Data/Okta/ChangeCredentials/ChangeCredentialsOktaResponse/ChangeCredentialsOktaResponse
+Structures/Okta/ChangeCredentials/ChangeCredentialsOktaResponse.xml,com.oaklandsw.base,references.0,/OPTIMIZE_ESBLAYER/Sample Data/Okta/ChangeCredentials/ChangeCredentialsOktaResponse/ChangeCredentialsOktaResponse
 Structures/Okta/ChangePassword/ChangePasswordESBRequest.xml,com.oaklandsw.base,references.0,Namespace Containers/Okta_ChangePassword.xml
 Structures/Okta/ChangeRecoveryQuestion/ChangeRecoveryQuestionESBRequest.xml,com.oaklandsw.base,references.0,Namespace Containers/Okta_ChangeRecoveryQuestion.xml
 Structures/Okta/GetRecoveryToken/GetRecoveryESBRequest.xml,com.oaklandsw.base,references.0,Namespace Containers/Okta_GetRecoveryToken.xml
-Structures/Okta/GetRecoveryToken/GetRecoveryESBResponse.xml,com.oaklandsw.base,references.0,Namespace Containers/Okta_GetRecoveryToken.xml
-Structures/Okta/GetRecoveryToken/GetRecoveryESBResponse.xml,com.oaklandsw.base,references.1,Sample Data/Okta/GetRecoveryToken/GetRecoveryESBResponse/GetRecoveryESBResponse
+Structures/Okta/GetRecoveryToken/GetRecoveryESBResponse.xml,com.oaklandsw.base,references.0,/OPTIMIZE_ESBLAYER/Sample Data/Okta/GetRecoveryToken/GetRecoveryESBResponse/GetRecoveryESBResponse
+Structures/Okta/GetRecoveryToken/GetRecoveryESBResponse.xml,com.oaklandsw.base,references.1,Namespace Containers/Okta_GetRecoveryToken.xml
 Structures/Okta/GetUser/GetUserESBResponse.xml,com.oaklandsw.base,references.0,Namespace Containers/Okta_GetUser.xml
-Structures/Okta/GetUser/GetUserOktaResponse.xml,com.oaklandsw.base,references.0,Sample Data/Okta/GetUser/GetUserOktaResponse/GetUserOktaResponse
+Structures/Okta/GetUser/GetUserOktaResponse.xml,com.oaklandsw.base,references.0,/OPTIMIZE_ESBLAYER/Sample Data/Okta/GetUser/GetUserOktaResponse/GetUserOktaResponse
 Structures/Okta/ResetPassword/ResetPasswordESBRequest.xml,com.oaklandsw.base,references.0,Namespace Containers/Okta_ResetPassword.xml
-Structures/Okta/SearchForGroups/SearchForGroupsOktaResponse.xml,com.oaklandsw.base,references.0,Sample Data/Okta/SearchForGroups/SearchForGroupsOktaResponse/SearchForGroupsOktaResponse
+Structures/Okta/SearchForGroups/SearchForGroupsOktaResponse.xml,com.oaklandsw.base,references.0,/OPTIMIZE_ESBLAYER/Sample Data/Okta/SearchForGroups/SearchForGroupsOktaResponse/SearchForGroupsOktaResponse
 Structures/Okta/UnlockAccount/UnlockAccountESBRequest.xml,com.oaklandsw.base,references.0,Namespace Containers/Okta_UnlockAccount.xml
 Structures/Okta/UnlockAccount/UnlockAccountESBResponse.xml,com.oaklandsw.base,references.0,Namespace Containers/Okta_UnlockAccount.xml
 Structures/Okta/VerifyRecoveryToken/VerifyRecoveryTokenESBRequest.xml,com.oaklandsw.base,references.0,Namespace Containers/Okta_VerifyRecoveryToken.xml
-Structures/Okta/VerifyRecoveryToken/VerifyRecoveryTokenESBResponse.xml,com.oaklandsw.base,references.0,Sample Data/Okta/VerifyRecoveryToken/VerifyRecoveryTokenESBResponse/VerifyRecoveryTokenESBResponse
+Structures/Okta/VerifyRecoveryToken/VerifyRecoveryTokenESBResponse.xml,com.oaklandsw.base,references.0,/OPTIMIZE_ESBLAYER/Sample Data/Okta/VerifyRecoveryToken/VerifyRecoveryTokenESBResponse/VerifyRecoveryTokenESBResponse
 Structures/Okta/VerifyRecoveryToken/VerifyRecoveryTokenESBResponse.xml,com.oaklandsw.base,references.1,Namespace Containers/Okta_VerifyRecoveryToken.xml
 Structures/OktaXSD/Attributes/xsi/nil.xml,com.oaklandsw.base,references.0,Namespace Containers/OktaXSD.xml
 Structures/OktaXSD/Attributes/xsi/noNamespaceSchemaLocation.xml,com.oaklandsw.base,references.0,Namespace Containers/OktaXSD.xml
@@ -596,10 +600,10 @@ Structures/OktaXSD/Types/providerType.xml,com.oaklandsw.base,references.0,Namesp
 Structures/OktaXSD/Types/recovery_questionType.xml,com.oaklandsw.base,references.0,Namespace Containers/OktaXSD.xml
 Structures/OktaXSD/Types/recoveryquestionType.xml,com.oaklandsw.base,references.0,Namespace Containers/OktaXSD.xml
 Structures/OktaXSD/Types/userHeaderType.xml,com.oaklandsw.base,references.0,Namespace Containers/OktaXSD.xml
-Structures/ReevoService/CustomerReview/ESBResponse.xml,com.oaklandsw.base,references.0,Sample Data/ReevoService/CustomerReview/ESBResponse/ESBResponse
+Structures/ReevoService/CustomerReview/ESBResponse.xml,com.oaklandsw.base,references.0,/OPTIMIZE_ESBLAYER/Sample Data/ReevoService/CustomerReview/ESBResponse/ESBResponse
 Structures/ReevoService/CustomerReview/ESBResponse.xml,com.oaklandsw.base,references.1,Namespace Containers/ReevoService_CustomerReview.xml
 Structures/ReevoService/Organisations/OrganisationResponse.xml,com.oaklandsw.base,references.0,Namespace Containers/ReevoService_Organisations.xml
-Structures/ReevoService/Organisations/OrganisationResponse.xml,com.oaklandsw.base,references.1,Sample Data/ReevoService/Organisations/OrganisationResponse/OrganisationResponse
+Structures/ReevoService/Organisations/OrganisationResponse.xml,com.oaklandsw.base,references.1,/OPTIMIZE_ESBLAYER/Sample Data/ReevoService/Organisations/OrganisationResponse/OrganisationResponse
 Structures/ServiceBench/CRMServiceOrderService.wsdl_0.1/Attributes/nil.xml,com.oaklandsw.base,references.0,Namespace Containers/ServiceBench_CRMServiceOrderService.wsdl_0.1.xml
 Structures/ServiceBench/CRMServiceOrderService.wsdl_0.1/Attributes/noNamespaceSchemaLocation.xml,com.oaklandsw.base,references.0,Namespace Containers/ServiceBench_CRMServiceOrderService.wsdl_0.1.xml
 Structures/ServiceBench/CRMServiceOrderService.wsdl_0.1/Attributes/schemaLocation.xml,com.oaklandsw.base,references.0,Namespace Containers/ServiceBench_CRMServiceOrderService.wsdl_0.1.xml
@@ -902,8 +906,8 @@ Structures/ServiceBench/CRMServiceOrderService.wsdl_0.1/Types/warehouseService.x
 Structures/ServiceBench/CRMServiceOrderService.wsdl_0.1/Types/warehouseService.xml,com.oaklandsw.base,references.2,Structures/ServiceBench/CRMServiceOrderService.wsdl_0.1/Types/purchaseOrder.xml,/ns1:warehouseService/ns1:purchaseOrder
 Structures/ServiceBench/ServiceJobSchedule/CRMServiceRequest.xml,com.oaklandsw.base,references.0,Namespace Containers/ServiceBench_ServiceJobSchedule.xml
 Structures/ServiceBench/ServiceJobSchedule/ScheduleRequest.xml,com.oaklandsw.base,references.0,Namespace Containers/ServiceBench_ServiceJobSchedule.xml
-Structures/ServiceBench/serviceJobStatus/serviceJobStatusRequest.xml,com.oaklandsw.base,references.0,Namespace Containers/ServiceBench_serviceJobStatus.xml
-Structures/ServiceBench/serviceJobStatus/serviceJobStatusRequest.xml,com.oaklandsw.base,references.1,Sample Data/ServiceBench/serviceJobStatus/serviceJobStatusRequest/serviceJobStatusRequest
+Structures/ServiceBench/serviceJobStatus/serviceJobStatusRequest.xml,com.oaklandsw.base,references.0,/OPTIMIZE_ESBLAYER/Sample Data/ServiceBench/serviceJobStatus/serviceJobStatusRequest/serviceJobStatusRequest
+Structures/ServiceBench/serviceJobStatus/serviceJobStatusRequest.xml,com.oaklandsw.base,references.1,Namespace Containers/ServiceBench_serviceJobStatus.xml
 Structures/ServiceBench/serviceJobStatus/serviceJobStatusResponse.xml,com.oaklandsw.base,references.0,Namespace Containers/ServiceBench_serviceJobStatus.xml
 Structures/ServiceBench/serviceJobStatus/serviceJobStatusServiceResponse.xml,com.oaklandsw.base,references.0,Namespace Containers/ServiceBench_serviceJobStatus.xml
 Structures/lookUp/LookUpRequest.xml,com.oaklandsw.base,references.0,Namespace Containers/lookUp.xml

@@ -1,5 +1,0 @@
-<ser:serviceJobStatusResponse xmlns:ser="http://www.homeserve.com/ServiceBench/">
-         <Outcome>
-            <ResultCode>?</ResultCode>
-         </Outcome>
- </ser:serviceJobStatusResponse>
