@@ -1,0 +1,7 @@
+<ser:ReadReviewRequest
+    xmlns:ser="http://www.example.org/Reevo/">
+    <ser:locale>5.7</ser:locale>
+    <ser:SKU>SB</ser:SKU>
+    <ser:organisation>1.0</ser:organisation>
+    <ser:page>1.0</ser:page>
+</ser:ReadReviewRequest>

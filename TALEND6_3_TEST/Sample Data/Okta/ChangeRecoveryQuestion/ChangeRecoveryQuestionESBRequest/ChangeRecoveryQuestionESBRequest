@@ -1,0 +1,18 @@
+<okta:ChangeRecoveryQuestionRequest xmlns:okta="http://www.homeserve.com/OkTA/">
+	<okta:SourceHeader>
+		<okta:sourceSystemName>?</okta:sourceSystemName>
+		<okta:sourceSystemVersion>?</okta:sourceSystemVersion>
+		<okta:sourceSystemRefId>?</okta:sourceSystemRefId>
+	</okta:SourceHeader>
+	<okta:id>?</okta:id>
+	<okta:password>
+		<!--Optional:-->
+		<okta:value>?</okta:value>
+	</okta:password>
+	<okta:recovery_question>
+		<!--Optional:-->
+		<okta:question>?</okta:question>
+		<!--Optional:-->
+		<okta:answer>?</okta:answer>
+	</okta:recovery_question>
+</okta:ChangeRecoveryQuestionRequest>
