@@ -1,0 +1,5 @@
+<cus:getCustomerDetailsRequest xmlns:cus="http://www.homeserve.com/NA/US/CustomerServicev1.0/">
+         <CustomerRef></CustomerRef>
+         <!--Optional:-->
+         <AddressType></AddressType>
+</cus:getCustomerDetailsRequest>

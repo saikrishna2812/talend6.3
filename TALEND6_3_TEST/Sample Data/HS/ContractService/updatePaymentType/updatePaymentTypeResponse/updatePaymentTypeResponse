@@ -1,0 +1,16 @@
+      <con:updatePaymentTypeResponse xmlns:con="http://www.homeserve.com/NA/US/ContractServicev1.0/">
+         <Outcome>
+            <ResultCode>?</ResultCode>
+            <ResultDescription>?</ResultDescription>
+         </Outcome>
+         <updatePaymentTypeResponseDetail>
+            <Result>?</Result>
+         </updatePaymentTypeResponseDetail>
+         <ErrorDetails>
+            <!--1 or more repetitions:-->
+            <ErrorDetail>
+               <ErrorCode>?</ErrorCode>
+               <ErrorDescription>?</ErrorDescription>
+            </ErrorDetail>
+         </ErrorDetails>
+      </con:updatePaymentTypeResponse>

@@ -1,0 +1,8 @@
+<ServiceResponse>
+  <Result>ProcessedAsPolicy</Result>
+  <CustomerRef>44765690</CustomerRef>
+  <ScheduleRef>47488703</ScheduleRef>
+  <Mailcode>1513TFOEYAOHA</Mailcode>
+  <ErrorCode>PCW,305</ErrorCode>
+  <ErrorMessage>Please enter the account number</ErrorMessage>
+</ServiceResponse>

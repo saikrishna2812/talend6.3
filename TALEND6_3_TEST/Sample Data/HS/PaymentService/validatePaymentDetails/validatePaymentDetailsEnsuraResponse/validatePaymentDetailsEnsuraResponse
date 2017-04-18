@@ -1,0 +1,18 @@
+<ServiceResponse>
+  <Result>Error</Result>
+  <InstalsCode>CC12</InstalsCode>
+ <Output>
+  <OutputRow>
+  <errorCode></errorCode>
+  <errorMessage></errorMessage>
+  </OutputRow>
+  <OutputRow>
+  <errorCode>PCW,87</errorCode>
+  <errorMessage></errorMessage>
+  </OutputRow>
+  <OutputRow>
+  <errorCode>PCW,11064</errorCode>
+  <errorMessage></errorMessage>
+  </OutputRow>
+  </Output>
+</ServiceResponse>

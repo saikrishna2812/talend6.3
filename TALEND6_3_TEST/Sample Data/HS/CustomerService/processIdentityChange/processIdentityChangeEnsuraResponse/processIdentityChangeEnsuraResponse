@@ -1,0 +1,5 @@
+<ServiceResponse>
+  <Result>ERROR</Result>
+  <ErrorCode>PCW,1149</ErrorCode>
+  <ErrorMessage>Customer not found</ErrorMessage>
+</ServiceResponse>

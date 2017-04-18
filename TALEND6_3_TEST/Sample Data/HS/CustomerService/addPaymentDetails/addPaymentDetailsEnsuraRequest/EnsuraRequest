@@ -1,0 +1,15 @@
+<ServiceRequest>
+  <service>svcWebProcessPaymentDetailsAdd.p</service>
+  <UserId>admin</UserId>
+  <CustomerRef>00101379</CustomerRef>
+  <PayType>CC</PayType>
+  <CreditCardType>CCA</CreditCardType>
+  <CreditCardNumberLast4>1234</CreditCardNumberLast4>
+  <CreditCardExpiryDate>0120</CreditCardExpiryDate>
+  <CreditCardToken>123456789</CreditCardToken>
+  <DirectDebitAccountName></DirectDebitAccountName>
+  <DirectDebitRoutingNo></DirectDebitRoutingNo>
+  <DirectDebitBankAccount></DirectDebitBankAccount>
+  <DirectDebitAccountType></DirectDebitAccountType>
+  <hash>B70D1FFD2C0511993E613CEC9807D0D4C4EF1C0B</hash>
+</ServiceRequest>

@@ -1,0 +1,17 @@
+ <sal:validateSaleResponse xmlns:sal="http://www.homeserve.com/NA/US/SaleServicev1.0/">
+         <Outcome>
+            <ResultCode>?</ResultCode>
+            <ResultDescription>?</ResultDescription>
+         </Outcome>
+         <ValidateSaleResponseDetail>
+            <Valid>?</Valid>
+            <RelatedScheduleRef>?</RelatedScheduleRef>
+         </ValidateSaleResponseDetail>
+         <ErrorDetails>
+            <!--1 or more repetitions:-->
+            <ErrorDetail>
+               <ErrorCode>?</ErrorCode>
+               <ErrorDescription>?</ErrorDescription>
+            </ErrorDetail>
+         </ErrorDetails>
+</sal:validateSaleResponse>

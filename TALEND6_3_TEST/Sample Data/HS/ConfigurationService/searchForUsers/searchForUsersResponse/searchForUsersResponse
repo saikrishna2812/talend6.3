@@ -1,0 +1,28 @@
+<con:searchForUsersResponse xmlns:con="http://www.homeserve.com/NA/US/ConfigurationServicev1.0/">
+         <Outcome>
+            <ResultCode>?</ResultCode>
+            <ResultDescription>?</ResultDescription>
+         </Outcome>
+         <!--Optional:-->
+         <searchForUsersParameter>
+            <!--Optional:-->
+            <Results>?</Results>
+            <!--Zero or more repetitions:-->
+            <CMSParameter>
+               <!--Optional:-->
+               <userId>?</userId>
+               <!--Optional:-->
+               <userName>?</userName>
+            </CMSParameter>
+         </searchForUsersParameter>
+         <!--Optional:-->
+         <ErrorDetails>
+            <!--Zero or more repetitions:-->
+            <ErrorDetail>
+               <!--Optional:-->
+               <ErrorCode>?</ErrorCode>
+               <!--Optional:-->
+               <ErrorDescription>?</ErrorDescription>
+            </ErrorDetail>
+         </ErrorDetails>
+      </con:searchForUsersResponse>

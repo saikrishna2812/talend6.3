@@ -1,0 +1,27 @@
+<ServiceResponse>
+  <Valid>TRUE</Valid>
+  <RelatedScheduleRef>0</RelatedScheduleRef>
+  <Output>
+  <OutputRow>
+  <errorCode>0</errorCode>
+  <errorMessage></errorMessage>
+  </OutputRow>
+  <OutputRow>
+  <errorCode>PCW,17363</errorCode>
+  <errorMessage></errorMessage>
+  </OutputRow>
+  <OutputRow>
+  <errorCode>PCW,302</errorCode>
+  <errorMessage></errorMessage>
+  </OutputRow>
+  <OutputRow>
+  <errorCode></errorCode>
+  <errorMessage></errorMessage>
+  </OutputRow>
+  <OutputRow>
+  <errorCode></errorCode>
+  <errorMessage>Invalid</errorMessage>
+  </OutputRow>
+  </Output>
+</ServiceResponse> 
+

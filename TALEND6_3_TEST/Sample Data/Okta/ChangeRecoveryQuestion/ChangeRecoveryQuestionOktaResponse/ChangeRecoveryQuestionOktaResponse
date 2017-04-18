@@ -1,0 +1,10 @@
+{
+  "password": {},
+  "recovery_question": {
+    "question": "What food i like the most"
+  },
+  "provider": {
+    "type": "OKTA",
+    "name": "OKTA"
+  }
+}

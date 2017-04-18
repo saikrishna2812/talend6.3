@@ -1,0 +1,66 @@
+<ServiceResponse>
+  <FlatNo></FlatNo>
+  <HouseNo>1113</HouseNo>
+  <AddressLine1></AddressLine1>
+  <AddressLine2>Burmont Rd</AddressLine2>
+  <AddressLine3></AddressLine3>
+  <AddressLine4>Drexel Hill</AddressLine4>
+  <AddressLine5>PA</AddressLine5>
+  <ZipCode>19026-4224</ZipCode>
+  <Title>Mr.</Title>
+  <Initials>R</Initials>
+  <Surname>Christy</Surname>
+  <Suffix></Suffix>
+  <Email></Email>
+  <HomePhone>6107894560</HomePhone>
+  <MobilePhone></MobilePhone>
+  <WorkPhone></WorkPhone>
+  <WorkExtension></WorkExtension>
+  <CompanyName></CompanyName>
+  <MailingAddressAvailable>FALSE</MailingAddressAvailable>
+  <CustomerGroup>HS</CustomerGroup>
+  <IdentityManager></IdentityManager>
+  <IdentityUniqueId></IdentityUniqueId>
+  <Paperless>FALSE</Paperless>
+  <PaperlessStatus></PaperlessStatus>
+  <NoEmail>FALSE</NoEmail>
+  <CustomerGroupName>Home Service</CustomerGroupName>
+  <LanguagePreference></LanguagePreference>
+  <CustomerType>D</CustomerType>
+  <Status>A</Status>
+  <StatusName>Active</StatusName>
+  <SpecialNeeds></SpecialNeeds>
+  <SpecialNeedsName></SpecialNeedsName>
+  <DOB></DOB>
+  <LinkedToCustomerRefs></LinkedToCustomerRefs>
+  <AlternativeCustomerRef>0</AlternativeCustomerRef>
+  <NoMail>FALSE</NoMail>
+  <NoTeleSales>FALSE</NoTeleSales>
+  <NoShare>FALSE</NoShare>
+  <Sensitive>FALSE</Sensitive>
+  <TaxExempt>FALSE</TaxExempt>
+  <AddressRef>10428</AddressRef>
+  <DuplicateCustomerRefs>101047,1699770</DuplicateCustomerRefs>
+  <ErrorCode></ErrorCode>
+  <ErrorMessage></ErrorMessage>
+  <Output>
+    <OutputRow>
+      <ScheduleRef>103280</ScheduleRef>
+      <PartnerCode>AP</PartnerCode>
+      <ContractType>SP</ContractType>
+      <ContractStatus>l</ContractStatus>
+    </OutputRow>
+     <OutputRow>
+      <ScheduleRef>103280</ScheduleRef>
+      <PartnerCode>AP</PartnerCode>
+      <ContractType>SP</ContractType>
+      <ContractStatus>l</ContractStatus>
+    </OutputRow>
+     <OutputRow>
+      <ScheduleRef>103280</ScheduleRef>
+      <PartnerCode>AP</PartnerCode>
+      <ContractType>SP</ContractType>
+      <ContractStatus>l</ContractStatus>
+    </OutputRow>
+  </Output>
+</ServiceResponse>

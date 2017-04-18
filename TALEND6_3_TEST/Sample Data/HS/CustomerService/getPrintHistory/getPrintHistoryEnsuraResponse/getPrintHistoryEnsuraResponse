@@ -1,0 +1,23 @@
+<ServiceResponse>
+  <Results>1</Results>
+  <ErrorCode></ErrorCode>
+  <ErrorMessage></ErrorMessage>
+  <Output>
+    <OutputRow>
+      <Level>s</Level>
+      <ContractRef>56866847</ContractRef>
+      <PrintRef>550314</PrintRef>
+      <Created>2016-03-24T14:42:52</Created>
+      <UserId>dlouis_e</UserId>
+      <UserName>dlouis_e</UserName>
+      <PrintType>PPR</PrintType>
+      <PrintName>Policy Print Request</PrintName>
+      <Status>Printed</Status>
+      <RunData>Mrs.|Patricia D|Williams ||5017 Lively Ct ||Louisville|KY|40218-4126|12/22/16|Water Service Line, Sewer/Septic Line, Internal Plumbing &amp; Drainage &amp; Water Heater Repair/Replace Coverage|I8|I8||LK001I8|Louisville Water|LK|IVM|||Monthly||  $389.52 |   $97.38 |   $32.46 |CTRN|12/22/2015|12/21/2016|01/04/2017||Invoice||||||||||||56866847|52790917|  $1.07 |  $350.57 | $87.64 | $29.21 |  $0.96 ||5017 Lively Ct ||Louisville|KY|40218-4126|01/21/2016|02/20/2016|03/21/2016|||LK001I8|0|YES|01/21/2016|Telephone|1513KLKWEAKYZ||||||</RunData>
+      <LetterType>LKCTRN_I8.doc</LetterType>
+      <Notes></Notes>
+      <CanResendEmail>true</CanResendEmail>
+      <CanResendPrint>true</CanResendPrint>
+    </OutputRow>
+  </Output>
+</ServiceResponse>

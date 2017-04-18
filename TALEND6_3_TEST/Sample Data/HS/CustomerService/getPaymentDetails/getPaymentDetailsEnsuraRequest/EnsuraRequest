@@ -1,0 +1,5 @@
+<ServiceRequest>
+  <service>svcWebFetchAllPaymentDetails.p</service>
+  <CustomerRef>217776</CustomerRef>
+  <hash>96EF1BC3015EA144060C0375664B3DBCD127F55E</hash>
+</ServiceRequest>

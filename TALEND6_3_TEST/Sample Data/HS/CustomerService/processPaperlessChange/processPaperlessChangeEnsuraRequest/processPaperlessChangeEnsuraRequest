@@ -1,0 +1,7 @@
+<ServiceRequest>
+  <service>svcWebProcessCustomerPaperlessChange.p</service>
+  <UserId>Web</UserId>
+  <CustomerRef>44742054</CustomerRef>
+  <Paperless>No</Paperless>
+  <hash>1D9D9CCC460DCCCA03F77AE800356F199DD14C44</hash>
+</ServiceRequest>

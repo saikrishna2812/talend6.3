@@ -1,0 +1,18 @@
+<ServiceRequest>
+  <service>svcWebSearchCustomers.p</service>
+   <UserID>WEB</UserID>
+   <EmailAddress>dan@gmail.com</EmailAddress >
+   <ScheduleRef>1234567</ScheduleRef>
+   <ZipCode>99999</ZipCode >
+   <IdentityManager>Okta</IdentityManager>
+   <IdentityUniqueID>1234</IdentityUniqueID>
+   <Telephone>1234567890</Telephone>
+   <Initials>Dan</Initials>
+   <Surname>Jones</Surname>
+   <FlatNo>123</FlatNo>
+   <HouseNo>123</HouseNo>
+   <Street>Richmond Rd</Street>
+   <City>Havertown</City>
+   <AddressRef>123</AddressRef>
+  <hash>D6036062F378030030A801DF87D8DAAF95FF5A5B</hash>
+</ServiceRequest>

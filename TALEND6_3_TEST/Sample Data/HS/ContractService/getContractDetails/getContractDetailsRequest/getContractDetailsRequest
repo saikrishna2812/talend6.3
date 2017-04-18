@@ -1,0 +1,3 @@
+<con:getContractDetailsRequest xmlns:con="http://www.homeserve.com/NA/US/ContractServicev1.0/">
+         <ScheduleRef>?</ScheduleRef>
+      </con:getContractDetailsRequest>

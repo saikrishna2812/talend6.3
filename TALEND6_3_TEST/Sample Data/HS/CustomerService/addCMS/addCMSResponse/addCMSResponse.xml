@@ -1,0 +1,23 @@
+ <cus:addCMSResponse xmlns:cus="http://www.homeserve.com/NA/US/CustomerServicev1.0/">
+         <Outcome>
+            <ResultCode>?</ResultCode>
+            <ResultDescription>?</ResultDescription>
+         </Outcome>
+         <!--Optional:-->
+         <addCMSResponseDetail>
+            <!--Optional:-->
+            <Result>?</Result>
+            <!--Optional:-->
+            <Item>?</Item>
+         </addCMSResponseDetail>
+         <!--Optional:-->
+         <ErrorDetails>
+            <!--Zero or more repetitions:-->
+            <ErrorDetail>
+               <!--Optional:-->
+               <ErrorCode>?</ErrorCode>
+               <!--Optional:-->
+               <ErrorDescription>?</ErrorDescription>
+            </ErrorDetail>
+         </ErrorDetails>
+      </cus:addCMSResponse>

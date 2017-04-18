@@ -1,0 +1,6 @@
+<cus:processPaymentDetailsChangeRequest xmlns:cus="http://www.homeserve.com/NA/US/CustomerServicev1.0/">
+	<UserId>?</UserId>
+	<CustomerRef>?</CustomerRef>
+	<PayDetailsID>1</PayDetailsID>
+	<CreditCardExpiryDate>?</CreditCardExpiryDate>
+</cus:processPaymentDetailsChangeRequest>

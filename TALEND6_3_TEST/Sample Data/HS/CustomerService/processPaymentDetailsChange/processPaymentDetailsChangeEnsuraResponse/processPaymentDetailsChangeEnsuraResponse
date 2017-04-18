@@ -1,0 +1,5 @@
+<ServiceResponse>
+  <Result>Error</Result>
+  <ErrorCode>0</ErrorCode>
+  <ErrorMessage>Invalid anonymous user details</ErrorMessage>
+</ServiceResponse>

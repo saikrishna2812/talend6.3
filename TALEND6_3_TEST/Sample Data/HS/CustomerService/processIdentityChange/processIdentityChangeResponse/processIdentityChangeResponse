@@ -1,0 +1,21 @@
+<cus:processIdentityChangeResponse xmlns:cus="http://www.homeserve.com/NA/US/CustomerServicev1.0/">
+         <Outcome>
+            <ResultCode>?</ResultCode>
+            <ResultDescription>?</ResultDescription>
+         </Outcome>
+         <!--Optional:-->
+         <processIdentityChangeResponseDetail>
+            <!--Optional:-->
+            <Result>?</Result>
+         </processIdentityChangeResponseDetail>
+         <!--Optional:-->
+         <ErrorDetails>
+            <!--Zero or more repetitions:-->
+            <ErrorDetail>
+               <!--Optional:-->
+               <ErrorCode>?</ErrorCode>
+               <!--Optional:-->
+               <ErrorDescription>?</ErrorDescription>
+            </ErrorDetail>
+         </ErrorDetails>
+</cus:processIdentityChangeResponse>

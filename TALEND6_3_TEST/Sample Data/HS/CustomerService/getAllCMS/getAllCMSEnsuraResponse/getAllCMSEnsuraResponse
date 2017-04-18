@@ -1,0 +1,36 @@
+<ServiceResponse>
+  <Results>1</Results>
+  <ErrorCode></ErrorCode>
+  <ErrorMessage></ErrorMessage>
+  <Output>
+    <OutputRow>
+      <CustomerRef>44767403</CustomerRef>
+      <ContractRef>47152536</ContractRef>
+      <ContractName>Premier Heat and Cool PLUS Plan</ContractName>
+      <Item>1</Item>
+      <Received>01/23/15</Received>
+      <Date>2015-01-23T12:21:51</Date>
+      <Subject>DD</Subject>
+      <Notes>Ck #421 $15.79 1/12/15
+Converted to DD (mclark_s 12:21:51 01/23/2015)</Notes>
+      <AssignedUserId>mclark_s</AssignedUserId>
+      <AssignedUserName>Michael Clark</AssignedUserName>
+      <Method>8</Method>
+      <MethodName>Customer Admin</MethodName>
+      <Type>p</Type>
+      <TypeName>Payment Issue Pending</TypeName>
+      <Nature>p</Nature>
+      <NatureName>Payment Issue Pending</NatureName>
+      <Specific>p</Specific>
+      <SpecificName>Payment Issue Pending</SpecificName>
+      <Area>c</Area>
+      <AreaName>Mail Archiving</AreaName>
+      <Status>c</Status>
+      <StatusName>Closed</StatusName>
+      <Action>4</Action>
+      <ActionName>DD/EZ Pay Issue</ActionName>
+      <CreatedByUserID>mclark_s</CreatedByUserID>
+      <CreatedByUserName>Michael Clark</CreatedByUserName>
+    </OutputRow>
+  </Output>
+</ServiceResponse>

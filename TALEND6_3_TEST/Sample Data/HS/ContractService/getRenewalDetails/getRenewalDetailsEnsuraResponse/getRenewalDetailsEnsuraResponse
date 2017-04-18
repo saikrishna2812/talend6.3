@@ -1,0 +1,17 @@
+<ServiceResponse>
+  <CurrentContractCode>WM</CurrentContractCode>
+  <CurrentContractDescription>Complete Coverage</CurrentContractDescription>
+  <RenewalContractCode>WM</RenewalContractCode>
+  <RenewalContractDescription>Complete Coverage</RenewalContractDescription>
+  <RenewalPeriodFrom>03/16/15</RenewalPeriodFrom>
+  <RenewalPeriodTo>03/15/2016</RenewalPeriodTo>
+  <RenewalVersion>12</RenewalVersion>
+  <RenewalTariff>233.88</RenewalTariff>
+  <RenewalTaxRate>0.00</RenewalTaxRate>
+  <RenewalTaxAmount>0.00</RenewalTaxAmount>
+  <RenewalDiscounts>0.00</RenewalDiscounts>
+  <BroughtForwardAmount>0.00</BroughtForwardAmount>
+  <TotalCharge>233.88</TotalCharge>
+  <ErrorCode>123</ErrorCode>
+  <ErrorMessage></ErrorMessage>
+ </ServiceResponse>

@@ -1,0 +1,5 @@
+<cus:processPaperlessChangeRequest xmlns:cus="http://www.homeserve.com/NA/US/CustomerServicev1.0/">
+  <UserId>?</UserId>
+  <CustomerRef>?</CustomerRef>
+  <Paperless>?</Paperless>
+</cus:processPaperlessChangeRequest>

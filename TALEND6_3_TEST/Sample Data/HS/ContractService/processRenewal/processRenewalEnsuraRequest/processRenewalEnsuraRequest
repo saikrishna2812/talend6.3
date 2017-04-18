@@ -1,0 +1,20 @@
+<ServiceRequest>
+  <service>svcWebProcessRenewal.p</service>
+  <Mode>Process</Mode>
+  <UserID>admin</UserID>
+  <ScheduleRef>213095</ScheduleRef>
+  <PayType>CC</PayType>
+  <PayDetailsID>12323</PayDetailsID>
+  <CreditCardType>CCM</CreditCardType>
+  <CreditCardNumberLast4>9875</CreditCardNumberLast4>
+  <CreditCardExpiryDate>0120</CreditCardExpiryDate>
+  <CreditCardToken>123454321</CreditCardToken>
+  <DirectDebitAccountName></DirectDebitAccountName>
+  <DirectDebitRoutingNo></DirectDebitRoutingNo>
+  <DirectDebitBankAccount></DirectDebitBankAccount>
+  <DirectDebitAccountType></DirectDebitAccountType>
+  <InstalmentFreq>12</InstalmentFreq>
+  <DueDay>01</DueDay>
+  <Renewable>true</Renewable>
+  <hash>DE82B61259E6D5F0FEFC686CF50E22E51ED6FE90</hash>
+</ServiceRequest>

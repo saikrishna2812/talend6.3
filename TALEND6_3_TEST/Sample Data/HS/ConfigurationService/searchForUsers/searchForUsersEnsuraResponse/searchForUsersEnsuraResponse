@@ -1,0 +1,15 @@
+<ServiceResponse>
+  <Results>1</Results>
+  <ErrorCode></ErrorCode>
+  <ErrorMessage></ErrorMessage>
+  <Output>
+    <OutputRow>
+      <userId>rlyons</userId>
+      <userName>Rob Lyons</userName>
+    </OutputRow>
+    <OutputRow>
+      <userId>rlyons1</userId>
+      <userName>Rob Lyons1</userName>
+    </OutputRow>
+  </Output>
+</ServiceResponse>

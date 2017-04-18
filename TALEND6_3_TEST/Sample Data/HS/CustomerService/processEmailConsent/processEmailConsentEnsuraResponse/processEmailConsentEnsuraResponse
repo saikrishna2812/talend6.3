@@ -1,0 +1,10 @@
+<ServiceResponse>
+	<Result>ERROR</Result>
+	<Output>
+		<OutputRow>
+			<errorField>Parameters</errorField>
+			<errorCode>PCW,1070</errorCode>
+			<errorMessage>Unable to decode web service parameters</errorMessage>
+		</OutputRow>
+	</Output>
+</ServiceResponse>

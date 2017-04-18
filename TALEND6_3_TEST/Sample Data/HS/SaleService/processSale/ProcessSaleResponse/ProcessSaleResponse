@@ -1,0 +1,19 @@
+<sal:processSaleResponse xmlns:sal="http://www.homeserve.com/NA/US/SaleServicev1.0/">
+         <Outcome>
+            <ResultCode>?</ResultCode>
+            <ResultDescription>?</ResultDescription>
+         </Outcome>
+         <ProcessSaleDetail>
+            <Result>?</Result>
+            <PartnerValidationSuppressed>?</PartnerValidationSuppressed>
+            <CustomerRef>?</CustomerRef>
+            <ScheduleRef>?</ScheduleRef>
+         </ProcessSaleDetail>
+         <ErrorDetails>
+            <!--1 or more repetitions:-->
+            <ErrorDetail>
+               <ErrorCode>?</ErrorCode>
+               <ErrorDescription>?</ErrorDescription>
+            </ErrorDetail>
+         </ErrorDetails>
+</sal:processSaleResponse>

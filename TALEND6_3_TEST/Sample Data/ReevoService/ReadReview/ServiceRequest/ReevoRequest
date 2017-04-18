@@ -1,0 +1,8 @@
+{
+  "ReadReviewRequest": {
+    "locale": "en-US",
+    "sku": "ws",
+    "organisation": "HUS",
+    "page": "1"
+  }
+}

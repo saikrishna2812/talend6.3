@@ -1,0 +1,68 @@
+<ServiceResponse>
+  <Results>3</Results>
+  <TimedOut>FALSE</TimedOut>
+  <ErrorCode></ErrorCode>
+  <ErrorMessage></ErrorMessage>
+  <Output>
+    <OutputRow>
+      <IdentityManager></IdentityManager>
+      <IdentityUniqueID></IdentityUniqueID>
+      <CustomerRef>683067</CustomerRef>
+      <Title>Mr.</Title>
+      <Initials>JERRY</Initials>
+      <Surname>DI MEGLIO</Surname>
+      <FlatNo>1</FlatNo>
+      <HouseNo>44</HouseNo>
+      <Street>Union Pl</Street>
+      <City>Ridgefield Park</City>
+      <State>NJ</State>
+      <Zipcode>07660</Zipcode>
+      <HomePhone>2014402478</HomePhone>
+      <ContractRefs>684788</ContractRefs>
+      <ContractAreaCodes>U4UWLL1</ContractAreaCodes>
+      <ContractTypes>L1</ContractTypes>
+      <ContractNames>LeakGuard Coverage (1)</ContractNames>
+      <AddressRef>68219</AddressRef>
+    </OutputRow>
+    <OutputRow>
+      <IdentityManager></IdentityManager>
+      <IdentityUniqueID></IdentityUniqueID>
+      <CustomerRef>3281497</CustomerRef>
+      <Title>Mr.</Title>
+      <Initials>Felix</Initials>
+      <Surname>Almanzar</Surname>
+      <FlatNo>1</FlatNo>
+      <HouseNo>44</HouseNo>
+      <Street>Union Pl</Street>
+      <City>Ridgefield Park</City>
+      <State>NJ</State>
+      <Zipcode>07660</Zipcode>
+      <HomePhone>9172172661</HomePhone>
+      <ContractRefs></ContractRefs>
+      <ContractAreaCodes></ContractAreaCodes>
+      <ContractTypes></ContractTypes>
+      <ContractNames></ContractNames>
+      <AddressRef>68219</AddressRef>
+    </OutputRow>
+    <OutputRow>
+      <IdentityManager></IdentityManager>
+      <IdentityUniqueID></IdentityUniqueID>
+      <CustomerRef>41657402</CustomerRef>
+      <Title></Title>
+      <Initials>Hosward</Initials>
+      <Surname>Beloz</Surname>
+      <FlatNo>1</FlatNo>
+      <HouseNo>44</HouseNo>
+      <Street>Union Pl</Street>
+      <City>Ridgefield Park</City>
+      <State>NJ</State>
+      <Zipcode>07660</Zipcode>
+      <HomePhone>2018780146</HomePhone>
+      <ContractRefs>43645926,43646233,43646260,43646340</ContractRefs>
+      <ContractAreaCodes>U10016V,U10016X,U10015V,U10016S</ContractAreaCodes>
+      <ContractTypes>6V,6X,5V,6S</ContractTypes>
+      <ContractNames>Water Heater Coverage (1),Heating System Repair Plan (1),Water Service Line Coverage (1),Sewer/Septic Line Coverage (1)</ContractNames>
+      <AddressRef>68219</AddressRef>
+    </OutputRow>
+  </Output>
+</ServiceResponse>

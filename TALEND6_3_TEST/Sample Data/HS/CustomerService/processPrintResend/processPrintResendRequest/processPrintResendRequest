@@ -1,0 +1,11 @@
+<cus:processPrintResendRequest xmlns:cus="http://www.homeserve.com/NA/US/CustomerServicev1.0/">
+         <UserID>?</UserID>
+         <CustRef>?</CustRef>
+         <!--Optional:-->
+         <ContractRef>?</ContractRef>
+         <PrintRef>?</PrintRef>
+         <!--Optional:-->
+         <PrintType>?</PrintType>
+         <ResendEmail>?</ResendEmail>
+         <ResendPrint>?</ResendPrint>
+      </cus:processPrintResendRequest>

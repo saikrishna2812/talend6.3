@@ -1,0 +1,19 @@
+ <cus:patchCMSResponse xmlns:cus="http://www.homeserve.com/NA/US/CustomerServicev1.0/">
+         <Outcome>
+            <ResultCode>?</ResultCode>
+            <ResultDescription>?</ResultDescription>
+         </Outcome>
+         <!--Optional:-->
+         <addCMSResponseDetail>
+            <!--Optional:-->
+            <Result>?</Result>
+         </addCMSResponseDetail>
+         <!--Optional:-->
+          <ErrorDetails>
+            <!--1 or more repetitions:-->
+            <ErrorDetail>
+               <ErrorCode>?</ErrorCode>
+               <ErrorDescription>?</ErrorDescription>
+            </ErrorDetail>
+         </ErrorDetails>
+      </cus:patchCMSResponse>

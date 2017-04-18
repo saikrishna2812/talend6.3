@@ -1,0 +1,19 @@
+{
+   "profile":{
+      "firstName":"divi1",
+      "lastName":"tr1",
+      "email":"divi1@gmail.com",
+      "login":"divi1@yahoo.com",
+      "firstSecurityQuestion":"Whats my name",
+      "firstSecurityAnswer":"divi",
+      "secSecurityQuestion":"Second security question",
+      "secSecurityAnswer":"secret answer"
+   },
+   "credentials":{
+      "password":"Hello123",
+      "recovery_question":{
+         "question":"question",
+         "answer":"answer"
+      }
+   }
+}

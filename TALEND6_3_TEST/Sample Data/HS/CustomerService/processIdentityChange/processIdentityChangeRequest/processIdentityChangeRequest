@@ -1,0 +1,7 @@
+<cus:processIdentityChangeRequest xmlns:cus="http://www.homeserve.com/NA/US/CustomerServicev1.0/">
+  <UserID>?</UserID>
+  <IdentityManager>?</IdentityManager>
+  <IdentityUniqueID>?</IdentityUniqueID>
+  <CustomerRef>?</CustomerRef>
+</cus:processIdentityChangeRequest>
+  

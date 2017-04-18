@@ -1,0 +1,3 @@
+<cus:getPaymentDetailsRequest xmlns:cus="http://www.homeserve.com/NA/US/CustomerServicev1.0/">
+         <CustomerRef></CustomerRef>
+</cus:getPaymentDetailsRequest>

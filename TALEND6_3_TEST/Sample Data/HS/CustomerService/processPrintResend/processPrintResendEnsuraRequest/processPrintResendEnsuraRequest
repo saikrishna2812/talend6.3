@@ -1,0 +1,11 @@
+<ServiceRequest>
+  <service>svcWebProcessPrintHistoryResend.p</service>
+  <Userid>cpain</Userid>
+  <CustRef>52790917</CustRef>
+  <ContractRef>56866847</ContractRef>
+  <PrintRef>1221</PrintRef>
+  <PrintType>PPR</PrintType>
+  <ResendEmail>yes</ResendEmail>
+  <ResendPrint>no</ResendPrint>
+  <hash>E127FF4612AE50D40B03E34DD0F69F36B90571F3</hash>
+</ServiceRequest>

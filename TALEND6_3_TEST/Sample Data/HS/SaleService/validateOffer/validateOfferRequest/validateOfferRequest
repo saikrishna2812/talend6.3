@@ -1,0 +1,6 @@
+<sal:validateOfferRequest xmlns:sal="http://www.homeserve.com/NA/US/SaleServicev1.0/">
+         <MailCode></MailCode>
+         <ListCode></ListCode>
+         <!--Optional:-->
+         <CustomerRef></CustomerRef>
+</sal:validateOfferRequest>

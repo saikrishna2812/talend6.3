@@ -1,0 +1,8 @@
+<ServiceRequest>
+  <service>svcWebProcessPaymentDetailsChange.p</service>
+  <UserId>Web</UserId>
+  <CustomerRef>44761939</CustomerRef>
+  <PayDetailsId>4449755</PayDetailsId>
+  <CreditCardExpiryDate>1216</CreditCardExpiryDate>
+  <hash>538A6AD205E13F3D444CBB5A727342E5ADB3DC74</hash>
+</ServiceRequest>

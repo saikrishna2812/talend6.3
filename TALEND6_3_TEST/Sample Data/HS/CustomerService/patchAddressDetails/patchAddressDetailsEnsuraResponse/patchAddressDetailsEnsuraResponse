@@ -1,0 +1,9 @@
+<ServiceResponse>
+  <Result>Processed</Result>
+  <Output>
+  <OutputRow>
+  <errorCode></errorCode>
+  <errorMessage></errorMessage>
+  </OutputRow>  
+  </Output> 
+</ServiceResponse>

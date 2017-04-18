@@ -1,0 +1,17 @@
+<ServiceRequest>
+  <service>svcWebProcessCMSAdd.p</service>
+  <UserID>rlyons</UserID>
+  <CustomerRef>44767403</CustomerRef>
+  <Received>10/10/2016</Received>
+  <Subject>Payment taken twice</Subject>
+  <Notes>Customer reports that Octobers payment was taken on the 8th and 9th.</Notes>
+  <AssignedUserID>rlyons</AssignedUserID>
+  <Method>$1</Method>
+  <Type>2</Type>
+  <Nature>2</Nature>
+  <Specific>2</Specific>
+  <Area>a</Area>
+  <Status>a</Status>
+  <Action>a</Action>
+  <hash>901C0E7EF9E22826891949BBD29AD1334C597FF7</hash>
+</ServiceRequest>

@@ -1,0 +1,17 @@
+<ServiceRequest>
+  <service>svcWebValidateSale.p</service>
+  <FlatNo></FlatNo>
+  <HouseNo>1</HouseNo>
+  <AddressLine1></AddressLine1>
+  <AddressLine2>Test Street</AddressLine2>
+  <AddressLine3></AddressLine3>
+  <AddressLine4>New York</AddressLine4>
+  <AddressLine5>NY</AddressLine5>
+  <ZipCode>10001</ZipCode>
+  <Mailcode>1401HBPMUANYZ</Mailcode>
+  <Title>MR</Title>
+  <Intitals>D</Intitals>
+  <Surname>Alexander</Surname>
+  <CustomerRef></CustomerRef>
+  <hash>F57D26E5BC45CAB73535452BC47A6E0AE10ED98B</hash>
+</ServiceRequest>
