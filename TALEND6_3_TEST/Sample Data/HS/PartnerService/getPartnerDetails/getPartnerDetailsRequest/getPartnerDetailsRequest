@@ -1,0 +1,9 @@
+<par:getPartnerDetailsRequest xmlns:par="http://www.homeserve.com/NA/US/PartnerServicev1.0/">
+         <Mailcode>1401HMDSXASDZ</Mailcode>
+         <!--Optional:-->
+         <CustomerRef></CustomerRef>
+         <!--Optional:-->
+         <ExtAddressId>56</ExtAddressId>
+         <!--Optional:-->
+         <CaciCustNewSeq></CaciCustNewSeq>
+</par:getPartnerDetailsRequest>

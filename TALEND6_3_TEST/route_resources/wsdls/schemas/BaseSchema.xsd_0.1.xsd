@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.homeserve.com/NA/US/CommonSchemav1.0/" targetNamespace="http://www.homeserve.com/NA/US/CommonSchemav1.0/">
+   <complexType name="SourceSystem">
+      <sequence>
+         <element name="CreationTimestamp" type="dateTime" />
+         <element name="TransactionReference" type="string" />
+         <element name="ServerReference" type="string" />
+         <element name="SystemReference" type="string" />
+      </sequence>
+      <attribute name="ID" type="string" />
+   </complexType>
+   <complexType name="Outcome">
+      <sequence>
+         <element name="ResultCode" type="int" />
+         <element name="ResultDescription" type="string" />
+      </sequence>
+   </complexType>
+   <complexType name="ErrorDetails">
+      <sequence>
+         <element name="ErrorDetail" type="tns:ErrorDetail" maxOccurs="unbounded" minOccurs="0" />
+      </sequence>
+   </complexType>
+   <complexType name="ErrorDetail">
+      <sequence>
+         <element name="ErrorCode" type="int" maxOccurs="1" minOccurs="0" />
+         <element name="ErrorDescription" type="string" maxOccurs="1" minOccurs="0" />
+      </sequence>
+   </complexType>
+   <complexType name="NameDetail">
+      <sequence>
+         <element name="Title" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="FirstName" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="LastName" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="Suffix" type="string" maxOccurs="1" minOccurs="0" />
+      </sequence>
+   </complexType>
+   <complexType name="AddressDetail">
+      <sequence>
+         <element name="HouseNo" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="FlatNo" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="AddressLine1" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="AddressLine2" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="AddressLine3" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="City" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="State" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="ZipCode" type="string" maxOccurs="1" minOccurs="0" />
+      </sequence>
+   </complexType>
+   <complexType name="ContactDetail">
+      <sequence>
+         <element name="HomePhone" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="MobilePhone" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="WorkPhone" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="WorkExtension" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="Email" type="string" maxOccurs="1" minOccurs="0" />
+      </sequence>
+   </complexType>
+   <complexType name="PaymentDetails">
+      <sequence>
+         <element name="PayType" maxOccurs="1" minOccurs="0">
+            <simpleType id="PayType">
+               <restriction base="string">
+                  <enumeration value="CC" />
+                  <enumeration value="DD" />
+                  <enumeration value="INV" />
+                  <enumeration value="CHQ" />
+                  <enumeration value="MO" />
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="PayDetailsID" type="integer" maxOccurs="1" minOccurs="0" />
+         <element name="CCDetails" type="tns:CCDetails" minOccurs="0" maxOccurs="1" />
+         <element name="DDDetails" type="tns:DDDetails" minOccurs="0" maxOccurs="1" />
+      </sequence>
+   </complexType>
+   <complexType name="ContractBasicDetail">
+      <sequence>
+         <element name="ScheduleRef" type="tns:ScheduleRef" maxOccurs="1" minOccurs="0" />
+         <element name="CustomerRef" type="tns:CustomerRef" maxOccurs="1" minOccurs="0" />
+         <element name="PartnerCode" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="PartnerName" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="ContractType" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="ContractName" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="ContractStatus" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="Version" type="integer" maxOccurs="1" minOccurs="0" />
+         <element name="StartDate" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="VersionFromDate" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="VersionToDate" type="string" maxOccurs="1" minOccurs="0" />
+      </sequence>
+   </complexType>
+   <complexType name="CCDetails">
+      <sequence>
+         <element name="CreditCardType" maxOccurs="1" minOccurs="0">
+            <simpleType>
+               <restriction base="string">
+                  <enumeration value="CCA" />
+                  <enumeration value="CCD" />
+                  <enumeration value="CCM" />
+                  <enumeration value="CCV" />
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="CreditCardNumberLast4" type="int" maxOccurs="1" minOccurs="0" />
+         <element name="CreditCardExpiryDate" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="CreditCardToken" type="int" maxOccurs="1" minOccurs="0" />
+         <element name="CreditCardExpired" type="boolean" maxOccurs="1" minOccurs="0" />
+      </sequence>
+   </complexType>
+   <complexType name="DDDetails">
+      <sequence>
+         <element name="DirectDebitAccountName" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="DirectDebitRoutingNo" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="DirectDebitBankAccount" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="DirectDebitAccountType" type="string" maxOccurs="1" minOccurs="0" />
+      </sequence>
+   </complexType>
+   <simpleType name="CustomerRef">
+      <restriction base="integer" />
+   </simpleType>
+   <simpleType name="ListCode">
+      <restriction base="string" />
+   </simpleType>
+   <simpleType name="MailCode">
+      <restriction base="string" />
+   </simpleType>
+   <simpleType name="PaymentType">
+      <restriction base="string" />
+   </simpleType>
+   <simpleType name="ScheduleRef">
+      <restriction base="integer" />
+   </simpleType>
+   <simpleType name="AgencyRef">
+      <restriction base="string" />
+   </simpleType>
+   <simpleType name="IdentityUniqueID">
+      <restriction base="string" />
+   </simpleType>
+   <simpleType name="IdentityManager">
+      <restriction base="string" />
+   </simpleType>
+</schema>

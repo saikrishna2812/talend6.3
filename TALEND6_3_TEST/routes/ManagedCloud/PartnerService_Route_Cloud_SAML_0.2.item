@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_D17YUCR_Eee1UtsXG74B6w" defaultContext="Default">
+  <context xmi:id="_D17YUSR_Eee1UtsXG74B6w" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_D17YUiR_Eee1UtsXG74B6w" comment="" name="ensuraFetchPartnerDataSvcName" prompt="ensuraFetchPartnerDataSvcName?" promptNeeded="false" repositoryContextId="_9mn9sAhSEeWD3O1pHz0iJA" type="id_String" value="svcWebFetchPartnerData.p"/>
+    <contextParameter xmi:id="_D17YUyR_Eee1UtsXG74B6w" comment="" name="ensuraValidatePartnerDataSvcName" prompt="ensuraValidatePartnerDataSvcName?" promptNeeded="false" repositoryContextId="_9mn9sAhSEeWD3O1pHz0iJA" type="id_String" value="svcWebValidatePartnerData.p"/>
+    <contextParameter xmi:id="_D17YVCR_Eee1UtsXG74B6w" comment="" name="ensuraHostIP" prompt="ensuraHostIP?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="http://10.83.25.194/scripts/cgiip.exe/WService=wsbroker1/processWebService2.p"/>
+    <contextParameter xmi:id="_D17YVSR_Eee1UtsXG74B6w" comment="" name="ensuraHostName" prompt="ensuraHostName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="http://usfl04eus05v/scripts/cgiip.exe/WService=wsbroker1/processWebService2.p"/>
+    <contextParameter xmi:id="_D17YViR_Eee1UtsXG74B6w" comment="" name="ensuraPassCode" prompt="ensuraPassCode?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="Homeserve999"/>
+    <contextParameter xmi:id="_D17YVyR_Eee1UtsXG74B6w" comment="" name="ensuraTimeOut" prompt="ensuraTimeOut?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_Integer" value="10000"/>
+    <contextParameter xmi:id="_D17YWCR_Eee1UtsXG74B6w" comment="" name="esbHostName" prompt="esbHostName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="0.0.0.0"/>
+    <contextParameter xmi:id="_D17YWSR_Eee1UtsXG74B6w" comment="" name="esbPort" prompt="esbPort?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_Integer" value="8571"/>
+    <contextParameter xmi:id="_D17YWiR_Eee1UtsXG74B6w" comment="" name="isHashRequired" prompt="isHashRequired?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="&quot;true&quot;"/>
+    <contextParameter xmi:id="_D17YWyR_Eee1UtsXG74B6w" comment="" name="TableName" prompt="TableName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="&quot;TempAttribute&quot;"/>
+  </context>
+  <context xmi:id="_D17YXCR_Eee1UtsXG74B6w" confirmationNeeded="false" name="Dev">
+    <contextParameter xmi:id="_D17YXSR_Eee1UtsXG74B6w" comment="" name="ensuraFetchPartnerDataSvcName" prompt="ensuraFetchPartnerDataSvcName?" promptNeeded="false" repositoryContextId="_9mn9sAhSEeWD3O1pHz0iJA" type="id_String" value="svcWebFetchPartnerData.p"/>
+    <contextParameter xmi:id="_D17YXiR_Eee1UtsXG74B6w" comment="" name="ensuraValidatePartnerDataSvcName" prompt="ensuraValidatePartnerDataSvcName?" promptNeeded="false" repositoryContextId="_9mn9sAhSEeWD3O1pHz0iJA" type="id_String" value="svcWebValidatePartnerData.p"/>
+    <contextParameter xmi:id="_D17YXyR_Eee1UtsXG74B6w" comment="" name="ensuraHostIP" prompt="ensuraHostIP?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="http://10.83.25.194/scripts/cgiip.exe/WService=wsbroker1/processWebService2.p"/>
+    <contextParameter xmi:id="_D17YYCR_Eee1UtsXG74B6w" comment="" name="ensuraHostName" prompt="ensuraHostName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="http://usfl04eus05v/scripts/cgiip.exe/WService=wsbroker1/processWebService2.p"/>
+    <contextParameter xmi:id="_D17YYSR_Eee1UtsXG74B6w" comment="" name="ensuraPassCode" prompt="ensuraPassCode?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="Homeserve999"/>
+    <contextParameter xmi:id="_D17YYiR_Eee1UtsXG74B6w" comment="" name="ensuraTimeOut" prompt="ensuraTimeOut?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_Integer" value="10000"/>
+    <contextParameter xmi:id="_D17YYyR_Eee1UtsXG74B6w" comment="" name="esbHostName" prompt="esbHostName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="10.83.11.23"/>
+    <contextParameter xmi:id="_D17YZCR_Eee1UtsXG74B6w" comment="" name="esbPort" prompt="esbPort?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_Integer" value="8571"/>
+    <contextParameter xmi:id="_D17YZSR_Eee1UtsXG74B6w" comment="" name="isHashRequired" prompt="isHashRequired?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="&quot;true&quot;"/>
+    <contextParameter xmi:id="_D17YZiR_Eee1UtsXG74B6w" comment="" name="TableName" prompt="TableName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="&quot;TempAttribute&quot;"/>
+  </context>
+  <context xmi:id="_D17YZyR_Eee1UtsXG74B6w" confirmationNeeded="false" name="Test">
+    <contextParameter xmi:id="_D17YaCR_Eee1UtsXG74B6w" comment="" name="ensuraFetchPartnerDataSvcName" prompt="ensuraFetchPartnerDataSvcName?" promptNeeded="false" repositoryContextId="_9mn9sAhSEeWD3O1pHz0iJA" type="id_String" value="svcWebFetchPartnerData.p"/>
+    <contextParameter xmi:id="_D17YaSR_Eee1UtsXG74B6w" comment="" name="ensuraValidatePartnerDataSvcName" prompt="ensuraValidatePartnerDataSvcName?" promptNeeded="false" repositoryContextId="_9mn9sAhSEeWD3O1pHz0iJA" type="id_String" value="svcWebValidatePartnerData.p"/>
+    <contextParameter xmi:id="_D17YaiR_Eee1UtsXG74B6w" comment="" name="ensuraHostIP" prompt="ensuraHostIP?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="http://10.83.25.194/scripts/cgiip.exe/WService=wsbroker1/processWebService2.p"/>
+    <contextParameter xmi:id="_D17YayR_Eee1UtsXG74B6w" comment="" name="ensuraHostName" prompt="ensuraHostName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="http://usfl04eus05v/scripts/cgiip.exe/WService=wsbroker1/processWebService2.p"/>
+    <contextParameter xmi:id="_D17YbCR_Eee1UtsXG74B6w" comment="" name="ensuraPassCode" prompt="ensuraPassCode?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="Homeserve999"/>
+    <contextParameter xmi:id="_D17YbSR_Eee1UtsXG74B6w" comment="" name="ensuraTimeOut" prompt="ensuraTimeOut?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_Integer" value="10000"/>
+    <contextParameter xmi:id="_D17YbiR_Eee1UtsXG74B6w" comment="" name="esbHostName" prompt="esbHostName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="10.52.20.20"/>
+    <contextParameter xmi:id="_D17YbyR_Eee1UtsXG74B6w" comment="" name="esbPort" prompt="esbPort?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_Integer" value="8571"/>
+    <contextParameter xmi:id="_D17YcCR_Eee1UtsXG74B6w" comment="" name="isHashRequired" prompt="isHashRequired?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="&quot;true&quot;"/>
+    <contextParameter xmi:id="_D17YcSR_Eee1UtsXG74B6w" comment="" name="TableName" prompt="TableName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="&quot;TempAttribute&quot;"/>
+  </context>
+  <context xmi:id="_D17YciR_Eee1UtsXG74B6w" confirmationNeeded="false" name="PreProd1">
+    <contextParameter xmi:id="_D17YcyR_Eee1UtsXG74B6w" comment="" name="ensuraFetchPartnerDataSvcName" prompt="ensuraFetchPartnerDataSvcName?" promptNeeded="false" repositoryContextId="_9mn9sAhSEeWD3O1pHz0iJA" type="id_String" value="svcWebFetchPartnerData.p"/>
+    <contextParameter xmi:id="_D17YdCR_Eee1UtsXG74B6w" comment="" name="ensuraValidatePartnerDataSvcName" prompt="ensuraValidatePartnerDataSvcName?" promptNeeded="false" repositoryContextId="_9mn9sAhSEeWD3O1pHz0iJA" type="id_String" value="svcWebValidatePartnerData.p"/>
+    <contextParameter xmi:id="_D17YdSR_Eee1UtsXG74B6w" comment="" name="ensuraHostIP" prompt="ensuraHostIP?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="http://10.83.25.248/scripts/cgiip.exe/WService=wsbroker1/processWebService2.p"/>
+    <contextParameter xmi:id="_D17YdiR_Eee1UtsXG74B6w" comment="" name="ensuraHostName" prompt="ensuraHostName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="http://usfl04eus02p/scripts/cgiip.exe/WService=wsbroker1/processWebService2.p"/>
+    <contextParameter xmi:id="_D17YdyR_Eee1UtsXG74B6w" comment="" name="ensuraPassCode" prompt="ensuraPassCode?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="Homeserve999"/>
+    <contextParameter xmi:id="_D17YeCR_Eee1UtsXG74B6w" comment="" name="ensuraTimeOut" prompt="ensuraTimeOut?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_Integer" value="10000"/>
+    <contextParameter xmi:id="_D17YeSR_Eee1UtsXG74B6w" comment="" name="esbHostName" prompt="esbHostName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="10.52.20.4"/>
+    <contextParameter xmi:id="_D17YeiR_Eee1UtsXG74B6w" comment="" name="esbPort" prompt="esbPort?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_Integer" value="8571"/>
+    <contextParameter xmi:id="_D17YeyR_Eee1UtsXG74B6w" comment="" name="isHashRequired" prompt="isHashRequired?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="&quot;true&quot;"/>
+    <contextParameter xmi:id="_D17YfCR_Eee1UtsXG74B6w" comment="" name="TableName" prompt="TableName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="&quot;TempAttribute&quot;"/>
+  </context>
+  <context xmi:id="_D17YfSR_Eee1UtsXG74B6w" confirmationNeeded="false" name="PreProd2">
+    <contextParameter xmi:id="_D17YfiR_Eee1UtsXG74B6w" comment="" name="ensuraFetchPartnerDataSvcName" prompt="ensuraFetchPartnerDataSvcName?" promptNeeded="false" repositoryContextId="_9mn9sAhSEeWD3O1pHz0iJA" type="id_String" value="svcWebFetchPartnerData.p"/>
+    <contextParameter xmi:id="_D17YfyR_Eee1UtsXG74B6w" comment="" name="ensuraValidatePartnerDataSvcName" prompt="ensuraValidatePartnerDataSvcName?" promptNeeded="false" repositoryContextId="_9mn9sAhSEeWD3O1pHz0iJA" type="id_String" value="svcWebValidatePartnerData.p"/>
+    <contextParameter xmi:id="_D17YgCR_Eee1UtsXG74B6w" comment="" name="ensuraHostIP" prompt="ensuraHostIP?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="http://10.83.25.248/scripts/cgiip.exe/WService=wsbroker1/processWebService2.p"/>
+    <contextParameter xmi:id="_D17YgSR_Eee1UtsXG74B6w" comment="" name="ensuraHostName" prompt="ensuraHostName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="http://usfl04eus02p/scripts/cgiip.exe/WService=wsbroker1/processWebService2.p"/>
+    <contextParameter xmi:id="_D17YgiR_Eee1UtsXG74B6w" comment="" name="ensuraPassCode" prompt="ensuraPassCode?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="Homeserve999"/>
+    <contextParameter xmi:id="_D17YgyR_Eee1UtsXG74B6w" comment="" name="ensuraTimeOut" prompt="ensuraTimeOut?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_Integer" value="10000"/>
+    <contextParameter xmi:id="_D17YhCR_Eee1UtsXG74B6w" comment="" name="esbHostName" prompt="esbHostName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="10.52.20.11"/>
+    <contextParameter xmi:id="_D17YhSR_Eee1UtsXG74B6w" comment="" name="esbPort" prompt="esbPort?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_Integer" value="8571"/>
+    <contextParameter xmi:id="_D17YhiR_Eee1UtsXG74B6w" comment="" name="isHashRequired" prompt="isHashRequired?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="&quot;true&quot;"/>
+    <contextParameter xmi:id="_D17YhyR_Eee1UtsXG74B6w" comment="" name="TableName" prompt="TableName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="&quot;TempAttribute&quot;"/>
+  </context>
+  <context xmi:id="_D17YiCR_Eee1UtsXG74B6w" confirmationNeeded="false" name="Prod1">
+    <contextParameter xmi:id="_D17YiSR_Eee1UtsXG74B6w" comment="" name="ensuraFetchPartnerDataSvcName" prompt="ensuraFetchPartnerDataSvcName?" promptNeeded="false" repositoryContextId="_9mn9sAhSEeWD3O1pHz0iJA" type="id_String" value="svcWebFetchPartnerData.p"/>
+    <contextParameter xmi:id="_D17YiiR_Eee1UtsXG74B6w" comment="" name="ensuraValidatePartnerDataSvcName" prompt="ensuraValidatePartnerDataSvcName?" promptNeeded="false" repositoryContextId="_9mn9sAhSEeWD3O1pHz0iJA" type="id_String" value="svcWebValidatePartnerData.p"/>
+    <contextParameter xmi:id="_D17YiyR_Eee1UtsXG74B6w" comment="" name="ensuraHostIP" prompt="ensuraHostIP?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="http://10.83.25.246/scripts/cgiip.exe/WService=wsbroker1/processWebService2.p"/>
+    <contextParameter xmi:id="_D17YjCR_Eee1UtsXG74B6w" comment="" name="ensuraHostName" prompt="ensuraHostName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="http://usfl04eus00p/scripts/cgiip.exe/WService=wsbroker1/processWebService2.p"/>
+    <contextParameter xmi:id="_D17YjSR_Eee1UtsXG74B6w" comment="" name="ensuraPassCode" prompt="ensuraPassCode?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="Homeserve999"/>
+    <contextParameter xmi:id="_D17YjiR_Eee1UtsXG74B6w" comment="" name="ensuraTimeOut" prompt="ensuraTimeOut?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_Integer" value="10000"/>
+    <contextParameter xmi:id="_D17YjyR_Eee1UtsXG74B6w" comment="" name="esbHostName" prompt="esbHostName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="10.52.20.5"/>
+    <contextParameter xmi:id="_D17YkCR_Eee1UtsXG74B6w" comment="" name="esbPort" prompt="esbPort?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_Integer" value="8571"/>
+    <contextParameter xmi:id="_D17YkSR_Eee1UtsXG74B6w" comment="" name="isHashRequired" prompt="isHashRequired?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="&quot;true&quot;"/>
+    <contextParameter xmi:id="_D17YkiR_Eee1UtsXG74B6w" comment="" name="TableName" prompt="TableName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="&quot;TempAttribute&quot;"/>
+  </context>
+  <context xmi:id="_D17YkyR_Eee1UtsXG74B6w" confirmationNeeded="false" name="Prod2">
+    <contextParameter xmi:id="_D17YlCR_Eee1UtsXG74B6w" comment="" name="ensuraFetchPartnerDataSvcName" prompt="ensuraFetchPartnerDataSvcName?" promptNeeded="false" repositoryContextId="_9mn9sAhSEeWD3O1pHz0iJA" type="id_String" value="svcWebFetchPartnerData.p"/>
+    <contextParameter xmi:id="_D17YlSR_Eee1UtsXG74B6w" comment="" name="ensuraValidatePartnerDataSvcName" prompt="ensuraValidatePartnerDataSvcName?" promptNeeded="false" repositoryContextId="_9mn9sAhSEeWD3O1pHz0iJA" type="id_String" value="svcWebValidatePartnerData.p"/>
+    <contextParameter xmi:id="_D17YliR_Eee1UtsXG74B6w" comment="" name="ensuraHostIP" prompt="ensuraHostIP?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="http://10.83.25.246/scripts/cgiip.exe/WService=wsbroker1/processWebService2.p"/>
+    <contextParameter xmi:id="_D17YlyR_Eee1UtsXG74B6w" comment="" name="ensuraHostName" prompt="ensuraHostName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="http://usfl04eus00p/scripts/cgiip.exe/WService=wsbroker1/processWebService2.p"/>
+    <contextParameter xmi:id="_D17YmCR_Eee1UtsXG74B6w" comment="" name="ensuraPassCode" prompt="ensuraPassCode?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="Homeserve999"/>
+    <contextParameter xmi:id="_D17YmSR_Eee1UtsXG74B6w" comment="" name="ensuraTimeOut" prompt="ensuraTimeOut?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_Integer" value="10000"/>
+    <contextParameter xmi:id="_D17YmiR_Eee1UtsXG74B6w" comment="" name="esbHostName" prompt="esbHostName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="10.52.20.6"/>
+    <contextParameter xmi:id="_D17YmyR_Eee1UtsXG74B6w" comment="" name="esbPort" prompt="esbPort?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_Integer" value="8571"/>
+    <contextParameter xmi:id="_D17YnCR_Eee1UtsXG74B6w" comment="" name="isHashRequired" prompt="isHashRequired?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="&quot;true&quot;"/>
+    <contextParameter xmi:id="_D17YnSR_Eee1UtsXG74B6w" comment="" name="TableName" prompt="TableName?" promptNeeded="false" repositoryContextId="_yLxU8QoIEeWnYdxIrmg7xQ" type="id_String" value="&quot;TempAttribute&quot;"/>
+  </context>
+  <parameters xmi:id="_D17YniR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D17YnyR_Eee1UtsXG74B6w" field="TEXT" name="SCREEN_OFFSET_X" value="11"/>
+    <elementParameter xmi:id="_D17YoCR_Eee1UtsXG74B6w" field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter xmi:id="_D17YoSR_Eee1UtsXG74B6w" field="TEXT" name="REPOSITORY_CONNECTION_ID" value=""/>
+    <routinesParameter xmi:id="_D17YoiR_Eee1UtsXG74B6w" id="_oeZ28Op7EeSvyKmOUcP8_A" name="DQTechnical"/>
+    <routinesParameter xmi:id="_D17YoyR_Eee1UtsXG74B6w" id="_oSJjoOp7EeSvyKmOUcP8_A" name="DataOperation"/>
+    <routinesParameter xmi:id="_D17YpCR_Eee1UtsXG74B6w" id="_od0BEOp7EeSvyKmOUcP8_A" name="DataQuality"/>
+    <routinesParameter xmi:id="_D17YpSR_Eee1UtsXG74B6w" id="_oeJ_UOp7EeSvyKmOUcP8_A" name="DqStringHandling"/>
+    <routinesParameter xmi:id="_D17YpiR_Eee1UtsXG74B6w" id="_ofIPsOp7EeSvyKmOUcP8_A" name="MDM"/>
+    <routinesParameter xmi:id="_D17YpyR_Eee1UtsXG74B6w" id="_ob9m8Op7EeSvyKmOUcP8_A" name="Mathematical"/>
+    <routinesParameter xmi:id="_D17YqCR_Eee1UtsXG74B6w" id="_ocMQcOp7EeSvyKmOUcP8_A" name="Numeric"/>
+    <routinesParameter xmi:id="_D17YqSR_Eee1UtsXG74B6w" id="_ocd9QOp7EeSvyKmOUcP8_A" name="Relational"/>
+    <routinesParameter xmi:id="_D17YqiR_Eee1UtsXG74B6w" id="_oeunEOp7EeSvyKmOUcP8_A" name="SQLike"/>
+    <routinesParameter xmi:id="_D17YqyR_Eee1UtsXG74B6w" id="_ocvqEOp7EeSvyKmOUcP8_A" name="StringHandling"/>
+    <routinesParameter xmi:id="_D17YrCR_Eee1UtsXG74B6w" id="_odAIwOp7EeSvyKmOUcP8_A" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_D17YrSR_Eee1UtsXG74B6w" id="_odROgOp7EeSvyKmOUcP8_A" name="TalendDate"/>
+    <routinesParameter xmi:id="_D17YriR_Eee1UtsXG74B6w" id="_odkJcOp7EeSvyKmOUcP8_A" name="TalendString"/>
+  </parameters>
+  <node xmi:id="_D17YryR_Eee1UtsXG74B6w" componentName="cHttp" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="768">
+    <elementParameter xmi:id="_D17YsCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cHttp_1"/>
+    <elementParameter xmi:id="_D17YsSR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17YsiR_Eee1UtsXG74B6w" field="TEXT" name="URI" value="context.ensuraHostIP"/>
+    <elementParameter xmi:id="_D17YsyR_Eee1UtsXG74B6w" field="RADIO" name="CLIENT" value="true"/>
+    <elementParameter xmi:id="_D17YtCR_Eee1UtsXG74B6w" field="RADIO" name="SERVER" value="false"/>
+    <elementParameter xmi:id="_D17YtSR_Eee1UtsXG74B6w" field="CHECK" name="DISABLE_STREAM" value="false"/>
+    <elementParameter xmi:id="_D17YtiR_Eee1UtsXG74B6w" field="CHECK" name="SESSION_SUPPORT" value="false"/>
+    <elementParameter xmi:id="_D17YtyR_Eee1UtsXG74B6w" field="CHECK" name="CHUNKED" value="true"/>
+    <elementParameter xmi:id="_D17YuCR_Eee1UtsXG74B6w" field="CHECK" name="ENABLEJMX" value="false"/>
+    <elementParameter xmi:id="_D17YuSR_Eee1UtsXG74B6w" field="CHECK" name="MATCH_ON_URI_PREFIX" value="false"/>
+    <elementParameter xmi:id="_D17YuiR_Eee1UtsXG74B6w" field="CHECK" name="USE_CONTINUATION" value="true"/>
+    <elementParameter xmi:id="_D17YuyR_Eee1UtsXG74B6w" field="CHECK" name="TRACE_ENABLE" value="false"/>
+    <elementParameter xmi:id="_D17YvCR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="METHOD" value="POST"/>
+    <elementParameter xmi:id="_D17YvSR_Eee1UtsXG74B6w" field="RADIO" name="PLAIN_TEXT" value="false"/>
+    <elementParameter xmi:id="_D17YviR_Eee1UtsXG74B6w" field="RADIO" name="FORM_CONTENT" value="false"/>
+    <elementParameter xmi:id="_D17YvyR_Eee1UtsXG74B6w" field="RADIO" name="NO_CONTENT" value="true"/>
+    <elementParameter xmi:id="_D17YwCR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="CONTENT_TYPE" value="application/xml"/>
+    <elementParameter xmi:id="_D17YwSR_Eee1UtsXG74B6w" field="TEXT" name="MANUAL_CONTENT_TYPE" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D17YwiR_Eee1UtsXG74B6w" field="TABLE" name="PARAMETERS"/>
+    <elementParameter xmi:id="_D17YwyR_Eee1UtsXG74B6w" field="TEXT" name="ENCODER_CHARSET" value="UTF-8"/>
+    <elementParameter xmi:id="_D17YxCR_Eee1UtsXG74B6w" field="MEMO" name="PLAIN_TEXT_CONTENT" value=""/>
+    <elementParameter xmi:id="_D17YxSR_Eee1UtsXG74B6w" field="TABLE" name="HEADERS"/>
+    <elementParameter xmi:id="_D17YxiR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="Ensura Service Call"/>
+    <elementParameter xmi:id="_D17YxyR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17YyCR_Eee1UtsXG74B6w" componentName="cConvertBodyTo" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="768">
+    <elementParameter xmi:id="_D17YySR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cConvertBodyTo_2"/>
+    <elementParameter xmi:id="_D17YyiR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17YyyR_Eee1UtsXG74B6w" field="TEXT" name="TOCLASS" value="String.class"/>
+    <elementParameter xmi:id="_D17YzCR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="ConvertStream to String"/>
+    <elementParameter xmi:id="_D17YzSR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17YziR_Eee1UtsXG74B6w" componentName="cMessagingEndpoint" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="928">
+    <elementParameter xmi:id="_D17YzyR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_1"/>
+    <elementParameter xmi:id="_D17Y0CR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17Y0SR_Eee1UtsXG74B6w" field="TEXT" name="URI" value="&quot;direct:a&quot;"/>
+    <elementParameter xmi:id="_D17Y0iR_Eee1UtsXG74B6w" field="TABLE" name="HOTLIBS"/>
+    <elementParameter xmi:id="_D17Y0yR_Eee1UtsXG74B6w" field="CHECK" name="USE_CUSTOM_COMPONENT" value="false"/>
+    <elementParameter xmi:id="_D17Y1CR_Eee1UtsXG74B6w" field="MODULE_LIST" name="LIBRARY" value=""/>
+    <elementParameter xmi:id="_D17Y1SR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="SendToLog"/>
+    <elementParameter xmi:id="_D17Y1iR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17Y1yR_Eee1UtsXG74B6w" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="928">
+    <elementParameter xmi:id="_D17Y2CR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cLog_2"/>
+    <elementParameter xmi:id="_D17Y2SR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17Y2iR_Eee1UtsXG74B6w" field="TEXT" name="LOGGING_CATEGORY" value="&quot;beanChk.cLog_2&quot;"/>
+    <elementParameter xmi:id="_D17Y2yR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="LEVEL_TYPE" value="INFO"/>
+    <elementParameter xmi:id="_D17Y3CR_Eee1UtsXG74B6w" field="RADIO" name="NOTHING" value="true"/>
+    <elementParameter xmi:id="_D17Y3SR_Eee1UtsXG74B6w" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_D17Y3iR_Eee1UtsXG74B6w" field="TEXT" name="SIZE" value="1"/>
+    <elementParameter xmi:id="_D17Y3yR_Eee1UtsXG74B6w" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_D17Y4CR_Eee1UtsXG74B6w" field="TEXT" name="INTERVAL" value="1"/>
+    <elementParameter xmi:id="_D17Y4SR_Eee1UtsXG74B6w" field="TEXT" name="DELAY" value="0"/>
+    <elementParameter xmi:id="_D17Y4iR_Eee1UtsXG74B6w" field="CHECK" name="ACTIVE_ONLY" value="true"/>
+    <elementParameter xmi:id="_D17Y4yR_Eee1UtsXG74B6w" field="RADIO" name="FORMAT" value="false"/>
+    <elementParameter xmi:id="_D17Y5CR_Eee1UtsXG74B6w" field="TABLE" name="ARGUMENTS"/>
+    <elementParameter xmi:id="_D17Y5SR_Eee1UtsXG74B6w" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_D17Y5iR_Eee1UtsXG74B6w" field="TEXT" name="MESSAGE" value="&quot;test.........................&quot;"/>
+    <elementParameter xmi:id="_D17Y5yR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="Generic Logging Component"/>
+    <elementParameter xmi:id="_D17Y6CR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17Y6SR_Eee1UtsXG74B6w" componentName="cMessageRouter" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="256">
+    <elementParameter xmi:id="_D17Y6iR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cMessageRouter_1"/>
+    <elementParameter xmi:id="_D17Y6yR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17Y7CR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="ROUTE_WHEN_LANGUAGES" value="constant"/>
+    <elementParameter xmi:id="_D17Y7SR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17Y7iR_Eee1UtsXG74B6w" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="32" posY="448">
+    <elementParameter xmi:id="_D17Y7yR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_2"/>
+    <elementParameter xmi:id="_D17Y8CR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17Y8SR_Eee1UtsXG74B6w" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value=""/>
+    <elementParameter xmi:id="_D17Y8yR_Eee1UtsXG74B6w" field="TEXT" name="NAME" value="&quot;getPartnerDetails&quot;"/>
+    <elementParameter xmi:id="_D17Y9CR_Eee1UtsXG74B6w" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_D17Y9SR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="getPartnerDetails"/>
+    <elementParameter xmi:id="_D17Y9iR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17Y9yR_Eee1UtsXG74B6w" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="800" posY="192">
+    <elementParameter xmi:id="_D17Y-CR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_3"/>
+    <elementParameter xmi:id="_D17Y-SR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17Y-iR_Eee1UtsXG74B6w" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cDirect_2"/>
+    <elementParameter xmi:id="_D17Y_CR_Eee1UtsXG74B6w" field="TEXT" name="NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D17Y_SR_Eee1UtsXG74B6w" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_D17Y_iR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="getPartnerDetails"/>
+    <elementParameter xmi:id="_D17Y_yR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17ZACR_Eee1UtsXG74B6w" componentName="cWireTap" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="256">
+    <elementParameter xmi:id="_D17ZASR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cWireTap_5"/>
+    <elementParameter xmi:id="_D17ZAiR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17ZAyR_Eee1UtsXG74B6w" field="TEXT" name="URI" value="&quot;direct:a&quot;"/>
+    <elementParameter xmi:id="_D17ZBCR_Eee1UtsXG74B6w" field="CHECK" name="NEW_EXCHANGE" value="false"/>
+    <elementParameter xmi:id="_D17ZBSR_Eee1UtsXG74B6w" field="RADIO" name="EXPRESSION" value="true"/>
+    <elementParameter xmi:id="_D17ZBiR_Eee1UtsXG74B6w" field="RADIO" name="PROCESSOR" value="false"/>
+    <elementParameter xmi:id="_D17ZByR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="LANGUAGES" value="xpath"/>
+    <elementParameter xmi:id="_D17ZCCR_Eee1UtsXG74B6w" field="TEXT" name="EXPRESSIONTXT" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D17ZCSR_Eee1UtsXG74B6w" field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;We just downloaded: &quot;+&#xA;&#x9;&#x9;&#x9;&#x9;exchange.getIn().getHeader(&quot;CamelFileName&quot;));"/>
+    <elementParameter xmi:id="_D17ZCiR_Eee1UtsXG74B6w" field="CHECK" name="COPY_ORIGINAL_MESSAGE" value="false"/>
+    <elementParameter xmi:id="_D17ZCyR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="LogRequest"/>
+    <elementParameter xmi:id="_D17ZDCR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17ZDSR_Eee1UtsXG74B6w" componentName="cConfig" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="32">
+    <elementParameter xmi:id="_D17ZDiR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cConfig_1"/>
+    <elementParameter xmi:id="_D17ZDyR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17ZECR_Eee1UtsXG74B6w" field="MEMO_IMPORT" name="IMPORT" value="import beans.hashGenerator;&#xA;import beans.errorCodeConverter;"/>
+    <elementParameter xmi:id="_D17ZESR_Eee1UtsXG74B6w" field="MEMO_JAVA" name="CODE" value=""/>
+    <elementParameter xmi:id="_D17ZEiR_Eee1UtsXG74B6w" field="TABLE" name="DRIVER_JAR"/>
+    <elementParameter xmi:id="_D17ZEyR_Eee1UtsXG74B6w" field="LABEL" name="WARNING" value="*Note: External JARs will not be embedded in OSGi bundle by default, to configure it please edit Route Manifest"/>
+    <elementParameter xmi:id="_D17ZFCR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="Initlize Imports"/>
+    <elementParameter xmi:id="_D17ZFSR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17_YCR_Eee1UtsXG74B6w" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="448">
+    <elementParameter xmi:id="_D17_YSR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_5"/>
+    <elementParameter xmi:id="_D17_YiR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17_YyR_Eee1UtsXG74B6w" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cDirect_6"/>
+    <elementParameter xmi:id="_D17_ZSR_Eee1UtsXG74B6w" field="TEXT" name="NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D17_ZiR_Eee1UtsXG74B6w" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_D17_ZyR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="Call Ensura"/>
+    <elementParameter xmi:id="_D17_aCR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17_aSR_Eee1UtsXG74B6w" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="32" posY="768">
+    <elementParameter xmi:id="_D17_aiR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_6"/>
+    <elementParameter xmi:id="_D17_ayR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17_bCR_Eee1UtsXG74B6w" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value=""/>
+    <elementParameter xmi:id="_D17_biR_Eee1UtsXG74B6w" field="TEXT" name="NAME" value="&quot;invokeEnsura&quot;"/>
+    <elementParameter xmi:id="_D17_byR_Eee1UtsXG74B6w" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_D17_cCR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="invokeEnsura"/>
+    <elementParameter xmi:id="_D17_cSR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17_ciR_Eee1UtsXG74B6w" componentName="cWireTap" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="768">
+    <elementParameter xmi:id="_D17_cyR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cWireTap_4"/>
+    <elementParameter xmi:id="_D17_dCR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17_dSR_Eee1UtsXG74B6w" field="TEXT" name="URI" value="&quot;direct:a&quot;"/>
+    <elementParameter xmi:id="_D17_diR_Eee1UtsXG74B6w" field="CHECK" name="NEW_EXCHANGE" value="false"/>
+    <elementParameter xmi:id="_D17_dyR_Eee1UtsXG74B6w" field="RADIO" name="EXPRESSION" value="true"/>
+    <elementParameter xmi:id="_D17_eCR_Eee1UtsXG74B6w" field="RADIO" name="PROCESSOR" value="false"/>
+    <elementParameter xmi:id="_D17_eSR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="LANGUAGES" value="xpath"/>
+    <elementParameter xmi:id="_D17_eiR_Eee1UtsXG74B6w" field="TEXT" name="EXPRESSIONTXT" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D17_eyR_Eee1UtsXG74B6w" field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;We just downloaded: &quot;+&#xA;&#x9;&#x9;&#x9;&#x9;exchange.getIn().getHeader(&quot;CamelFileName&quot;));"/>
+    <elementParameter xmi:id="_D17_fCR_Eee1UtsXG74B6w" field="CHECK" name="COPY_ORIGINAL_MESSAGE" value="false"/>
+    <elementParameter xmi:id="_D17_fSR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="LogEnsuraRequest"/>
+    <elementParameter xmi:id="_D17_fiR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17_fyR_Eee1UtsXG74B6w" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="256">
+    <elementParameter xmi:id="_D17_gCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cProcessor_4"/>
+    <elementParameter xmi:id="_D17_gSR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17_giR_Eee1UtsXG74B6w" field="MEMO_IMPORT" name="IMPORT" value="import java.util.ArrayList;&#xA;"/>
+    <elementParameter xmi:id="_D17_gyR_Eee1UtsXG74B6w" field="MEMO_JAVA" name="CODE" value="&#xA;ArrayList list = (ArrayList)exchange.getIn().getHeader(&quot;org.apache.cxf.headers.Header.list&quot;);&#xA;exchange.setProperty(&quot;soapHeaderList&quot;, list);&#xA;//exchange.getOut().setHeader(&quot;org.apache.cxf.headers.Header.list&quot;, list);&#xA;exchange.getIn().setHeader(&quot;ensuraPassCode&quot;, context.ensuraPassCode);&#xA;&#xA;exchange.getIn().setHeader(&quot;ensuraFetchPartnerDataSvcName&quot;, context.ensuraFetchPartnerDataSvcName);&#xA;exchange.getIn().setHeader(&quot;ensuraValidatePartnerDataSvcName&quot;, context.ensuraValidatePartnerDataSvcName);&#xA;exchange.getIn().setHeader(&quot;isHashRequired&quot;,context.isHashRequired);&#xA;exchange.getIn().setHeader(&quot;TableName&quot;,context.TableName);&#xA;"/>
+    <elementParameter xmi:id="_D17_hCR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="SetHeader to Exchange Property"/>
+    <elementParameter xmi:id="_D17_hSR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17_hiR_Eee1UtsXG74B6w" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="32">
+    <elementParameter xmi:id="_D17_hyR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cProcessor_7"/>
+    <elementParameter xmi:id="_D17_iCR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17_iSR_Eee1UtsXG74B6w" field="MEMO_IMPORT" name="IMPORT" value="import beans.SoapFaultGenerator;&#xA;"/>
+    <elementParameter xmi:id="_D17_iiR_Eee1UtsXG74B6w" field="MEMO_JAVA" name="CODE" value="&#xA;beans.SoapFaultGenerator sf= new beans.SoapFaultGenerator();&#xA;sf.generateSoapFault(exchange);        "/>
+    <elementParameter xmi:id="_D17_iyR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="setHeader/Fault"/>
+    <elementParameter xmi:id="_D17_jCR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17_jSR_Eee1UtsXG74B6w" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="448">
+    <elementParameter xmi:id="_D17_jiR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cLog_3"/>
+    <elementParameter xmi:id="_D17_jyR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17_kCR_Eee1UtsXG74B6w" field="TEXT" name="LOGGING_CATEGORY" value="&quot;route_SaleService.cLog_3&quot;"/>
+    <elementParameter xmi:id="_D17_kSR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="LEVEL_TYPE" value="INFO"/>
+    <elementParameter xmi:id="_D17_kiR_Eee1UtsXG74B6w" field="RADIO" name="NOTHING" value="true"/>
+    <elementParameter xmi:id="_D17_kyR_Eee1UtsXG74B6w" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_D17_lCR_Eee1UtsXG74B6w" field="TEXT" name="SIZE" value="1"/>
+    <elementParameter xmi:id="_D17_lSR_Eee1UtsXG74B6w" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_D17_liR_Eee1UtsXG74B6w" field="TEXT" name="INTERVAL" value="1"/>
+    <elementParameter xmi:id="_D17_lyR_Eee1UtsXG74B6w" field="TEXT" name="DELAY" value="0"/>
+    <elementParameter xmi:id="_D17_mCR_Eee1UtsXG74B6w" field="CHECK" name="ACTIVE_ONLY" value="true"/>
+    <elementParameter xmi:id="_D17_mSR_Eee1UtsXG74B6w" field="RADIO" name="FORMAT" value="false"/>
+    <elementParameter xmi:id="_D17_miR_Eee1UtsXG74B6w" field="TABLE" name="ARGUMENTS"/>
+    <elementParameter xmi:id="_D17_myR_Eee1UtsXG74B6w" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_D17_nCR_Eee1UtsXG74B6w" field="TEXT" name="MESSAGE" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D17_nSR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="LogFinalPayload"/>
+    <elementParameter xmi:id="_D17_niR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17_nyR_Eee1UtsXG74B6w" componentName="cOnException" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="32">
+    <elementParameter xmi:id="_D17_oCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cOnException_1"/>
+    <elementParameter xmi:id="_D17_oSR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17_oiR_Eee1UtsXG74B6w" field="TABLE" name="EXCEPTIONS">
+      <elementValue xmi:id="_D17_oyR_Eee1UtsXG74B6w" elementRef="EXCEPTION" value="java.lang.Exception"/>
+    </elementParameter>
+    <elementParameter xmi:id="_D17_pCR_Eee1UtsXG74B6w" field="CHECK" name="SET_MAX_REDELIVERY" value="false"/>
+    <elementParameter xmi:id="_D17_pSR_Eee1UtsXG74B6w" field="TEXT" name="MAX_REDELIVERY" value="2"/>
+    <elementParameter xmi:id="_D17_piR_Eee1UtsXG74B6w" field="CHECK" name="ASYNC_REDELIVERY" value="false"/>
+    <elementParameter xmi:id="_D17_pyR_Eee1UtsXG74B6w" field="RADIO" name="NONE" value="false"/>
+    <elementParameter xmi:id="_D17_qCR_Eee1UtsXG74B6w" field="RADIO" name="HANDLE" value="true"/>
+    <elementParameter xmi:id="_D17_qSR_Eee1UtsXG74B6w" field="RADIO" name="CONTINUE" value="false"/>
+    <elementParameter xmi:id="_D17_qiR_Eee1UtsXG74B6w" field="CHECK" name="USE_ORIGINAL_MESSAGE" value="false"/>
+    <elementParameter xmi:id="_D17_qyR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="ExceptionHandler"/>
+    <elementParameter xmi:id="_D17_rCR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17_rSR_Eee1UtsXG74B6w" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="32">
+    <elementParameter xmi:id="_D17_riR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cLog_1"/>
+    <elementParameter xmi:id="_D17_ryR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17_sCR_Eee1UtsXG74B6w" field="TEXT" name="LOGGING_CATEGORY" value="&quot;PartnerService_Design_Route.cLog_1&quot;"/>
+    <elementParameter xmi:id="_D17_sSR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="LEVEL_TYPE" value="INFO"/>
+    <elementParameter xmi:id="_D17_siR_Eee1UtsXG74B6w" field="RADIO" name="NOTHING" value="true"/>
+    <elementParameter xmi:id="_D17_syR_Eee1UtsXG74B6w" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_D17_tCR_Eee1UtsXG74B6w" field="TEXT" name="SIZE" value="1"/>
+    <elementParameter xmi:id="_D17_tSR_Eee1UtsXG74B6w" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_D17_tiR_Eee1UtsXG74B6w" field="TEXT" name="INTERVAL" value="1"/>
+    <elementParameter xmi:id="_D17_tyR_Eee1UtsXG74B6w" field="TEXT" name="DELAY" value="0"/>
+    <elementParameter xmi:id="_D17_uCR_Eee1UtsXG74B6w" field="CHECK" name="ACTIVE_ONLY" value="true"/>
+    <elementParameter xmi:id="_D17_uSR_Eee1UtsXG74B6w" field="RADIO" name="FORMAT" value="false"/>
+    <elementParameter xmi:id="_D17_uiR_Eee1UtsXG74B6w" field="TABLE" name="ARGUMENTS"/>
+    <elementParameter xmi:id="_D17_uyR_Eee1UtsXG74B6w" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_D17_vCR_Eee1UtsXG74B6w" field="TEXT" name="MESSAGE" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D17_vSR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="Log Error Response"/>
+    <elementParameter xmi:id="_D17_viR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17_vyR_Eee1UtsXG74B6w" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="32" posY="608">
+    <elementParameter xmi:id="_D17_wCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_4"/>
+    <elementParameter xmi:id="_D17_wSR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17_wiR_Eee1UtsXG74B6w" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value=""/>
+    <elementParameter xmi:id="_D17_xCR_Eee1UtsXG74B6w" field="TEXT" name="NAME" value="&quot;validatePartnerDetails&quot;"/>
+    <elementParameter xmi:id="_D17_xSR_Eee1UtsXG74B6w" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_D17_xiR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="validatePartnerDetails"/>
+    <elementParameter xmi:id="_D17_xyR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17_yCR_Eee1UtsXG74B6w" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="608">
+    <elementParameter xmi:id="_D17_ySR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_7"/>
+    <elementParameter xmi:id="_D17_yiR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17_yyR_Eee1UtsXG74B6w" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cDirect_6"/>
+    <elementParameter xmi:id="_D17_zSR_Eee1UtsXG74B6w" field="TEXT" name="NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D17_ziR_Eee1UtsXG74B6w" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_D17_zyR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="Call Ensura"/>
+    <elementParameter xmi:id="_D17_0CR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17_0SR_Eee1UtsXG74B6w" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="608">
+    <elementParameter xmi:id="_D17_0iR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cLog_4"/>
+    <elementParameter xmi:id="_D17_0yR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17_1CR_Eee1UtsXG74B6w" field="TEXT" name="LOGGING_CATEGORY" value="&quot;route_SaleService.cLog_3&quot;"/>
+    <elementParameter xmi:id="_D17_1SR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="LEVEL_TYPE" value="INFO"/>
+    <elementParameter xmi:id="_D17_1iR_Eee1UtsXG74B6w" field="RADIO" name="NOTHING" value="true"/>
+    <elementParameter xmi:id="_D17_1yR_Eee1UtsXG74B6w" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_D17_2CR_Eee1UtsXG74B6w" field="TEXT" name="SIZE" value="1"/>
+    <elementParameter xmi:id="_D17_2SR_Eee1UtsXG74B6w" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_D17_2iR_Eee1UtsXG74B6w" field="TEXT" name="INTERVAL" value="1"/>
+    <elementParameter xmi:id="_D17_2yR_Eee1UtsXG74B6w" field="TEXT" name="DELAY" value="0"/>
+    <elementParameter xmi:id="_D17_3CR_Eee1UtsXG74B6w" field="CHECK" name="ACTIVE_ONLY" value="true"/>
+    <elementParameter xmi:id="_D17_3SR_Eee1UtsXG74B6w" field="RADIO" name="FORMAT" value="false"/>
+    <elementParameter xmi:id="_D17_3iR_Eee1UtsXG74B6w" field="TABLE" name="ARGUMENTS"/>
+    <elementParameter xmi:id="_D17_3yR_Eee1UtsXG74B6w" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_D17_4CR_Eee1UtsXG74B6w" field="TEXT" name="MESSAGE" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D17_4SR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="LogFinalPayload"/>
+    <elementParameter xmi:id="_D17_4iR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17_4yR_Eee1UtsXG74B6w" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="800" posY="288">
+    <elementParameter xmi:id="_D17_5CR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_12"/>
+    <elementParameter xmi:id="_D17_5SR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17_5iR_Eee1UtsXG74B6w" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cDirect_4"/>
+    <elementParameter xmi:id="_D17_6CR_Eee1UtsXG74B6w" field="TEXT" name="NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D17_6SR_Eee1UtsXG74B6w" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_D17_6iR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="validatePartnerDetails"/>
+    <elementParameter xmi:id="_D17_6yR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17_7CR_Eee1UtsXG74B6w" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="832" posY="448">
+    <elementParameter xmi:id="_D17_7SR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_1"/>
+    <elementParameter xmi:id="_D17_7iR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17_7yR_Eee1UtsXG74B6w" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cDirect_8"/>
+    <elementParameter xmi:id="_D17_8SR_Eee1UtsXG74B6w" field="TEXT" name="NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D17_8iR_Eee1UtsXG74B6w" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_D17_8yR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="SendToHandleHeaders"/>
+    <elementParameter xmi:id="_D17_9CR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17_9SR_Eee1UtsXG74B6w" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="32" posY="1088">
+    <elementParameter xmi:id="_D17_9iR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_8"/>
+    <elementParameter xmi:id="_D17_9yR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D17_-CR_Eee1UtsXG74B6w" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value=""/>
+    <elementParameter xmi:id="_D17_-iR_Eee1UtsXG74B6w" field="TEXT" name="NAME" value="&quot;SetHeader&quot;"/>
+    <elementParameter xmi:id="_D17_-yR_Eee1UtsXG74B6w" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_D17__CR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="SetHeader"/>
+    <elementParameter xmi:id="_D17__SR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D17__iR_Eee1UtsXG74B6w" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="832" posY="608">
+    <elementParameter xmi:id="_D17__yR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_9"/>
+    <elementParameter xmi:id="_D18AACR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D18AASR_Eee1UtsXG74B6w" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cDirect_8"/>
+    <elementParameter xmi:id="_D18AAyR_Eee1UtsXG74B6w" field="TEXT" name="NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D18ABCR_Eee1UtsXG74B6w" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_D18ABSR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="SendToHandleHeaders"/>
+    <elementParameter xmi:id="_D18ABiR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D18AByR_Eee1UtsXG74B6w" componentName="cMap" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="160" posY="448">
+    <elementParameter xmi:id="_D18ACCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cMap_1"/>
+    <elementParameter xmi:id="_D18ACSR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D18ACiR_Eee1UtsXG74B6w" field="EXTERNAL" name="MAP_EDITOR" value=""/>
+    <elementParameter xmi:id="_D18ACyR_Eee1UtsXG74B6w" field="HMAP_PATH" name="HMAP_PATH" value="&quot;HS/PartnerService/getPartnerDetails/getPartnerDetailsRequestToEnsuraRequest&quot;"/>
+    <elementParameter xmi:id="_D18ADCR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="LOG" value="infrequent"/>
+    <elementParameter xmi:id="_D18ADSR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="EXCEPTION" value="FATAL"/>
+    <elementParameter xmi:id="_D18ADiR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="OUTPUT_TYPE" value="default"/>
+    <elementParameter xmi:id="_D18ADyR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="mapEnsuraReq"/>
+    <elementParameter xmi:id="_D18AECR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D18AESR_Eee1UtsXG74B6w" componentName="cMap" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="160" posY="608">
+    <elementParameter xmi:id="_D18AEiR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cMap_2"/>
+    <elementParameter xmi:id="_D18AEyR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D18AFCR_Eee1UtsXG74B6w" field="EXTERNAL" name="MAP_EDITOR" value=""/>
+    <elementParameter xmi:id="_D18AFSR_Eee1UtsXG74B6w" field="HMAP_PATH" name="HMAP_PATH" value="&quot;HS/PartnerService/validatePartnerDetails/validatePartnerDetailsRequestToEnsuraRequest&quot;"/>
+    <elementParameter xmi:id="_D18AFiR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="LOG" value="infrequent"/>
+    <elementParameter xmi:id="_D18AFyR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="EXCEPTION" value="FATAL"/>
+    <elementParameter xmi:id="_D18AGCR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="OUTPUT_TYPE" value="default"/>
+    <elementParameter xmi:id="_D18AGSR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="mapEnsuraReq"/>
+    <elementParameter xmi:id="_D18AGiR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D18AGyR_Eee1UtsXG74B6w" componentName="cMap" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="448">
+    <elementParameter xmi:id="_D18AHCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cMap_3"/>
+    <elementParameter xmi:id="_D18AHSR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D18AHiR_Eee1UtsXG74B6w" field="EXTERNAL" name="MAP_EDITOR" value=""/>
+    <elementParameter xmi:id="_D18AHyR_Eee1UtsXG74B6w" field="HMAP_PATH" name="HMAP_PATH" value="&quot;HS/PartnerService/getPartnerDetails/ensuraResponseTogetPartnerDetailsResponse&quot;"/>
+    <elementParameter xmi:id="_D18AICR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="LOG" value="infrequent"/>
+    <elementParameter xmi:id="_D18AISR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="EXCEPTION" value="FATAL"/>
+    <elementParameter xmi:id="_D18AIiR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="OUTPUT_TYPE" value="default"/>
+    <elementParameter xmi:id="_D18AIyR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="mapEnsuraResp"/>
+    <elementParameter xmi:id="_D18AJCR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D18AJSR_Eee1UtsXG74B6w" componentName="cMap" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="608">
+    <elementParameter xmi:id="_D18AJiR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cMap_4"/>
+    <elementParameter xmi:id="_D18AJyR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D18AKCR_Eee1UtsXG74B6w" field="EXTERNAL" name="MAP_EDITOR" value=""/>
+    <elementParameter xmi:id="_D18AKSR_Eee1UtsXG74B6w" field="HMAP_PATH" name="HMAP_PATH" value="&quot;HS/PartnerService/validatePartnerDetails/ensuraResponseToValidatePartnerDetailsResponse&quot;"/>
+    <elementParameter xmi:id="_D18AKiR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="LOG" value="infrequent"/>
+    <elementParameter xmi:id="_D18AKyR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="EXCEPTION" value="FATAL"/>
+    <elementParameter xmi:id="_D18ALCR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="OUTPUT_TYPE" value="default"/>
+    <elementParameter xmi:id="_D18ALSR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="mapEnsuraResp"/>
+    <elementParameter xmi:id="_D18ALiR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D18ALyR_Eee1UtsXG74B6w" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="1088">
+    <elementParameter xmi:id="_D18AMCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1"/>
+    <elementParameter xmi:id="_D18AMSR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D18AMiR_Eee1UtsXG74B6w" field="MEMO_IMPORT" name="IMPORT" value="import beans.populateSoapResponse;"/>
+    <elementParameter xmi:id="_D18AMyR_Eee1UtsXG74B6w" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;&#xA;populateSoapResponse sr = new populateSoapResponse();&#xA;sr.attachHeader(exchange);&#xA;"/>
+    <elementParameter xmi:id="_D18ANCR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="Attach Header"/>
+    <elementParameter xmi:id="_D18ANSR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D18ANiR_Eee1UtsXG74B6w" componentName="cCXF" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="256">
+    <elementParameter xmi:id="_D18ANyR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cCXF_1"/>
+    <elementParameter xmi:id="_D18AOCR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D18AOSR_Eee1UtsXG74B6w" field="TEXT" name="SERVICE_NS" value=""/>
+    <elementParameter xmi:id="_D18AOiR_Eee1UtsXG74B6w" field="TEXT" name="ADDRESS" value="&quot;http://&quot;+context.esbHostName+&quot;:&quot;+context.esbPort+&quot;/services/PartnerService_SAML&quot;"/>
+    <elementParameter xmi:id="_D18AOyR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="SERVICE_TYPE" value="wsdlURL"/>
+    <elementParameter xmi:id="_D18APCR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="WSDL_TYPE" value="repo"/>
+    <elementParameter xmi:id="_D18APSR_Eee1UtsXG74B6w" field="FILE" name="WSDL_FILE" value="&quot;//hsus.hsa.int/CTX/RDS_HomeDirs/GNarsepalli/Desktop/wsdls/PartnerService.wsdl&quot;"/>
+    <elementParameter xmi:id="_D18APiR_Eee1UtsXG74B6w" field="ROUTE_RESOURCE_TYPE" name="WSDL_FILE_REPO" value="_8cbGUArBEeWuD4e3hLLRlQ"/>
+    <elementParameter xmi:id="_D18APyR_Eee1UtsXG74B6w" field="TECHNICAL" name="WSDL_FILE_REPO:ROUTE_RESOURCE_TYPE_VERSION" value="Latest"/>
+    <elementParameter xmi:id="_D18AQiR_Eee1UtsXG74B6w" field="TEXT" name="SERVICE_CLASS" value="&quot;beans.ServiceClass&quot;"/>
+    <elementParameter xmi:id="_D18AQyR_Eee1UtsXG74B6w" field="EXTERNAL" name="SERVICE_CONFIGURATION" value=""/>
+    <elementParameter xmi:id="_D18ARCR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="DATAFORMAT" value="PAYLOAD"/>
+    <elementParameter xmi:id="_D18ARSR_Eee1UtsXG74B6w" field="LABEL" name="RAW_TOOLTIP" value=" (MESSAGE dataFormat without SAM Support)"/>
+    <elementParameter xmi:id="_D18ARiR_Eee1UtsXG74B6w" field="LABEL" name="CXF_MESSAGE_TOOLTIP" value=" (MESSAGE dataFormat plus SAM Support)"/>
+    <elementParameter xmi:id="_D18ARyR_Eee1UtsXG74B6w" field="TEXT" name="SERVICE_NAME" value="&quot;{http://www.homeserve.com/NA/US/PartnerServicev1.0/}PartnerService&quot;"/>
+    <elementParameter xmi:id="_D18ASCR_Eee1UtsXG74B6w" field="TEXT" name="PORT_NAME" value="&quot;{http://www.homeserve.com/NA/US/PartnerServicev1.0/}PartnerServicePort&quot;"/>
+    <elementParameter xmi:id="_D18ASSR_Eee1UtsXG74B6w" field="TEXT" name="OPERATION_NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D18ASiR_Eee1UtsXG74B6w" field="CHECK" name="ENABLE_REGISTRY" value="false"/>
+    <elementParameter xmi:id="_D18ASyR_Eee1UtsXG74B6w" field="CHECK" name="ENABLE_SL" value="true"/>
+    <elementParameter xmi:id="_D18ATCR_Eee1UtsXG74B6w" field="CHECK" name="ENABLE_SAM" value="true"/>
+    <elementParameter xmi:id="_D18ATSR_Eee1UtsXG74B6w" field="CHECK" name="ENABLE_SAM_MESSAGE" value="false"/>
+    <elementParameter xmi:id="_D18ATiR_Eee1UtsXG74B6w" field="CHECK" name="ENABLE_SECURITY" value="true"/>
+    <elementParameter xmi:id="_D18ATyR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="SECURITY_TYPE" value="SAML"/>
+    <elementParameter xmi:id="_D18AUCR_Eee1UtsXG74B6w" field="LABEL" name="AUTHENTICATION_LABEL" value="Authentication:"/>
+    <elementParameter xmi:id="_D18AUSR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="SAML_SECURITY_TYPES" value="NO_PROPAGATE"/>
+    <elementParameter xmi:id="_D18AUiR_Eee1UtsXG74B6w" field="LABEL" name="PROPAGATE_UP_LABEL" value=""/>
+    <elementParameter xmi:id="_D18AUyR_Eee1UtsXG74B6w" field="LABEL" name="PROPAGATE_AP_LABEL" value=""/>
+    <elementParameter xmi:id="_D18AVCR_Eee1UtsXG74B6w" field="CHECK" name="USE_PROPAGATE_CREDENTIAL" value="false"/>
+    <elementParameter xmi:id="_D18AVSR_Eee1UtsXG74B6w" field="TEXT" name="ALIASNAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D18AViR_Eee1UtsXG74B6w" field="TEXT" name="USERNAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D18AVyR_Eee1UtsXG74B6w" field="PASSWORD" name="PASSWORD" value="0RMsyjmybrE="/>
+    <elementParameter xmi:id="_D18AWCR_Eee1UtsXG74B6w" field="CHECK" name="USE_AUTHORIZATION" value="false"/>
+    <elementParameter xmi:id="_D18AWSR_Eee1UtsXG74B6w" field="LABEL" name="AUTHORIZATION_LABEL" value="Authorization:"/>
+    <elementParameter xmi:id="_D18AWiR_Eee1UtsXG74B6w" field="TEXT" name="ROLE_NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D18AWyR_Eee1UtsXG74B6w" field="CHECK" name="ENABLE_CORRELATION" value="false"/>
+    <elementParameter xmi:id="_D18AXCR_Eee1UtsXG74B6w" field="TEXT" name="CORRELATION_VALUE" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D18AXSR_Eee1UtsXG74B6w" field="LABEL" name="CORRELATION_VALUE_TOOLTIP" value="(Simple Expression is Available)"/>
+    <elementParameter xmi:id="_D18AXiR_Eee1UtsXG74B6w" field="CHECK" name="LOG_MESSAGES" value="false"/>
+    <elementParameter xmi:id="_D18AXyR_Eee1UtsXG74B6w" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_D18AYCR_Eee1UtsXG74B6w" field="TABLE" name="SL_META_DATA"/>
+    <elementParameter xmi:id="_D18AYSR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="PartnerServiceProvider"/>
+    <elementParameter xmi:id="_D18AYiR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D18AYyR_Eee1UtsXG74B6w" componentName="cDelayer" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="256">
+    <elementParameter xmi:id="_D18AZCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDelayer_1"/>
+    <elementParameter xmi:id="_D18AZSR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D18AZiR_Eee1UtsXG74B6w" field="TEXT" name="WAIT" value="10"/>
+    <elementParameter xmi:id="_D18AZyR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D18AaCR_Eee1UtsXG74B6w" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="768">
+    <elementParameter xmi:id="_D18AaSR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cProcessor_2"/>
+    <elementParameter xmi:id="_D18AaiR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D18AayR_Eee1UtsXG74B6w" field="MEMO_IMPORT" name="IMPORT" value="import beans.manageSOAPHeaderProperties;"/>
+    <elementParameter xmi:id="_D18AbCR_Eee1UtsXG74B6w" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;&#xA;manageSOAPHeaderProperties sp = new manageSOAPHeaderProperties();&#xA;sp.removeSAMLProperties(exchange);&#xA;"/>
+    <elementParameter xmi:id="_D18AbSR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="removeSAML"/>
+    <elementParameter xmi:id="_D18AbiR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D18AbyR_Eee1UtsXG74B6w" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="768">
+    <elementParameter xmi:id="_D18AcCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cProcessor_3"/>
+    <elementParameter xmi:id="_D18AcSR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D18AciR_Eee1UtsXG74B6w" field="MEMO_IMPORT" name="IMPORT" value="import beans.manageSOAPHeaderProperties;"/>
+    <elementParameter xmi:id="_D18AcyR_Eee1UtsXG74B6w" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;&#xA;manageSOAPHeaderProperties sp = new manageSOAPHeaderProperties();&#xA;sp.attachSAMLProperties(exchange);&#xA;&#xA;"/>
+    <elementParameter xmi:id="_D18AdCR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="attachSAML"/>
+    <elementParameter xmi:id="_D18AdSR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D18AdiR_Eee1UtsXG74B6w" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="352">
+    <elementParameter xmi:id="_D18AdyR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cProcessor_5"/>
+    <elementParameter xmi:id="_D18AeCR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D18AeSR_Eee1UtsXG74B6w" field="MEMO_IMPORT" name="IMPORT" value=""/>
+    <elementParameter xmi:id="_D18AeiR_Eee1UtsXG74B6w" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;throw(new RuntimeException(&quot;SOAP Action is not valid&quot;));&#xA;&#xA;&#xA;"/>
+    <elementParameter xmi:id="_D18AeyR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="customException"/>
+    <elementParameter xmi:id="_D18AfCR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D18AfSR_Eee1UtsXG74B6w" componentName="cMessageRouter" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="768">
+    <elementParameter xmi:id="_D18AfiR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cMessageRouter_2"/>
+    <elementParameter xmi:id="_D18AfyR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D18AgCR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="ROUTE_WHEN_LANGUAGES" value="constant"/>
+    <elementParameter xmi:id="_D18AgSR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D18AgiR_Eee1UtsXG74B6w" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="736">
+    <elementParameter xmi:id="_D18AgyR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cProcessor_6"/>
+    <elementParameter xmi:id="_D18AhCR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D18AhSR_Eee1UtsXG74B6w" field="MEMO_IMPORT" name="IMPORT" value="import beans.manageSOAPHeaderProperties;"/>
+    <elementParameter xmi:id="_D18AhiR_Eee1UtsXG74B6w" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;&#xA;&#xA;if (exchange.getIn().getBody().toString().contains(&quot;WebSpeed error from messenger process&quot;)) {&#xA;&#x9;throw(new RuntimeException(&quot;WebSpeed error - wsbroker is down&quot;));&#xA;}&#xA;&#xA;"/>
+    <elementParameter xmi:id="_D18AhyR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="customException"/>
+    <elementParameter xmi:id="_D18AiCR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D18AiSR_Eee1UtsXG74B6w" componentName="cWireTap" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="832">
+    <elementParameter xmi:id="_D18AiiR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cWireTap_1"/>
+    <elementParameter xmi:id="_D18AiyR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D18AjCR_Eee1UtsXG74B6w" field="TEXT" name="URI" value="&quot;direct:a&quot;"/>
+    <elementParameter xmi:id="_D18AjSR_Eee1UtsXG74B6w" field="CHECK" name="NEW_EXCHANGE" value="false"/>
+    <elementParameter xmi:id="_D18AjiR_Eee1UtsXG74B6w" field="RADIO" name="EXPRESSION" value="true"/>
+    <elementParameter xmi:id="_D18AjyR_Eee1UtsXG74B6w" field="RADIO" name="PROCESSOR" value="false"/>
+    <elementParameter xmi:id="_D18AkCR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="LANGUAGES" value="xpath"/>
+    <elementParameter xmi:id="_D18AkSR_Eee1UtsXG74B6w" field="TEXT" name="EXPRESSIONTXT" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D18AkiR_Eee1UtsXG74B6w" field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;We just downloaded: &quot;+&#xA;&#x9;&#x9;&#x9;&#x9;exchange.getIn().getHeader(&quot;CamelFileName&quot;));"/>
+    <elementParameter xmi:id="_D18AkyR_Eee1UtsXG74B6w" field="CHECK" name="COPY_ORIGINAL_MESSAGE" value="false"/>
+    <elementParameter xmi:id="_D18AlCR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="Log Ensura Response"/>
+    <elementParameter xmi:id="_D18AlSR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_D18AliR_Eee1UtsXG74B6w" componentName="cWireTap" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="992" posY="736">
+    <elementParameter xmi:id="_D18AlyR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cWireTap_2"/>
+    <elementParameter xmi:id="_D18AmCR_Eee1UtsXG74B6w" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\5.6.1\studio\configuration\lib\java"/>
+    <elementParameter xmi:id="_D18AmSR_Eee1UtsXG74B6w" field="TEXT" name="URI" value="&quot;direct:a&quot;"/>
+    <elementParameter xmi:id="_D18AmiR_Eee1UtsXG74B6w" field="CHECK" name="NEW_EXCHANGE" value="false"/>
+    <elementParameter xmi:id="_D18AmyR_Eee1UtsXG74B6w" field="RADIO" name="EXPRESSION" value="true"/>
+    <elementParameter xmi:id="_D18AnCR_Eee1UtsXG74B6w" field="RADIO" name="PROCESSOR" value="false"/>
+    <elementParameter xmi:id="_D18AnSR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="LANGUAGES" value="xpath"/>
+    <elementParameter xmi:id="_D18AniR_Eee1UtsXG74B6w" field="TEXT" name="EXPRESSIONTXT" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_D18AnyR_Eee1UtsXG74B6w" field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;We just downloaded: &quot;+&#xA;&#x9;&#x9;&#x9;&#x9;exchange.getIn().getHeader(&quot;CamelFileName&quot;));"/>
+    <elementParameter xmi:id="_D18AoCR_Eee1UtsXG74B6w" field="CHECK" name="COPY_ORIGINAL_MESSAGE" value="false"/>
+    <elementParameter xmi:id="_D18AoSR_Eee1UtsXG74B6w" field="TEXT" name="LABEL" value="Log Ensura Response"/>
+    <elementParameter xmi:id="_D18AoiR_Eee1UtsXG74B6w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection xmi:id="_D18AoyR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route6" lineStyle="14" metaname="cHttp_1" offsetLabelX="0" offsetLabelY="0" source="cHttp_1" target="cConvertBodyTo_2">
+    <elementParameter xmi:id="_D18ApCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route6"/>
+  </connection>
+  <connection xmi:id="_D18ApSR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route4" lineStyle="14" metaname="cConvertBodyTo_2" offsetLabelX="0" offsetLabelY="0" source="cConvertBodyTo_2" target="cProcessor_3">
+    <elementParameter xmi:id="_D18ApiR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route4"/>
+  </connection>
+  <connection xmi:id="_D18ApyR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route9" lineStyle="14" metaname="cMessagingEndpoint_1" offsetLabelX="0" offsetLabelY="0" source="cMessagingEndpoint_1" target="cLog_2">
+    <elementParameter xmi:id="_D18AqCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route9"/>
+  </connection>
+  <connection xmi:id="_D18AqSR_Eee1UtsXG74B6w" connectorName="ROUTE_WHEN" label="when1" lineStyle="15" metaname="cMessageRouter_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="cMessageRouter_1" target="cDirect_3">
+    <elementParameter xmi:id="_D18AqiR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="ROUTETYPE" value="simple"/>
+    <elementParameter xmi:id="_D18AqyR_Eee1UtsXG74B6w" field="MEMO_JAVA" name="CONDITION" value="&quot;${in.header.SOAPAction} contains 'getPartnerDetails'&quot;"/>
+    <elementParameter xmi:id="_D18ArCR_Eee1UtsXG74B6w" field="CHECK" name="ENDOFCHOICE" value="false"/>
+    <elementParameter xmi:id="_D18ArSR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="when1"/>
+  </connection>
+  <connection xmi:id="_D18AriR_Eee1UtsXG74B6w" connectorName="ROUTE_WHEN" label="when2" lineStyle="15" metaname="cMessageRouter_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="cMessageRouter_1" target="cDirect_12">
+    <elementParameter xmi:id="_D18AryR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="ROUTETYPE" value="simple"/>
+    <elementParameter xmi:id="_D18AsCR_Eee1UtsXG74B6w" field="MEMO_JAVA" name="CONDITION" value="&quot;${in.header.SOAPAction} contains 'validatePartnerDetails'&quot;"/>
+    <elementParameter xmi:id="_D18AsSR_Eee1UtsXG74B6w" field="CHECK" name="ENDOFCHOICE" value="false"/>
+    <elementParameter xmi:id="_D18AsiR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="when2"/>
+  </connection>
+  <connection xmi:id="_D18AsyR_Eee1UtsXG74B6w" connectorName="ROUTE_OTHER" label="otherwise1" lineStyle="16" metaname="cMessageRouter_1" offsetLabelX="0" offsetLabelY="0" source="cMessageRouter_1" target="cProcessor_5">
+    <elementParameter xmi:id="_D18AtCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="otherwise1"/>
+  </connection>
+  <connection xmi:id="_D18AtSR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cDirect_2" offsetLabelX="0" offsetLabelY="0" source="cDirect_2" target="cMap_1">
+    <elementParameter xmi:id="_D18AtiR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route1"/>
+  </connection>
+  <connection xmi:id="_D18AtyR_Eee1UtsXG74B6w" connectorName="ROUTE_ENDBLOCK" label="route12" lineStyle="20" metaname="cWireTap_5" offsetLabelX="0" offsetLabelY="0" source="cWireTap_5" target="cProcessor_4">
+    <elementParameter xmi:id="_D18AuCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route12"/>
+  </connection>
+  <connection xmi:id="_D18AuSR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route7" lineStyle="14" metaname="cDirect_5" offsetLabelX="0" offsetLabelY="0" source="cDirect_5" target="cMap_3">
+    <elementParameter xmi:id="_D18AuiR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route7"/>
+  </connection>
+  <connection xmi:id="_D18AuyR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route11" lineStyle="14" metaname="cDirect_6" offsetLabelX="0" offsetLabelY="0" source="cDirect_6" target="cProcessor_2">
+    <elementParameter xmi:id="_D18AvCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route11"/>
+  </connection>
+  <connection xmi:id="_D18AvSR_Eee1UtsXG74B6w" connectorName="ROUTE_ENDBLOCK" label="route15" lineStyle="20" metaname="cWireTap_4" offsetLabelX="0" offsetLabelY="0" source="cWireTap_4" target="cHttp_1">
+    <elementParameter xmi:id="_D18AviR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route15"/>
+  </connection>
+  <connection xmi:id="_D18AvyR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route16" lineStyle="14" metaname="cProcessor_4" offsetLabelX="0" offsetLabelY="0" source="cProcessor_4" target="cDelayer_1">
+    <elementParameter xmi:id="_D18AwCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route16"/>
+  </connection>
+  <connection xmi:id="_D18AwSR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route3" lineStyle="14" metaname="cProcessor_7" offsetLabelX="0" offsetLabelY="0" source="cProcessor_7" target="cLog_1">
+    <elementParameter xmi:id="_D18AwiR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route3"/>
+  </connection>
+  <connection xmi:id="_D18AwyR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route20" lineStyle="14" metaname="cLog_3" offsetLabelX="0" offsetLabelY="0" source="cLog_3" target="cDirect_1">
+    <elementParameter xmi:id="_D18AxCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route20"/>
+  </connection>
+  <connection xmi:id="_D18AxSR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route10" lineStyle="14" metaname="cOnException_1" offsetLabelX="0" offsetLabelY="0" source="cOnException_1" target="cProcessor_7">
+    <elementParameter xmi:id="_D18AxiR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route10"/>
+  </connection>
+  <connection xmi:id="_D18AxyR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route13" lineStyle="14" metaname="cDirect_4" offsetLabelX="0" offsetLabelY="0" source="cDirect_4" target="cMap_2">
+    <elementParameter xmi:id="_D18AyCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route13"/>
+  </connection>
+  <connection xmi:id="_D18AySR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route17" lineStyle="14" metaname="cDirect_7" offsetLabelX="0" offsetLabelY="0" source="cDirect_7" target="cMap_4">
+    <elementParameter xmi:id="_D18AyiR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route17"/>
+  </connection>
+  <connection xmi:id="_D18AyyR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route21" lineStyle="14" metaname="cLog_4" offsetLabelX="0" offsetLabelY="0" source="cLog_4" target="cDirect_9">
+    <elementParameter xmi:id="_D18AzCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route21"/>
+  </connection>
+  <connection xmi:id="_D18AzSR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route19" lineStyle="14" metaname="cDirect_8" offsetLabelX="0" offsetLabelY="0" source="cDirect_8" target="cProcessor_1">
+    <elementParameter xmi:id="_D18AziR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route19"/>
+  </connection>
+  <connection xmi:id="_D18AzyR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route2" lineStyle="14" metaname="cMap_1" offsetLabelX="0" offsetLabelY="0" source="cMap_1" target="cDirect_5">
+    <elementParameter xmi:id="_D18A0CR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route2"/>
+  </connection>
+  <connection xmi:id="_D18A0SR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route14" lineStyle="14" metaname="cMap_2" offsetLabelX="0" offsetLabelY="0" source="cMap_2" target="cDirect_7">
+    <elementParameter xmi:id="_D18A0iR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route14"/>
+  </connection>
+  <connection xmi:id="_D18A0yR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route8" lineStyle="14" metaname="cMap_3" offsetLabelX="0" offsetLabelY="0" source="cMap_3" target="cLog_3">
+    <elementParameter xmi:id="_D18A1CR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route8"/>
+  </connection>
+  <connection xmi:id="_D18A1SR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route18" lineStyle="14" metaname="cMap_4" offsetLabelX="0" offsetLabelY="0" source="cMap_4" target="cLog_4">
+    <elementParameter xmi:id="_D18A1iR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route18"/>
+  </connection>
+  <connection xmi:id="_D18A1yR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route5" lineStyle="14" metaname="cCXF_1" offsetLabelX="0" offsetLabelY="0" source="cCXF_1" target="cWireTap_5">
+    <elementParameter xmi:id="_D18A2CR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route5"/>
+  </connection>
+  <connection xmi:id="_D18A2SR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route22" lineStyle="14" metaname="cDelayer_1" offsetLabelX="0" offsetLabelY="0" source="cDelayer_1" target="cMessageRouter_1">
+    <elementParameter xmi:id="_D18A2iR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route22"/>
+  </connection>
+  <connection xmi:id="_D18A2yR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route23" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cProcessor_2" target="cWireTap_4">
+    <elementParameter xmi:id="_D18A3CR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route23"/>
+  </connection>
+  <connection xmi:id="_D18A3SR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route24" lineStyle="14" metaname="cProcessor_3" offsetLabelX="0" offsetLabelY="0" source="cProcessor_3" target="cMessageRouter_2">
+    <elementParameter xmi:id="_D18A3iR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route24"/>
+  </connection>
+  <connection xmi:id="_D18A3yR_Eee1UtsXG74B6w" connectorName="ROUTE_WHEN" label="when6" lineStyle="15" metaname="cMessageRouter_2" offsetLabelX="0" offsetLabelY="0" source="cMessageRouter_2" target="cProcessor_6">
+    <elementParameter xmi:id="_D18A4CR_Eee1UtsXG74B6w" field="CLOSED_LIST" name="ROUTETYPE" value="simple"/>
+    <elementParameter xmi:id="_D18A4SR_Eee1UtsXG74B6w" field="MEMO_JAVA" name="CONDITION" value="&quot;${in.body} contains 'HTML'&quot;"/>
+    <elementParameter xmi:id="_D18A4iR_Eee1UtsXG74B6w" field="CHECK" name="ENDOFCHOICE" value="false"/>
+    <elementParameter xmi:id="_D18A4yR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="when6"/>
+  </connection>
+  <connection xmi:id="_D18A5CR_Eee1UtsXG74B6w" connectorName="ROUTE_ENDBLOCK" label="route41" lineStyle="20" metaname="cMessageRouter_2" offsetLabelX="0" offsetLabelY="0" source="cMessageRouter_2" target="cWireTap_1">
+    <elementParameter xmi:id="_D18A5SR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route41"/>
+  </connection>
+  <connection xmi:id="_D18A5iR_Eee1UtsXG74B6w" connectorName="ROUTE" label="route40" lineStyle="14" metaname="cProcessor_6" offsetLabelX="0" offsetLabelY="0" source="cProcessor_6" target="cWireTap_2">
+    <elementParameter xmi:id="_D18A5yR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="route40"/>
+  </connection>
+  <note xmi:id="_D18A6CR_Eee1UtsXG74B6w" opaque="true" posX="32" posY="864" sizeHeight="65" sizeWidth="321" text="Common Logging Component for Payload">
+    <elementParameter xmi:id="_D18A6SR_Eee1UtsXG74B6w" field="RADIO" name="NOTETXT_LEFT" value="true"/>
+    <elementParameter xmi:id="_D18A6iR_Eee1UtsXG74B6w" field="RADIO" name="NOTETXT_CENTER" value="false"/>
+    <elementParameter xmi:id="_D18A6yR_Eee1UtsXG74B6w" field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+    <elementParameter xmi:id="_D18A7CR_Eee1UtsXG74B6w" field="RADIO" name="NOTETXT_TOP" value="true"/>
+  </note>
+  <note xmi:id="_D18A7SR_Eee1UtsXG74B6w" opaque="true" posX="32" posY="704" sizeHeight="64" sizeWidth="321" text="Common Component to Invoke Ensura API">
+    <elementParameter xmi:id="_D18A7iR_Eee1UtsXG74B6w" field="RADIO" name="NOTETXT_LEFT" value="true"/>
+    <elementParameter xmi:id="_D18A7yR_Eee1UtsXG74B6w" field="RADIO" name="NOTETXT_CENTER" value="false"/>
+    <elementParameter xmi:id="_D18A8CR_Eee1UtsXG74B6w" field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+    <elementParameter xmi:id="_D18A8SR_Eee1UtsXG74B6w" field="RADIO" name="NOTETXT_TOP" value="true"/>
+  </note>
+  <note xmi:id="_D18A8iR_Eee1UtsXG74B6w" opaque="false" posX="32" posY="544" sizeHeight="64" sizeWidth="321" text="Sub Route for validatePartnerDetails&#xD;&#xA;Request Payload">
+    <elementParameter xmi:id="_D18A8yR_Eee1UtsXG74B6w" field="RADIO" name="NOTETXT_LEFT" value="true"/>
+    <elementParameter xmi:id="_D18A9CR_Eee1UtsXG74B6w" field="RADIO" name="NOTETXT_CENTER" value="false"/>
+    <elementParameter xmi:id="_D18A9SR_Eee1UtsXG74B6w" field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+    <elementParameter xmi:id="_D18A9iR_Eee1UtsXG74B6w" field="RADIO" name="NOTETXT_TOP" value="true"/>
+    <elementParameter xmi:id="_D18A9yR_Eee1UtsXG74B6w" field="COLOR" name="NOTE_LINECOLOR" value="225;225;135"/>
+  </note>
+  <note xmi:id="_D18A-CR_Eee1UtsXG74B6w" opaque="true" posX="32" posY="320" sizeHeight="64" sizeWidth="321" text="Sub Route for getPartnerDetails&#xD;&#xA;Request Payload">
+    <elementParameter xmi:id="_D18A-SR_Eee1UtsXG74B6w" field="RADIO" name="NOTETXT_LEFT" value="true"/>
+    <elementParameter xmi:id="_D18A-iR_Eee1UtsXG74B6w" field="RADIO" name="NOTETXT_CENTER" value="false"/>
+    <elementParameter xmi:id="_D18A-yR_Eee1UtsXG74B6w" field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+    <elementParameter xmi:id="_D18A_CR_Eee1UtsXG74B6w" field="RADIO" name="NOTETXT_TOP" value="true"/>
+    <elementParameter xmi:id="_D18A_SR_Eee1UtsXG74B6w" field="COLOR" name="NOTE_LINECOLOR" value="225;225;135"/>
+  </note>
+  <note xmi:id="_D18A_iR_Eee1UtsXG74B6w" opaque="false" posX="32" posY="1024" sizeHeight="65" sizeWidth="321" text="Common Component for Handling Header">
+    <elementParameter xmi:id="_D18A_yR_Eee1UtsXG74B6w" field="RADIO" name="NOTETXT_LEFT" value="true"/>
+    <elementParameter xmi:id="_D18BACR_Eee1UtsXG74B6w" field="RADIO" name="NOTETXT_CENTER" value="false"/>
+    <elementParameter xmi:id="_D18BASR_Eee1UtsXG74B6w" field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+    <elementParameter xmi:id="_D18BAiR_Eee1UtsXG74B6w" field="RADIO" name="NOTETXT_TOP" value="true"/>
+  </note>
+  <subjob xmi:id="_D18BAyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BBCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cHttp_1"/>
+    <elementParameter xmi:id="_D18BBSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BBiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BByR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BCCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cConvertBodyTo_2"/>
+    <elementParameter xmi:id="_D18BCSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BCiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BCyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BDCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_1"/>
+    <elementParameter xmi:id="_D18BDSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BDiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BDyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BECR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cLog_2"/>
+    <elementParameter xmi:id="_D18BESR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BEiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BEyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BFCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cMessageRouter_1"/>
+    <elementParameter xmi:id="_D18BFSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BFiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BFyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BGCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_2"/>
+    <elementParameter xmi:id="_D18BGSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BGiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BGyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BHCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_3"/>
+    <elementParameter xmi:id="_D18BHSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BHiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BHyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BICR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cWireTap_5"/>
+    <elementParameter xmi:id="_D18BISR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BIiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BIyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BJCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cConfig_1"/>
+    <elementParameter xmi:id="_D18BJSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BJiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BJyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BKCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_5"/>
+    <elementParameter xmi:id="_D18BKSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BKiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BKyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BLCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_6"/>
+    <elementParameter xmi:id="_D18BLSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BLiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BLyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BMCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cWireTap_4"/>
+    <elementParameter xmi:id="_D18BMSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BMiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BMyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BNCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cProcessor_4"/>
+    <elementParameter xmi:id="_D18BNSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BNiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BNyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BOCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cProcessor_7"/>
+    <elementParameter xmi:id="_D18BOSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BOiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BOyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BPCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cLog_3"/>
+    <elementParameter xmi:id="_D18BPSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BPiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BPyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BQCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cOnException_1"/>
+    <elementParameter xmi:id="_D18BQSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BQiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BQyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BRCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cLog_1"/>
+    <elementParameter xmi:id="_D18BRSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BRiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BRyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BSCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_4"/>
+    <elementParameter xmi:id="_D18BSSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BSiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BSyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BTCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_7"/>
+    <elementParameter xmi:id="_D18BTSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BTiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BTyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BUCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cLog_4"/>
+    <elementParameter xmi:id="_D18BUSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BUiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BUyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BVCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_12"/>
+    <elementParameter xmi:id="_D18BVSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BViR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BVyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BWCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_1"/>
+    <elementParameter xmi:id="_D18BWSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BWiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BWyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BXCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_8"/>
+    <elementParameter xmi:id="_D18BXSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BXiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BXyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BYCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDirect_9"/>
+    <elementParameter xmi:id="_D18BYSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BYiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BYyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BZCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cMap_1"/>
+    <elementParameter xmi:id="_D18BZSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BZiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BZyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BaCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cMap_2"/>
+    <elementParameter xmi:id="_D18BaSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BaiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BayR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BbCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cMap_3"/>
+    <elementParameter xmi:id="_D18BbSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BbiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BbyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BcCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cMap_4"/>
+    <elementParameter xmi:id="_D18BcSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BciR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BcyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BdCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1"/>
+    <elementParameter xmi:id="_D18BdSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BdiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BdyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BeCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cCXF_1"/>
+    <elementParameter xmi:id="_D18BeSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BeiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BeyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BfCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cDelayer_1"/>
+    <elementParameter xmi:id="_D18BfSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BfiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BfyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BgCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cProcessor_2"/>
+    <elementParameter xmi:id="_D18BgSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BgiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BgyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BhCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cProcessor_3"/>
+    <elementParameter xmi:id="_D18BhSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BhiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BhyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BiCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cProcessor_5"/>
+    <elementParameter xmi:id="_D18BiSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BiiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BiyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BjCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cMessageRouter_2"/>
+    <elementParameter xmi:id="_D18BjSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BjiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BjyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BkCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cProcessor_6"/>
+    <elementParameter xmi:id="_D18BkSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BkiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BkyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BlCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cWireTap_1"/>
+    <elementParameter xmi:id="_D18BlSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BliR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_D18BlyR_Eee1UtsXG74B6w">
+    <elementParameter xmi:id="_D18BmCR_Eee1UtsXG74B6w" field="TEXT" name="UNIQUE_NAME" value="cWireTap_2"/>
+    <elementParameter xmi:id="_D18BmSR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_D18BmiR_Eee1UtsXG74B6w" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

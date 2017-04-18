@@ -1,0 +1,33 @@
+<par:getPartnerDetailsResponse xmlns:par="http://www.homeserve.com/NA/US/PartnerServicev1.0/">
+         <Outcome>
+            <ResultCode></ResultCode>
+            <ResultDescription></ResultDescription>
+         </Outcome>
+         <getPartnerResponseDetail>
+         <Auth>abc</Auth>
+         
+            <AttributeCount></AttributeCount>
+            <InvInstmtFreq></InvInstmtFreq>
+            <!--Zero or more repetitions:-->
+            <PartnerDetail>
+               <UniqueID></UniqueID>
+               <AttributeName>?</AttributeName>
+               <!--Optional:-->
+               <Capture></Capture>
+               <!--Optional:-->
+               <DataType></DataType>
+               <!--Optional:-->
+               <MinLength></MinLength>
+               <!--Optional:-->
+               <MaxLength></MaxLength>
+               <AttributeValue></AttributeValue>
+            </PartnerDetail>
+         </getPartnerResponseDetail>
+         <ErrorDetails>
+            <!--0 or more repetitions:-->
+            <ErrorDetail>
+               <ErrorCode></ErrorCode>
+               <ErrorDescription></ErrorDescription>
+            </ErrorDetail>
+         </ErrorDetails>
+</par:getPartnerDetailsResponse>

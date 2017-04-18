@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:Q1="http://www.homeserve.com/NA/US/CommonSchemav1.0/" xmlns:tns="http://www.homeserve.com/NA/US/PartnerServicev1.0/" targetNamespace="http://www.homeserve.com/NA/US/PartnerServicev1.0/" elementFormDefault="unqualified" attributeFormDefault="unqualified">
+   <import schemaLocation="BaseSchema.xsd" namespace="http://www.homeserve.com/NA/US/CommonSchemav1.0/" />
+   <element name="getPartnerDetailsRequest" type="tns:getPartnerDetailsRequest" />
+   <complexType name="getPartnerDetailsRequest">
+      <sequence>
+         <element name="Mailcode" type="Q1:MailCode" />
+         <element name="CustomerRef" type="Q1:CustomerRef" minOccurs="0" maxOccurs="1" />
+         <element name="ExtAddressId" type="integer" minOccurs="0" maxOccurs="1" />
+         <element name="CaciCustNewSeq" type="integer" minOccurs="0" maxOccurs="1" />
+      </sequence>
+   </complexType>
+   <element name="getPartnerDetailsResponse" type="tns:getPartnerDetailsResponse" />
+   <complexType name="getPartnerDetailsResponse">
+      <sequence>
+         <element name="Outcome" type="Q1:Outcome" />
+         <element name="getPartnerResponseDetail" type="tns:getPartnerResponseDetail" maxOccurs="1" minOccurs="0" />
+         <element name="ErrorDetails" type="Q1:ErrorDetails" maxOccurs="1" minOccurs="0" />
+      </sequence>
+   </complexType>
+   <complexType name="getPartnerResponseDetail">
+      <sequence>
+         <element name="AttributeCount" type="integer" maxOccurs="1" minOccurs="0" />
+         <element name="InvInstmtFreq" type="string" maxOccurs="1" minOccurs="0" />
+         <element name="PartnerDetail" type="tns:PartnerDetail" maxOccurs="unbounded" minOccurs="0" />
+      </sequence>
+   </complexType>
+   <complexType name="PartnerDetail">
+      <sequence>
+         <element name="UniqueID" type="integer" minOccurs="0" maxOccurs="1" />
+         <element name="AttributeName" type="string" minOccurs="0" maxOccurs="1" />
+         <element name="Capture" type="string" minOccurs="0" maxOccurs="1" />
+         <element name="DataType" type="string" minOccurs="0" maxOccurs="1" />
+         <element name="MinLength" type="integer" minOccurs="0" maxOccurs="1" />
+         <element name="MaxLength" type="integer" minOccurs="0" maxOccurs="1" />
+         <element name="AttributeValue" type="string" minOccurs="0" maxOccurs="1" />
+      </sequence>
+   </complexType>
+   <complexType name="validatePartnerDetailsRequest">
+      <sequence>
+         <element name="MailCode" type="Q1:MailCode" />
+         <element name="PartnerDetail" type="tns:PartnerDetail" maxOccurs="unbounded" minOccurs="1" />
+      </sequence>
+   </complexType>
+   <complexType name="validatePartnerDetailsResponse">
+      <sequence>
+         <element name="Outcome" type="Q1:Outcome" />
+         <element name="ValidatePartnerResponseDetail" type="tns:ValidatePartnerResponseDetail" maxOccurs="1" minOccurs="0" />
+         <element name="ErrorDetails" type="Q1:ErrorDetails" maxOccurs="1" minOccurs="0" />
+      </sequence>
+   </complexType>
+   <element name="validatePartnerDetailsRequest" type="tns:validatePartnerDetailsRequest" />
+   <element name="validatePartnerDetailsResponse" type="tns:validatePartnerDetailsResponse" />
+   <complexType name="ValidatePartnerResponseDetail">
+      <sequence>
+         <element name="Result" type="string" maxOccurs="1" minOccurs="0" />
+      </sequence>
+   </complexType>
+   <element name="SourceSystem" type="Q1:SourceSystem" />
+</schema>
