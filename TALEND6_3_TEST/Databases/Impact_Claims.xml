@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root t='240' id='1' V240='4' databaseType='sqlserver' databaseName='Impact_Claims' urlPattern='jdbc:jtds:sqlserver://${hostPort}/${databaseName}' schema='Impact_Claims' userName='ServiceBench' password='S3rv1c3B3nch' hostPort='USFL04IMP10V:9560' driverClassName='net.sourceforge.jtds.jdbc.Driver' xaDataSourceClassName='com.microsoft.sqlserver.jdbc.SQLServerXADataSource' hibernateDialect='org.hibernate.dialect.SQLServerDialect' structDir='Structures/Impact_Claims' defaultPrimaryKeyColumns='-1' V1='4' name='Impact_Claims' incarnation='6'>
-</root>
