@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='150' id='1' V150='13' creationTimestamp='0x159b7cb9e64' V1='4' name='ServiceJobStatusDetails' incarnation='9'>
-  <rootElem t='167' id='2' V167='21' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ServiceJobStatusDetails'>
+<root t='150' id='1' V150='13' creationTimestamp='0x159b7cb9e64' V1='4' name='ServiceJobStatusDetails' incarnation='10'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ServiceJobStatusDetails'>
     <structNode t='150' idref='1'/>
-    <child t='167' id='3' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x159b7cb9e4e' inheritsInThisStruct='true' V283='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' inheritsFromCopyRule='20' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/HS/Canonical/SASCustomerDetails.xsd_0.2/Types/serviceJobStatusDetailT.xml' V281='13' V1='4' name='serviceJobStatusDetail' checksumValid='true' checksum='p43KYDjoSfso6lcD0Qdg2Xwg23g='>
+    <child t='167' id='3' V167='21' inheritsFromIncarnation='8' inheritsFromTimestamp='0x159b7cb9e4e' inheritsInThisStruct='true' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/HS/Canonical/SASCustomerDetails.xsd_0.2/Types/serviceJobStatusDetailT.xml' V281='13' V1='4' name='serviceJobStatusDetail' checksumValid='true' checksum='p43KYDjoSfso6lcD0Qdg2Xwg23g='>
       <structNode t='150' idref='1'/>
-      <savedDerivedCopy t='167' id='4' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' inheritsFromCopyRule='20' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/HS/Canonical/SASCustomerDetails.xsd_0.2/Types/serviceJobStatusDetailT.xml' V281='13' V1='4' name='serviceJobStatusDetail'>
+      <savedDerivedCopy t='167' id='4' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/HS/Canonical/SASCustomerDetails.xsd_0.2/Types/serviceJobStatusDetailT.xml' V281='13' V1='4' name='serviceJobStatusDetail'>
       </savedDerivedCopy>
-      <savedOrigCopyAtInheritsFrom t='167' id='5' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='serviceJobStatusDetailT'>
+      <savedOrigCopyAtInheritsFrom t='167' id='5' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='serviceJobStatusDetailT'>
       </savedOrigCopyAtInheritsFrom>
     </child>
   </rootElem>
   <defaultRep t='172' id='6' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' unnamedElemsNamespace='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
-    <namespaceContainers t='220' ref='Namespace Containers/HS_Canonical_SASCustomerDetails.xsd_0.2.xml'/>
   </defaultRep>
   <child t='162' id='7' V1='4' name='Representations'>
     <child t='172' idref='6'/>
