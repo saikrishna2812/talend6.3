@@ -475,6 +475,22 @@
     <deletedFolders>Maps/HS/SaleService/validateSale</deletedFolders>
     <deletedFolders>Maps/HS/SaleService</deletedFolders>
     <deletedFolders>Maps/HS/SASCustomerService</deletedFolders>
+    <deletedFolders>Maps/lookUp</deletedFolders>
+    <deletedFolders>Maps/Okta/AddUser</deletedFolders>
+    <deletedFolders>Maps/Okta/AuthenticateUser</deletedFolders>
+    <deletedFolders>Maps/Okta/ChangeCredentials</deletedFolders>
+    <deletedFolders>Maps/Okta/ChangePassword</deletedFolders>
+    <deletedFolders>Maps/Okta/ChangeRecoveryQuestion</deletedFolders>
+    <deletedFolders>Maps/Okta/GetRecoveryToken</deletedFolders>
+    <deletedFolders>Maps/Okta/GetUser</deletedFolders>
+    <deletedFolders>Maps/Okta/ResetPassword</deletedFolders>
+    <deletedFolders>Maps/Okta/SearchForGroups</deletedFolders>
+    <deletedFolders>Maps/Okta/UnlockUser</deletedFolders>
+    <deletedFolders>Maps/Okta/VerifyRecoveryToken</deletedFolders>
+    <deletedFolders>Maps/Okta</deletedFolders>
+    <deletedFolders>Maps/Reevo</deletedFolders>
+    <deletedFolders>Maps/ServiceBench/ServiceJobSchedule</deletedFolders>
+    <deletedFolders>Maps/ServiceBench</deletedFolders>
     <migrationTask xmi:id="_AMa7oOchEeaEwc3Jt4LDRw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AMa7oechEeaEwc3Jt4LDRw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AMa7ouchEeaEwc3Jt4LDRw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
