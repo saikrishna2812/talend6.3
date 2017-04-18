@@ -3,6 +3,7 @@ Databases,com.oaklandsw.base,order,5
 Maps,com.oaklandsw.base,order,1
 Maps/HS/PartnerService/getPartnerDetails/ensuraResponseTogetPartnerDetailsResponse.xml,com.oaklandsw.base,references.0,Structures/HS/PartnerService/getPartnerDetails/getPatnerDetailsResponse.xml
 Maps/HS/PartnerService/getPartnerDetails/ensuraResponseTogetPartnerDetailsResponse.xml,com.oaklandsw.base,references.1,Structures/HS/PartnerService/getPartnerDetails/getPartnerDetailsEnsuraResponse.xml
+Maps/HS/PartnerService/getPartnerDetails/getPartnerDetailsRequestToEnsuraRequest.xml,com.oaklandsw.base,needsVal.0,Structures/HS/PartnerService/getPartnerDetails/getPartnerDetailsEnsuraRequest.xml
 Maps/HS/PartnerService/getPartnerDetails/getPartnerDetailsRequestToEnsuraRequest.xml,com.oaklandsw.base,references.0,Structures/HS/PartnerService/getPartnerDetails/getPartnerDetailsEnsuraRequest.xml
 Maps/HS/PartnerService/getPartnerDetails/getPartnerDetailsRequestToEnsuraRequest.xml,com.oaklandsw.base,references.1,Structures/HS/PartnerService/getPartnerDetails/getPartnerDetailsRequest.xml
 Maps/HS/PartnerService/validatePartnerDetails/ensuraResponseToValidatePartnerDetailsResponse.xml,com.oaklandsw.base,references.0,Structures/HS/PartnerService/validatePartnerDetails/validatePartnerDetailsEnsuraResponse.xml
