@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='190' id='1' V190='11' inStruct='Structures/HS/ConfigurationService/searchForUsers/searchForUsersEnsuraResponse.xml' outStruct='Structures/HS/ConfigurationService/searchForUsers/searchForUsersResponse.xml' inputRep='172' outputRep='172' nextMap='' inputStructUserName='searchForUsersEnsuraResponse' outputStructUserName='searchForUsersResponse' V1='4' name='ensuraResponseToSearchForUsersResponse' incarnation='1459'>
+  <inputMapElem t='200' id='2' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ServiceResponse'>
+    <mapNode t='190' idref='1'/>
+    <child t='200' id='3' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Results'>
+      <mapNode t='190' idref='1'/>
+    </child>
+    <child t='200' id='4' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ErrorCode'>
+      <mapNode t='190' idref='1'/>
+    </child>
+    <child t='200' id='5' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ErrorMessage'>
+      <mapNode t='190' idref='1'/>
+    </child>
+    <child t='200' id='6' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Output'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='7' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OutputRow'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='8' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='UserId'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='9' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='UserName'>
+          <mapNode t='190' idref='1'/>
+        </child>
+      </child>
+    </child>
+  </inputMapElem>
+  <outputMapElem t='200' id='10' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='1' V281='13' modifiedFromParent_loop='true' V1='4' name='searchForUsersResponse'>
+    <mapNode t='190' idref='1'/>
+    <loop>SimpleLoop([autoAdded="true"],in$/ServiceResponse,{Filter},{Sort Keys},{Contexts})</loop>
+    <child t='200' id='11' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Outcome'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='12' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ResultCode'>
+        <mapNode t='190' idref='1'/>
+        <value>IfThenElse(IfThen(And(IsPresent(in$/ServiceResponse/ErrorCode),IsPresent(in$/ServiceResponse/ErrorMessage)),Or(And(Equal(in$/ServiceResponse/ErrorCode,Constant([value="0",dataType="2"],)),Not(HasValue(in$/ServiceResponse/ErrorMessage))),And(Not(HasValue(in$/ServiceResponse/ErrorCode)),Not(HasValue(in$/ServiceResponse/ErrorMessage))))),Constant([value="0",dataType="2"],),Constant([value="100",dataType="2"],))</value>
+      </child>
+      <child t='200' id='13' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ResultDescription'>
+        <mapNode t='190' idref='1'/>
+        <value>IfThenElse(IfThen(And(IsPresent(in$/ServiceResponse/ErrorCode),IsPresent(in$/ServiceResponse/ErrorMessage)),Or(And(Equal(in$/ServiceResponse/ErrorCode,Constant([value="0",dataType="2"],)),Not(HasValue(in$/ServiceResponse/ErrorMessage))),And(Not(HasValue(in$/ServiceResponse/ErrorCode)),Not(HasValue(in$/ServiceResponse/ErrorMessage))))),Constant([value="Success",dataType="2"],),Constant([value="Failure",dataType="2"],))</value>
+      </child>
+    </child>
+    <child t='200' id='14' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='searchForUsersParameter'>
+      <mapNode t='190' idref='1'/>
+      <emit>IsPresent(in$/ServiceResponse/Output)</emit>
+      <child t='200' id='15' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Results'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/ServiceResponse/Results</value>
+      </child>
+      <child t='200' id='16' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='CMSParameter'>
+        <mapNode t='190' idref='1'/>
+        <loop>SimpleLoop(in$/ServiceResponse/Output/OutputRow,{Filter},{Sort Keys},{Contexts})</loop>
+        <child t='200' id='17' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='userId'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/ServiceResponse/Output/OutputRow/UserId</value>
+        </child>
+        <child t='200' id='18' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='userName'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/ServiceResponse/Output/OutputRow/UserName</value>
+        </child>
+      </child>
+    </child>
+    <child t='200' id='19' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ErrorDetails'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='20' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='ErrorDetail'>
+        <mapNode t='190' idref='1'/>
+        <loop>FixedLoop([count="1"],Not(Or(And(Equal(in$/ServiceResponse/ErrorCode,Constant([value="0",dataType="2"],)),Not(HasValue(in$/ServiceResponse/ErrorMessage))),And(Not(HasValue(in$/ServiceResponse/ErrorCode)),Not(HasValue(in$/ServiceResponse/ErrorMessage))))))</loop>
+        <child t='200' id='21' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ErrorCode'>
+          <mapNode t='190' idref='1'/>
+          <value>Java([className="errorCodeConverter",methodName="codeConversion"],in$/ServiceResponse/ErrorCode,in$/ServiceResponse/ErrorMessage)</value>
+        </child>
+        <child t='200' id='22' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ErrorDescription'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/ServiceResponse/ErrorMessage</value>
+        </child>
+      </child>
+    </child>
+  </outputMapElem>
+  <outputNsList t='161' id='23' V161='1' namespaceUri='___osdtDummy___' V1='4'>
+  </outputNsList>
+  <outputNsList t='161' id='24' V161='1' namespaceUri='http://www.homeserve.com/NA/US/ConfigurationServicev1.0/' namespacePrefix='con' V1='4'>
+  </outputNsList>
+  <inputRepRuntime t='692' id='25' V692='1' unnamedElemsNamespace='1' V690='1'>
+    <namespaceContainers t='220' ref='Namespace Containers/HS_ConfigurationService_searchForUsers.xml'/>
+  </inputRepRuntime>
+  <outputRepRuntime t='692' id='26' V692='1' unnamedElemsNamespace='1' V690='1'>
+    <namespaceContainers t='220' ref='Namespace Containers/HS_ConfigurationService_searchForUsers.xml'/>
+  </outputRepRuntime>
+  <valueSets></valueSets>
+  <inputXmlRepRuntime t='692' idref='25'/>
+  <outputXmlRepRuntime t='692' idref='26'/>
+  <child t='165' id='27' V1='4' name='Document Bindings'>
+    <child t='166' id='28' V166='5' docType='1' docReposPath='/OPTIMIZE_ESBLAYER/Sample Data/HS/ConfigurationService/searchForUsers/searchForUsersEnsuraResponse/searchForUsersEnsuraResponse' V1='4' name='in$/ServiceResponse'>
+      <elemNode t='200' idref='2'/>
+    </child>
+    <child t='166' id='29' V166='5' docType='2' docReposPath='/OPTIMIZE_ESBLAYER/Sample Data/HS/ConfigurationService/searchForUsers/searchForUsersResponse/searchForUsersResponse' V1='4' name='out$/con:searchForUsersResponse'>
+      <elemNode t='200' idref='10'/>
+    </child>
+  </child>
+  <child t='201' id='30' V1='4' name='Inherits From'>
+  </child>
+</root>
