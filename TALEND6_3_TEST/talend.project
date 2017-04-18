@@ -409,6 +409,35 @@
       <relatedItems xmi:id="_D8uj8yR_Eee1UtsXG74B6w" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_D8uj9CR_Eee1UtsXG74B6w" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
+    <deletedFolders>Structures/lookUp</deletedFolders>
+    <deletedFolders>Structures/Okta/AddUser</deletedFolders>
+    <deletedFolders>Structures/Okta/AuthenticateUser</deletedFolders>
+    <deletedFolders>Structures/Okta/ChangeCredentials</deletedFolders>
+    <deletedFolders>Structures/Okta/ChangePassword</deletedFolders>
+    <deletedFolders>Structures/Okta/ChangeRecoveryQuestion</deletedFolders>
+    <deletedFolders>Structures/Okta/GetRecoveryToken</deletedFolders>
+    <deletedFolders>Structures/Okta/GetUser</deletedFolders>
+    <deletedFolders>Structures/Okta/ResetPassword</deletedFolders>
+    <deletedFolders>Structures/Okta/SearchForGroups</deletedFolders>
+    <deletedFolders>Structures/Okta/UnlockAccount</deletedFolders>
+    <deletedFolders>Structures/Okta/VerifyRecoveryToken</deletedFolders>
+    <deletedFolders>Structures/Okta</deletedFolders>
+    <deletedFolders>Structures/OktaXSD/Attributes/xsi</deletedFolders>
+    <deletedFolders>Structures/OktaXSD/Attributes</deletedFolders>
+    <deletedFolders>Structures/OktaXSD/Elements</deletedFolders>
+    <deletedFolders>Structures/OktaXSD/Types</deletedFolders>
+    <deletedFolders>Structures/OktaXSD</deletedFolders>
+    <deletedFolders>Structures/ReevoService/CustomerReview</deletedFolders>
+    <deletedFolders>Structures/ReevoService/Organisations</deletedFolders>
+    <deletedFolders>Structures/ReevoService/ReadReview</deletedFolders>
+    <deletedFolders>Structures/ReevoService</deletedFolders>
+    <deletedFolders>Structures/ServiceBench/CRMServiceOrderService.wsdl_0.1/Attributes</deletedFolders>
+    <deletedFolders>Structures/ServiceBench/CRMServiceOrderService.wsdl_0.1/Elements</deletedFolders>
+    <deletedFolders>Structures/ServiceBench/CRMServiceOrderService.wsdl_0.1/Types</deletedFolders>
+    <deletedFolders>Structures/ServiceBench/CRMServiceOrderService.wsdl_0.1</deletedFolders>
+    <deletedFolders>Structures/ServiceBench/ServiceJobSchedule</deletedFolders>
+    <deletedFolders>Structures/ServiceBench/serviceJobStatus</deletedFolders>
+    <deletedFolders>Structures/ServiceBench</deletedFolders>
     <migrationTask xmi:id="_AMa7oOchEeaEwc3Jt4LDRw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AMa7oechEeaEwc3Jt4LDRw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AMa7ouchEeaEwc3Jt4LDRw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
