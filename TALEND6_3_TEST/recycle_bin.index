@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2017-04-18T14:39:06.057-0700">
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2017-04-18T14:39:13.905-0700">
   <deletedItems id="_nzPSMAt5EeW47Y-Ur-fTyQ" path="HS/PartnerService/getPartnerDetails" type="MAPS"/>
   <deletedItems id="_0WnvsAt4EeW47Y-Ur-fTyQ" path="HS/PartnerService/getPartnerDetails" type="MAPS"/>
   <deletedItems id="_jjOcQAt-EeW47Y-Ur-fTyQ" path="HS/PartnerService/validatePartnerDetails" type="MAPS"/>
@@ -232,4 +232,29 @@
   <deletedItems id="_DCYJALFTEeaF7LOl_sUDrg" path="ServiceBench/serviceJobStatus" type="STRUCTURES"/>
   <deletedItems id="_y-OocLLdEeabVY4iHl_kEw" path="ServiceBench/serviceJobStatus" type="STRUCTURES"/>
   <deletedItems id="_8onqILLdEeabVY4iHl_kEw" path="ServiceBench/serviceJobStatus" type="STRUCTURES"/>
+  <deletedItems id="_ZQUnIObjEeaZm_WNCjMsfw" path="lookUp" type="MAPS"/>
+  <deletedItems id="_iB_sUOn9EeabJ4iAI36GLQ" path="Okta/AddUser" type="MAPS"/>
+  <deletedItems id="_2mcRgO7DEean_cB6UQO5xA" path="Okta/AddUser" type="MAPS"/>
+  <deletedItems id="_BxnekOxVEeaqT6pxitkYjA" path="Okta/AuthenticateUser" type="MAPS"/>
+  <deletedItems id="_2AyfYOxVEeaqT6pxitkYjA" path="Okta/AuthenticateUser" type="MAPS"/>
+  <deletedItems id="_Vf7JQO-XEea6YMhktz48_A" path="Okta/ChangeCredentials" type="MAPS"/>
+  <deletedItems id="_jap-wO-XEea6YMhktz48_A" path="Okta/ChangeCredentials" type="MAPS"/>
+  <deletedItems id="_IilLQO-mEea6YMhktz48_A" path="Okta/ChangePassword" type="MAPS"/>
+  <deletedItems id="_WEGPgO-mEea6YMhktz48_A" path="Okta/ChangePassword" type="MAPS"/>
+  <deletedItems id="__mbrQO-HEea6YMhktz48_A" path="Okta/ChangeRecoveryQuestion" type="MAPS"/>
+  <deletedItems id="_GsBN4O-IEea6YMhktz48_A" path="Okta/ChangeRecoveryQuestion" type="MAPS"/>
+  <deletedItems id="_Tfyy4OyJEeaqT6pxitkYjA" path="Okta/GetRecoveryToken" type="MAPS"/>
+  <deletedItems id="_luQHYOyJEeaqT6pxitkYjA" path="Okta/GetRecoveryToken" type="MAPS"/>
+  <deletedItems id="_Lp-hcOxuEeaqT6pxitkYjA" path="Okta/GetUser" type="MAPS"/>
+  <deletedItems id="_K2YWsO-iEea6YMhktz48_A" path="Okta/ResetPassword" type="MAPS"/>
+  <deletedItems id="_ZmYnUO-iEea6YMhktz48_A" path="Okta/ResetPassword" type="MAPS"/>
+  <deletedItems id="_1lxZQO90Eea6YMhktz48_A" path="Okta/SearchForGroups" type="MAPS"/>
+  <deletedItems id="_oX9zEOxyEeaqT6pxitkYjA" path="Okta/UnlockUser" type="MAPS"/>
+  <deletedItems id="_4D8jwOxyEeaqT6pxitkYjA" path="Okta/UnlockUser" type="MAPS"/>
+  <deletedItems id="_mQutoO0eEeaXTNb2p1-9MQ" path="Okta/VerifyRecoveryToken" type="MAPS"/>
+  <deletedItems id="_i0jsQO0fEeaXTNb2p1-9MQ" path="Okta/VerifyRecoveryToken" type="MAPS"/>
+  <deletedItems id="_PQN6YOhzEeaXN4C1qLRFMg" path="Reevo" type="MAPS"/>
+  <deletedItems id="_BkMzYOfQEeahpZ_jvG-RJw" path="Reevo" type="MAPS"/>
+  <deletedItems id="_BJDfUOhbEeaGBu0gZMYpEA" path="Reevo" type="MAPS"/>
+  <deletedItems id="_yXX0wNjlEeakadR99NPCgw" path="ServiceBench/ServiceJobSchedule" type="MAPS"/>
 </recyclebin:RecycleBin>
