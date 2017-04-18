@@ -2,8 +2,7 @@
   <service>svcWebValidatePartnerData.p</service>
   <MailCode>1401HMDSXASDZ</MailCode>
   <TableName>TempAttribute</TableName>
-  <hash>410147CDC499E77B7CA2F6FF9B7141D9BB303883</hash>
-  <Row>
+   <Row>
     <UniqueID></UniqueID>
     <AttributeName></AttributeName>
     <AttributeValue></AttributeValue>
