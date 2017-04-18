@@ -438,6 +438,43 @@
     <deletedFolders>Structures/ServiceBench/ServiceJobSchedule</deletedFolders>
     <deletedFolders>Structures/ServiceBench/serviceJobStatus</deletedFolders>
     <deletedFolders>Structures/ServiceBench</deletedFolders>
+    <deletedFolders>Maps/HS/ConfigurationService/getCMSParameters</deletedFolders>
+    <deletedFolders>Maps/HS/ConfigurationService/searchForUsers</deletedFolders>
+    <deletedFolders>Maps/HS/ConfigurationService</deletedFolders>
+    <deletedFolders>Maps/HS/ContractService/getContractDetails</deletedFolders>
+    <deletedFolders>Maps/HS/ContractService/getRenewalDetails</deletedFolders>
+    <deletedFolders>Maps/HS/ContractService/getRenewalEligibilityDetails</deletedFolders>
+    <deletedFolders>Maps/HS/ContractService/processRenewal</deletedFolders>
+    <deletedFolders>Maps/HS/ContractService/updatePaymentType</deletedFolders>
+    <deletedFolders>Maps/HS/ContractService</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/addCMS</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/addPaymentDetails</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/deleteCMS</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/getAllCMS</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/getCustomerDetails</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/getPaymentDetails</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/getPrintHistory</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/patchAddressDetails</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/patchCMS</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/processEmailConsent</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/processIdentityChange</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/processPaperlessChange</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/processPaymentDetailsChange</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/processPrintResend</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/searchForAddress</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/searchForCustomer</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/updateAddressDetails</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService/validateAddressDetails</deletedFolders>
+    <deletedFolders>Maps/HS/CustomerService</deletedFolders>
+    <deletedFolders>Maps/HS/PaymentService/validatePaymentDetails</deletedFolders>
+    <deletedFolders>Maps/HS/PaymentService</deletedFolders>
+    <deletedFolders>Maps/HS/SaleService/ProcessSale</deletedFolders>
+    <deletedFolders>Maps/HS/SaleService/getProspectDetails</deletedFolders>
+    <deletedFolders>Maps/HS/SaleService/processVendorSale</deletedFolders>
+    <deletedFolders>Maps/HS/SaleService/validateOffer</deletedFolders>
+    <deletedFolders>Maps/HS/SaleService/validateSale</deletedFolders>
+    <deletedFolders>Maps/HS/SaleService</deletedFolders>
+    <deletedFolders>Maps/HS/SASCustomerService</deletedFolders>
     <migrationTask xmi:id="_AMa7oOchEeaEwc3Jt4LDRw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AMa7oechEeaEwc3Jt4LDRw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AMa7ouchEeaEwc3Jt4LDRw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
