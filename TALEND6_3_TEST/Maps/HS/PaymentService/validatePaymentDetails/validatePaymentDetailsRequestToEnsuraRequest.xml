@@ -1,112 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/HS/PaymentService/validatePaymentDetails/validatePaymentDetailsRequest.xml' outStruct='Structures/HS/PaymentService/validatePaymentDetails/validatePaymentDetailsEnsuraRequest.xml' inputRep='172' outputRep='172' nextMap='' inputStructUserName='validatePaymentDetailsRequest' outputStructUserName='validatePaymentDetailsEnsuraRequest' V1='4' name='validatePaymentDetailsRequestToEnsuraRequest' incarnation='12226'>
-  <inputMapElem t='200' id='2' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='1' V281='13' modifiedFromParent_loop='true' V1='4' name='validatePaymentDetailsRequest'>
+<root t='190' id='1' V190='11' inStruct='' outStruct='' nextMap='' inputStructUserName='validatePaymentDetailsRequest' outputStructUserName='validatePaymentDetailsEnsuraRequest' V1='4' name='validatePaymentDetailsRequestToEnsuraRequest' incarnation='12533'>
+  <inputMapElem t='200' id='2' V200='8' input='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='1' V281='13' modifiedFromParent_loop='true' V1='4' name='validatePaymentDetailsRequest'>
     <mapNode t='190' idref='1'/>
-    <child t='200' id='3' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='PaymentDetails'>
+    <child t='200' id='3' V200='8' input='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='PaymentDetails'>
       <mapNode t='190' idref='1'/>
-      <child t='200' id='4' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PayType'>
+      <child t='200' id='4' V200='8' input='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PayType'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='5' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PayDetailsID'>
+      <child t='200' id='5' V200='8' input='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PayDetailsID'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='6' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='CCDetails'>
+      <child t='200' id='6' V200='8' input='true' usedCount='6' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='CCDetails'>
         <mapNode t='190' idref='1'/>
-        <child t='200' id='7' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_validate='true' V1='4' name='CreditCardType'>
+        <child t='200' id='7' V200='8' input='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_validate='true' V1='4' name='CreditCardType'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='8' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CreditCardNumberLast4'>
+        <child t='200' id='8' V200='8' input='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CreditCardNumberLast4'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='9' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CreditCardExpiryDate'>
+        <child t='200' id='9' V200='8' input='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CreditCardExpiryDate'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='10' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CreditCardToken'>
+        <child t='200' id='10' V200='8' input='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CreditCardToken'>
           <mapNode t='190' idref='1'/>
         </child>
       </child>
-      <child t='200' id='11' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DDDetails'>
+      <child t='200' id='11' V200='8' input='true' usedCount='5' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DDDetails'>
         <mapNode t='190' idref='1'/>
-        <child t='200' id='12' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DirectDebitAccountName'>
+        <child t='200' id='12' V200='8' input='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DirectDebitAccountName'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='13' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DirectDebitRoutingNo'>
+        <child t='200' id='13' V200='8' input='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DirectDebitRoutingNo'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='14' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DirectDebitBankAccount'>
+        <child t='200' id='14' V200='8' input='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DirectDebitBankAccount'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='15' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DirectDebitAccountType'>
+        <child t='200' id='15' V200='8' input='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DirectDebitAccountType'>
           <mapNode t='190' idref='1'/>
         </child>
       </child>
     </child>
-    <child t='200' id='16' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='InstalmentFrequency'>
+    <child t='200' id='16' V200='8' input='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='InstalmentFrequency'>
       <mapNode t='190' idref='1'/>
     </child>
-    <child t='200' id='17' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DueDay'>
+    <child t='200' id='17' V200='8' input='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DueDay'>
       <mapNode t='190' idref='1'/>
     </child>
-    <child t='200' id='18' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='IsRenewable'>
+    <child t='200' id='18' V200='8' input='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='IsRenewable'>
       <mapNode t='190' idref='1'/>
     </child>
   </inputMapElem>
-  <outputMapElem t='200' id='19' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='ServiceRequest'>
+  <outputMapElem t='200' id='19' V200='8' usedCount='32' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='ServiceRequest'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop([autoAdded="true"],in$/pay:validatePaymentDetailsRequest,{Filter},{Sort Keys},{Contexts})</loop>
-    <child t='200' id='20' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='service'>
+    <child t='200' id='20' V200='8' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='service'>
       <mapNode t='190' idref='1'/>
       <value>GetMapProperty([property="ensuravalidatePaymentDetailsSvcName"],)</value>
     </child>
-    <child t='200' id='21' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='PayType'>
+    <child t='200' id='21' V200='8' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='PayType'>
       <mapNode t='190' idref='1'/>
       <value>in$/pay:validatePaymentDetailsRequest/PaymentDetails/PayType</value>
     </child>
-    <child t='200' id='22' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CreditCardType'>
+    <child t='200' id='22' V200='8' usedCount='4' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CreditCardType'>
       <mapNode t='190' idref='1'/>
       <value>in$/pay:validatePaymentDetailsRequest/PaymentDetails/CCDetails/CreditCardType</value>
     </child>
-    <child t='200' id='23' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CreditCardNumberLast4'>
+    <child t='200' id='23' V200='8' usedCount='4' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CreditCardNumberLast4'>
       <mapNode t='190' idref='1'/>
       <value>in$/pay:validatePaymentDetailsRequest/PaymentDetails/CCDetails/CreditCardNumberLast4</value>
     </child>
-    <child t='200' id='24' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CreditCardExpiryDate'>
+    <child t='200' id='24' V200='8' usedCount='4' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CreditCardExpiryDate'>
       <mapNode t='190' idref='1'/>
       <value>in$/pay:validatePaymentDetailsRequest/PaymentDetails/CCDetails/CreditCardExpiryDate</value>
     </child>
-    <child t='200' id='25' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CreditCardToken'>
+    <child t='200' id='25' V200='8' usedCount='4' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CreditCardToken'>
       <mapNode t='190' idref='1'/>
       <value>in$/pay:validatePaymentDetailsRequest/PaymentDetails/CCDetails/CreditCardToken</value>
     </child>
-    <child t='200' id='26' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DirectDebitAccountName'>
+    <child t='200' id='26' V200='8' usedCount='4' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DirectDebitAccountName'>
       <mapNode t='190' idref='1'/>
       <value>in$/pay:validatePaymentDetailsRequest/PaymentDetails/DDDetails/DirectDebitAccountName</value>
     </child>
-    <child t='200' id='27' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DirectDebitRoutingNo'>
+    <child t='200' id='27' V200='8' usedCount='4' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DirectDebitRoutingNo'>
       <mapNode t='190' idref='1'/>
       <value>in$/pay:validatePaymentDetailsRequest/PaymentDetails/DDDetails/DirectDebitRoutingNo</value>
     </child>
-    <child t='200' id='28' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DirectDebitBankAccount'>
+    <child t='200' id='28' V200='8' usedCount='4' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DirectDebitBankAccount'>
       <mapNode t='190' idref='1'/>
       <value>in$/pay:validatePaymentDetailsRequest/PaymentDetails/DDDetails/DirectDebitBankAccount</value>
     </child>
-    <child t='200' id='29' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DirectDebitAccountType'>
+    <child t='200' id='29' V200='8' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DirectDebitAccountType'>
       <mapNode t='190' idref='1'/>
       <value>in$/pay:validatePaymentDetailsRequest/PaymentDetails/DDDetails/DirectDebitAccountType</value>
     </child>
-    <child t='200' id='30' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='InstalmentFrequency'>
+    <child t='200' id='30' V200='8' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='InstalmentFrequency'>
       <mapNode t='190' idref='1'/>
       <value>in$/pay:validatePaymentDetailsRequest/InstalmentFrequency</value>
     </child>
-    <child t='200' id='31' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DueDay'>
+    <child t='200' id='31' V200='8' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DueDay'>
       <mapNode t='190' idref='1'/>
       <value>in$/pay:validatePaymentDetailsRequest/DueDay</value>
     </child>
-    <child t='200' id='32' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Renewable'>
+    <child t='200' id='32' V200='8' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Renewable'>
       <mapNode t='190' idref='1'/>
       <value>in$/pay:validatePaymentDetailsRequest/IsRenewable</value>
     </child>
-    <child t='200' id='33' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_validate='true' modifiedFromParent_value='true' V1='4' name='hash'>
+    <child t='200' id='33' V200='8' usedCount='5' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_validate='true' modifiedFromParent_value='true' V1='4' name='hash'>
       <mapNode t='190' idref='1'/>
       <value>IfThenElse(Equal(GetMapProperty([property="isHashRequired"],),Constant([value="true",dataType="2"],)),Java([className="hashGenerator",methodName="hashCodeStr"],Concat(GetElementProperty([property="1"],out$/ServiceRequest/service),GetMapProperty([property="ensuravalidatePaymentDetailsSvcName"],),IfThen(HasValue(in$/pay:validatePaymentDetailsRequest/PaymentDetails/PayType),Concat(GetElementProperty([property="1"],out$/ServiceRequest/PayType),out$/ServiceRequest/PayType)),IfThen(HasValue(in$/pay:validatePaymentDetailsRequest/PaymentDetails/CCDetails/CreditCardType),Concat(GetElementProperty([property="1"],out$/ServiceRequest/CreditCardType),out$/ServiceRequest/CreditCardType)),IfThen(HasValue(in$/pay:validatePaymentDetailsRequest/PaymentDetails/CCDetails/CreditCardNumberLast4),Concat(GetElementProperty([property="1"],out$/ServiceRequest/CreditCardNumberLast4),out$/ServiceRequest/CreditCardNumberLast4)),IfThen(HasValue(in$/pay:validatePaymentDetailsRequest/PaymentDetails/CCDetails/CreditCardExpiryDate),Concat(GetElementProperty([property="1"],out$/ServiceRequest/CreditCardExpiryDate),out$/ServiceRequest/CreditCardExpiryDate)),IfThen(HasValue(in$/pay:validatePaymentDetailsRequest/PaymentDetails/CCDetails/CreditCardToken),Concat(GetElementProperty([property="1"],out$/ServiceRequest/CreditCardToken),out$/ServiceRequest/CreditCardToken)),IfThen(HasValue(in$/pay:validatePaymentDetailsRequest/PaymentDetails/DDDetails/DirectDebitAccountName),Concat(GetElementProperty([property="1"],out$/ServiceRequest/DirectDebitAccountName),out$/ServiceRequest/DirectDebitAccountName)),IfThen(HasValue(in$/pay:validatePaymentDetailsRequest/PaymentDetails/DDDetails/DirectDebitRoutingNo),Concat(GetElementProperty([property="1"],out$/ServiceRequest/DirectDebitRoutingNo),out$/ServiceRequest/DirectDebitRoutingNo)),IfThen(HasValue(in$/pay:validatePaymentDetailsRequest/PaymentDetails/DDDetails/DirectDebitBankAccount),Concat(GetElementProperty([property="1"],out$/ServiceRequest/DirectDebitBankAccount),out$/ServiceRequest/DirectDebitBankAccount)),IfThen(HasValue(in$/pay:validatePaymentDetailsRequest/PaymentDetails/DDDetails/DirectDebitAccountType),Concat(GetElementProperty([property="1"],out$/ServiceRequest/DirectDebitAccountType),out$/ServiceRequest/DirectDebitAccountType)),IfThen(HasValue(in$/pay:validatePaymentDetailsRequest/InstalmentFrequency),Concat(GetElementProperty([property="1"],out$/ServiceRequest/InstalmentFrequency),out$/ServiceRequest/InstalmentFrequency)),IfThen(HasValue(in$/pay:validatePaymentDetailsRequest/DueDay),Concat(GetElementProperty([property="1"],out$/ServiceRequest/DueDay),out$/ServiceRequest/DueDay)),IfThen(HasValue(in$/pay:validatePaymentDetailsRequest/IsRenewable),Concat(GetElementProperty([property="1"],out$/ServiceRequest/Renewable),out$/ServiceRequest/Renewable)),GetMapProperty([property="ensuraPassCode"],))),Constant([value="",dataType="2"],))</value>
     </child>
