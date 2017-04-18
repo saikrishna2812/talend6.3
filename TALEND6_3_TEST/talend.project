@@ -409,6 +409,54 @@
       <relatedItems xmi:id="_D8uj8yR_Eee1UtsXG74B6w" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_D8uj9CR_Eee1UtsXG74B6w" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
+    <deletedFolders>Structures/HS/Canonical/SASCustomerDetails.xsd_0.2/Attributes</deletedFolders>
+    <deletedFolders>Structures/HS/Canonical/SASCustomerDetails.xsd_0.2/Elements</deletedFolders>
+    <deletedFolders>Structures/HS/Canonical/SASCustomerDetails.xsd_0.2/Types</deletedFolders>
+    <deletedFolders>Structures/HS/Canonical/SASCustomerDetails.xsd_0.2</deletedFolders>
+    <deletedFolders>Structures/HS/Canonical</deletedFolders>
+    <deletedFolders>Structures/HS/ConfigurationService/getCMSParameters</deletedFolders>
+    <deletedFolders>Structures/HS/ConfigurationService/searchForUsers</deletedFolders>
+    <deletedFolders>Structures/HS/ConfigurationService</deletedFolders>
+    <deletedFolders>Structures/HS/ContractService/getContractDetails</deletedFolders>
+    <deletedFolders>Structures/HS/ContractService/getRenewalDetails</deletedFolders>
+    <deletedFolders>Structures/HS/ContractService/getRenewalEligibilityDetails</deletedFolders>
+    <deletedFolders>Structures/HS/ContractService/processRenewal</deletedFolders>
+    <deletedFolders>Structures/HS/ContractService/updatePaymentType</deletedFolders>
+    <deletedFolders>Structures/HS/ContractService</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/addCMS</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/addPaymentDetails</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/deleteCMS</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/getAllCMS</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/getCustomerDetails</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/getPaymentDetails</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/getPrintHistory</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/patchAddressDetails</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/patchCMS</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/processEmailConsent</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/processIdentityChange</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/processPaperlessChange</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/processPaymentDetailsChange</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/processPrintResend</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/searchForAddress</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/searchForCustomer</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/updateAddressDetails</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService/validateAddressDetails</deletedFolders>
+    <deletedFolders>Structures/HS/CustomerService</deletedFolders>
+    <deletedFolders>Structures/HS/PaymentService/validatePaymentDetails</deletedFolders>
+    <deletedFolders>Structures/HS/PaymentService</deletedFolders>
+    <deletedFolders>Structures/HS/SaleService/getProspectDetails</deletedFolders>
+    <deletedFolders>Structures/HS/SaleService/processSale</deletedFolders>
+    <deletedFolders>Structures/HS/SaleService/processVendorSale</deletedFolders>
+    <deletedFolders>Structures/HS/SaleService/validateOffer</deletedFolders>
+    <deletedFolders>Structures/HS/SaleService/validateSale</deletedFolders>
+    <deletedFolders>Structures/HS/SaleService</deletedFolders>
+    <deletedFolders>Structures/HS/SASCustomerService/Attributes/xsi</deletedFolders>
+    <deletedFolders>Structures/HS/SASCustomerService/Attributes</deletedFolders>
+    <deletedFolders>Structures/HS/SASCustomerService/Elements/tns</deletedFolders>
+    <deletedFolders>Structures/HS/SASCustomerService/Elements</deletedFolders>
+    <deletedFolders>Structures/HS/SASCustomerService/Types/tns</deletedFolders>
+    <deletedFolders>Structures/HS/SASCustomerService/Types</deletedFolders>
+    <deletedFolders>Structures/HS/SASCustomerService</deletedFolders>
     <migrationTask xmi:id="_AMa7oOchEeaEwc3Jt4LDRw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AMa7oechEeaEwc3Jt4LDRw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AMa7ouchEeaEwc3Jt4LDRw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
